@@ -1,5 +1,5 @@
 {
-  "version": "2.15",
+  "version": "2.17",
   "children": [
     {
       "type": "frame",
@@ -55973,6 +55973,5155 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "l5DiR",
+      "x": -5690,
+      "y": 6908,
+      "name": "A7 이탈 설문 · RN 앱",
+      "width": 390,
+      "height": 844,
+      "fill": "#ffffff",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "bDatf",
+          "x": 0,
+          "y": 0,
+          "name": "뒤 화면 · 질문 대화",
+          "clip": true,
+          "width": 390,
+          "height": 844,
+          "fill": "#ffffff",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Fn6X9",
+              "name": "상단 바",
+              "width": "fill_container",
+              "height": 56,
+              "fill": "#ffffff",
+              "stroke": "$web-line-soft",
+              "strokeWidth": {
+                "bottom": 1
+              },
+              "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
+              "gap": 10,
+              "padding": [
+                0,
+                14
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "iMESx",
+                  "name": "왼",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NsFFx",
+                      "name": "메뉴 버튼",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$web-gray-bg",
+                      "cornerRadius": 9,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cWA89",
+                          "name": "아이콘",
+                          "fill": "$web-ink-sub",
+                          "content": "←",
+                          "fontFamily": "$font-canvas",
+                          "fontSize": 14,
+                          "fontWeight": "900"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "VuWx9",
+                      "name": "세션 이름",
+                      "fill": "$web-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "이별을 통보받은 직후, 카페에서",
+                      "fontFamily": "$font-canvas",
+                      "fontSize": 15,
+                      "fontWeight": "900",
+                      "letterSpacing": -0.45
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yM71o",
+                  "name": "상태 칩",
+                  "fill": "$web-blue-soft",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    5,
+                    10
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "szEjC",
+                      "name": "라벨",
+                      "fill": "$web-blue",
+                      "content": "질문 중",
+                      "fontFamily": "$font-canvas",
+                      "fontSize": 11,
+                      "fontWeight": "900"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "P4f1nF",
+              "name": "장면 스트립 (접힘)",
+              "width": "fill_container",
+              "fill": "$web-gray-bg-2",
+              "stroke": "$web-line-soft",
+              "strokeWidth": {
+                "bottom": 1
+              },
+              "strokeAlignment": "inner",
+              "strokeLinejoin": "round",
+              "gap": 10,
+              "padding": [
+                10,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mvmMY",
+                  "name": "썸네일",
+                  "width": 52,
+                  "height": 34,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 200,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#11161f",
+                        "position": 0
+                      },
+                      {
+                        "color": "#2b3648",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tRYlS",
+                      "name": "재생",
+                      "fill": "#ffffff",
+                      "content": "▶",
+                      "fontFamily": "$font-canvas",
+                      "fontSize": 10,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cMt4a",
+                  "name": "글",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gf2nV",
+                      "name": "제목",
+                      "fill": "$web-ink-strong",
+                      "content": "영상과 장면 보기",
+                      "fontFamily": "$font-canvas",
+                      "fontSize": 13,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CwbE2",
+                      "name": "설명",
+                      "fill": "$web-ink-4",
+                      "content": "이별을 통보받은 직후, 카페에서",
+                      "fontFamily": "$font-canvas",
+                      "fontSize": 11.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "iW0UH",
+                  "name": "펼치기",
+                  "fill": "$web-ink-4",
+                  "content": "▾",
+                  "fontFamily": "$font-canvas",
+                  "fontSize": 12,
+                  "fontWeight": "900"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HR4Ne",
+              "name": "진행 머리",
+              "width": "fill_container",
+              "stroke": "$web-line-soft",
+              "strokeWidth": {
+                "bottom": 1
+              },
+              "strokeAlignment": "inner",
+              "padding": [
+                11,
+                16
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bjTs9",
+                  "name": "왼",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "n9okvw",
+                      "name": "진행 표시",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 9999,
+                          "id": "oauU0",
+                          "name": "칸 1",
+                          "fill": "$web-blue",
+                          "width": 20,
+                          "height": 3
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 9999,
+                          "id": "KZoWq",
+                          "name": "칸 2",
+                          "fill": "$web-blue",
+                          "width": 20,
+                          "height": 3
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 9999,
+                          "id": "KymxI",
+                          "name": "칸 3",
+                          "fill": "$web-line",
+                          "width": 11,
+                          "height": 3
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 9999,
+                          "id": "cJmUm",
+                          "name": "칸 4",
+                          "fill": "$web-line",
+                          "width": 11,
+                          "height": 3
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "dIJ6g",
+                      "name": "진행 문구",
+                      "fill": "$web-ink-sub",
+                      "content": "세 번째 질문",
+                      "fontFamily": "$font-canvas",
+                      "fontSize": 12.5,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "my33v",
+                  "name": "지난 문답 요약",
+                  "fill": "#00000000",
+                  "stroke": "#00000000",
+                  "strokeAlignment": "inner",
+                  "gap": 6,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pJEmS",
+                      "name": "왼",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FyrP6",
+                          "name": "라벨",
+                          "fill": "$web-ink-4",
+                          "content": "지난 문답",
+                          "fontFamily": "$font-canvas",
+                          "fontSize": 12,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wzNUX",
+                          "name": "개수",
+                          "fill": "$web-line-soft",
+                          "cornerRadius": 9999,
+                          "padding": [
+                            2,
+                            7
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "iOnGv",
+                              "name": "수",
+                              "fill": "$web-ink-3",
+                              "content": "2",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "bToRW",
+                      "name": "펼치기",
+                      "fill": "$web-ink-4",
+                      "content": "▾",
+                      "fontFamily": "$font-canvas",
+                      "fontSize": 12,
+                      "fontWeight": "800"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nCPc7",
+              "name": "본문",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                22,
+                20,
+                20,
+                20
+              ],
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "d9Ogk",
+                  "name": "질문 블록",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kJP8P",
+                      "x": 0,
+                      "y": 0,
+                      "name": "시점 줄",
+                      "enabled": false,
+                      "width": 350,
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Q5quvx",
+                          "name": "관찰 시점 칩",
+                          "fill": "$web-blue-soft",
+                          "cornerRadius": 9999,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "FIIud",
+                              "name": "라벨",
+                              "fill": "$web-blue-dark",
+                              "content": "관찰 시점 · 00:12",
+                              "fontFamily": "$font-canvas",
+                              "fontSize": 11.5,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "xaoML",
+                          "name": "영상 링크",
+                          "fill": "$web-ink-4",
+                          "content": "구간 보기 ›",
+                          "fontFamily": "$font-canvas",
+                          "fontSize": 11.5,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "t7RIo",
+                      "name": "질문",
+                      "fill": "$web-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "목을 조이던 그 순간, 눈은 어디에 가 있었나요?",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-canvas",
+                      "fontSize": 23,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pYNOj",
+                      "name": "코치 관찰",
+                      "fill": "$web-ink-sub",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "목을 조이면 소리가 나갈 길도 함께 막혀요. 참는 일이 얼굴 대신 목에서 일어난 셈이에요.",
+                      "lineHeight": 1.75,
+                      "fontFamily": "$font-canvas",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NOD0F",
+                  "name": "답 쓰기",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TIcwj",
+                      "name": "라벨 줄",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mkRtP",
+                          "name": "라벨",
+                          "fill": "$web-ink-3",
+                          "content": "기억나는 대로 적어 주세요",
+                          "fontFamily": "$font-canvas",
+                          "fontSize": 12.5,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "R1vAuL",
+                          "name": "글자수",
+                          "fill": "$web-ink-5",
+                          "content": "0 / 300",
+                          "fontFamily": "$font-canvas",
+                          "fontSize": 11.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "A2pdvO",
+                      "name": "작성 칸",
+                      "width": "fill_container",
+                      "height": 112,
+                      "fill": "#ffffff",
+                      "cornerRadius": 14,
+                      "stroke": "$web-blue",
+                      "strokeWidth": 1.5,
+                      "strokeAlignment": "inner",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#3182f61f",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 18
+                      },
+                      "layout": "vertical",
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "it3G9",
+                          "name": "플레이스홀더",
+                          "fill": "$web-ink-5",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "예) 상대 얼굴에서 눈을 못 떼고 계속 보고 있었어요.",
+                          "lineHeight": 1.7,
+                          "fontFamily": "$font-canvas",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cZg3P",
+                      "name": "보조",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "nwtgl",
+                          "name": "잘 모르겠어요",
+                          "width": "fill_container",
+                          "cornerRadius": 9999,
+                          "stroke": "$web-line",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "padding": [
+                            9,
+                            0
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "D66Vq0",
+                              "name": "라벨",
+                              "fill": "$web-ink-sub",
+                              "content": "잘 모르겠어요",
+                              "fontFamily": "$font-canvas",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "l6FuJ",
+                          "name": "제가 되물을게요",
+                          "width": "fill_container",
+                          "cornerRadius": 9999,
+                          "stroke": "$web-line",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "padding": [
+                            9,
+                            0
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "oNhEF",
+                              "name": "라벨",
+                              "fill": "$web-ink-sub",
+                              "content": "제가 되물을게요",
+                              "fontFamily": "$font-canvas",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WtwDe",
+                      "name": "보내기 버튼",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "$web-blue-soft",
+                      "cornerRadius": 14,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#3182f63d",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 20
+                      },
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AYrgP",
+                          "name": "라벨",
+                          "fill": "#a8c8f8",
+                          "content": "이 답으로 다음 질문 →",
+                          "fontFamily": "$font-canvas",
+                          "fontSize": 15,
+                          "fontWeight": "900"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "GMXHq",
+                      "name": "마침 안내",
+                      "fill": "$web-ink-5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "‘그만’이라고 쓰면 언제든 마칠 수 있어요",
+                      "textAlign": "center",
+                      "fontFamily": "$font-canvas",
+                      "fontSize": 11.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "V71ZNU",
+          "x": 0,
+          "y": 0,
+          "name": "딤",
+          "fill": "#0f141e73",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "type": "frame",
+          "id": "A5bSs",
+          "x": 0,
+          "y": 446,
+          "name": "이탈 설문 시트",
+          "width": 390,
+          "fill": "#ffffff",
+          "cornerRadius": [
+            24,
+            24,
+            0,
+            0
+          ],
+          "layout": "vertical",
+          "padding": [
+            8,
+            20,
+            34,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "betPP",
+              "name": "핸들 자리",
+              "width": "fill_container",
+              "height": 24,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 9999,
+                  "id": "P6NKU",
+                  "name": "핸들",
+                  "fill": "$web-line",
+                  "width": 36,
+                  "height": 4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lVm19",
+              "name": "머리",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": [
+                12,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hwlPr",
+                  "name": "제목",
+                  "fill": "$web-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "잠깐, 오늘 세션 어땠어요?",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 21,
+                  "fontWeight": "900",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "SjOAy",
+                  "name": "부제",
+                  "fill": "$web-ink-2",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "한 줄이면 충분해요. 다음 연습을 더 낫게 만드는 데 써요.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "I83uQJ",
+              "name": "한줄평 입력",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                20,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yCPHb",
+                  "name": "입력 박스",
+                  "width": "fill_container",
+                  "height": 104,
+                  "fill": "$web-gray-bg-2",
+                  "cornerRadius": 14,
+                  "stroke": "$web-line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    14,
+                    16,
+                    12,
+                    16
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "E8ap7x",
+                      "name": "자리 문구",
+                      "fill": "$web-ink-6",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "예) 질문이 날카로워서 좋았어요 · 답을 어디까지 써야 할지 몰랐어요",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "T087JZ",
+                      "name": "글자 수 줄",
+                      "width": "fill_container",
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XUdg9",
+                          "name": "글자 수",
+                          "fill": "$web-ink-7",
+                          "content": "0 / 100",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ERv0v",
+              "name": "동작",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": [
+                18,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "l0C5a2",
+                  "name": "보내고 나가기 버튼",
+                  "width": "fill_container",
+                  "height": 54,
+                  "fill": "$web-blue",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uBuMS",
+                      "name": "라벨",
+                      "fill": "#ffffff",
+                      "content": "보내고 나가기",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m0VkON",
+                  "name": "그냥 나가기",
+                  "width": "fill_container",
+                  "height": 44,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hUslC",
+                      "name": "라벨",
+                      "fill": "$web-ink-4",
+                      "content": "그냥 나갈래요",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "z8fvYM",
+              "name": "안내",
+              "fill": "$web-ink-6",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "답변은 서비스 개선에만 써요 · 이름은 남지 않아요",
+              "textAlign": "center",
+              "fontFamily": "$font-sans",
+              "fontSize": 12,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "UL42B",
+      "x": -8690,
+      "y": 7908,
+      "name": "A8 리딩 · 대본 넣기 · RN 앱",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$web-gray-bg-2",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "CTHeS",
+          "name": "본문",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            52,
+            20,
+            0,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "PRyGz",
+              "name": "머리글",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "L3J6fM",
+                  "name": "눈썹",
+                  "fill": "$web-blue",
+                  "content": "상대역 리딩",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "s5QPv6",
+                  "name": "제목",
+                  "fill": "$web-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "대본과 배역",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 21,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "eQtH2",
+                  "name": "설명",
+                  "fill": "$web-ink-sub",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "대사를 넣고 내가 읽을 배역을 고르세요.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BGou3",
+              "name": "단계",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": "$radius-pill",
+              "stroke": "$web-line-soft",
+              "strokeWidth": 1,
+              "gap": 2,
+              "padding": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "n9DkaI",
+                  "name": "단계 대본 넣기",
+                  "width": "fill_container",
+                  "height": 34,
+                  "fill": "$web-blue-soft",
+                  "cornerRadius": "$radius-pill",
+                  "gap": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "PyrxY",
+                      "name": "점",
+                      "fill": "$web-blue",
+                      "width": 6,
+                      "height": 6
+                    },
+                    {
+                      "type": "text",
+                      "id": "mqNNy",
+                      "name": "라벨",
+                      "fill": "$web-blue",
+                      "content": "대본 넣기",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "U6SBj",
+                  "name": "단계 배역 정하기",
+                  "width": "fill_container",
+                  "height": 34,
+                  "fill": "#00000000",
+                  "cornerRadius": "$radius-pill",
+                  "gap": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "W7FPt3",
+                      "name": "점",
+                      "fill": "$web-ink-5",
+                      "width": 6,
+                      "height": 6
+                    },
+                    {
+                      "type": "text",
+                      "id": "NfrVx",
+                      "name": "라벨",
+                      "fill": "$web-ink-4",
+                      "content": "배역 정하기",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Sf5Ie",
+                  "name": "단계 바로 리딩",
+                  "width": "fill_container",
+                  "height": 34,
+                  "fill": "#00000000",
+                  "cornerRadius": "$radius-pill",
+                  "gap": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "NLWKs",
+                      "name": "점",
+                      "fill": "$web-ink-5",
+                      "width": 6,
+                      "height": 6
+                    },
+                    {
+                      "type": "text",
+                      "id": "jXd8y",
+                      "name": "라벨",
+                      "fill": "$web-ink-4",
+                      "content": "바로 리딩",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Q9Izcp",
+              "name": "대본 넣기 카드",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": "$radius-lg",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "txX7T",
+                  "name": "제목",
+                  "fill": "$web-ink",
+                  "content": "대본 넣기",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "AJsO4",
+                  "name": "설명",
+                  "fill": "$web-ink-sub",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "파일을 열거나 복사한 대본을 붙여넣으세요.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12.5,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "OBs1U",
+                  "name": "파일에서 열기",
+                  "width": "fill_container",
+                  "fill": "$web-blue-mist",
+                  "cornerRadius": 14,
+                  "stroke": "#cfe0f5",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    18,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "ZHxop",
+                      "name": "아이콘",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "arrow-up-from-line",
+                      "library": "lucide",
+                      "fill": "$web-blue"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nAgkQ",
+                      "name": "제목",
+                      "fill": "$web-ink",
+                      "content": "파일에서 열기",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "t2tv6X",
+                      "name": "형식",
+                      "fill": "$web-ink-4",
+                      "content": "txt · docx · hwpx · pdf",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 11.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eY7IW",
+                  "name": "옵션 붙여넣기",
+                  "width": "fill_container",
+                  "fill": "$web-gray-bg",
+                  "cornerRadius": 12,
+                  "gap": 12,
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "CzTvQ",
+                      "name": "아이콘",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "clipboard",
+                      "library": "lucide",
+                      "fill": "$web-ink-3"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DoHNU",
+                      "name": "글",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZDLtK",
+                          "name": "제목",
+                          "fill": "$web-ink",
+                          "content": "붙여넣기",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "x4LWEQ",
+                          "name": "설명",
+                          "fill": "$web-ink-4",
+                          "content": "복사해둔 대본을 바로 넣어요",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "EI8sk",
+                      "name": "화살표",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "chevron-right",
+                      "library": "lucide",
+                      "fill": "$web-ink-5"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cQvsw",
+                  "name": "옵션 직접 쓰기",
+                  "width": "fill_container",
+                  "fill": "$web-gray-bg",
+                  "cornerRadius": 12,
+                  "gap": 12,
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Hu5Xn",
+                      "name": "아이콘",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "pencil-line",
+                      "library": "lucide",
+                      "fill": "$web-ink-3"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EMCbt",
+                      "name": "글",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hknv9",
+                          "name": "제목",
+                          "fill": "$web-ink",
+                          "content": "직접 쓰기",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jFiOq",
+                          "name": "설명",
+                          "fill": "$web-ink-4",
+                          "content": "빈 칸에서 대본을 입력해요",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "qCgly",
+                      "name": "화살표",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "chevron-right",
+                      "library": "lucide",
+                      "fill": "$web-ink-5"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D4KKsi",
+                  "name": "옵션 예시 대본 불러오기",
+                  "width": "fill_container",
+                  "fill": "$web-gray-bg",
+                  "cornerRadius": 12,
+                  "gap": 12,
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "heuyJ",
+                      "name": "아이콘",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "sparkles",
+                      "library": "lucide",
+                      "fill": "$web-ink-3"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n5wiuY",
+                      "name": "글",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rrQwy",
+                          "name": "제목",
+                          "fill": "$web-ink",
+                          "content": "예시 대본 불러오기",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QWrrh",
+                          "name": "설명",
+                          "fill": "$web-ink-4",
+                          "content": "두 배역의 대사를 바로 펼쳐봐요",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "KX6DN",
+                      "name": "화살표",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "chevron-right",
+                      "library": "lucide",
+                      "fill": "$web-ink-5"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "N5PoFG",
+                  "name": "고지",
+                  "fill": "$web-ink-4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "대본을 넣으면 배역을 찾기 위해 서버를 거쳐 OpenAI로 전송돼요. 처리 후 대본은 저장하지 않아요.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 11.5,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "X8QySb",
+              "name": "바닥 줄",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gJkRV",
+                  "name": "저장 안내",
+                  "fill": "$web-ink-4",
+                  "content": "대본은 이 기기에만 저장돼요.",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 11.5,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "jn73Z",
+                  "name": "링크",
+                  "fill": "$web-ink-3",
+                  "content": "대본은 어디로 가나요",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 11.5,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iMO10",
+              "name": "바닥 여백",
+              "width": "fill_container",
+              "height": "fill_container"
+            }
+          ]
+        },
+        {
+          "id": "Z3T37u",
+          "type": "ref",
+          "ref": "iqtA6",
+          "name": "탭 바",
+          "width": "fill_container"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pj89S",
+      "x": -8190,
+      "y": 7908,
+      "name": "A8.1 리딩 · 대본 확인 · RN 앱",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$web-gray-bg-2",
+      "layout": "vertical",
+      "padding": [
+        44,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "e2I0m",
+          "name": "상단 바",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#ffffff",
+          "stroke": "$web-line-soft",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "gap": 10,
+          "padding": [
+            0,
+            14
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "UUTOh",
+              "name": "왼",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "e8VSYA",
+                  "name": "뒤로",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$web-gray-bg",
+                  "cornerRadius": 9,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "c5Qq6",
+                      "name": "아이콘",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-left",
+                      "library": "lucide",
+                      "fill": "$web-ink"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Bs0rP",
+                  "name": "제목",
+                  "fill": "$web-ink",
+                  "content": "대본 확인",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "900"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "jGV5u",
+              "name": "오른쪽",
+              "fill": "$web-blue",
+              "content": "다시 넣기",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "htHTG",
+          "name": "본문",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "wtGN8",
+              "name": "요약 카드",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 18,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "e9FKZe",
+                  "name": "제목",
+                  "fill": "$web-ink",
+                  "content": "옥상, 밤",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 17,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "cEWc0",
+                  "name": "통계",
+                  "fill": "$web-ink-sub",
+                  "content": "배역 2명 · 대사 15줄 · 지문 3개",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12.5,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "LOdeX",
+                  "name": "배역 칩",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "p4ZUT",
+                      "name": "칩 윤서",
+                      "fill": "$web-gray-bg",
+                      "cornerRadius": "$radius-pill",
+                      "gap": 6,
+                      "padding": [
+                        7,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "oUzpF",
+                          "name": "점",
+                          "fill": "$web-blue",
+                          "width": 8,
+                          "height": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "z2CMTQ",
+                          "name": "이름",
+                          "fill": "$web-ink",
+                          "content": "윤서",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jolvf",
+                          "name": "수",
+                          "fill": "$web-ink-4",
+                          "content": "8줄",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Q19sDm",
+                      "name": "칩 태오",
+                      "fill": "$web-gray-bg",
+                      "cornerRadius": "$radius-pill",
+                      "gap": 6,
+                      "padding": [
+                        7,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "ZGn32",
+                          "name": "점",
+                          "fill": "$warning",
+                          "width": 8,
+                          "height": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "r4Y604",
+                          "name": "이름",
+                          "fill": "$web-ink",
+                          "content": "태오",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UJFGW",
+                          "name": "수",
+                          "fill": "$web-ink-4",
+                          "content": "7줄",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "it00U",
+                  "name": "안내",
+                  "fill": "$web-ink-4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "배역이 잘못 잡혔으면 칩을 눌러 이름을 고칠 수 있어요.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 11.5,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DocvW",
+              "name": "대사 목록",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 18,
+              "layout": "vertical",
+              "padding": [
+                6,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "F8N887",
+                  "name": "지문",
+                  "width": "fill_container",
+                  "stroke": "$web-line-soft",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "padding": [
+                    12,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LRFG3",
+                      "name": "지문 글",
+                      "fill": "$web-ink-4",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "옥상 난간. 도시 불빛. 바람 소리.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12.5,
+                      "fontWeight": "600",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qPGzL",
+                  "name": "줄 윤서",
+                  "width": "fill_container",
+                  "stroke": "$web-line-soft",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    12,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "O0A4hA",
+                      "name": "배역",
+                      "fill": "$web-blue",
+                      "content": "윤서",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zTVrZ",
+                      "name": "대사",
+                      "fill": "$web-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "여기 있을 줄 알았어.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xfhKq",
+                  "name": "줄 태오",
+                  "width": "fill_container",
+                  "stroke": "$web-line-soft",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    12,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gCEzA",
+                      "name": "배역",
+                      "fill": "#b45309",
+                      "content": "태오",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jm2ex",
+                      "name": "대사",
+                      "fill": "$web-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "어떻게 알았어.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "t4KE2I",
+                  "name": "줄 윤서",
+                  "width": "fill_container",
+                  "stroke": "$web-line-soft",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    12,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "R8jSTg",
+                      "name": "배역",
+                      "fill": "$web-blue",
+                      "content": "윤서",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "N9jYv2",
+                      "name": "대사",
+                      "fill": "$web-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "너 힘들면 항상 높은 데로 가잖아.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OjnP5",
+                  "name": "줄 태오",
+                  "width": "fill_container",
+                  "stroke": "$web-line-soft",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    12,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NvELn",
+                      "name": "배역",
+                      "fill": "#b45309",
+                      "content": "태오",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "T2hD72",
+                      "name": "대사",
+                      "fill": "$web-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "(웃으며) 그런가.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Iz0RX",
+                  "name": "줄 윤서",
+                  "width": "fill_container",
+                  "stroke": "$web-line-soft",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    12,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "P6Tign",
+                      "name": "배역",
+                      "fill": "$web-blue",
+                      "content": "윤서",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iN5Ns",
+                      "name": "대사",
+                      "fill": "$web-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "왜 말 안 했어. 오디션 떨어진 거.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UYwCR",
+                  "name": "줄 태오",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    12,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fhpri",
+                      "name": "배역",
+                      "fill": "#b45309",
+                      "content": "태오",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PXGaF",
+                      "name": "대사",
+                      "fill": "$web-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "말하면 뭐가 달라져.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "v62xD",
+              "name": "여백",
+              "width": "fill_container",
+              "height": "fill_container"
+            },
+            {
+              "type": "text",
+              "id": "MrblV",
+              "name": "더보기",
+              "fill": "$web-ink-4",
+              "content": "아래로 내려 나머지 9줄 확인",
+              "fontFamily": "$font-sans",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "Xuq1m",
+              "name": "CTA 배역 정하러 가기",
+              "width": "fill_container",
+              "height": 52,
+              "fill": "$web-blue",
+              "cornerRadius": 14,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EMz4M",
+                  "name": "라벨",
+                  "fill": "#ffffff",
+                  "content": "배역 정하러 가기",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "800"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "eEKst",
+      "x": -7690,
+      "y": 7908,
+      "name": "A8.2 리딩 · 배역과 방식 · RN 앱",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$web-gray-bg-2",
+      "layout": "vertical",
+      "padding": [
+        44,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "ygesY",
+          "name": "상단 바",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#ffffff",
+          "stroke": "$web-line-soft",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "gap": 10,
+          "padding": [
+            0,
+            14
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "z513w",
+              "name": "왼",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "f0t7ur",
+                  "name": "뒤로",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$web-gray-bg",
+                  "cornerRadius": 9,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "OUaNk",
+                      "name": "아이콘",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-left",
+                      "library": "lucide",
+                      "fill": "$web-ink"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "HveLI",
+                  "name": "제목",
+                  "fill": "$web-ink",
+                  "content": "배역 정하기",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "900"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rBzKs",
+          "name": "본문",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "O8J6f",
+              "name": "단계",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": "$radius-pill",
+              "stroke": "$web-line-soft",
+              "strokeWidth": 1,
+              "gap": 2,
+              "padding": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x1x2EQ",
+                  "name": "단계 대본 넣기",
+                  "width": "fill_container",
+                  "height": 34,
+                  "fill": "#00000000",
+                  "cornerRadius": "$radius-pill",
+                  "gap": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "zaMYm",
+                      "name": "체크",
+                      "width": 12,
+                      "height": 12,
+                      "icon": "check",
+                      "library": "lucide",
+                      "fill": "$web-green"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ksc59",
+                      "name": "라벨",
+                      "fill": "$web-ink-3",
+                      "content": "대본 넣기",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MVp6O",
+                  "name": "단계 배역 정하기",
+                  "width": "fill_container",
+                  "height": 34,
+                  "fill": "$web-blue-soft",
+                  "cornerRadius": "$radius-pill",
+                  "gap": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "woWKX",
+                      "name": "점",
+                      "fill": "$web-blue",
+                      "width": 6,
+                      "height": 6
+                    },
+                    {
+                      "type": "text",
+                      "id": "yU0LS",
+                      "name": "라벨",
+                      "fill": "$web-blue",
+                      "content": "배역 정하기",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yk1pA",
+                  "name": "단계 바로 리딩",
+                  "width": "fill_container",
+                  "height": 34,
+                  "fill": "#00000000",
+                  "cornerRadius": "$radius-pill",
+                  "gap": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "ohazI",
+                      "name": "점",
+                      "fill": "$web-ink-5",
+                      "width": 6,
+                      "height": 6
+                    },
+                    {
+                      "type": "text",
+                      "id": "OOZ5b",
+                      "name": "라벨",
+                      "fill": "$web-ink-4",
+                      "content": "바로 리딩",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "L3min",
+              "name": "섹션 내 배역 고르기",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "F0ACHO",
+                  "name": "머리",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RMKFj",
+                      "name": "제목",
+                      "fill": "$web-ink",
+                      "content": "내 배역 고르기",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fkwHF",
+                      "name": "설명",
+                      "fill": "$web-ink-sub",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "고른 배역은 기다리고, 나머지 배역을 소리로 읽어드려요.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QKPtF",
+                  "name": "배역 선택",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FfLHC",
+                      "name": "배역 윤서",
+                      "width": "fill_container",
+                      "fill": "$web-blue-soft",
+                      "cornerRadius": 14,
+                      "stroke": "$web-blue",
+                      "strokeWidth": 1.5,
+                      "layout": "vertical",
+                      "gap": 2,
+                      "padding": [
+                        12,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "vs6kd",
+                          "name": "줄",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vztsj",
+                              "name": "이름",
+                              "fill": "$web-blue",
+                              "content": "윤서",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "900"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "CJGXX",
+                              "name": "체크",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "circle-check",
+                              "library": "lucide",
+                              "fill": "$web-blue"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "PiYny",
+                          "name": "수",
+                          "fill": "$web-blue-dark",
+                          "content": "대사 8줄",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bzx4w",
+                      "name": "배역 태오",
+                      "width": "fill_container",
+                      "fill": "$surface",
+                      "cornerRadius": 14,
+                      "stroke": "$web-line",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 2,
+                      "padding": [
+                        12,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "e7Fx60",
+                          "name": "줄",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "V9jzH",
+                              "name": "이름",
+                              "fill": "$web-ink",
+                              "content": "태오",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "900"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "ScCyN",
+                          "name": "수",
+                          "fill": "$web-ink-4",
+                          "content": "대사 7줄",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "i0rG7e",
+              "name": "섹션 리딩 방식",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BlNrA",
+                  "name": "머리",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hB5i6",
+                      "name": "제목",
+                      "fill": "$web-ink",
+                      "content": "리딩 방식",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LLoIv",
+                  "name": "방식 선택",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "S3OBh",
+                      "name": "방식 읽어주기",
+                      "width": "fill_container",
+                      "fill": "$web-blue-soft",
+                      "cornerRadius": 14,
+                      "stroke": "$web-blue",
+                      "strokeWidth": 1.5,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": [
+                        12,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "OT93k",
+                          "name": "아이콘",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "volume-2",
+                          "library": "lucide",
+                          "fill": "$web-blue"
+                        },
+                        {
+                          "type": "text",
+                          "id": "g92PWj",
+                          "name": "이름",
+                          "fill": "$web-blue",
+                          "content": "읽어주기",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "900"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ESFGZ",
+                          "name": "설명",
+                          "fill": "$web-blue-dark",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "상대 대사를 소리로 듣고 내 차례에 읽어요",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 11.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iSGdb",
+                      "name": "방식 암기 대조",
+                      "width": "fill_container",
+                      "fill": "$surface",
+                      "cornerRadius": 14,
+                      "stroke": "$web-line",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": [
+                        12,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "vczxH",
+                          "name": "아이콘",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "eye-off",
+                          "library": "lucide",
+                          "fill": "$web-ink-3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DQXfe",
+                          "name": "이름",
+                          "fill": "$web-ink",
+                          "content": "암기 대조",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "900"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wqAnu",
+                          "name": "설명",
+                          "fill": "$web-ink-4",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "내 대사를 가리고 말한 것을 원문과 맞춰요",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 11.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "H93n7",
+              "name": "섹션 세부 설정",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kLi7C",
+                  "name": "머리",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "r9mdW9",
+                      "name": "제목",
+                      "fill": "$web-ink",
+                      "content": "세부 설정",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D303r",
+                  "name": "설정 읽어주는 목소리",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": 14,
+                  "gap": 12,
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "o4Zhew",
+                      "name": "아이콘",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "mic-vocal",
+                      "library": "lucide",
+                      "fill": "$web-ink-3"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QH3XT",
+                      "name": "글",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "T4Iojp",
+                          "name": "제목",
+                          "fill": "$web-ink",
+                          "content": "읽어주는 목소리",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13.5,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "u5JFhR",
+                          "name": "값",
+                          "fill": "$web-ink-4",
+                          "content": "기기 음성 · 태오는 낮은 톤",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "KJHph",
+                      "name": "화살표",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "chevron-right",
+                      "library": "lucide",
+                      "fill": "$web-ink-5"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nME4Y",
+                  "name": "설정 내 차례 넘기는 방식",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": 14,
+                  "gap": 12,
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "XEVKv",
+                      "name": "아이콘",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "timer",
+                      "library": "lucide",
+                      "fill": "$web-ink-3"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HaNoG",
+                      "name": "글",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YN0j5",
+                          "name": "제목",
+                          "fill": "$web-ink",
+                          "content": "내 차례 넘기는 방식",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13.5,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LZHfs",
+                          "name": "값",
+                          "fill": "$web-ink-4",
+                          "content": "침묵 감지 · 1.8초",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "YNwcs",
+                      "name": "화살표",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "chevron-right",
+                      "library": "lucide",
+                      "fill": "$web-ink-5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NnXKY",
+              "name": "여백",
+              "width": "fill_container",
+              "height": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "BzCIB",
+              "name": "CTA 연습 시작",
+              "width": "fill_container",
+              "height": 52,
+              "fill": "$web-blue",
+              "cornerRadius": 14,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ldRFu",
+                  "name": "라벨",
+                  "fill": "#ffffff",
+                  "content": "연습 시작",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "800"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "RrO3L",
+      "x": -7190,
+      "y": 7908,
+      "name": "A8.3 리딩 · 상대가 읽는 중 · RN 앱",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$web-gray-bg-2",
+      "layout": "vertical",
+      "padding": [
+        44,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "GPGxp",
+          "name": "상단 바",
+          "width": "fill_container",
+          "height": 48,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Jw8w1",
+              "name": "나가기",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "Z7T6P",
+                  "name": "아이콘",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "x",
+                  "library": "lucide",
+                  "fill": "$web-ink-3"
+                },
+                {
+                  "type": "text",
+                  "id": "z4zeG",
+                  "name": "라벨",
+                  "fill": "$web-ink-3",
+                  "content": "나가기",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tZb47",
+              "name": "상태 알약",
+              "fill": "$web-blue-soft",
+              "cornerRadius": "$radius-pill",
+              "gap": 6,
+              "padding": [
+                5,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "r7AGE",
+                  "name": "점",
+                  "fill": "$web-blue",
+                  "width": 6,
+                  "height": 6
+                },
+                {
+                  "type": "text",
+                  "id": "IXrMW",
+                  "name": "라벨",
+                  "fill": "$web-blue",
+                  "content": "리딩 중",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 11.5,
+                  "fontWeight": "800"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "AKofu",
+              "name": "진행",
+              "fill": "$web-ink-4",
+              "content": "7 / 15 · 01:42",
+              "fontFamily": "$font-sans",
+              "fontSize": 12.5,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "T0A4L",
+          "name": "진행 바",
+          "width": "fill_container",
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "DOlCJ",
+              "name": "트랙",
+              "width": "fill_container",
+              "height": 4,
+              "fill": "$web-line",
+              "cornerRadius": 2,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "uD6a6",
+                  "name": "채움",
+                  "fill": "$web-blue",
+                  "width": 167,
+                  "height": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kmb0m",
+          "name": "무대",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            18,
+            16,
+            12,
+            16
+          ],
+          "justifyContent": "end",
+          "children": [
+            {
+              "type": "frame",
+              "id": "P1MSng",
+              "name": "지난 줄",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DS6Tt",
+                  "name": "배역",
+                  "fill": "#7fb0f5",
+                  "content": "윤서",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "IsfCk",
+                  "name": "대사",
+                  "fill": "$web-ink-4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "달라지지. 나는 알잖아, 네가 그거 얼마나 준비했는지.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m184q",
+              "name": "지문",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OI7F6",
+                  "name": "지문 글",
+                  "fill": "$web-ink-4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "사이. 태오가 난간에 기댄다.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12.5,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Inbo2",
+              "name": "현재 대사 카드",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 20,
+              "stroke": "$web-blue-line",
+              "strokeWidth": 1,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0a79fb14",
+                "offset": {
+                  "x": 0,
+                  "y": 6
+                },
+                "blur": 18
+              },
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "obT7O",
+                  "name": "머리",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ks9zp",
+                      "name": "배역",
+                      "fill": "#b45309",
+                      "content": "태오",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "O4WA1m",
+                      "name": "읽는 중",
+                      "height": 16,
+                      "gap": 3,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "iNyzq",
+                          "name": "막대",
+                          "fill": "$web-blue",
+                          "width": 3,
+                          "height": 8
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "n7s04",
+                          "name": "막대",
+                          "fill": "$web-blue",
+                          "width": 3,
+                          "height": 16
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "CbUBR",
+                          "name": "막대",
+                          "fill": "$web-blue",
+                          "width": 3,
+                          "height": 11
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "n25CrP",
+                          "name": "막대",
+                          "fill": "$web-blue",
+                          "width": 3,
+                          "height": 14
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "wl6Pd",
+                  "name": "대사",
+                  "fill": "$web-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "그래서 더 말하기 싫었어. 네가 그걸 아니까.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 23,
+                  "fontWeight": "800"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d9Srk",
+              "name": "다음 미리보기",
+              "width": "fill_container",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "offY3",
+                  "name": "라벨",
+                  "fill": "$web-ink-5",
+                  "content": "다음 ·",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "hf6Ys",
+                  "name": "배역",
+                  "fill": "#7fb0f5",
+                  "content": "윤서",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "M7BWEW",
+                  "name": "대사",
+                  "fill": "$web-ink-5",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "다음 거 언제야.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Q16QS",
+          "name": "바닥",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            8,
+            16,
+            24,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "GWU4p",
+              "name": "상태 글 자리",
+              "width": "fill_container",
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EyDQS",
+                  "name": "상태",
+                  "fill": "$web-ink-4",
+                  "content": "상대가 읽는 중 · 끝나면 내 차례",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12.5,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iAO1x",
+              "name": "버튼 줄",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dlvgY",
+                  "name": "버튼 일시정지",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$web-gray-bg",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Pq8xJ",
+                      "name": "라벨",
+                      "fill": "$web-ink",
+                      "content": "일시정지",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Q7vyf",
+                  "name": "버튼 다음",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$web-blue",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "x7GvsX",
+                      "name": "라벨",
+                      "fill": "#ffffff",
+                      "content": "다음",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "wQPVy",
+      "x": -6690,
+      "y": 7908,
+      "name": "A8.3-b 리딩 · 내 차례 · RN 앱",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$web-gray-bg-2",
+      "layout": "vertical",
+      "padding": [
+        44,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "y5RWc",
+          "name": "상단 바",
+          "width": "fill_container",
+          "height": 48,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "p6SS6k",
+              "name": "나가기",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "UUHeU",
+                  "name": "아이콘",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "x",
+                  "library": "lucide",
+                  "fill": "$web-ink-3"
+                },
+                {
+                  "type": "text",
+                  "id": "eoKNv",
+                  "name": "라벨",
+                  "fill": "$web-ink-3",
+                  "content": "나가기",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z3qAg",
+              "name": "상태 알약",
+              "fill": "$web-blue-soft",
+              "cornerRadius": "$radius-pill",
+              "gap": 6,
+              "padding": [
+                5,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "t0AzTS",
+                  "name": "점",
+                  "fill": "$web-blue",
+                  "width": 6,
+                  "height": 6
+                },
+                {
+                  "type": "text",
+                  "id": "LK58s",
+                  "name": "라벨",
+                  "fill": "$web-blue",
+                  "content": "리딩 중",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 11.5,
+                  "fontWeight": "800"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "GWMvx",
+              "name": "진행",
+              "fill": "$web-ink-4",
+              "content": "8 / 15 · 01:42",
+              "fontFamily": "$font-sans",
+              "fontSize": 12.5,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yeg30",
+          "name": "진행 바",
+          "width": "fill_container",
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "KkLjJ",
+              "name": "트랙",
+              "width": "fill_container",
+              "height": 4,
+              "fill": "$web-line",
+              "cornerRadius": 2,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "A09gQv",
+                  "name": "채움",
+                  "fill": "$web-blue",
+                  "width": 191,
+                  "height": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CBmKb",
+          "name": "무대",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            18,
+            16,
+            12,
+            16
+          ],
+          "justifyContent": "end",
+          "children": [
+            {
+              "type": "frame",
+              "id": "jscwT",
+              "name": "지난 줄",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Fu33f",
+                  "name": "배역",
+                  "fill": "#7fb0f5",
+                  "content": "윤서",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "aOu5w",
+                  "name": "대사",
+                  "fill": "$web-ink-4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "달라지지. 나는 알잖아, 네가 그거 얼마나 준비했는지.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Uef8t",
+              "name": "지난 줄",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JxvLK",
+                  "name": "배역",
+                  "fill": "#d9a066",
+                  "content": "태오",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "s2esZV",
+                  "name": "대사",
+                  "fill": "$web-ink-4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "그래서 더 말하기 싫었어. 네가 그걸 아니까.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d1Hprb",
+              "name": "지문",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "g1EO4",
+                  "name": "지문 글",
+                  "fill": "$web-ink-4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "사이. 태오가 난간에 기댄다.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12.5,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zOGrN",
+              "name": "현재 대사 카드",
+              "width": "fill_container",
+              "fill": "$web-blue-mist",
+              "cornerRadius": 20,
+              "stroke": "$web-blue",
+              "strokeWidth": 1.5,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0a79fb14",
+                "offset": {
+                  "x": 0,
+                  "y": 6
+                },
+                "blur": 18
+              },
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "U1HaG",
+                  "name": "머리",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nDUUm",
+                      "name": "배역",
+                      "fill": "$web-blue",
+                      "content": "윤서 · 내 차례",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KRfiE",
+                      "name": "듣는 중",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "MjP0B",
+                          "name": "점",
+                          "fill": "$web-blue",
+                          "width": 8,
+                          "height": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "c18EIh",
+                          "name": "라벨",
+                          "fill": "$web-blue",
+                          "content": "듣고 있어요",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "vrF5i",
+                  "name": "대사",
+                  "fill": "$web-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "다음 거 언제야.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 23,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "frame",
+                  "id": "PTrOG",
+                  "name": "음량",
+                  "width": "fill_container",
+                  "height": 4,
+                  "fill": "$web-blue-line",
+                  "cornerRadius": 2,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 2,
+                      "id": "RETT3",
+                      "name": "레벨",
+                      "fill": "$web-blue",
+                      "width": 120,
+                      "height": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jfEO0",
+              "name": "다음 미리보기",
+              "width": "fill_container",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JiXTL",
+                  "name": "라벨",
+                  "fill": "$web-ink-5",
+                  "content": "다음 ·",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "X2piGE",
+                  "name": "배역",
+                  "fill": "#d9a066",
+                  "content": "태오",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "PjrAU",
+                  "name": "대사",
+                  "fill": "$web-ink-5",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "모레.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OH0XM",
+          "name": "바닥",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            8,
+            16,
+            24,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Tq9cP",
+              "name": "상태 글 자리",
+              "width": "fill_container",
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ScYvH",
+                  "name": "상태",
+                  "fill": "$web-ink-4",
+                  "content": "말이 끝나면 자동으로 넘어가요",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12.5,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "G9bqyq",
+              "name": "버튼 줄",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "N6lWH",
+                  "name": "버튼 일시정지",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$web-gray-bg",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PHBY4",
+                      "name": "라벨",
+                      "fill": "$web-ink",
+                      "content": "일시정지",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D4Ew0l",
+                  "name": "버튼 다음",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$web-blue",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Y0Pbl",
+                      "name": "라벨",
+                      "fill": "#ffffff",
+                      "content": "다음",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pUzvw",
+      "x": -6190,
+      "y": 7908,
+      "name": "A8.4 암기 대조 · 내 대사 가림 · RN 앱",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$web-gray-bg-2",
+      "layout": "vertical",
+      "padding": [
+        44,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "heoef",
+          "name": "상단 바",
+          "width": "fill_container",
+          "height": 48,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "AGY3B",
+              "name": "나가기",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "Y7ozR0",
+                  "name": "아이콘",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "x",
+                  "library": "lucide",
+                  "fill": "$web-ink-3"
+                },
+                {
+                  "type": "text",
+                  "id": "WLaZf",
+                  "name": "라벨",
+                  "fill": "$web-ink-3",
+                  "content": "나가기",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K66Us",
+              "name": "상태 알약",
+              "fill": "#fff8ec",
+              "cornerRadius": "$radius-pill",
+              "gap": 6,
+              "padding": [
+                5,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "bx94u",
+                  "name": "아이콘",
+                  "width": 12,
+                  "height": 12,
+                  "icon": "eye-off",
+                  "library": "lucide",
+                  "fill": "$web-warn"
+                },
+                {
+                  "type": "text",
+                  "id": "k2Wbuw",
+                  "name": "라벨",
+                  "fill": "$web-warn",
+                  "content": "암기 대조",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 11.5,
+                  "fontWeight": "800"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "W60Jb5",
+              "name": "진행",
+              "fill": "$web-ink-4",
+              "content": "5 / 8 · 아직 안 나온 줄 2",
+              "fontFamily": "$font-sans",
+              "fontSize": 12.5,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tVLan",
+          "name": "본문",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            14,
+            16,
+            12,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZEoKr",
+              "name": "지난 줄",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IdMp5",
+                  "name": "배역",
+                  "fill": "#d9a066",
+                  "content": "태오",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "h0Eyd",
+                  "name": "대사",
+                  "fill": "$web-ink-4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "말하면 뭐가 달라져.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZnptB",
+              "name": "내 대사 카드",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 20,
+              "stroke": "$web-line",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HJ01u",
+                  "name": "머리",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ba1vl",
+                      "name": "배역",
+                      "fill": "$web-blue",
+                      "content": "윤서 · 내 대사",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oXf7H",
+                      "name": "힌트",
+                      "fill": "$web-ink-4",
+                      "content": "첫 글자 힌트: 달",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "A9BKo",
+                  "name": "가린 대사",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 6,
+                      "id": "vPMgG",
+                      "name": "가림",
+                      "fill": "$web-line",
+                      "width": 300,
+                      "height": 18
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 6,
+                      "id": "jrfAD",
+                      "name": "가림",
+                      "fill": "$web-line",
+                      "width": 260,
+                      "height": 18
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 6,
+                      "id": "l42rc",
+                      "name": "가림",
+                      "fill": "$web-line",
+                      "width": 150,
+                      "height": 18
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "u8tyKr",
+                  "name": "원문 보기",
+                  "fill": "$web-blue",
+                  "content": "원문 보기",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "800"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "htQ3W",
+              "name": "말한 것",
+              "width": "fill_container",
+              "fill": "$web-gray-bg",
+              "cornerRadius": 14,
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                12,
+                14
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qEyGN",
+                  "name": "라벨",
+                  "fill": "$web-ink-4",
+                  "content": "방금 말한 것 (글자로 바꿈)",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 11.5,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "I6O0L",
+                  "name": "텍스트",
+                  "fill": "$web-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "달라지지 나는 알잖아 네가 그거 얼마나 준비했는지",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "URSqw",
+              "name": "범위 안내",
+              "fill": "$web-ink-4",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "여기까지가 글자예요. 말한 것을 글자로 바꿔 대본과만 맞춰봐요.",
+              "lineHeight": 1.45,
+              "fontFamily": "$font-sans",
+              "fontSize": 11.5,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "CCx4y",
+              "name": "여백",
+              "width": "fill_container",
+              "height": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "W3LQ5",
+              "name": "마이크 자리",
+              "width": "fill_container",
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "T04bQ",
+                  "name": "직접 말하기",
+                  "width": 72,
+                  "height": 72,
+                  "fill": "$web-blue",
+                  "cornerRadius": "$radius-pill",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0a79fb40",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 20
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "ZHtxk",
+                      "name": "아이콘",
+                      "width": 28,
+                      "height": 28,
+                      "icon": "mic",
+                      "library": "lucide",
+                      "fill": "#ffffff"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gGvG2",
+              "name": "라벨 자리",
+              "width": "fill_container",
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "H4XuKA",
+                  "name": "라벨",
+                  "fill": "$web-ink-4",
+                  "content": "누르고 말한 뒤 떼면 맞춰봐요 · 입력하기",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xDZ0g",
+              "name": "버튼 줄",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XV0Cj",
+                  "name": "버튼 다시",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$web-gray-bg",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yOpIC",
+                      "name": "라벨",
+                      "fill": "$web-ink",
+                      "content": "다시",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b1frcW",
+                  "name": "버튼 넘어가기",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$web-blue",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "C8TDzR",
+                      "name": "라벨",
+                      "fill": "#ffffff",
+                      "content": "넘어가기",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "qGmCd",
+      "x": -5690,
+      "y": 7908,
+      "name": "A8.5 리딩 완료 · RN 앱",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$web-gray-bg-2",
+      "layout": "vertical",
+      "padding": [
+        44,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "hcxkt",
+          "name": "본문",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            20,
+            20,
+            24,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "bD2Di",
+              "name": "완료 머리",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                28,
+                0,
+                8,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mLATz",
+                  "name": "체크 원",
+                  "width": 64,
+                  "height": 64,
+                  "fill": "$web-blue-soft",
+                  "cornerRadius": "$radius-pill",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "G1BjJ",
+                      "name": "아이콘",
+                      "width": 30,
+                      "height": 30,
+                      "icon": "check",
+                      "library": "lucide",
+                      "fill": "$web-blue"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "jxzte",
+                  "name": "제목",
+                  "fill": "$web-ink",
+                  "content": "리딩이 완료되었습니다",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 20,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "XYUak",
+                  "name": "설명",
+                  "fill": "$web-ink-sub",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "대본의 마지막 줄까지 이어갔어요.",
+                  "lineHeight": 1.45,
+                  "textAlign": "center",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R4IfU",
+              "name": "기록 카드",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 18,
+              "padding": [
+                16,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XfyUZ",
+                  "name": "항목 내 배역",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n2nXFA",
+                      "name": "값",
+                      "fill": "$web-ink",
+                      "content": "윤서",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WPBLC",
+                      "name": "라벨",
+                      "fill": "$web-ink-4",
+                      "content": "내 배역",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 11.5,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tdmny",
+                  "name": "항목 읽은 대사",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Is8lj",
+                      "name": "값",
+                      "fill": "$web-ink",
+                      "content": "15줄",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ppgup",
+                      "name": "라벨",
+                      "fill": "$web-ink-4",
+                      "content": "읽은 대사",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 11.5,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z5CX8",
+                  "name": "항목 걸린 시간",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "H3F0a",
+                      "name": "값",
+                      "fill": "$web-ink",
+                      "content": "04:12",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RT39y",
+                      "name": "라벨",
+                      "fill": "$web-ink-4",
+                      "content": "걸린 시간",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 11.5,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YArlZ",
+              "name": "코치 카드",
+              "width": "fill_container",
+              "fill": "$navy",
+              "cornerRadius": "$radius-xl",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EYI5E",
+                  "name": "눈썹",
+                  "fill": "$blue-light",
+                  "content": "AI 코치",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "wUCkr",
+                  "name": "제목",
+                  "fill": "$white",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "상대 대사는 기계가 읽었어요. 네 대사에 무슨 생각을 담을지는 네가 정한 거예요.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 16,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "Za9Va",
+                  "name": "설명",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "이 장면을 촬영해 올리면 막힌 지점과 다음 시도를 질문으로 찾아요.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12.5,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "R0rN9",
+                  "name": "링크",
+                  "fill": "$blue-light",
+                  "content": "acttub에서 질문으로 →",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13.5,
+                  "fontWeight": "800"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eUjn7",
+              "name": "여백",
+              "width": "fill_container",
+              "height": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "dadaf",
+              "name": "버튼 다시 리딩",
+              "width": "fill_container",
+              "height": 52,
+              "fill": "$web-blue",
+              "cornerRadius": 14,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "th10A",
+                  "name": "라벨",
+                  "fill": "#ffffff",
+                  "content": "다시 리딩",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "800"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eR2zP",
+              "name": "버튼 새 대본",
+              "width": "fill_container",
+              "height": 52,
+              "fill": "$web-gray-bg",
+              "cornerRadius": 14,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iIWvo",
+                  "name": "라벨",
+                  "fill": "$web-ink",
+                  "content": "새 대본",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "800"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VAA6e",
+              "name": "홈 링크 자리",
+              "width": "fill_container",
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VfhIi",
+                  "name": "홈으로",
+                  "fill": "$web-ink-4",
+                  "content": "홈으로",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ovtRu",
+      "x": -9190,
+      "y": 7908,
+      "name": "A1-b 홈 · 상대역 리딩 진입 · RN 앱",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$web-gray-bg-2",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "k5yzy",
+          "name": "본문",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 22,
+          "padding": [
+            52,
+            20,
+            0,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "IK7Zr",
+              "name": "머리글",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rvnqV",
+                  "name": "인사",
+                  "fill": "$web-ink-4",
+                  "content": "지성님, 안녕하세요 👋",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "loWol",
+                  "name": "질문",
+                  "fill": "$web-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "오늘은 어떤 장면을 연습할까요?",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 21,
+                  "fontWeight": "900"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d57nyI",
+              "name": "AI 코치 카드",
+              "width": "fill_container",
+              "fill": "$navy",
+              "cornerRadius": "$radius-xl",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VPjo8",
+                  "name": "눈썹",
+                  "fill": "$blue-light",
+                  "content": "AI 코치",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "eUhPR",
+                  "name": "제목",
+                  "fill": "$white",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "영상을 올리면 막힌 지점과 다음 시도를 정리해요",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 17,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "W6Y7C",
+                  "name": "설명",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "의도가 왜 안 닿았는지와 당장 해볼 한 가지를 찾아요.",
+                  "lineHeight": 1.55,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12.5,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "BGp7k",
+                  "name": "링크",
+                  "fill": "$blue-light",
+                  "content": "연습 시작 →",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13.5,
+                  "fontWeight": "800"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Am2Mz",
+              "name": "상대역 리딩 카드",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": "$radius-lg",
+              "stroke": "$web-blue-line",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "n2GWpn",
+                  "name": "아이콘 원",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$web-blue-soft",
+                  "cornerRadius": "$radius-pill",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "ws55H",
+                      "name": "아이콘",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "book-open-text",
+                      "library": "lucide",
+                      "fill": "$web-blue"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dCofX",
+                  "name": "글",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 3,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FfYeO",
+                      "name": "눈썹",
+                      "fill": "$web-blue",
+                      "content": "상대역 리딩 · 새로 나옴",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 11.5,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "a8ItCv",
+                      "name": "제목",
+                      "fill": "$web-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "대본을 넣으면 상대 배역을 읽어드려요",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14.5,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PWLVx",
+                      "name": "설명",
+                      "fill": "$web-ink-4",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "내 차례엔 기다려요. 촬영 전에 대사를 몸에 붙이세요.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "FTn9k",
+                  "name": "화살표",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "chevron-right",
+                  "library": "lucide",
+                  "fill": "$web-ink-5"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IBX88",
+              "name": "연습 활동",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "t9fiAR",
+                  "name": "제목 줄",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "i8jpv",
+                      "name": "제목",
+                      "fill": "$web-ink",
+                      "content": "연습 활동",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zHUco",
+                      "name": "요약",
+                      "fill": "$web-ink-4",
+                      "content": "이번 주 · 0회",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MRYD9",
+                  "name": "잔디 카드",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": "$radius-lg",
+                  "stroke": "$web-line-soft",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HurfX",
+                      "name": "요일 줄",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "twN6J",
+                          "name": "칸 월",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ULwCF",
+                              "name": "셀",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "$web-gray-bg",
+                              "cornerRadius": "$radius-sm"
+                            },
+                            {
+                              "type": "text",
+                              "id": "GGakN",
+                              "name": "요일",
+                              "fill": "$web-ink-4",
+                              "content": "월",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 11.5,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rfquL",
+                          "name": "칸 화",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "snmIG",
+                              "name": "셀",
+                              "width": "fill_container",
+                              "height": 38,
+                              "cornerRadius": "$radius-sm",
+                              "stroke": "$web-blue",
+                              "strokeWidth": 2
+                            },
+                            {
+                              "type": "text",
+                              "id": "RSFNP",
+                              "name": "요일",
+                              "fill": "$web-blue",
+                              "content": "화",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 11.5,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vRXZS",
+                          "name": "칸 수",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "zEILm",
+                              "name": "셀",
+                              "width": "fill_container",
+                              "height": 38,
+                              "cornerRadius": "$radius-sm",
+                              "stroke": "$web-line",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "p79R2",
+                              "name": "요일",
+                              "fill": "$web-ink-4",
+                              "content": "수",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 11.5,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Mm7lO",
+                          "name": "칸 목",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "G5NE7",
+                              "name": "셀",
+                              "width": "fill_container",
+                              "height": 38,
+                              "cornerRadius": "$radius-sm",
+                              "stroke": "$web-line",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "egRaW",
+                              "name": "요일",
+                              "fill": "$web-ink-4",
+                              "content": "목",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 11.5,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QjMB2",
+                          "name": "칸 금",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Np3UJ",
+                              "name": "셀",
+                              "width": "fill_container",
+                              "height": 38,
+                              "cornerRadius": "$radius-sm",
+                              "stroke": "$web-line",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "k0CHPh",
+                              "name": "요일",
+                              "fill": "$web-ink-4",
+                              "content": "금",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 11.5,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "m3NJvs",
+                          "name": "칸 토",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "PACny",
+                              "name": "셀",
+                              "width": "fill_container",
+                              "height": 38,
+                              "cornerRadius": "$radius-sm",
+                              "stroke": "$web-line",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "d2Vd2L",
+                              "name": "요일",
+                              "fill": "$web-ink-4",
+                              "content": "토",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 11.5,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "r5jwQk",
+                          "name": "칸 일",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ZfwiS",
+                              "name": "셀",
+                              "width": "fill_container",
+                              "height": 38,
+                              "cornerRadius": "$radius-sm",
+                              "stroke": "$web-line",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "c0MWJV",
+                              "name": "요일",
+                              "fill": "$web-ink-4",
+                              "content": "일",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 11.5,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JdKuX",
+                      "name": "범례 줄",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zs90d",
+                          "name": "안내",
+                          "fill": "$web-ink-4",
+                          "content": "첫 연습이 여기에 쌓여요",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rdiK2",
+                          "name": "스케일",
+                          "gap": 5,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WXfXZ",
+                              "name": "적음",
+                              "fill": "$web-ink-5",
+                              "content": "적음",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 10.5,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "of6Gh",
+                              "name": "점",
+                              "fill": "$web-gray-bg",
+                              "width": 11,
+                              "height": 11
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "OpCLO",
+                              "name": "점",
+                              "fill": "#ffd666",
+                              "width": 11,
+                              "height": 11
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "UtUeg",
+                              "name": "점",
+                              "fill": "#ff9f45",
+                              "width": 11,
+                              "height": 11
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "xaBxP",
+                              "name": "점",
+                              "fill": "#ff6b6b",
+                              "width": 11,
+                              "height": 11
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "od2O5",
+                              "name": "점",
+                              "fill": "#f04452",
+                              "width": 11,
+                              "height": 11
+                            },
+                            {
+                              "type": "text",
+                              "id": "nkFda",
+                              "name": "많음",
+                              "fill": "$web-ink-5",
+                              "content": "많음",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 10.5,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C57gvB",
+                  "name": "카운터 카드",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": "$radius-lg",
+                  "stroke": "$web-line-soft",
+                  "strokeWidth": 1,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oIpRJ",
+                      "name": "칸 연습",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XbZQs",
+                          "name": "값",
+                          "fill": "$web-blue",
+                          "content": "0",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 20,
+                          "fontWeight": "900"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nsBZm",
+                          "name": "라벨",
+                          "fill": "$web-ink-4",
+                          "content": "연습",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 11.5,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "NTxOg",
+                      "name": "구분선",
+                      "fill": "$web-line-soft",
+                      "width": 1,
+                      "height": 34
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pFBcm",
+                      "name": "칸 연속일",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qZHXs",
+                          "name": "값",
+                          "fill": "$web-blue",
+                          "content": "0",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 20,
+                          "fontWeight": "900"
+                        },
+                        {
+                          "type": "text",
+                          "id": "frqxV",
+                          "name": "라벨",
+                          "fill": "$web-ink-4",
+                          "content": "연속일",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 11.5,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BhKdj",
+              "x": 20,
+              "y": 716,
+              "name": "최근 연습",
+              "enabled": false,
+              "width": "fill_container(350)",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AT0FG",
+                  "name": "제목",
+                  "fill": "$web-ink",
+                  "content": "최근 연습",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 16,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "frame",
+                  "id": "eNUXD",
+                  "name": "빈 상태",
+                  "width": "fill_container",
+                  "fill": "$web-gray-bg",
+                  "cornerRadius": "$radius-lg",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    26,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cr97s",
+                      "name": "1줄",
+                      "fill": "$web-ink-3",
+                      "content": "아직 기록이 없어요.",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13.5,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Umzvz",
+                      "name": "2줄",
+                      "fill": "$web-ink-3",
+                      "content": "가운데 파란 버튼으로 첫 영상을 올려보세요.",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "v88dwT",
+              "name": "바닥 여백",
+              "width": "fill_container",
+              "height": 14
+            }
+          ]
+        },
+        {
+          "id": "fcVHx",
+          "type": "ref",
+          "ref": "iqtA6",
+          "name": "탭 바",
+          "width": "fill_container"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "id": "jP8Et",
+      "x": -5190,
+      "y": 7908,
+      "name": "상대역 리딩 흐름 메모",
+      "width": 330,
+      "height": 560,
+      "content": "상대역 리딩 (read.acttub.com → RN 앱 반영)\n\n흐름\nA1-b 홈 진입 카드 → A8 대본 넣기 → A8.1 대본 확인(배역 자동 추출) → A8.2 내 배역·리딩 방식·세부 설정 → A8.3 리딩(상대가 읽는 중 / 내 차례) → A8.5 완료\n암기 대조 방식을 고르면 A8.3 대신 A8.4.\n\n지키는 것 (read AGENTS.md)\n· 대본 본문은 기기 안에서만. 배역 추출만 서버(OpenAI) 경유, 저장 안 함 → A8 고지 문구 유지\n· 상대 대사는 기기 음성이 기본. 자연스러운 음성은 옵션\n· 내 차례 넘김은 침묵 감지(음량만) 기본 + 수동 버튼\n· 연기를 평가·채점하지 않는다. 점수·등급·\"잘했어요\" 금지\n· 암기 대조만 예외: 글자 대조. \"맞음/틀림\" 대신 넘어가기/다시, \"원문 보기\", \"아직 안 나온 줄\"\n· 같은 줄 2회 미달이면 안내 없이 통과\n\n완료 화면의 코치 카드가 acttub 본 기능(촬영→분석)으로 잇는 자리."
     }
   ],
   "variables": {
