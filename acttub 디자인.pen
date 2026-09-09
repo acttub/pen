@@ -17518,6 +17518,87 @@
                   "fill": "$web-ink-5"
                 }
               ]
+            },
+            {
+              "type": "frame",
+              "id": "PzY3B",
+              "name": "활동 저장한 영상",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 14,
+              "stroke": "$web-line",
+              "strokeWidth": 1,
+              "gap": 12,
+              "padding": [
+                13,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PFiG2",
+                  "name": "아이콘 원",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "$web-blue-soft",
+                  "cornerRadius": "$radius-pill",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "GxL8P",
+                      "name": "아이콘",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "bookmark",
+                      "library": "lucide",
+                      "fill": "$web-blue"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OTPTt",
+                  "name": "글",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "c3QeX",
+                      "name": "제목",
+                      "fill": "$web-ink",
+                      "content": "저장한 영상",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 14.5,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "y85Ob0",
+                      "name": "부제",
+                      "fill": "$web-ink-4",
+                      "content": "다른 사람 연기에서 참고할 부분",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "JMirb",
+                  "name": "화살표",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "chevron-right",
+                  "library": "lucide",
+                  "fill": "$web-ink-5"
+                }
+              ]
             }
           ]
         }
@@ -20419,7 +20500,7 @@
     {
       "type": "frame",
       "id": "t9mp9",
-      "x": -15059,
+      "x": -13179,
       "y": 2065,
       "name": "A8 업로드 /upload · 영상 선택",
       "width": 390,
@@ -21080,7 +21161,7 @@
     {
       "type": "frame",
       "id": "w1htnW",
-      "x": -14629,
+      "x": -12749,
       "y": 2065,
       "name": "A8.1 업로드 /upload · 장면 입력",
       "width": 390,
@@ -90205,8 +90286,8 @@
     {
       "type": "frame",
       "id": "mtRsZ",
-      "x": -16509,
-      "y": 5347,
+      "x": -16272,
+      "y": 5860,
       "name": "A16 대사 목록 /lines · 챌린지",
       "context": "section",
       "clip": true,
@@ -90478,6 +90559,245 @@
         },
         {
           "type": "frame",
+          "id": "YPaZ6",
+          "name": "오늘의 대사 카드",
+          "width": "fill_container",
+          "fill": "$surface",
+          "cornerRadius": 16,
+          "stroke": "$web-blue-line",
+          "strokeWidth": 1.5,
+          "layout": "vertical",
+          "gap": 10,
+          "padding": 14,
+          "children": [
+            {
+              "type": "frame",
+              "id": "C79nd",
+              "name": "상단",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vpVbc",
+                  "name": "왼쪽",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "w651Mc",
+                      "name": "라벨",
+                      "fill": "$web-blue",
+                      "content": "오늘의 대사",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 12.5,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nhbbR",
+                      "name": "디데이",
+                      "fill": "$web-blue-soft",
+                      "cornerRadius": "$radius-pill",
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IGBkJ",
+                          "name": "글",
+                          "fill": "$web-blue",
+                          "content": "D-2",
+                          "fontFamily": "Pretendard Variable",
+                          "fontSize": 10.5,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "XWjnX",
+                  "name": "참여",
+                  "fill": "$web-ink-4",
+                  "content": "영상 5 · ♥ 128",
+                  "fontFamily": "Pretendard Variable",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "UD8A5",
+              "name": "대사",
+              "fill": "$web-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "“가지 마. 딱 한 번만 내 얘기 듣고 가.”",
+              "lineHeight": 1.4,
+              "fontFamily": "Pretendard Variable",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "npjtM",
+              "name": "작품",
+              "fill": "$web-ink-4",
+              "content": "창작 · 지우 · 헤어지는 밤",
+              "fontFamily": "Pretendard Variable",
+              "fontSize": 11.5,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "v9XbZa",
+              "name": "참여자 영상",
+              "width": "fill_container",
+              "gap": 7,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Fm7e2",
+                  "name": "참여 박도윤",
+                  "width": "fill_container",
+                  "height": 74,
+                  "fill": "#1A1A1F",
+                  "cornerRadius": 10,
+                  "layout": "vertical",
+                  "padding": 6,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SFgNA",
+                      "name": "이름",
+                      "fill": "#ffffff",
+                      "content": "박도윤",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 9.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RWI8P",
+                  "name": "참여 이서연",
+                  "width": "fill_container",
+                  "height": 74,
+                  "fill": "#22222A",
+                  "cornerRadius": 10,
+                  "layout": "vertical",
+                  "padding": 6,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QXhIK",
+                      "name": "이름",
+                      "fill": "#ffffff",
+                      "content": "이서연",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 9.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Phcgy",
+                  "name": "참여 최민준",
+                  "width": "fill_container",
+                  "height": 74,
+                  "fill": "#1E1E26",
+                  "cornerRadius": 10,
+                  "layout": "vertical",
+                  "padding": 6,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "glfDa",
+                      "name": "이름",
+                      "fill": "#ffffff",
+                      "content": "최민준",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 9.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qgYul",
+                  "name": "참여 +2",
+                  "width": "fill_container",
+                  "height": 74,
+                  "fill": "#20202A",
+                  "cornerRadius": 10,
+                  "layout": "vertical",
+                  "padding": 6,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k3hh5",
+                      "name": "이름",
+                      "fill": "#ffffff",
+                      "content": "+2",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 9.5,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xLQcf",
+              "name": "참여 버튼",
+              "width": "fill_container",
+              "height": 42,
+              "fill": "$web-blue",
+              "cornerRadius": 12,
+              "gap": 5,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "nElAv",
+                  "name": "아이콘",
+                  "width": 15,
+                  "height": 15,
+                  "icon": "video",
+                  "library": "lucide",
+                  "fill": "#ffffff"
+                },
+                {
+                  "type": "text",
+                  "id": "pZmEB",
+                  "name": "라벨",
+                  "fill": "#ffffff",
+                  "content": "나도 이 대사 연기하기",
+                  "fontFamily": "Pretendard Variable",
+                  "fontSize": 13.5,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
           "id": "M3B6nD",
           "name": "div",
           "context": "div",
@@ -90486,96 +90806,6 @@
           "layout": "vertical",
           "gap": 12,
           "children": [
-            {
-              "type": "frame",
-              "id": "WZb28",
-              "name": "button",
-              "context": "button",
-              "width": "fill_container",
-              "height": 69.34,
-              "fill": "#ffffff",
-              "cornerRadius": 14,
-              "stroke": "#e5e8eb",
-              "strokeWidth": 1.67,
-              "strokeAlignment": "inner",
-              "layout": "vertical",
-              "gap": 6.99,
-              "padding": [
-                15.67,
-                13.67
-              ],
-              "children": [
-                {
-                  "type": "text",
-                  "id": "ZXAOC",
-                  "name": "챌린지 D-2“가지 마. 딱 한 번만 내 얘기 듣고 가.”",
-                  "context": "strong",
-                  "fill": "#191f28",
-                  "content": "챌린지 D-2“가지 마. 딱 한 번만 내 얘기 듣고 가.”",
-                  "lineHeight": 1.36,
-                  "fontFamily": "Pretendard Variable",
-                  "fontSize": 13,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "text",
-                  "id": "JoUhG",
-                  "name": "창작 · 영상 5개 · ★ 4.2",
-                  "context": "p",
-                  "fill": "#8b95a1",
-                  "content": "창작 · 영상 5개 · ♥ 128",
-                  "lineHeight": 1.21,
-                  "fontFamily": "Pretendard Variable",
-                  "fontSize": 11,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "An8mL",
-              "name": "button",
-              "context": "button",
-              "width": "fill_container",
-              "height": 69.34,
-              "fill": "#ffffff",
-              "cornerRadius": 14,
-              "stroke": "#e5e8eb",
-              "strokeWidth": 1.67,
-              "strokeAlignment": "inner",
-              "layout": "vertical",
-              "gap": 6.99,
-              "padding": [
-                15.67,
-                13.67
-              ],
-              "children": [
-                {
-                  "type": "text",
-                  "id": "T00yU",
-                  "name": "지난 챌린지“밥은 먹고 다니냐.”",
-                  "context": "strong",
-                  "fill": "#191f28",
-                  "content": "지난 챌린지“밥은 먹고 다니냐.”",
-                  "lineHeight": 1.36,
-                  "fontFamily": "Pretendard Variable",
-                  "fontSize": 13,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "text",
-                  "id": "Q3KX63",
-                  "name": "살인의 추억 · 영상 2개 · ★ 4.2",
-                  "context": "p",
-                  "fill": "#8b95a1",
-                  "content": "살인의 추억 · 영상 2개 · ♥ 46",
-                  "lineHeight": 1.21,
-                  "fontFamily": "Pretendard Variable",
-                  "fontSize": 11,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
             {
               "type": "frame",
               "id": "xcFSn",
@@ -90820,8 +91050,8 @@
     {
       "type": "frame",
       "id": "FsAbG",
-      "x": -15059,
-      "y": 5347,
+      "x": -14822,
+      "y": 5860,
       "name": "A17 대사 상세 /lines/[id] · 좋아요순 랭킹",
       "context": "section",
       "clip": true,
@@ -95527,318 +95757,9 @@
     },
     {
       "type": "frame",
-      "id": "t0LHh",
-      "x": -15649,
-      "y": 5347,
-      "name": "A16.2 새 대사 등록 /lines/new",
-      "context": "section",
-      "clip": true,
-      "width": 390,
-      "height": 844.18,
-      "fill": "#f8fbff",
-      "effect": {
-        "type": "shadow",
-        "shadowType": "outer",
-        "color": "#e5e8eb",
-        "blur": 1
-      },
-      "layout": "vertical",
-      "gap": 14,
-      "padding": [
-        0,
-        16,
-        86,
-        16
-      ],
-      "children": [
-        {
-          "type": "frame",
-          "id": "rYh5F",
-          "name": "header",
-          "context": "header",
-          "width": "fill_container",
-          "height": 57.97,
-          "gap": 12,
-          "justifyContent": "space_between",
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "frame",
-              "id": "goZ5A",
-              "name": "button",
-              "context": "button",
-              "height": 33.99,
-              "layout": "vertical",
-              "padding": 5,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "H4tQi",
-                  "name": "svg",
-                  "context": "svg",
-                  "clip": true,
-                  "width": 29.98,
-                  "height": 29.98,
-                  "layout": "none",
-                  "children": [
-                    {
-                      "type": "path",
-                      "id": "BIzLO",
-                      "x": 11.242500000000001,
-                      "y": 7.495000000000001,
-                      "geometry": "M6 12l-6-6 6-6",
-                      "width": 7.495000000000001,
-                      "height": 14.990000000000002,
-                      "stroke": "#191F28",
-                      "strokeWidth": 2.2485000000000004,
-                      "strokeLinejoin": "round",
-                      "strokeLinecap": "round"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "id": "yxnjE",
-              "name": "새 대사",
-              "context": "h1",
-              "fill": "#191f28",
-              "content": "새 대사",
-              "lineHeight": 1.15,
-              "fontFamily": "Pretendard Variable",
-              "fontSize": 16,
-              "fontWeight": "800"
-            },
-            {
-              "type": "frame",
-              "id": "zriDL",
-              "name": "완료",
-              "context": "button",
-              "width": 33.99,
-              "height": 33.99,
-              "layout": "vertical",
-              "padding": 5,
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "h42g3j",
-                  "fill": "#3182f6",
-                  "content": "완료",
-                  "lineHeight": 1.16,
-                  "textAlign": "center",
-                  "fontFamily": "Pretendard Variable",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "iVTRG",
-          "name": "form",
-          "context": "form",
-          "width": "fill_container",
-          "layout": "vertical",
-          "children": [
-            {
-              "type": "text",
-              "id": "lMSeT",
-              "name": "대사",
-              "context": "label",
-              "fill": "#191f28",
-              "content": "대사",
-              "lineHeight": 1.16,
-              "fontFamily": "Pretendard Variable",
-              "fontSize": 13,
-              "fontWeight": "700"
-            },
-            {
-              "type": "frame",
-              "id": "yhSns",
-              "name": "spacer",
-              "width": "fill_container",
-              "height": 7.97,
-              "layout": "none"
-            },
-            {
-              "type": "frame",
-              "id": "h8PAB",
-              "name": "연기할 대사를 입력해주세요. 상대 대사가 있으면 함께 적어주세요.",
-              "context": "textarea",
-              "clip": true,
-              "width": "fill_container",
-              "height": 119.99,
-              "fill": "#ffffff",
-              "cornerRadius": 12,
-              "stroke": "#e5e8eb",
-              "strokeWidth": 1.67,
-              "strokeAlignment": "inner",
-              "layout": "vertical",
-              "padding": 14,
-              "justifyContent": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "GKrQ9",
-                  "fill": "#191f28",
-                  "textGrowth": "fixed-width",
-                  "width": 330.04,
-                  "content": "연기할 대사를 입력해주세요. 상대 대사가 있으면 함께 적어주세요.",
-                  "fontFamily": "Pretendard Variable",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "uUQOi",
-              "name": "spacer",
-              "width": "fill_container",
-              "height": 17.34,
-              "layout": "none"
-            },
-            {
-              "type": "text",
-              "id": "U73ik3",
-              "name": "출처 작품명 (필수)",
-              "context": "label",
-              "fill": "#191f28",
-              "content": "출처 작품명 (필수)",
-              "lineHeight": 1.16,
-              "fontFamily": "Pretendard Variable",
-              "fontSize": 13,
-              "fontWeight": "700"
-            },
-            {
-              "type": "frame",
-              "id": "V7eVu",
-              "name": "spacer",
-              "width": "fill_container",
-              "height": 7.97,
-              "layout": "none"
-            },
-            {
-              "type": "frame",
-              "id": "Oin56",
-              "name": "예: 마지막 정류장 · 직접 쓴 대사면 '창작'",
-              "context": "input",
-              "clip": true,
-              "width": "fill_container",
-              "height": 49.69,
-              "fill": "#ffffff",
-              "cornerRadius": 12,
-              "stroke": "#e5e8eb",
-              "strokeWidth": 1.67,
-              "strokeAlignment": "inner",
-              "layout": "vertical",
-              "padding": 14,
-              "justifyContent": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "VRlOa",
-                  "fill": "#8b95a1",
-                  "content": "예: 마지막 정류장 · 직접 쓴 대사면 '창작'",
-                  "fontFamily": "Pretendard Variable",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "t7Ef9J",
-              "name": "spacer",
-              "width": "fill_container",
-              "height": 13.99,
-              "layout": "none"
-            },
-            {
-              "type": "text",
-              "id": "IJYcD",
-              "name": "인물·상황 (선택)",
-              "context": "label",
-              "fill": "#191f28",
-              "content": "인물·상황 (선택)",
-              "lineHeight": 1.16,
-              "fontFamily": "Pretendard Variable",
-              "fontSize": 13,
-              "fontWeight": "700"
-            },
-            {
-              "type": "frame",
-              "id": "vZKEj",
-              "name": "spacer",
-              "width": "fill_container",
-              "height": 7.98,
-              "layout": "none"
-            },
-            {
-              "type": "frame",
-              "id": "D0mMZC",
-              "name": "예: 지우, 헤어지는 밤 정류장에서",
-              "context": "input",
-              "clip": true,
-              "width": "fill_container",
-              "height": 49.69,
-              "fill": "#ffffff",
-              "cornerRadius": 12,
-              "stroke": "#e5e8eb",
-              "strokeWidth": 1.67,
-              "strokeAlignment": "inner",
-              "layout": "vertical",
-              "padding": 14,
-              "justifyContent": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "YDQ03",
-                  "fill": "#8b95a1",
-                  "content": "예: 지우, 헤어지는 밤 정류장에서",
-                  "fontFamily": "Pretendard Variable",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "y4Htn",
-              "name": "spacer",
-              "width": "fill_container",
-              "height": 15.97,
-              "layout": "none"
-            },
-            {
-              "type": "text",
-              "id": "l8wdip",
-              "name": "유명 작품의 대사를 등록할 수 있어요. 권리자 문의가 들어오면 해당 대사",
-              "context": "p",
-              "fill": "#8b95a1",
-              "textGrowth": "fixed-width-height",
-              "width": "fill_container",
-              "height": 35.19,
-              "content": "유명 작품의 대사를 등록할 수 있어요. 권리자 문의가 들어오면 해당 대사와 영상은 내려갈 수 있어요.",
-              "lineHeight": 1.6,
-              "fontFamily": "Pretendard Variable",
-              "fontSize": 11,
-              "fontWeight": "normal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
       "id": "c4qxv",
-      "x": -18389,
-      "y": 5347,
+      "x": -18152,
+      "y": 5860,
       "name": "A18 촬영 대기 /record-video · 대사 표시",
       "context": "main",
       "clip": true,
@@ -96403,8 +96324,8 @@
     {
       "type": "frame",
       "id": "e8vyrP",
-      "x": -17959,
-      "y": 5347,
+      "x": -17722,
+      "y": 5860,
       "name": "A18.1 올리기 /upload · 갤러리에 공유",
       "context": "section",
       "clip": true,
@@ -96910,8 +96831,8 @@
     {
       "type": "frame",
       "id": "ELCY1",
-      "x": -17529,
-      "y": 5347,
+      "x": -17292,
+      "y": 5860,
       "name": "A18.2 올리기 /upload · 비공개 저장",
       "context": "section",
       "clip": true,
@@ -97417,8 +97338,8 @@
     {
       "type": "frame",
       "id": "Of7Lx",
-      "x": -17099,
-      "y": 5347,
+      "x": -16862,
+      "y": 5860,
       "name": "A18.3 업로드 완료 /upload/done · 공개",
       "context": "section",
       "clip": true,
@@ -97597,8 +97518,8 @@
     {
       "type": "frame",
       "id": "P9EA0y",
-      "x": -16079,
-      "y": 5347,
+      "x": -15842,
+      "y": 5860,
       "name": "A16.1 대사 검색 /lines/search · 결과 없음",
       "context": "section",
       "clip": true,
@@ -98003,8 +97924,8 @@
     {
       "type": "frame",
       "id": "i52hiW",
-      "x": -14629,
-      "y": 5347,
+      "x": -14392,
+      "y": 5860,
       "name": "A17.1 대사 상세 /lines/[id] · 최신순 랭킹",
       "context": "section",
       "clip": true,
@@ -99272,7 +99193,7 @@
     {
       "type": "frame",
       "id": "zIrkk",
-      "x": -15649,
+      "x": -13499,
       "y": 971,
       "name": "A8.1 리딩 · 대본 확인 · RN 앱",
       "clip": true,
@@ -99844,7 +99765,7 @@
     {
       "type": "frame",
       "id": "PTMmF",
-      "x": -15219,
+      "x": -13069,
       "y": 971,
       "name": "A8.2 리딩 · 배역과 방식 · RN 앱",
       "clip": true,
@@ -100542,7 +100463,7 @@
     {
       "type": "frame",
       "id": "GtJDM",
-      "x": -14789,
+      "x": -12639,
       "y": 971,
       "name": "A8.3 리딩 · 상대가 읽는 중 · RN 앱",
       "clip": true,
@@ -100989,7 +100910,7 @@
     {
       "type": "frame",
       "id": "SZfXq",
-      "x": -14359,
+      "x": -12209,
       "y": 971,
       "name": "A8.3-b 리딩 · 내 차례 · RN 앱",
       "clip": true,
@@ -101469,7 +101390,7 @@
     {
       "type": "frame",
       "id": "bOXXs",
-      "x": -13929,
+      "x": -11779,
       "y": 971,
       "name": "A8.4 암기 대조 · 내 대사 가림 · RN 앱",
       "clip": true,
@@ -101894,7 +101815,7 @@
     {
       "type": "frame",
       "id": "GsJqz",
-      "x": -13499,
+      "x": -11349,
       "y": 971,
       "name": "A8.5 리딩 완료 · RN 앱",
       "clip": true,
@@ -132566,7 +132487,7 @@
     {
       "type": "frame",
       "id": "uY2Ul",
-      "x": -16669,
+      "x": -14949,
       "y": 971,
       "name": "R04 리딩 · 저장한 대사 듣기",
       "clip": true,
@@ -133462,7 +133383,7 @@
     {
       "type": "frame",
       "id": "T2FVKH",
-      "x": -17099,
+      "x": -16669,
       "y": 971,
       "name": "R03 리딩 · 시작 위치 선택",
       "clip": true,
@@ -135256,7 +135177,7 @@
     {
       "type": "frame",
       "id": "v9Vp86",
-      "x": -16239,
+      "x": -14519,
       "y": 971,
       "name": "R04.1 리딩 · 테이크 비교",
       "clip": true,
@@ -141004,8 +140925,8 @@
     {
       "type": "frame",
       "id": "VOsZO",
-      "x": -18389,
-      "y": 7200,
+      "x": -16239,
+      "y": 971,
       "name": "R03.1 리딩 · 상대가 읽는 중",
       "clip": true,
       "width": 390,
@@ -141451,8 +141372,8 @@
     {
       "type": "frame",
       "id": "VB9zY",
-      "x": -17959,
-      "y": 7200,
+      "x": -15809,
+      "y": 971,
       "name": "R03.2 리딩 · 내 차례",
       "clip": true,
       "width": 390,
@@ -141931,8 +141852,8 @@
     {
       "type": "frame",
       "id": "L40bbK",
-      "x": -17529,
-      "y": 7200,
+      "x": -15379,
+      "y": 971,
       "name": "R03.3 리딩 · 암기 대조",
       "clip": true,
       "width": 390,
@@ -142356,8 +142277,8 @@
     {
       "type": "frame",
       "id": "vSTgV",
-      "x": -17099,
-      "y": 7200,
+      "x": -14089,
+      "y": 971,
       "name": "R05 리딩 · 완료",
       "clip": true,
       "width": 390,
@@ -142695,8 +142616,8 @@
     {
       "type": "frame",
       "id": "RiQ2J",
-      "x": -16669,
-      "y": 7200,
+      "x": -17099,
+      "y": 971,
       "name": "R02.1 리딩 가이드라인 /reading/guide",
       "clip": true,
       "width": 390,
@@ -143155,8 +143076,8 @@
     {
       "type": "frame",
       "id": "RTi1Z",
-      "x": -16239,
-      "y": 7200,
+      "x": -15059,
+      "y": 2065,
       "name": "A2 촬영 /(tabs)/record · 즉시 카메라",
       "clip": true,
       "width": 390,
@@ -143427,8 +143348,8 @@
     {
       "type": "frame",
       "id": "X8MVcL",
-      "x": -15809,
-      "y": 7200,
+      "x": -14629,
+      "y": 2065,
       "name": "A2.1 촬영 완료 · 보관함 자동 저장",
       "clip": true,
       "width": 390,
@@ -143859,8 +143780,8 @@
     {
       "type": "frame",
       "id": "BwZku",
-      "x": -15379,
-      "y": 7200,
+      "x": -14199,
+      "y": 2065,
       "name": "A2.2 보관함 /archive",
       "clip": true,
       "width": 390,
@@ -144809,8 +144730,8 @@
     {
       "type": "frame",
       "id": "fLwjK",
-      "x": -14949,
-      "y": 7200,
+      "x": -13769,
+      "y": 2065,
       "name": "A2.3 보관함 영상 /archive/[id]",
       "clip": true,
       "width": 390,
@@ -145173,6 +145094,1034 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "mFebn",
+      "x": -14469,
+      "y": 4253,
+      "name": "A15.5 저장한 영상 /challenges/saved",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$web-gray-bg-2",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "rgfjG",
+          "x": 0,
+          "y": 0,
+          "name": "상단 헤더",
+          "width": 390,
+          "height": 100,
+          "fill": "$surface",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            46,
+            16,
+            0,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "s2554",
+              "name": "상단 행",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "ndA5P",
+                  "name": "뒤로",
+                  "width": 22,
+                  "height": 22,
+                  "icon": "chevron-left",
+                  "library": "lucide",
+                  "fill": "$web-ink"
+                },
+                {
+                  "type": "text",
+                  "id": "y45g31",
+                  "name": "제목",
+                  "fill": "$web-ink",
+                  "content": "저장한 영상",
+                  "fontFamily": "Pretendard Variable",
+                  "fontSize": 18,
+                  "fontWeight": "800"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sKQTO",
+              "name": "세그먼트",
+              "width": "fill_container",
+              "fill": "$web-gray-bg",
+              "cornerRadius": 10,
+              "gap": 3,
+              "padding": 3,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Upjsf",
+                  "name": "탭 내 영상 8",
+                  "width": "fill_container",
+                  "height": 32,
+                  "fill": "#00000000",
+                  "cornerRadius": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mOd0k",
+                      "name": "라벨",
+                      "fill": "$web-ink-4",
+                      "content": "내 영상 8",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 12.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z1cXU",
+                  "name": "탭 저장한 영상 14",
+                  "width": "fill_container",
+                  "height": 32,
+                  "fill": "$surface",
+                  "cornerRadius": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CLurM",
+                      "name": "라벨",
+                      "fill": "$web-ink",
+                      "content": "저장한 영상 14",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 12.5,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Fo7kS",
+          "x": 0,
+          "y": 100,
+          "name": "본문",
+          "width": 390,
+          "height": 744,
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            12,
+            16,
+            16,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "f49Jf8",
+              "name": "안내",
+              "fill": "$web-ink-4",
+              "content": "다른 사람 연기에서 참고할 부분을 모아뒀어요.",
+              "fontFamily": "Pretendard Variable",
+              "fontSize": 11.5,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "xcTrD",
+              "name": "영상 행",
+              "width": "fill_container",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Zzu4s",
+                  "name": "저장 박도윤",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZMm08",
+                      "name": "썸네일",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 168,
+                      "fill": "#1A1A1F",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "padding": 8,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "lDeqT",
+                          "name": "상단",
+                          "width": "fill_container",
+                          "justifyContent": "end",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "p89DW",
+                              "name": "저장됨",
+                              "width": 24,
+                              "height": 24,
+                              "fill": "#00000080",
+                              "cornerRadius": "$radius-pill",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "pDxLs",
+                                  "name": "아이콘",
+                                  "width": 12,
+                                  "height": 12,
+                                  "icon": "bookmark",
+                                  "library": "lucide",
+                                  "fill": "#F59E0B"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MWkdr",
+                          "name": "하단",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "O7sLos",
+                              "name": "이름",
+                              "fill": "#ffffff",
+                              "content": "박도윤",
+                              "fontFamily": "Pretendard Variable",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "RjfSj",
+                              "name": "좋아요",
+                              "fill": "#ffffff",
+                              "content": "♥ 128",
+                              "fontFamily": "Pretendard Variable",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "oFaEd",
+                      "name": "대사",
+                      "fill": "$web-ink-3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“가지 마. 딱 한 번만”",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TVO7i",
+                  "name": "저장 이서연",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tYbeu",
+                      "name": "썸네일",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 168,
+                      "fill": "#22222A",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "padding": 8,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "eWitt",
+                          "name": "상단",
+                          "width": "fill_container",
+                          "justifyContent": "end",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "lSyYn",
+                              "name": "저장됨",
+                              "width": 24,
+                              "height": 24,
+                              "fill": "#00000080",
+                              "cornerRadius": "$radius-pill",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "tgHMd",
+                                  "name": "아이콘",
+                                  "width": 12,
+                                  "height": 12,
+                                  "icon": "bookmark",
+                                  "library": "lucide",
+                                  "fill": "#F59E0B"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "A3kABf",
+                          "name": "하단",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ITFYR",
+                              "name": "이름",
+                              "fill": "#ffffff",
+                              "content": "이서연",
+                              "fontFamily": "Pretendard Variable",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "NwqOq",
+                              "name": "좋아요",
+                              "fill": "#ffffff",
+                              "content": "♥ 96",
+                              "fontFamily": "Pretendard Variable",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "YPj0e",
+                      "name": "대사",
+                      "fill": "$web-ink-3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“나는 갈매기…”",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HDn6E",
+              "name": "영상 행",
+              "width": "fill_container",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "C81g9",
+                  "name": "저장 최민준",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "R2Hh8E",
+                      "name": "썸네일",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 168,
+                      "fill": "#1E1E26",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "padding": 8,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "nJ2Ti",
+                          "name": "상단",
+                          "width": "fill_container",
+                          "justifyContent": "end",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "zHN9n",
+                              "name": "저장됨",
+                              "width": 24,
+                              "height": 24,
+                              "fill": "#00000080",
+                              "cornerRadius": "$radius-pill",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "P3uUMs",
+                                  "name": "아이콘",
+                                  "width": 12,
+                                  "height": 12,
+                                  "icon": "bookmark",
+                                  "library": "lucide",
+                                  "fill": "#F59E0B"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZmcHP",
+                          "name": "하단",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "McDxy",
+                              "name": "이름",
+                              "fill": "#ffffff",
+                              "content": "최민준",
+                              "fontFamily": "Pretendard Variable",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "na7Ww",
+                              "name": "좋아요",
+                              "fill": "#ffffff",
+                              "content": "♥ 74",
+                              "fontFamily": "Pretendard Variable",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "b7RJJM",
+                      "name": "대사",
+                      "fill": "$web-ink-3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“밥은 먹고 다니냐”",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WZSPV",
+                  "name": "저장 한지우",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "D8c92t",
+                      "name": "썸네일",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 168,
+                      "fill": "#191921",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "padding": 8,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "siWUl",
+                          "name": "상단",
+                          "width": "fill_container",
+                          "justifyContent": "end",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "iGkKZ",
+                              "name": "저장됨",
+                              "width": 24,
+                              "height": 24,
+                              "fill": "#00000080",
+                              "cornerRadius": "$radius-pill",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "d7EQWD",
+                                  "name": "아이콘",
+                                  "width": 12,
+                                  "height": 12,
+                                  "icon": "bookmark",
+                                  "library": "lucide",
+                                  "fill": "#F59E0B"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Dh52B",
+                          "name": "하단",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vVabj",
+                              "name": "이름",
+                              "fill": "#ffffff",
+                              "content": "한지우",
+                              "fontFamily": "Pretendard Variable",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "S3vqP",
+                              "name": "좋아요",
+                              "fill": "#ffffff",
+                              "content": "♥ 52",
+                              "fontFamily": "Pretendard Variable",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "WChS1",
+                      "name": "대사",
+                      "fill": "$web-ink-3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“어떻게 사랑이 변하니”",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "X8ksv1",
+              "name": "영상 행",
+              "width": "fill_container",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vflDX",
+                  "name": "저장 윤서아",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "n9mza",
+                      "name": "썸네일",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 168,
+                      "fill": "#20202A",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "padding": 8,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Ag7Y1",
+                          "name": "상단",
+                          "width": "fill_container",
+                          "justifyContent": "end",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "PZo17",
+                              "name": "저장됨",
+                              "width": 24,
+                              "height": 24,
+                              "fill": "#00000080",
+                              "cornerRadius": "$radius-pill",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "pYDkf",
+                                  "name": "아이콘",
+                                  "width": 12,
+                                  "height": 12,
+                                  "icon": "bookmark",
+                                  "library": "lucide",
+                                  "fill": "#F59E0B"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "i1ABC0",
+                          "name": "하단",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "KVEu4",
+                              "name": "이름",
+                              "fill": "#ffffff",
+                              "content": "윤서아",
+                              "fontFamily": "Pretendard Variable",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "IiJv8",
+                              "name": "좋아요",
+                              "fill": "#ffffff",
+                              "content": "♥ 41",
+                              "fontFamily": "Pretendard Variable",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Acn9j",
+                      "name": "대사",
+                      "fill": "$web-ink-3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“네가 먼저 말했잖아”",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NWAPu",
+                  "name": "저장 김태오",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xBJSs",
+                      "name": "썸네일",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 168,
+                      "fill": "#1C1C24",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "padding": 8,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "P9rpFV",
+                          "name": "상단",
+                          "width": "fill_container",
+                          "justifyContent": "end",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "TPjyU",
+                              "name": "저장됨",
+                              "width": 24,
+                              "height": 24,
+                              "fill": "#00000080",
+                              "cornerRadius": "$radius-pill",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "Db83k",
+                                  "name": "아이콘",
+                                  "width": 12,
+                                  "height": 12,
+                                  "icon": "bookmark",
+                                  "library": "lucide",
+                                  "fill": "#F59E0B"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b9LHMl",
+                          "name": "하단",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "EU7ZH",
+                              "name": "이름",
+                              "fill": "#ffffff",
+                              "content": "김태오",
+                              "fontFamily": "Pretendard Variable",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "R5ZLwi",
+                              "name": "좋아요",
+                              "fill": "#ffffff",
+                              "content": "♥ 33",
+                              "fontFamily": "Pretendard Variable",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "g5vvLC",
+                      "name": "대사",
+                      "fill": "$web-ink-3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“나 다시 돌아갈래”",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "B1Jsw",
+      "x": -15412,
+      "y": 5860,
+      "name": "A16.2 새 대사 등록 /lines/new · 스토리형",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 200,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#1B64DA",
+            "position": 0
+          },
+          {
+            "color": "#0E2A5C",
+            "position": 1
+          }
+        ]
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "R5MNu",
+          "x": 0,
+          "y": 44,
+          "name": "상단 바",
+          "width": 390,
+          "height": 52,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "VdxDB",
+              "name": "닫기",
+              "width": 24,
+              "height": 24,
+              "icon": "x",
+              "library": "lucide",
+              "fill": "#ffffff"
+            },
+            {
+              "type": "frame",
+              "id": "jxp4m",
+              "name": "진행 점",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "TsTOv",
+                  "name": "점1",
+                  "fill": "#ffffff",
+                  "width": 20,
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "T2G2P",
+                  "name": "점2",
+                  "fill": "#FFFFFF4D",
+                  "width": 8,
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "jnMhw",
+                  "name": "점3",
+                  "fill": "#FFFFFF4D",
+                  "width": 8,
+                  "height": 4
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "R8yqyr",
+              "name": "단계",
+              "fill": "#FFFFFFB3",
+              "content": "1 / 3",
+              "fontFamily": "Pretendard Variable",
+              "fontSize": 12,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Pwr1Q",
+          "x": 24,
+          "y": 200,
+          "name": "본문",
+          "width": 342,
+          "layout": "vertical",
+          "gap": 14,
+          "children": [
+            {
+              "type": "text",
+              "id": "pGli6",
+              "name": "질문",
+              "fill": "#ffffff",
+              "content": "어떤 대사를\n등록할까요?",
+              "lineHeight": 1.3,
+              "fontFamily": "Pretendard Variable",
+              "fontSize": 28,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "MA26l",
+              "name": "설명",
+              "fill": "#FFFFFFB3",
+              "content": "연기하고 싶은 대사 한 줄을 적어주세요.\n다른 사람들이 이 대사로 챌린지에 참여해요.",
+              "lineHeight": 1.55,
+              "fontFamily": "Pretendard Variable",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ub0KP",
+          "x": 24,
+          "y": 400,
+          "name": "입력 박스",
+          "width": 342,
+          "height": 120,
+          "fill": "#FFFFFF1A",
+          "cornerRadius": 16,
+          "stroke": "#FFFFFF4D",
+          "strokeWidth": 1.5,
+          "gap": 2,
+          "padding": 16,
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 1,
+              "id": "BBs95",
+              "name": "커서",
+              "fill": "#ffffff",
+              "width": 2,
+              "height": 24
+            },
+            {
+              "type": "text",
+              "id": "Qqp2g",
+              "name": "플레이스홀더",
+              "fill": "#FFFFFF66",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "“여기에 대사를 적어주세요”",
+              "lineHeight": 1.4,
+              "fontFamily": "Pretendard Variable",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "F2Lek4",
+          "x": 24,
+          "y": 536,
+          "name": "팁",
+          "width": 342,
+          "gap": 6,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "z8J6YW",
+              "name": "아이콘",
+              "width": 14,
+              "height": 14,
+              "icon": "lightbulb",
+              "library": "lucide",
+              "fill": "#8FBFFF"
+            },
+            {
+              "type": "text",
+              "id": "Wu7kn",
+              "name": "글",
+              "fill": "#8FBFFF",
+              "content": "짧고 감정이 분명한 대사일수록 참여가 많아요",
+              "fontFamily": "Pretendard Variable",
+              "fontSize": 11.5,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "z3i1bV",
+          "x": 24,
+          "y": 740,
+          "name": "다음 버튼",
+          "width": 342,
+          "height": 54,
+          "fill": "#ffffff",
+          "cornerRadius": 16,
+          "gap": 6,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "lW7Xo",
+              "name": "라벨",
+              "fill": "#1B64DA",
+              "content": "다음",
+              "fontFamily": "Pretendard Variable",
+              "fontSize": 16,
+              "fontWeight": "800"
+            },
+            {
+              "type": "icon",
+              "id": "snLkH",
+              "name": "화살표",
+              "width": 17,
+              "height": 17,
+              "icon": "arrow-right",
+              "library": "lucide",
+              "fill": "#1B64DA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rectangle",
+      "id": "r3c08v",
+      "x": -18521,
+      "y": 5530,
+      "width": 4822,
+      "height": 1687,
+      "stroke": "#000000ff",
+      "strokeWidth": 3,
+      "strokeAlignment": "inner"
     }
   ],
   "variables": {
