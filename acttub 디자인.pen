@@ -105333,7 +105333,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "../../../Downloads/planning/%E1%84%8B%E1%85%B0%E1%86%B8/%E1%84%89%E1%85%A2UI-2026-07-27/design/acttub-wordmark.png",
+                        "url": "source/acttub-wordmark.png",
                         "mode": "fit"
                       }
                     },
@@ -114385,7 +114385,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "../Soma/planning/%E1%84%8B%E1%85%B0%E1%86%B8/%E1%84%89%E1%85%A2UI-2026-07-27/design/acttub-wordmark.png",
+                    "url": "source/acttub-wordmark.png",
                     "mode": "fit"
                   }
                 },
@@ -118999,7 +118999,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "../Soma/planning/%E1%84%8B%E1%85%B0%E1%86%B8/%E1%84%89%E1%85%A2UI-2026-07-27/design/acttub-wordmark.png",
+                    "url": "source/acttub-wordmark.png",
                     "mode": "fit"
                   }
                 },
