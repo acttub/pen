@@ -5773,6 +5773,45 @@
           "fontFamily": "$font",
           "fontSize": 14,
           "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "qhU7A",
+          "name": "R2.14 진입",
+          "fill": "$textMuted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "R2.14 LLM 나누기 동의 시트: [다음]을 눌렀는데 LLM 나누기 동의가 없을 때(예시 대본 글 그대로면 LLM을 부르지 않아 안 뜬다). [동의하고 나누기] → 동의 저장 뒤 R2.11. [취소] → 시트만 닫고 넣은 글·파일이 R2에 그대로 남는다(동의 없이는 넣을 수 없다). 「자세히 보기」 → 법무 동의 문서 전문.",
+          "lineHeight": 1.5,
+          "fontFamily": "$font",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "ElHMV",
+          "name": "R2.15 진입",
+          "fill": "$textMuted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "R2.15 하루 한도 넘음 알림: 나누기 요청이 한 사람 하루 20번 한도에 걸렸을 때(LLM을 부른 작업만 센다). [확인] → 넣은 글·파일이 R2에 그대로 남는다.",
+          "lineHeight": 1.5,
+          "fontFamily": "$font",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "bWkE2",
+          "name": "en 문구",
+          "fill": "$textMuted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "en · R2.14: Consent is needed to split scripts / You can add a script only after you agree. / We send your script text to OpenAI to split it into roles and lines. / Files you add are kept with the script and deleted when you delete it. / Learn more / Agree and split / Cancel\nen · R2.15: You can't add more scripts today / You can split scripts up to 20 times a day. Please try again tomorrow. / OK",
+          "lineHeight": 1.5,
+          "fontFamily": "$font",
+          "fontSize": 14,
+          "fontWeight": "normal"
         }
       ]
     },
@@ -264266,6 +264305,1033 @@
               "fontFamily": "$font",
               "fontSize": 14,
               "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "tKMFB",
+      "x": 56900,
+      "y": 1084,
+      "name": "R2.15 대본 넣기 · 하루 한도 넘음 알림",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "wReni",
+          "type": "ref",
+          "ref": "XfrjI",
+          "name": "StatusBar"
+        },
+        {
+          "id": "BYnYj",
+          "type": "ref",
+          "ref": "M6ZbSa",
+          "name": "NavHeader",
+          "descendants": {
+            "R4eY0": {
+              "content": "새 대본"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "XOeI4",
+          "name": "Body",
+          "clip": true,
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "AKo5W",
+              "name": "Step",
+              "fill": "$blue",
+              "content": "STEP 1 · 대본 넣기",
+              "fontFamily": "$font",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 0.3
+            },
+            {
+              "type": "frame",
+              "id": "gz5Eg",
+              "name": "TitleWrap",
+              "width": "fill_container",
+              "padding": [
+                2,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GBbto",
+                  "name": "Title",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "연습할 대본을 넣어주세요",
+                  "fontFamily": "$font",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Rv8t8",
+              "name": "Sub",
+              "fill": "$textMuted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "파일로 넣거나 글을 붙여넣으면 화자와 대사를 자동으로 나눠드려요.",
+              "lineHeight": 1.5384615384615385,
+              "fontFamily": "$font",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "X9AO78",
+              "name": "ModeToggle",
+              "width": "fill_container",
+              "fill": "$bgSoft",
+              "cornerRadius": 12,
+              "gap": 4,
+              "padding": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TIDiu",
+                  "name": "Seg/On",
+                  "width": "fill_container",
+                  "fill": "$bg",
+                  "cornerRadius": 9,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000001A",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 3
+                  },
+                  "gap": 6,
+                  "padding": [
+                    10,
+                    0
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "KrP72",
+                      "name": "Icon",
+                      "width": 15,
+                      "height": 15,
+                      "icon": "paperclip",
+                      "library": "feather",
+                      "fill": "$text"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pnInC",
+                      "name": "Label",
+                      "fill": "$text",
+                      "content": "파일로 넣기",
+                      "fontFamily": "$font",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rpECp",
+                  "name": "Seg/Off",
+                  "width": "fill_container",
+                  "cornerRadius": 9,
+                  "gap": 6,
+                  "padding": [
+                    10,
+                    0
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "IV4mR",
+                      "name": "Icon",
+                      "width": 15,
+                      "height": 15,
+                      "icon": "edit-3",
+                      "library": "feather",
+                      "fill": "$textFaint"
+                    },
+                    {
+                      "type": "text",
+                      "id": "l4Og0y",
+                      "name": "Label",
+                      "fill": "$textMuted",
+                      "content": "글로 붙여넣기",
+                      "fontFamily": "$font",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aevEx",
+              "name": "FileCard",
+              "width": "fill_container",
+              "height": 191,
+              "fill": "$blueMist",
+              "cornerRadius": 16,
+              "stroke": "$blueLine",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": [
+                0,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "FBD2Y",
+                  "name": "FileIcon",
+                  "width": 26,
+                  "height": 26,
+                  "icon": "file-text",
+                  "library": "feather",
+                  "fill": "$blue"
+                },
+                {
+                  "type": "frame",
+                  "id": "lcVFV",
+                  "name": "FileNameWrap",
+                  "padding": [
+                    2,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "d9RdKd",
+                      "name": "FileName",
+                      "fill": "$text",
+                      "content": "갈매기 3막.pdf",
+                      "fontFamily": "$font",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "XB1md",
+                  "name": "FileMeta",
+                  "fill": "$textMuted",
+                  "content": "1.2MB · 글 4,812자",
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "WajNd",
+                  "name": "ChangeWrap",
+                  "padding": [
+                    8,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "M9x4Yr",
+                      "name": "ChangeBtn",
+                      "fill": "$bg",
+                      "cornerRadius": 999,
+                      "stroke": "$blueLine",
+                      "strokeWidth": 1,
+                      "gap": 5,
+                      "padding": [
+                        7,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "s3URVN",
+                          "name": "Icon",
+                          "width": 12,
+                          "height": 12,
+                          "icon": "refresh-cw",
+                          "library": "feather",
+                          "fill": "$blueDeep"
+                        },
+                        {
+                          "type": "text",
+                          "id": "klRd8",
+                          "name": "ChangeText",
+                          "fill": "$blueDeep",
+                          "content": "다른 파일로 바꾸기",
+                          "fontFamily": "$font",
+                          "fontSize": 12.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FnzAZ",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$bg",
+          "stroke": "$borderSoft",
+          "strokeWidth": {
+            "top": 1
+          },
+          "padding": [
+            16,
+            16,
+            46,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ykrRE",
+              "name": "Primary",
+              "width": "fill_container",
+              "fill": "$blue",
+              "cornerRadius": 12,
+              "padding": [
+                15,
+                0
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "D1Amt5",
+                  "name": "PrimaryText",
+                  "fill": "#FFFFFF",
+                  "content": "다음",
+                  "fontFamily": "$font",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Wb7EM",
+          "type": "ref",
+          "ref": "e84dKw",
+          "name": "HomeIndicator",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 810
+        },
+        {
+          "type": "frame",
+          "id": "szzHT",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 0,
+          "name": "Scrim",
+          "width": 390,
+          "height": 844,
+          "fill": "$dialogScrim"
+        },
+        {
+          "id": "zyeMp",
+          "type": "ref",
+          "ref": "qXrkj",
+          "name": "Dialog",
+          "layoutPosition": "absolute",
+          "x": 28,
+          "y": 337,
+          "descendants": {
+            "rfxjI": {
+              "content": "오늘은 대본을 더 넣을 수 없어요"
+            },
+            "qCpDe": {
+              "content": "대본은 하루 20번까지 나눌 수 있어요.\n내일 다시 넣어 주세요."
+            },
+            "GlgHh": {
+              "enabled": false
+            },
+            "nO6aQ": {
+              "content": "확인"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "btmow",
+      "x": 56430,
+      "y": 1084,
+      "name": "R2.14 대본 넣기 · LLM 나누기 동의 시트",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "zjiaT",
+          "type": "ref",
+          "ref": "XfrjI",
+          "name": "StatusBar"
+        },
+        {
+          "id": "R2QRI",
+          "type": "ref",
+          "ref": "M6ZbSa",
+          "name": "NavHeader",
+          "descendants": {
+            "R4eY0": {
+              "content": "새 대본"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "w0rAm",
+          "name": "Body",
+          "clip": true,
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "pkfNL",
+              "name": "Step",
+              "fill": "$blue",
+              "content": "STEP 1 · 대본 넣기",
+              "fontFamily": "$font",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 0.3
+            },
+            {
+              "type": "frame",
+              "id": "H8meYf",
+              "name": "TitleWrap",
+              "width": "fill_container",
+              "padding": [
+                2,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HUdnP",
+                  "name": "Title",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "연습할 대본을 넣어주세요",
+                  "fontFamily": "$font",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "RbT01",
+              "name": "Sub",
+              "fill": "$textMuted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "파일로 넣거나 글을 붙여넣으면 화자와 대사를 자동으로 나눠드려요.",
+              "lineHeight": 1.5384615384615385,
+              "fontFamily": "$font",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "K4Fxqu",
+              "name": "ModeToggle",
+              "width": "fill_container",
+              "fill": "$bgSoft",
+              "cornerRadius": 12,
+              "gap": 4,
+              "padding": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RMozI",
+                  "name": "Seg/On",
+                  "width": "fill_container",
+                  "fill": "$bg",
+                  "cornerRadius": 9,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000001A",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 3
+                  },
+                  "gap": 6,
+                  "padding": [
+                    10,
+                    0
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "ism0X",
+                      "name": "Icon",
+                      "width": 15,
+                      "height": 15,
+                      "icon": "paperclip",
+                      "library": "feather",
+                      "fill": "$text"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Yy6hR",
+                      "name": "Label",
+                      "fill": "$text",
+                      "content": "파일로 넣기",
+                      "fontFamily": "$font",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RZy7X",
+                  "name": "Seg/Off",
+                  "width": "fill_container",
+                  "cornerRadius": 9,
+                  "gap": 6,
+                  "padding": [
+                    10,
+                    0
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "u2Ry6E",
+                      "name": "Icon",
+                      "width": 15,
+                      "height": 15,
+                      "icon": "edit-3",
+                      "library": "feather",
+                      "fill": "$textFaint"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XZj1g",
+                      "name": "Label",
+                      "fill": "$textMuted",
+                      "content": "글로 붙여넣기",
+                      "fontFamily": "$font",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Y2A9i",
+              "name": "FileCard",
+              "width": "fill_container",
+              "height": 191,
+              "fill": "$blueMist",
+              "cornerRadius": 16,
+              "stroke": "$blueLine",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": [
+                0,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "m4wKT",
+                  "name": "FileIcon",
+                  "width": 26,
+                  "height": 26,
+                  "icon": "file-text",
+                  "library": "feather",
+                  "fill": "$blue"
+                },
+                {
+                  "type": "frame",
+                  "id": "Xmfm4",
+                  "name": "FileNameWrap",
+                  "padding": [
+                    2,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bpkDI",
+                      "name": "FileName",
+                      "fill": "$text",
+                      "content": "갈매기 3막.pdf",
+                      "fontFamily": "$font",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "MLQ1S",
+                  "name": "FileMeta",
+                  "fill": "$textMuted",
+                  "content": "1.2MB · 글 4,812자",
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "vJOmO",
+                  "name": "ChangeWrap",
+                  "padding": [
+                    8,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BgrlO",
+                      "name": "ChangeBtn",
+                      "fill": "$bg",
+                      "cornerRadius": 999,
+                      "stroke": "$blueLine",
+                      "strokeWidth": 1,
+                      "gap": 5,
+                      "padding": [
+                        7,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "y9dbU",
+                          "name": "Icon",
+                          "width": 12,
+                          "height": 12,
+                          "icon": "refresh-cw",
+                          "library": "feather",
+                          "fill": "$blueDeep"
+                        },
+                        {
+                          "type": "text",
+                          "id": "l5Jm8T",
+                          "name": "ChangeText",
+                          "fill": "$blueDeep",
+                          "content": "다른 파일로 바꾸기",
+                          "fontFamily": "$font",
+                          "fontSize": 12.5,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "d7VYyJ",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$bg",
+          "stroke": "$borderSoft",
+          "strokeWidth": {
+            "top": 1
+          },
+          "padding": [
+            16,
+            16,
+            46,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "DaNXc",
+              "name": "Primary",
+              "width": "fill_container",
+              "fill": "$blue",
+              "cornerRadius": 12,
+              "padding": [
+                15,
+                0
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aOxjT",
+                  "name": "PrimaryText",
+                  "fill": "#FFFFFF",
+                  "content": "다음",
+                  "fontFamily": "$font",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "agl9B",
+          "type": "ref",
+          "ref": "e84dKw",
+          "name": "HomeIndicator",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 810
+        },
+        {
+          "type": "frame",
+          "id": "m4xCL",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 0,
+          "name": "Scrim",
+          "width": 390,
+          "height": 844,
+          "fill": "$dialogScrim"
+        },
+        {
+          "type": "frame",
+          "id": "g2bHnY",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 483,
+          "name": "ConsentSheet",
+          "width": 390,
+          "fill": "$card",
+          "cornerRadius": [
+            22,
+            22,
+            0,
+            0
+          ],
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            10,
+            20,
+            40,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "CaIkB",
+              "name": "HandleWrap",
+              "width": "fill_container",
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 3,
+                  "id": "jk3pr",
+                  "name": "Handle",
+                  "fill": "$border",
+                  "width": 36,
+                  "height": 5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Y4OJRx",
+              "name": "Head",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 3,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ARIVs",
+                  "name": "Title",
+                  "fill": "$text",
+                  "content": "대본을 나누려면 동의가 필요해요",
+                  "fontFamily": "$font",
+                  "fontSize": 17,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "s8HJ1",
+                  "name": "Sub",
+                  "fill": "$textMuted",
+                  "content": "동의해야 대본을 넣을 수 있어요.",
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "OLSQ1",
+              "name": "Points",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                4,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Omuox",
+                  "name": "Point 보냄",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hD4SM",
+                      "name": "IconWrap",
+                      "padding": [
+                        3,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "P22Dv",
+                          "name": "Icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "send",
+                          "library": "feather",
+                          "fill": "$blue"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Xvq7t",
+                      "name": "Text",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "대본 글을 OpenAI로 보내 배역과 대사를 나눠요.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yLxjv",
+                  "name": "Point 보관",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uGeKk",
+                      "name": "IconWrap",
+                      "padding": [
+                        3,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "sq5JZ",
+                          "name": "Icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "archive",
+                          "library": "feather",
+                          "fill": "$blue"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "pnGWH",
+                      "name": "Text",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "넣은 파일은 대본과 함께 보관하고, 대본을 지우면 같이 지워요.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zIJnn",
+              "name": "Link 자세히 보기",
+              "gap": 2,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Eyuu2",
+                  "name": "Label",
+                  "fill": "$textDim",
+                  "content": "자세히 보기",
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon",
+                  "id": "N3PTC6",
+                  "name": "Chevron",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "chevron-right",
+                  "library": "feather",
+                  "fill": "$textDim"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "yQdL4",
+              "name": "Buttons",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                6,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kMFAT",
+                  "name": "Agree",
+                  "width": "fill_container",
+                  "fill": "$blue",
+                  "cornerRadius": 12,
+                  "padding": [
+                    15,
+                    0
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WXUDT",
+                      "name": "AgreeText",
+                      "fill": "#FFFFFF",
+                      "content": "동의하고 나누기",
+                      "fontFamily": "$font",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Tnh2W",
+                  "name": "Cancel",
+                  "width": "fill_container",
+                  "height": 48,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Q0sKl",
+                      "name": "CancelText",
+                      "fill": "$textMuted",
+                      "content": "취소",
+                      "fontFamily": "$font",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
