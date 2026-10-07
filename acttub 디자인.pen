@@ -1,5 +1,5 @@
 {
-  "version": "2.17",
+  "version": "2.20",
   "children": [
     {
       "type": "frame",
@@ -1691,8 +1691,8 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "images/acttub.com/39bc1690d485dbf3.png",
-                    "mode": "fit"
+                    "url": "acttub-wordmark.png",
+                    "mode": "contain"
                   }
                 },
                 {
@@ -3261,8 +3261,8 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "images/acttub.com/39bc1690d485dbf3.png",
-                    "mode": "fit"
+                    "url": "acttub-wordmark.png",
+                    "mode": "contain"
                   }
                 },
                 {
@@ -4482,8 +4482,8 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "images/acttub.com/39bc1690d485dbf3.png",
-                    "mode": "fit"
+                    "url": "acttub-wordmark.png",
+                    "mode": "contain"
                   }
                 },
                 {
@@ -5648,8 +5648,8 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "images/acttub.com/39bc1690d485dbf3.png",
-                    "mode": "fit"
+                    "url": "acttub-wordmark.png",
+                    "mode": "contain"
                   }
                 },
                 {
@@ -18688,7 +18688,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "ChatGPT_Image_2026%EB%85%84_7%EC%9B%94_1%EC%9D%BC_%EC%98%A4%ED%9B%84_08_07_04-removebg-preview%201.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 206,
               "height": 53
@@ -49243,7 +49243,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/acttub.com/39bc1690d485dbf3.png",
+                        "url": "acttub-wordmark.png",
                         "mode": "stretch"
                       },
                       "width": 98.72,
@@ -49484,7 +49484,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "images/acttub.com/02c989766556bd10.png",
+                            "url": "google-play-ko.png",
                             "mode": "stretch"
                           },
                           "width": 181.98,
@@ -51136,7 +51136,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "images/acttub.com/02c989766556bd10.png",
+                            "url": "google-play-ko.png",
                             "mode": "stretch"
                           },
                           "width": 181.98,
@@ -52262,7 +52262,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "images/acttub.com/02c989766556bd10.png",
+                                "url": "google-play-ko.png",
                                 "mode": "stretch"
                               },
                               "width": 147.99,
@@ -52488,7 +52488,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "images/acttub.com/39bc1690d485dbf3.png",
+                    "url": "acttub-wordmark.png",
                     "mode": "stretch"
                   },
                   "width": 98.72,
@@ -66834,7 +66834,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "images/acttub.com/02c989766556bd10.png",
+                            "url": "google-play-ko.png",
                             "mode": "stretch"
                           },
                           "width": 181.98,
@@ -67796,7 +67796,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "images/acttub.com/39bc1690d485dbf3.png",
+                    "url": "acttub-wordmark.png",
                     "mode": "stretch"
                   },
                   "width": 86.36,
@@ -68042,7 +68042,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "images/acttub.com/02c989766556bd10.png",
+                                "url": "google-play-ko.png",
                                 "mode": "stretch"
                               },
                               "width": 147.99,
@@ -81681,8 +81681,8 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "images/acttub.com/39bc1690d485dbf3.png",
-                    "mode": "fit"
+                    "url": "acttub-wordmark.png",
+                    "mode": "contain"
                   }
                 },
                 {
@@ -84873,8 +84873,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/coo.acttub.com/fd6d0bf7fe52999c.jpg",
-                        "mode": "fill"
+                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "mode": "cover"
                       },
                       "width": 390,
                       "height": 844.18
@@ -85608,8 +85608,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/coo.acttub.com/fd6d0bf7fe52999c.jpg",
-                        "mode": "fill"
+                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "mode": "cover"
                       },
                       "width": 390,
                       "height": 844.18
@@ -86343,8 +86343,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/coo.acttub.com/fd6d0bf7fe52999c.jpg",
-                        "mode": "fill"
+                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "mode": "cover"
                       },
                       "width": 390,
                       "height": 844.18
@@ -87210,8 +87210,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/coo.acttub.com/fd6d0bf7fe52999c.jpg",
-                        "mode": "fill"
+                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "mode": "cover"
                       },
                       "cornerRadius": 16,
                       "layout": "vertical",
@@ -88780,8 +88780,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/coo.acttub.com/fd6d0bf7fe52999c.jpg",
-                        "mode": "fill"
+                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "mode": "cover"
                       },
                       "width": 55.99,
                       "height": 73.98
@@ -88933,8 +88933,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/coo.acttub.com/025dd175ce174bf2.jpg",
-                        "mode": "fill"
+                        "url": "images/site/025dd175ce174bf2.jpg",
+                        "mode": "cover"
                       },
                       "width": 55.99,
                       "height": 73.98
@@ -89086,8 +89086,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/coo.acttub.com/116b3d6e9b15c37f.jpg",
-                        "mode": "fill"
+                        "url": "images/site/116b3d6e9b15c37f.jpg",
+                        "mode": "cover"
                       },
                       "width": 55.99,
                       "height": 73.98
@@ -89239,8 +89239,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/coo.acttub.com/b4f053fecd34aa50.jpg",
-                        "mode": "fill"
+                        "url": "images/site/b4f053fecd34aa50.jpg",
+                        "mode": "cover"
                       },
                       "width": 55.99,
                       "height": 73.98
@@ -89392,8 +89392,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/coo.acttub.com/b6d0e394bf8651dd.jpg",
-                        "mode": "fill"
+                        "url": "images/site/b6d0e394bf8651dd.jpg",
+                        "mode": "cover"
                       },
                       "width": 55.99,
                       "height": 73.98
@@ -89616,8 +89616,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/coo.acttub.com/fd6d0bf7fe52999c.jpg",
-                        "mode": "fill"
+                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "mode": "cover"
                       },
                       "width": 390,
                       "height": 844.18
@@ -90514,7 +90514,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "embedded-image.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "width": 390,
               "height": 844.18
@@ -90636,7 +90636,7 @@
                   "type": "image",
                   "enabled": true,
                   "url": "embedded-image-1.jpg",
-                  "mode": "fill"
+                  "mode": "cover"
                 }
               ],
               "width": 119.99,
@@ -91143,7 +91143,7 @@
                   "type": "image",
                   "enabled": true,
                   "url": "embedded-image-1.jpg",
-                  "mode": "fill"
+                  "mode": "cover"
                 }
               ],
               "width": 119.99,
@@ -92574,7 +92574,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "images/site/b4f053fecd34aa50.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "width": 55.99,
                       "height": 73.98
@@ -92727,7 +92727,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "images/site/b6d0e394bf8651dd.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "width": 55.99,
                       "height": 73.98
@@ -92880,7 +92880,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "images/site/116b3d6e9b15c37f.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "width": 55.99,
                       "height": 73.98
@@ -93033,7 +93033,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "images/site/025dd175ce174bf2.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "width": 55.99,
                       "height": 73.98
@@ -93186,7 +93186,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "images/site/fd6d0bf7fe52999c.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "width": 55.99,
                       "height": 73.98
@@ -93341,7 +93341,7 @@
         "type": "image",
         "enabled": true,
         "url": "image.png",
-        "mode": "fill"
+        "mode": "cover"
       },
       "width": 630,
       "height": 232
@@ -96574,8 +96574,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "source/acttub-wordmark.png",
-                        "mode": "fit"
+                        "url": "acttub-wordmark.png",
+                        "mode": "contain"
                       }
                     },
                     {
@@ -105626,8 +105626,8 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "source/acttub-wordmark.png",
-                    "mode": "fit"
+                    "url": "acttub-wordmark.png",
+                    "mode": "contain"
                   }
                 },
                 {
@@ -110240,8 +110240,8 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "source/acttub-wordmark.png",
-                    "mode": "fit"
+                    "url": "acttub-wordmark.png",
+                    "mode": "contain"
                   }
                 },
                 {
@@ -117963,7 +117963,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "acttub-wordmark.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 99,
               "height": 24
@@ -119253,7 +119253,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "appstore-badge-ko.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 143,
                   "height": 44
@@ -119267,7 +119267,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "google-play-ko.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 148,
                   "height": 44
@@ -119848,7 +119848,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "appstore-badge-ko.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 130,
                   "height": 40
@@ -119862,7 +119862,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "google-play-ko.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 135,
                   "height": 40
@@ -119913,7 +119913,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "acttub-wordmark.png",
-                "mode": "fit"
+                "mode": "contain"
               },
               "width": 99,
               "height": 24
@@ -120061,7 +120061,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "acttub-wordmark.png",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "width": 99,
                   "height": 24
@@ -121825,7 +121825,7 @@
                             "type": "image",
                             "enabled": true,
                             "url": "appstore-badge-ko.png",
-                            "mode": "fit"
+                            "mode": "contain"
                           },
                           "width": 175,
                           "height": 54
@@ -121839,7 +121839,7 @@
                             "type": "image",
                             "enabled": true,
                             "url": "google-play-ko.png",
-                            "mode": "fit"
+                            "mode": "contain"
                           },
                           "width": 182,
                           "height": 54
@@ -122115,7 +122115,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "acttub-wordmark.png",
-                        "mode": "fit"
+                        "mode": "contain"
                       },
                       "width": 99,
                       "height": 24
@@ -122163,7 +122163,7 @@
                             "type": "image",
                             "enabled": true,
                             "url": "appstore-badge-ko.png",
-                            "mode": "fit"
+                            "mode": "contain"
                           },
                           "width": 143,
                           "height": 44
@@ -122177,7 +122177,7 @@
                             "type": "image",
                             "enabled": true,
                             "url": "google-play-ko.png",
-                            "mode": "fit"
+                            "mode": "contain"
                           },
                           "width": 148,
                           "height": 44
@@ -125212,8 +125212,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/coo.acttub.com/fd6d0bf7fe52999c.jpg",
-                        "mode": "fill"
+                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "mode": "cover"
                       },
                       "width": 390,
                       "height": 844.18
@@ -126970,8 +126970,8 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_10%20(6).png",
-        "mode": "fill"
+        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_10%20(6).png",
+        "mode": "cover"
       },
       "width": 1254,
       "height": 1254
@@ -126984,8 +126984,8 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(9).png",
-        "mode": "fill"
+        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(9).png",
+        "mode": "cover"
       },
       "width": 1317,
       "height": 1194
@@ -126998,8 +126998,8 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_12%20(10).png",
-        "mode": "fill"
+        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_12%20(10).png",
+        "mode": "cover"
       },
       "width": 1222,
       "height": 1287
@@ -127012,8 +127012,8 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_17_52.png",
-        "mode": "fill"
+        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_17_52.png",
+        "mode": "cover"
       },
       "width": 1201,
       "height": 1309
@@ -127026,8 +127026,8 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_07%20(1).png",
-        "mode": "fill"
+        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_07%20(1).png",
+        "mode": "cover"
       },
       "width": 1159,
       "height": 1356
@@ -133683,8 +133683,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
-                        "mode": "fit"
+                        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                        "mode": "contain"
                       },
                       "layout": "none"
                     }
@@ -134582,8 +134582,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
-                        "mode": "fit"
+                        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                        "mode": "contain"
                       },
                       "layout": "none"
                     }
@@ -137187,8 +137187,8 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/coo.acttub.com/fd6d0bf7fe52999c.jpg",
-                        "mode": "fill"
+                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "mode": "cover"
                       },
                       "width": 390,
                       "height": 844.18

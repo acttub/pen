@@ -5,7 +5,21 @@ acttub 디자인 .pen 원본(Pencil, https://pen.dev).
 | 파일 | 무엇 |
 |---|---|
 | `acttub 디자인.pen` | 작업 정본. 캔버스를 **앱 · 웹앱 · 웹** 세 구역으로 나눠 한 문서에 둔다 (구 `RN앱 반영.pen`) |
+| `Acttub 모든 경우 화면.pen` | 리딩 개편(R1~R9)을 담은 앱 화면 정본. 이미지는 `images/app/` 를 쓴다 |
 | `RN앱 반영 (구본).pen` | 개명 전 `RN앱 반영.pen` 의 로컬 작업분(2026-09-04). 정본에 안 들어간 내용이 있을 수 있어 남겨 둔다 |
+
+## 이미지
+
+.pen 은 이미지를 파일로 품지 않고 `.pen` 위치 기준 상대경로(`fill.url`)로 읽는다.
+이미지를 옮기거나 이름을 바꾸면 그 이미지를 쓰는 화면이 깨지므로, 옮길 때는
+캔버스의 경로도 같이 고친다. 하위 폴더 경로도 정상으로 읽힌다.
+
+| 위치 | 무엇 |
+|---|---|
+| 루트 `*.png` · `*.jpg` | `acttub 디자인.pen` · 구본이 쓰는 이미지 (워드마크 · 스토어 배지 · 마스코트 등) |
+| `images/site/` | `acttub 디자인.pen` 이 쓰는 웹사이트 사진 |
+| `images/app/` | `Acttub 모든 경우 화면.pen` 이 쓰는 앱 이미지 |
+| `references/` | 디자인 참고용 생성 이미지 · 화면 캡처. 일부는 `acttub 디자인.pen` 캔버스에도 깔려 있다 |
 
 `목업v2.pen`(웹앱 프론트 정본, 프레임 53개)은 이 저장소에서 빠졌다. 커밋
 `62eaa01`에 남아 있어 필요하면 거기서 꺼낸다.
@@ -57,7 +71,7 @@ acttub 디자인 .pen 원본(Pencil, https://pen.dev).
   에서 이 파일을 열어 활성 창으로 만들 것. 안 그러면 다른 문서에 편집이 쌓인다
 - **루트에 `Insert` 로 새 프레임을 만들면 자식이 아래로 밀린다.** 기존 프레임을
   `Copy` 해서 시작하면 정상이다
-- 워드마크가 볼트 경로(`../Soma/planning/...`)를 참조해 이 저장소에서는 깨진다
+- `RN앱 반영 (구본).pen` 의 워드마크는 저장소 밖 볼트 경로(`../Soma/planning/...`)를 참조해 이 저장소에서는 깨진다
 - `.pen` 은 Pencil 앱으로만 연다(암호화 바이너리, git diff 무의미)
 
 ## 갱신 절차
@@ -65,5 +79,5 @@ acttub 디자인 .pen 원본(Pencil, https://pen.dev).
 Pencil 에서 저장(⌘S)한 뒤:
 
 ```
-cd ~/Desktop/Project/pen && git add -A && git commit -m "<변경 요약>" && git push
+cd ~/Documents/GitHub/acttub/pen && git add -A && git commit -m "<변경 요약>" && git push
 ```
