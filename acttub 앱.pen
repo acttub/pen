@@ -1,5 +1,5 @@
 {
-  "version": "2.20",
+  "version": "2.21",
   "children": [
     {
       "type": "frame",
@@ -1095,6 +1095,103 @@
                       "fontFamily": "$font",
                       "fontSize": 14,
                       "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zLTgM",
+              "name": "CloudVoiceWrap",
+              "width": "fill_container",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VlWC6",
+                  "name": "CloudVoice",
+                  "width": "fill_container",
+                  "fill": "$blueMist",
+                  "cornerRadius": 12,
+                  "stroke": "$blueLine",
+                  "strokeWidth": 1,
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    8,
+                    8,
+                    12
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BlT2p",
+                      "name": "Info",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Z8K1gU",
+                          "name": "volume-2",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "volume-2",
+                          "library": "feather",
+                          "fill": "$blue"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VdKET",
+                          "name": "CloudVoiceText",
+                          "fill": "$textDim",
+                          "content": "고품질 AI 목소리로 읽어줘요",
+                          "fontFamily": "$font",
+                          "fontSize": 12.5,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZsfEj",
+                          "name": "FreeTag",
+                          "fill": "$blueSoft",
+                          "cornerRadius": 6,
+                          "padding": [
+                            3,
+                            6
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t2PpP",
+                              "name": "FreeText",
+                              "fill": "$blue",
+                              "content": "10월 31일까지 무료",
+                              "fontFamily": "$font",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "RuMXc",
+                      "type": "ref",
+                      "ref": "J4WcM",
+                      "name": "VoiceSwitch",
+                      "width": 38,
+                      "height": 23,
+                      "cornerRadius": 11.5,
+                      "descendants": {
+                        "w42w5": {
+                          "width": 19,
+                          "height": 19
+                        }
+                      }
                     }
                   ]
                 }
@@ -48242,7 +48339,7 @@
       "name": "P3.1 새 연습 준비 · 영상 고르기 — 아직 없음 · 전체 스크롤",
       "clip": true,
       "width": 390,
-      "height": 1448,
+      "height": 859,
       "fill": "$bg",
       "layout": "vertical",
       "children": [
@@ -48269,7 +48366,7 @@
           "name": "Body",
           "clip": true,
           "width": "fill_container",
-          "height": 1211,
+          "height": 648,
           "layout": "none",
           "children": [
             {
@@ -48354,357 +48451,12 @@
                       "fontFamily": "$font",
                       "fontSize": 12,
                       "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "eXuhA",
-                      "name": "PickActions",
-                      "width": "fill_container",
-                      "gap": 10,
-                      "padding": [
-                        16,
-                        0,
-                        0,
-                        0
-                      ],
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "AWgLp",
-                          "name": "LibraryBtn",
-                          "width": "fill_container",
-                          "fill": "$blue",
-                          "cornerRadius": 12,
-                          "padding": [
-                            13,
-                            0
-                          ],
-                          "justifyContent": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "l85fsT",
-                              "name": "LibraryLabel",
-                              "fill": "#FFFFFF",
-                              "content": "보관함에서 고르기",
-                              "fontFamily": "$font",
-                              "fontSize": 15,
-                              "fontWeight": "700"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "v2go3Y",
-                          "name": "RecordBtn",
-                          "width": "fill_container",
-                          "fill": "$bgSoft",
-                          "cornerRadius": 12,
-                          "padding": [
-                            13,
-                            0
-                          ],
-                          "justifyContent": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "EvvMv",
-                              "name": "RecordLabel",
-                              "fill": "$textDim",
-                              "content": "촬영하기",
-                              "fontFamily": "$font",
-                              "fontSize": 15,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "TfZhS",
-                      "name": "GalleryLinkWrap",
-                      "padding": [
-                        12,
-                        0,
-                        0,
-                        0
-                      ],
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "AtvUN",
-                          "name": "GalleryLink",
-                          "fill": "$blueDeep",
-                          "content": "갤러리에서 고르기",
-                          "fontFamily": "$font",
-                          "fontSize": 13,
-                          "fontWeight": "700"
-                        }
-                      ]
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "K2UUp",
-                  "name": "ContinueRow",
-                  "padding": [
-                    6,
-                    0
-                  ],
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "b9xkR",
-                      "name": "ContinueText",
-                      "fill": "$blueDeep",
-                      "content": "이전 연습 이어서 하기",
-                      "fontFamily": "$font",
-                      "fontSize": 13.5,
-                      "fontWeight": "800"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "TQHwl",
-                  "name": "SceneCard",
-                  "width": "fill_container",
-                  "fill": "$bg",
-                  "cornerRadius": 18,
-                  "stroke": "$borderSoft",
-                  "strokeWidth": 1,
-                  "layout": "vertical",
-                  "gap": 12,
-                  "padding": 16,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "bs8Cb",
-                      "name": "SceneTitle",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "KSxfk",
-                          "name": "SceneTitle1",
-                          "fill": "$text",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "이 장면에서 무엇을 연기했는지",
-                          "lineHeight": 1.4,
-                          "fontFamily": "$font",
-                          "fontSize": 15,
-                          "fontWeight": "900"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "B1udkJ",
-                          "name": "SceneTitleLine2",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "QeJLE",
-                              "name": "SceneTitle2",
-                              "fill": "$text",
-                              "content": "알려 주세요",
-                              "lineHeight": 1.4,
-                              "fontFamily": "$font",
-                              "fontSize": 15,
-                              "fontWeight": "900"
-                            },
-                            {
-                              "type": "text",
-                              "id": "UdlMG",
-                              "name": "SceneOptional",
-                              "fill": "$textFaint",
-                              "content": " (선택)",
-                              "lineHeight": 1.4,
-                              "fontFamily": "$font",
-                              "fontSize": 15,
-                              "fontWeight": "700"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "iAXSF",
-                      "name": "SceneHint",
-                      "fill": "$textFaint",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "비워 두셔도 돼요. 적어 주시면 분석이 더 정확해져요.",
-                      "lineHeight": 1.45,
-                      "fontFamily": "$font",
-                      "fontSize": 12.5,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "U7uk6",
-                      "name": "Fields",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 12,
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "Cg8IR",
-                          "name": "SituationField",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 6,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "XNQvb",
-                              "name": "SituationLabel",
-                              "fill": "$textMuted",
-                              "content": "상황",
-                              "fontFamily": "$font",
-                              "fontSize": 12.5,
-                              "fontWeight": "800"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "mUzOY",
-                              "name": "SituationInput",
-                              "width": "fill_container",
-                              "height": 46,
-                              "fill": "$bgSoft",
-                              "cornerRadius": 12,
-                              "layout": "vertical",
-                              "padding": [
-                                12,
-                                14
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "oa4XP",
-                                  "name": "SituationInputText",
-                                  "fill": "$checkOff",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "예: 이별을 통보받은 직후, 카페에서",
-                                  "lineHeight": 1.4,
-                                  "fontFamily": "$font",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "SOK3I",
-                          "name": "CharacterField",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 6,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "I7WAp",
-                              "name": "CharacterLabel",
-                              "fill": "$textMuted",
-                              "content": "인물",
-                              "fontFamily": "$font",
-                              "fontSize": 12.5,
-                              "fontWeight": "800"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "X5aKKE",
-                              "name": "CharacterInput",
-                              "width": "fill_container",
-                              "height": 46,
-                              "fill": "$bgSoft",
-                              "cornerRadius": 12,
-                              "layout": "vertical",
-                              "padding": [
-                                12,
-                                14
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "VXeXx",
-                                  "name": "CharacterInputText",
-                                  "fill": "$checkOff",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "예: 담담한 척하는 20대 후반 여성",
-                                  "lineHeight": 1.4,
-                                  "fontFamily": "$font",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "G1XMEY",
-                          "name": "GoalField",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 6,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "u9d15",
-                              "name": "GoalLabel",
-                              "fill": "$textMuted",
-                              "content": "목표",
-                              "fontFamily": "$font",
-                              "fontSize": 12.5,
-                              "fontWeight": "800"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "bZIGp",
-                              "name": "GoalInput",
-                              "width": "fill_container",
-                              "height": 72,
-                              "fill": "$bgSoft",
-                              "cornerRadius": 12,
-                              "layout": "vertical",
-                              "padding": [
-                                12,
-                                14
-                              ],
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "GeJGY",
-                                  "name": "GoalInputText",
-                                  "fill": "$checkOff",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "예: 상대가 마음을 돌려 다시 앉게 만들기",
-                                  "lineHeight": 1.4,
-                                  "fontFamily": "$font",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "KDk0J",
+                  "id": "x0xtmf",
                   "name": "HelpCard",
                   "width": "fill_container",
                   "fill": "$bg",
@@ -48717,38 +48469,25 @@
                   "children": [
                     {
                       "type": "text",
-                      "id": "Syu03",
+                      "id": "j9w6RR",
                       "name": "HelpTitle",
                       "fill": "$text",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "이번 연습에서 어떤 도움을 받고 싶나요?",
+                      "content": "이번 연습에서 어떤 도움을 받고 싶나요? (선택)",
                       "lineHeight": 1.4,
                       "fontFamily": "$font",
                       "fontSize": 15,
                       "fontWeight": "900"
                     },
                     {
-                      "type": "text",
-                      "id": "h3zHx",
-                      "name": "HelpHint",
-                      "fill": "$textFaint",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "고르지 않아도 영상에서 보이는 것부터 같이 찾아요.",
-                      "lineHeight": 1.45,
-                      "fontFamily": "$font",
-                      "fontSize": 12.5,
-                      "fontWeight": "600"
-                    },
-                    {
                       "type": "frame",
-                      "id": "U6QoO",
+                      "id": "JlC3m",
                       "name": "CategoryChips",
                       "gap": 8,
                       "children": [
                         {
-                          "id": "dm3LT",
+                          "id": "xJQ0r",
                           "type": "ref",
                           "ref": "zvHYs",
                           "name": "Chip 대사 분석",
@@ -48759,7 +48498,7 @@
                           }
                         },
                         {
-                          "id": "QZzWv",
+                          "id": "K1sTi",
                           "type": "ref",
                           "ref": "zvHYs",
                           "name": "Chip 연기 표현",
@@ -48770,13 +48509,13 @@
                           }
                         },
                         {
-                          "id": "i1bQKQ",
+                          "id": "vQx05",
                           "type": "ref",
                           "ref": "zvHYs",
                           "name": "Chip 잘 모르겠어요",
                           "descendants": {
                             "eYMLL": {
-                              "content": "잘 모르겠어요"
+                              "content": "그 외"
                             }
                           }
                         }
@@ -48784,7 +48523,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "P3tqi",
+                      "id": "f12x7",
                       "name": "DetailTitleWrap",
                       "width": "fill_container",
                       "padding": [
@@ -48796,12 +48535,12 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "duQeM",
+                          "id": "kFBYx",
                           "name": "DetailTitle",
                           "fill": "$text",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "상세히 적어 주세요",
+                          "content": "상세히 적어 주세요 (선택)",
                           "lineHeight": 1.4,
                           "fontFamily": "$font",
                           "fontSize": 15,
@@ -48810,21 +48549,8 @@
                       ]
                     },
                     {
-                      "type": "text",
-                      "id": "pCHXR",
-                      "name": "DetailHint",
-                      "fill": "$textFaint",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "안 적어도 괜찮아요. 적으면 질문이 더 맞아떨어져요.",
-                      "lineHeight": 1.45,
-                      "fontFamily": "$font",
-                      "fontSize": 12.5,
-                      "fontWeight": "600"
-                    },
-                    {
                       "type": "frame",
-                      "id": "RvUzE",
+                      "id": "Vx7K1",
                       "name": "NoteInput",
                       "width": "fill_container",
                       "height": 72,
@@ -48838,7 +48564,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "Y9I9gE",
+                          "id": "YtKSa",
                           "name": "NoteInputText",
                           "fill": "$checkOff",
                           "textGrowth": "fixed-width",
@@ -113783,12 +113509,6 @@
           "name": "Strip"
         },
         {
-          "id": "CyPAb",
-          "type": "ref",
-          "ref": "LlcIw",
-          "name": "Progress"
-        },
-        {
           "type": "frame",
           "id": "HM3Zh",
           "name": "Body",
@@ -113811,6 +113531,9 @@
               "name": "Question",
               "width": "fill_container",
               "descendants": {
+                "cEHmo": {
+                  "content": "그때 서연은 무엇을 결심하고 있었나요? 그때 서연은 무엇을 결심하고 있었나요? 그때 서연은 무엇을 결심하고 있었나요? 그때 서연은 무엇을 결심하고 있었나요? "
+                },
                 "YGkDT": {
                   "enabled": false
                 }
@@ -113822,7 +113545,44 @@
           "id": "lVaWN",
           "type": "ref",
           "ref": "UUwH4",
-          "name": "Composer"
+          "name": "Composer",
+          "descendants": {
+            "gCP01": {
+              "content": "답이나 질문을 편하게 적어 주세요"
+            },
+            "GCyRl": {
+              "flipX": false,
+              "flipY": false,
+              "width": "fill_container",
+              "height": 49,
+              "x": 52,
+              "y": 0
+            },
+            "PcTf4": {
+              "content": "자동완성으로 답변 완성하기"
+            },
+            "U6ekZp": {
+              "cornerRadius": 14
+            },
+            "ADGQ8": {
+              "content": "맞아요"
+            },
+            "XOPhw": {
+              "cornerRadius": 14
+            },
+            "ca06S": {
+              "content": "아니요"
+            },
+            "H7ayj": {
+              "cornerRadius": 14
+            },
+            "X990t6": {
+              "content": "그만하기"
+            },
+            "N6myne": {
+              "enabled": false
+            }
+          }
         },
         {
           "id": "goRjf",
@@ -238055,7 +237815,7 @@
       "id": "Q92aU",
       "x": 0,
       "y": -1900,
-      "name": "구역 S1–S5",
+      "name": "시작 · 로그인 · 가입",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238080,9 +237840,9 @@
             {
               "type": "text",
               "id": "qQfxj",
-              "name": "구역 ID",
+              "name": "기능별 구역 제목",
               "fill": "$text",
-              "content": "S1–S5",
+              "content": "시작 · 로그인 · 가입",
               "fontFamily": "$font",
               "fontSize": 96,
               "fontWeight": "800"
@@ -238133,7 +237893,7 @@
       "id": "FTe1F",
       "x": 12000,
       "y": -1900,
-      "name": "구역 S6–S13",
+      "name": "프로필 편집 · 이용 가이드",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238158,9 +237918,9 @@
             {
               "type": "text",
               "id": "u446rh",
-              "name": "구역 ID",
+              "name": "기능별 구역 제목",
               "fill": "$text",
-              "content": "S6–S13",
+              "content": "프로필 편집 · 이용 가이드",
               "fontFamily": "$font",
               "fontSize": 96,
               "fontWeight": "800"
@@ -238211,7 +237971,7 @@
       "id": "Ci9dq",
       "x": 24000,
       "y": -1900,
-      "name": "구역 S14–S16",
+      "name": "내 프로필 · 설정 · 포트폴리오",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238236,9 +237996,9 @@
             {
               "type": "text",
               "id": "S7xA3l",
-              "name": "구역 ID",
+              "name": "기능별 구역 제목",
               "fill": "$text",
-              "content": "S14–S16",
+              "content": "내 프로필 · 설정 · 포트폴리오",
               "fontFamily": "$font",
               "fontSize": 96,
               "fontWeight": "800"
@@ -238289,7 +238049,7 @@
       "id": "Dzfb8",
       "x": 36000,
       "y": -1900,
-      "name": "구역 S17–S20",
+      "name": "계정 관리 · 알림 · 탭 이동",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238314,9 +238074,9 @@
             {
               "type": "text",
               "id": "M2sDFT",
-              "name": "구역 ID",
+              "name": "기능별 구역 제목",
               "fill": "$text",
-              "content": "S17–S20",
+              "content": "계정 관리 · 알림 · 탭 이동",
               "fontFamily": "$font",
               "fontSize": 96,
               "fontWeight": "800"
@@ -238367,7 +238127,7 @@
       "id": "V2W3Y8",
       "x": 48000,
       "y": -1900,
-      "name": "구역 R1–R4",
+      "name": "대본 관리",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238385,9 +238145,9 @@
         {
           "type": "text",
           "id": "S272ND",
-          "name": "구역 ID",
+          "name": "기능별 구역 제목",
           "fill": "$text",
-          "content": "R1–R4",
+          "content": "대본 관리",
           "fontFamily": "$font",
           "fontSize": 96,
           "fontWeight": "800"
@@ -238409,7 +238169,7 @@
       "id": "k1dbfq",
       "x": 60000,
       "y": -1900,
-      "name": "구역 R8",
+      "name": "리딩 연습 준비",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238427,9 +238187,9 @@
         {
           "type": "text",
           "id": "CQoSm",
-          "name": "구역 ID",
+          "name": "기능별 구역 제목",
           "fill": "$text",
-          "content": "R8",
+          "content": "리딩 연습 준비",
           "fontFamily": "$font",
           "fontSize": 96,
           "fontWeight": "800"
@@ -238451,7 +238211,7 @@
       "id": "JKdgP",
       "x": 72000,
       "y": -1900,
-      "name": "구역 R9",
+      "name": "리딩 연습 실행",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238469,9 +238229,9 @@
         {
           "type": "text",
           "id": "XC79S",
-          "name": "구역 ID",
+          "name": "기능별 구역 제목",
           "fill": "$text",
-          "content": "R9",
+          "content": "리딩 연습 실행",
           "fontFamily": "$font",
           "fontSize": 96,
           "fontWeight": "800"
@@ -238493,7 +238253,7 @@
       "id": "wTKgu",
       "x": 84000,
       "y": -1900,
-      "name": "구역 R12",
+      "name": "고품질 목소리 동의",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238511,9 +238271,9 @@
         {
           "type": "text",
           "id": "pGrz6",
-          "name": "구역 ID",
+          "name": "기능별 구역 제목",
           "fill": "$text",
-          "content": "R12",
+          "content": "고품질 목소리 동의",
           "fontFamily": "$font",
           "fontSize": 96,
           "fontWeight": "800"
@@ -238535,7 +238295,7 @@
       "id": "D4Fs6",
       "x": 96000,
       "y": -1900,
-      "name": "구역 P0–P2",
+      "name": "홈 · 연습 촬영",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238553,9 +238313,9 @@
         {
           "type": "text",
           "id": "w1QUIH",
-          "name": "구역 ID",
+          "name": "기능별 구역 제목",
           "fill": "$text",
-          "content": "P0–P2",
+          "content": "홈 · 연습 촬영",
           "fontFamily": "$font",
           "fontSize": 96,
           "fontWeight": "800"
@@ -238577,7 +238337,7 @@
       "id": "iOOVq",
       "x": 108000,
       "y": -1900,
-      "name": "구역 P3–P4",
+      "name": "연습 준비 · 영상 분석",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238595,9 +238355,9 @@
         {
           "type": "text",
           "id": "Q1tR4X",
-          "name": "구역 ID",
+          "name": "기능별 구역 제목",
           "fill": "$text",
-          "content": "P3–P4",
+          "content": "연습 준비 · 영상 분석",
           "fontFamily": "$font",
           "fontSize": 96,
           "fontWeight": "800"
@@ -238619,7 +238379,7 @@
       "id": "Wr30e",
       "x": 120000,
       "y": -1900,
-      "name": "구역 P5–P7",
+      "name": "코칭 대화 · 연습 노트",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238637,9 +238397,9 @@
         {
           "type": "text",
           "id": "GZSC5",
-          "name": "구역 ID",
+          "name": "기능별 구역 제목",
           "fill": "$text",
-          "content": "P5–P7",
+          "content": "코칭 대화 · 연습 노트",
           "fontFamily": "$font",
           "fontSize": 96,
           "fontWeight": "800"
@@ -238661,7 +238421,7 @@
       "id": "iMU8U",
       "x": 132000,
       "y": -1900,
-      "name": "구역 P8–P12",
+      "name": "코치 기억 · 연습 기록 · 보관함",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238679,9 +238439,9 @@
         {
           "type": "text",
           "id": "l6ZSeg",
-          "name": "구역 ID",
+          "name": "기능별 구역 제목",
           "fill": "$text",
-          "content": "P8–P12",
+          "content": "코치 기억 · 연습 기록 · 보관함",
           "fontFamily": "$font",
           "fontSize": 96,
           "fontWeight": "800"
@@ -238703,7 +238463,7 @@
       "id": "vgVrL",
       "x": 144000,
       "y": -1900,
-      "name": "구역 C1–C4",
+      "name": "챌린지 탐색 · 대사 등록",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238721,9 +238481,9 @@
         {
           "type": "text",
           "id": "wLyFT",
-          "name": "구역 ID",
+          "name": "기능별 구역 제목",
           "fill": "$text",
-          "content": "C1–C4",
+          "content": "챌린지 탐색 · 대사 등록",
           "fontFamily": "$font",
           "fontSize": 96,
           "fontWeight": "800"
@@ -238745,7 +238505,7 @@
       "id": "qvGjP",
       "x": 156000,
       "y": -1900,
-      "name": "구역 C5, C13",
+      "name": "대사 상세 · 랭킹 · 공유",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238763,9 +238523,9 @@
         {
           "type": "text",
           "id": "GVhj7",
-          "name": "구역 ID",
+          "name": "기능별 구역 제목",
           "fill": "$text",
-          "content": "C5, C13",
+          "content": "대사 상세 · 랭킹 · 공유",
           "fontFamily": "$font",
           "fontSize": 96,
           "fontWeight": "800"
@@ -238787,7 +238547,7 @@
       "id": "zA98v",
       "x": 168000,
       "y": -1900,
-      "name": "구역 C6–C8",
+      "name": "챌린지 피드 · 댓글 · 신고",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238805,9 +238565,9 @@
         {
           "type": "text",
           "id": "bOK40",
-          "name": "구역 ID",
+          "name": "기능별 구역 제목",
           "fill": "$text",
-          "content": "C6–C8",
+          "content": "챌린지 피드 · 댓글 · 신고",
           "fontFamily": "$font",
           "fontSize": 96,
           "fontWeight": "800"
@@ -238829,7 +238589,7 @@
       "id": "iBNM7",
       "x": 180000,
       "y": -1900,
-      "name": "구역 C9–C10",
+      "name": "영상 올리기 · AI 리포트",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238847,9 +238607,9 @@
         {
           "type": "text",
           "id": "WSCmK",
-          "name": "구역 ID",
+          "name": "기능별 구역 제목",
           "fill": "$text",
-          "content": "C9–C10",
+          "content": "영상 올리기 · AI 리포트",
           "fontFamily": "$font",
           "fontSize": 96,
           "fontWeight": "800"
@@ -238871,7 +238631,7 @@
       "id": "z7vECH",
       "x": 192000,
       "y": -1900,
-      "name": "구역 C11–C15",
+      "name": "챌린지 기록 · 저장 · 입시 정보",
       "width": 6900,
       "stroke": "$text",
       "strokeWidth": {
@@ -238889,9 +238649,9 @@
         {
           "type": "text",
           "id": "uxC2W",
-          "name": "구역 ID",
+          "name": "기능별 구역 제목",
           "fill": "$text",
-          "content": "C11–C15",
+          "content": "챌린지 기록 · 저장 · 입시 정보",
           "fontFamily": "$font",
           "fontSize": 96,
           "fontWeight": "800"
@@ -265334,6 +265094,461 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "id": "MICo7",
+      "x": 108910,
+      "y": -277,
+      "width": 250,
+      "height": 219,
+      "content": "옆에 클릭하면 예전 팝업 처럼 나오게"
+    },
+    {
+      "type": "prompt",
+      "id": "MRHVR",
+      "x": 120154.70117409858,
+      "y": 2747.3790107868117,
+      "width": 250,
+      "height": 219,
+      "content": "코치 임티 넣기"
+    },
+    {
+      "type": "frame",
+      "id": "rXez5",
+      "x": 126530,
+      "y": 2168,
+      "name": "P6.2 연습 노트 · 노트 보기 — 마스코트 A(응원 말풍선)",
+      "clip": true,
+      "width": 390,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "aVE3E",
+          "type": "ref",
+          "ref": "XfrjI",
+          "name": "StatusBar"
+        },
+        {
+          "id": "kz0PP",
+          "type": "ref",
+          "ref": "M6ZbSa",
+          "name": "NavHeader",
+          "descendants": {
+            "o7EV8": {
+              "enabled": false
+            },
+            "R4eY0": {
+              "content": "연습 노트"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "TVwhV",
+          "name": "StatusRow",
+          "width": "fill_container",
+          "padding": [
+            0,
+            20,
+            10,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "b8MuUB",
+              "name": "Kind",
+              "fill": "$blue",
+              "content": "다음에 해볼 것까지",
+              "fontFamily": "$font",
+              "fontSize": 12,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "M6iwH",
+              "name": "FoldLink",
+              "fill": "$textFaint",
+              "content": "영상·장면 보기 ▾",
+              "fontFamily": "$font",
+              "fontSize": 12,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "L3k27A",
+          "name": "Body",
+          "clip": true,
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 22,
+          "padding": [
+            0,
+            20,
+            40,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "L5ReGL",
+              "name": "NoteBlock",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ptOYe",
+                  "name": "Heading",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "L7eOzg",
+                      "name": "Title",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "말하기 직전의 멈춤",
+                      "lineHeight": 1.417,
+                      "fontFamily": "$font",
+                      "fontSize": 24,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xfmNw",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Fallback",
+                      "enabled": false,
+                      "fill": "$amber",
+                      "content": "정리를 다 만들지 못해 확인된 것만 담았어요.",
+                      "fontFamily": "$font",
+                      "fontSize": 12.5,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VeS15",
+                  "name": "SummarySection",
+                  "width": "fill_container",
+                  "stroke": "$borderSoft",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RAyvh",
+                      "name": "Label",
+                      "fill": "$textDim",
+                      "content": "이번 대화에서",
+                      "fontFamily": "$font",
+                      "fontSize": 12,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DLEN4",
+                      "name": "Quote1",
+                      "width": "fill_container",
+                      "fill": "$bgSubtle",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZqwCk",
+                          "name": "QuoteText",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "컵을 내려놓으면서 더는 미루지 않겠다고 마음먹었어요.",
+                          "lineHeight": 1.613,
+                          "fontFamily": "$font",
+                          "fontSize": 15.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "uD6lY",
+                          "name": "QuoteSource",
+                          "fill": "$textFaint",
+                          "content": "배우님 말",
+                          "fontFamily": "$font",
+                          "fontSize": 11.5,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "U4nFw",
+                      "name": "Quote2",
+                      "width": "fill_container",
+                      "fill": "$bgSubtle",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "U7LklW",
+                          "name": "QuoteText",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "대사 직후 시선을 아래로 떨어뜨린 채 2초간 멈춤",
+                          "lineHeight": 1.613,
+                          "fontFamily": "$font",
+                          "fontSize": 15.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "AVxHk",
+                          "name": "QuoteSource",
+                          "fill": "$textFaint",
+                          "content": "영상에서 본 것",
+                          "fontFamily": "$font",
+                          "fontSize": 11.5,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "DqVUl",
+                      "x": 0,
+                      "y": 0,
+                      "name": "SummaryText",
+                      "enabled": false,
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container(0)",
+                      "content": "이번에는 짧게 나눴어요.",
+                      "lineHeight": 1.625,
+                      "fontFamily": "$font",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "h2GQa",
+                  "name": "NextSection",
+                  "width": "fill_container",
+                  "stroke": "$borderSoft",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "u3YstJ",
+                      "name": "Label",
+                      "fill": "$textDim",
+                      "content": "다음 촬영에서 해볼 한 가지",
+                      "fontFamily": "$font",
+                      "fontSize": 12,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U2ZSc",
+                      "name": "NextText",
+                      "fill": "$text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "다음 테이크에서는 \"우리 그만하자\" 뒤에 한 박자 동안 상대를 바라본 다음 시선을 거둬 보세요.",
+                      "lineHeight": 1.611,
+                      "fontFamily": "$font",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oUEYZ",
+                  "name": "CheerSection",
+                  "width": "fill_container",
+                  "stroke": "$borderSoft",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 10,
+                  "padding": [
+                    16,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "WGmH5",
+                      "name": "Mascot",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/app/mascot-cheer.png",
+                        "mode": "contain"
+                      },
+                      "width": 61,
+                      "height": 62
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fgCtj",
+                      "name": "Bubble",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": [
+                        14,
+                        14,
+                        14,
+                        4
+                      ],
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZyyMt",
+                          "name": "CheerText",
+                          "fill": "$textDim",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "오늘 촬영도 수고했어요.\n다음 촬영도 응원할게요!",
+                          "lineHeight": 1.643,
+                          "fontFamily": "$font",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CLW77",
+              "type": "ref",
+              "ref": "WAYZK",
+              "name": "Rating",
+              "width": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "eVXaV",
+              "name": "ButtonRow",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                8,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WfCTs",
+                  "name": "Primary",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "$blue",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uETaz",
+                      "name": "PrimaryLabel",
+                      "fill": "$bg",
+                      "content": "다음 연습",
+                      "fontFamily": "$font",
+                      "fontSize": 15,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "miSYS",
+                  "name": "Ghost",
+                  "width": "fill_container",
+                  "height": 52,
+                  "cornerRadius": 14,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "r0pyym",
+                      "name": "GhostLabel",
+                      "fill": "$textDim",
+                      "content": "연습 마치기",
+                      "fontFamily": "$font",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ZmHVv",
+          "type": "ref",
+          "ref": "e84dKw",
+          "name": "HomeIndicator"
         }
       ]
     }
