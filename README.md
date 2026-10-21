@@ -6,6 +6,7 @@ acttub 디자인 .pen 원본(Pencil, https://pen.dev).
 |---|---|
 | `acttub 앱.pen` | **앱 화면 정본.** 리딩 개편(R1~R9)을 담았다 |
 | `acttub 웹.pen` | **웹 화면 정본** (모바일 웹 · 데스크톱 웹) |
+| `acttub 앱 파이프라인 반영버전.pen` | 2026-10-21 실제 앱(dev, SOMA-748 개편·SOMA-790 반영)에서 갈 수 있는 화면 116개를 폰으로 찍어 영역별로 깐 캡처본. 새 디자인의 출발점 |
 
 옛 이름: `acttub 앱.pen` ← `Acttub 모든 경우 화면.pen`, `acttub 웹.pen` ← `acttub 디자인.pen` (← `RN앱 반영.pen`).
 개명 전 작업분 `RN앱 반영 (구본).pen` 은 지웠다. 커밋 `ed2af33` 에 남아 있다.
@@ -21,6 +22,7 @@ acttub 디자인 .pen 원본(Pencil, https://pen.dev).
 | 루트 `*.png` · `*.jpg` | `acttub 웹.pen` 이 쓰는 이미지 (워드마크 · 스토어 배지 · 마스코트 등) |
 | `images/site/` | `acttub 웹.pen` 이 쓰는 웹사이트 사진 |
 | `images/app/` | `acttub 앱.pen` 이 쓰는 앱 이미지 |
+| `images/app-capture-2026-10-21/` | `acttub 앱 파이프라인 반영버전.pen` 이 쓰는 폰 화면 캡처(개인 이메일은 흐림) |
 | `references/` | 디자인 참고용 생성 이미지 · 화면 캡처. 일부는 `acttub 웹.pen` 캔버스에도 깔려 있다 |
 
 `목업v2.pen`(웹앱 프론트 정본, 프레임 53개)은 이 저장소에서 빠졌다. 커밋

@@ -1,0 +1,4505 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "type": "frame",
+      "id": "N6ouh0",
+      "x": 0,
+      "y": 0,
+      "name": "① 시작·가입",
+      "fill": "#F5F6F8",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "Fincg",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "① 시작 · 가입 (13)",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "ERAYa",
+          "name": "Screens",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ucx1u",
+              "name": "로그인",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TXEnJ",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "로그인",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "l12Mzs",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-00-login.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fC4JC",
+              "name": "약관 동의",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JlPDj",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "약관 동의",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "dmglJ",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-01-consent.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vtCRp",
+              "name": "약관 동의 · 전체 동의",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AH5H7",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "약관 동의 · 전체 동의",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "K1sOtd",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-02-consent-all.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TkvPI",
+              "name": "광고성 정보 동의 결과 팝업(S5.13)",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gklvI",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "광고성 정보 동의 결과 팝업(S5.13)",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "ZUDWu",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-03-after-consent.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "o3K5sJ",
+              "name": "가입 시작",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "e4ZyMR",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "가입 시작",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "qkIjK",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-04-onboard-intro.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "X9Kjf6",
+              "name": "1/7 닉네임",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Hm1cX",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "1/7 닉네임",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "YNFLW",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-05-onboard-name.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MMZ8u",
+              "name": "2/7 생년월일",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "T8BZk",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "2/7 생년월일",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "mAtic",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-06-onboard-birth.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eX6wn",
+              "name": "3/7 성별",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xgtUt",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "3/7 성별",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "NVeVw",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-07-onboard-gender.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bvdci",
+              "name": "4/7 연기 목표",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vdvSH",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "4/7 연기 목표",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "ddszG",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-08-onboard-goal.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WpfFT",
+              "name": "5/7 연기 경력",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "c9soO",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "5/7 연기 경력",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "jzbJI",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-09-onboard-career.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m46YH",
+              "name": "6/7 추구하는 방향",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zxJHE",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "6/7 추구하는 방향",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "FOtF9",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-10-onboard-directions.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DB0rS",
+              "name": "7/7 알게 된 곳",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "v6FlZ",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "7/7 알게 된 곳",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "CiV9w",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-11-onboard-discovery.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UrVAc",
+              "name": "OS 알림 권한 창",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ekc4o",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "OS 알림 권한 창",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "FlEfT",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-12-push-permission.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "RMrlE",
+      "x": 0,
+      "y": 1120,
+      "name": "② 홈 · 하단 탭",
+      "fill": "#F5F6F8",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "x5AHBG",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "② 홈 · 하단 탭 (10)",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "VrT5B",
+          "name": "Screens",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "xnEdI",
+              "name": "홈 · 첫 사용자 「뭐부터 해 볼까요?」",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q2l80k",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "홈 · 첫 사용자 「뭐부터 해 볼까요?」",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "B2pOo2",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-13-home-first.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RnWV7",
+              "name": "코칭 탭 · 처음",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "M1A099",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "코칭 탭 · 처음",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "IcEUm",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-20-coaching.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GQroK",
+              "name": "대본 탭 · 첫 안내 말풍선",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JowLU",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "대본 탭 · 첫 안내 말풍선",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "WpwB9",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-21b-reading-spotlight.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TCGKs",
+              "name": "대본 탭",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "G3klMT",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "대본 탭",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "SSMoT",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-21-reading.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "q9kGh2",
+              "name": "챌린지 · 소개 1/3",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "k070v7",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "챌린지 · 소개 1/3",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "m6h1L",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-22b-challenge-intro.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R7ztz",
+              "name": "챌린지 · 소개 2/3",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TQZvQ",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "챌린지 · 소개 2/3",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "HZI8S",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-22c-challenge-intro2.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Q17JLt",
+              "name": "챌린지 · 소개 3/3",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UkWib",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "챌린지 · 소개 3/3",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "xpHef",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-22d-challenge-intro3.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "V1rjiT",
+              "name": "챌린지 탭",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aQO8a",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "챌린지 탭",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "VAg2q",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-22-challenges.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eWySV",
+              "name": "프로필 탭",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mVdT7",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "프로필 탭",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "lYAMQ",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-23-profile.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UDsEA",
+              "name": "연습 기록",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gYRGc",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "연습 기록",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "f6pZ6F",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-24-history.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "JLCg0",
+      "x": 0,
+      "y": 2240,
+      "name": "③ 코칭 · 대본 리딩",
+      "fill": "#F5F6F8",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "KVZRG",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "③ 코칭 · 대본 리딩 (5)",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "nZjhE",
+          "name": "Screens",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "KODDZ",
+              "name": "새 연습 1/2 · 목적",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XSW8Q",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "새 연습 1/2 · 목적",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "hsqv4",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-55-upload-purpose.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TS3WU",
+              "name": "새 연습 2/2 · 영상",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "L9blgb",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "새 연습 2/2 · 영상",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "IWWOG",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-56-upload-video.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "T8nASk",
+              "name": "찍는 법",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PpiwE",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "찍는 법",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "wK4Q9",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-39-record-guide.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "P6GqRY",
+              "name": "보관함",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "I0kOzJ",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "보관함",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "xpIgU",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-32-archive.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vVNUg",
+              "name": "새 대본 넣기",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ty0iN",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "새 대본 넣기",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "s677Sp",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-38-reading-new.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "q6VhR",
+      "x": 0,
+      "y": 3360,
+      "name": "④ 챌린지",
+      "fill": "#F5F6F8",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "TJwdy",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "④ 챌린지 (6)",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "bUxgM",
+          "name": "Screens",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "O2LZB",
+              "name": "챌린지 대사 상세",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DSI7m",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "챌린지 대사 상세",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "yWMgY",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-60-challenge-detail.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VkggI",
+              "name": "대사 검색",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "D2uYU",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "대사 검색",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "GXnCU",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-36-line-search.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z3iMB9",
+              "name": "새 대사 등록 1/3",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lyVyx",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "새 대사 등록 1/3",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "t6SacW",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-37-line-new.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jMACa",
+              "name": "저장한 영상",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "e9d2eF",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "저장한 영상",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "A7Ngqc",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-33-saved-videos.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "epQw7",
+              "name": "챌린지 기록",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mpF1w",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "챌린지 기록",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "ANKc5",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-34-challenge-entries.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "J1KAS",
+              "name": "지난주 결과",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lALTr",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "지난주 결과",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "E0FU9",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-35-challenge-result.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Bh18m",
+      "x": 0,
+      "y": 4480,
+      "name": "⑤ 입시 · 오디션",
+      "fill": "#F5F6F8",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "C932L",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "⑤ 입시 · 오디션 (3)",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "V76HVo",
+          "name": "Screens",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZGLC1",
+              "name": "연기 입시 정보",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aAZDs",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "연기 입시 정보",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "t2fNc2",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-30-admissions.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VG3Yp",
+              "name": "대학 상세",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wYno3",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "대학 상세",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "DhJMc",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-53-admissions-detail.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ya6sQ",
+              "name": "오디션 공고",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MRyI5",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "오디션 공고",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "Dey8F",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-31-auditions.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "xvAws",
+      "x": 0,
+      "y": 5600,
+      "name": "⑥ 프로필 · 설정 · 알림",
+      "fill": "#F5F6F8",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "bKfy3",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "⑥ 프로필 · 설정 · 알림 (14)",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "Wer4K",
+          "name": "Screens",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "oHaqf",
+              "name": "설정",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ASfNe",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "설정",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "KPXEO",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-41-settings.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gqsDP",
+              "name": "프로필 편집",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jS1wO",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "프로필 편집",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "W8RUZa",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-42-profile-edit.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WzdGL",
+              "name": "프로필 항목 고치기",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HPjlM",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "프로필 항목 고치기",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "r1XEv",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-54-profile-edit-item.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IT42J",
+              "name": "포트폴리오 편집",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OTN31",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "포트폴리오 편집",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "zPuFX",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-43-portfolio-edit.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JUmn5",
+              "name": "알림 설정",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Z9Nza",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "알림 설정",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "qvGQS",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-44-notification-settings.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AL7wH",
+              "name": "알림이 꺼져 있어요",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gG8WE",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "알림이 꺼져 있어요",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "e4TL1G",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-45-notification-off.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BG4Vn",
+              "name": "알림함",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "K4Wyg",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "알림함",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "ydRgA",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-40-notifications.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pAzDH",
+              "name": "동의 내역",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aGGOV",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "동의 내역",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "SftPj",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-46-consent-history.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xzP0q",
+              "name": "코치가 기억하는 것",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LG4vD",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "코치가 기억하는 것",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "TPxq6",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-47-memory.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZlYea",
+              "name": "차단한 사용자",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UBAop",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "차단한 사용자",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "ebVyb",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-48-blocked-users.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "b2cjGm",
+              "name": "웹 연습 가져오기",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IgTkL",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "웹 연습 가져오기",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "tWl4O",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-49-guest-transfer.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fI0uu",
+              "name": "앱 가이드",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EYYsM",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "앱 가이드",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "CYIoc",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-50-guide.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qe4Dk",
+              "name": "회원 탈퇴",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sOgLa",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "회원 탈퇴",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "ojZqh",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-51-delete-account.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "B8rBnI",
+              "name": "업데이트 안내",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BZeS0",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "업데이트 안내",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "u0w1c",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-52-update-required.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "p6dxs",
+      "x": 0,
+      "y": 6720,
+      "name": "⑦ 대본 리딩 흐름",
+      "fill": "#F5F6F8",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "Go2Nw",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "⑦ 대본 리딩 흐름 (11)",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "Xbkrc",
+          "name": "Screens",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "jP2iK",
+              "name": "대본 탭 · 대본 있음",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VkkN5",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "대본 탭 · 대본 있음",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "KkTWo",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-21c-reading-with-script.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HduFp",
+              "name": "새 대본 · 예시 대본 채움",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "A8zSd",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "새 대본 · 예시 대본 채움",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "p2bvx",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-57-reading-new-sample.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pynJK",
+              "name": "목소리 정하기",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kNAX5",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "목소리 정하기",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "IEeU8",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-58-reading-roles.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tPQtZ",
+              "name": "대본 상세",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IzppA",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "대본 상세",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "ESO3K",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-59-reading-detail.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z8cpC",
+              "name": "대본 상세 · ⋯ 메뉴",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "T40KIh",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "대본 상세 · ⋯ 메뉴",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "xi3zj",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-67-reading-menu.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ieL2e",
+              "name": "대본 전체",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GvBS6",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "대본 전체",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "u3dj6",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-61-reading-full.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "OcelD",
+              "name": "새 연습 · 배역 고르기 전",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "m8idi",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "새 연습 · 배역 고르기 전",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "jN26t",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-62-reading-start.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zCvpZ",
+              "name": "새 연습 · 배역·구간",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "t8jzq",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "새 연습 · 배역·구간",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "mBC4N",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-63-reading-range.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "B8ON3O",
+              "name": "OS 마이크 권한 창",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BVCIG",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "OS 마이크 권한 창",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "JAAiN",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-64-mic-permission.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UHAG1",
+              "name": "리딩 · 시작 전",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QVz7F",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "리딩 · 시작 전",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "j34oLt",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-65-reading-play.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vwu2k",
+              "name": "리딩 · 나가기 확인",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wORtm",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "리딩 · 나가기 확인",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "qDPGu",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-66-reading-exit-confirm.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "GesTs",
+      "x": 0,
+      "y": 7840,
+      "name": "⑨ 코칭 한 바퀴 (분석 1회)",
+      "fill": "#F5F6F8",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "RfCwi",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "⑨ 코칭 한 바퀴 (분석 1회) — 14화면",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "snOiF",
+          "name": "Screens",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "o2pem",
+              "name": "새 연습 · 영상 고름",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OozAf",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "새 연습 · 영상 고름",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "T67Xc",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-70-upload-video-picked.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ngzcw",
+              "name": "질문 대화 · 영상 보는 중",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MYofr",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "질문 대화 · 영상 보는 중",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "de1va",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-71-coach-uploading.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KTc47",
+              "name": "⚠ 첫 질문이 안 보임(버그)",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "McpLr",
+                  "name": "Label",
+                  "fill": "#E5484D",
+                  "content": "⚠ 첫 질문이 안 보임(버그)",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "QrMDl",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-72-coach-chat-empty-question.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ye9Ah",
+              "name": "⚠ 보내면 「다른 곳에서 먼저 답」",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TUz6e",
+                  "name": "Label",
+                  "fill": "#E5484D",
+                  "content": "⚠ 보내면 「다른 곳에서 먼저 답」",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "wGb4B",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-73-coach-chat-conflict.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EAuyP",
+              "name": "답 생각 중",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TFBK2",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "답 생각 중",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "fFMES",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-74-coach-thinking.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "thsnJ",
+              "name": "두 번째 질문",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "K1sDr",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "두 번째 질문",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "khstA",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-75-coach-chat.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "j7rgz",
+              "name": "여기서 마칠까요?",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BXoL7",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "여기서 마칠까요?",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "sS9z1",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-76-coach-finish-confirm.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QY03P",
+              "name": "배우 일지(노트)",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uy43Z",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "배우 일지(노트)",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "XAaJi",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-77-coach-note.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BeG0u",
+              "name": "오늘 코칭 끝",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RrNq6",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "오늘 코칭 끝",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "K6Hci3",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-78-coaching-done.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "X5YOZp",
+              "name": "홈 안내 1/4",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hPHwN",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "홈 안내 1/4",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "t8WvdF",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-79-home-guide1.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WvGHN",
+              "name": "홈 안내 2/4",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FMDxN",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "홈 안내 2/4",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "pVPxO",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-79-home-guide2.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eg7zL",
+              "name": "홈 안내 3/4",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F7jni",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "홈 안내 3/4",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "EP9XX",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-79-home-guide3.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "B2jxbJ",
+              "name": "홈 안내 4/4",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "u8VUXZ",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "홈 안내 4/4",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "B6M8lh",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-79-home-guide4.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ca1p6",
+              "name": "홈 · 연습 1번 뒤",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Z8XQn",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "홈 · 연습 1번 뒤",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "sPhYM",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-80-home-with-practice.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "t1qZf",
+      "x": 0,
+      "y": 8960,
+      "name": "⑩ 연습 기록 · 보관함 (데이터 있음)",
+      "fill": "#F5F6F8",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "RQEmU",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "⑩ 연습 기록 · 보관함 (데이터 있음) — 10화면",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "p6HEg",
+          "name": "Screens",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "l3l8Q",
+              "name": "코칭 탭 · 다음 연습",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EKPaV",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "코칭 탭 · 다음 연습",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "O5PWt",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-81-coaching-next.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GtSri",
+              "name": "연습 기록",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sRiHh",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "연습 기록",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "o8VzR",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-82-history-data.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "D5TC6",
+              "name": "프로필 탭",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZvoVB",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "프로필 탭",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "PSYfw",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-83-profile-data.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VI37a",
+              "name": "보관함",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fxrl0",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "보관함",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "U2rRC",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-84-archive-data.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gJnRA",
+              "name": "보관함 영상",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rPere",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "보관함 영상",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "KNWGz",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-85-archive-detail.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RXNdl",
+              "name": "연습 묶음 · 안내",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Jbn4r",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "연습 묶음 · 안내",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "lCbL6",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-95a-practice-group-guide.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "a1Ou9",
+              "name": "⚠ 연습 묶음(제목 위가 잘림)",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hjVhq",
+                  "name": "Label",
+                  "fill": "#E5484D",
+                  "content": "⚠ 연습 묶음(제목 위가 잘림)",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "ICySS",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-95b-practice-group.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "S6ddAi",
+              "name": "노트 다시 보기",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Sj51S",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "노트 다시 보기",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "H9lnSI",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-96-report-detail.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K6PiHw",
+              "name": "마지막 대화 펼침",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ey34Z",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "마지막 대화 펼침",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "icKBZ",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-97-coach-transcript.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m22tY6",
+              "name": "연습 ⋯ 메뉴",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "D19GXI",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "연습 ⋯ 메뉴",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "GqUMg",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-98-practice-group-menu.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Nz88q",
+      "x": 0,
+      "y": 10080,
+      "name": "⑪ 챌린지 올리기 · AI 리포트 (리포트 1회)",
+      "fill": "#F5F6F8",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "WlhI2",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "⑪ 챌린지 올리기 · AI 리포트 (리포트 1회) — 12화면",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "x9Lf3w",
+          "name": "Screens",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "CiNWM",
+              "name": "어떤 대사에 올릴까요?",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OU1ok",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "어떤 대사에 올릴까요?",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "LoXFj",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-86-challenge-upload.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "V3kFPD",
+              "name": "올리기 · 나만 보기",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sJ0Bu",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "올리기 · 나만 보기",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "MGqos",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-87-challenge-upload-form.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "djrdp",
+              "name": "비공개로 저장했어요",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FEcTo",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "비공개로 저장했어요",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "D36Gh",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-88-challenge-uploaded.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "f46t3",
+              "name": "AI 리포트 · 만드는 중",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F838a",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "AI 리포트 · 만드는 중",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "fSF7G",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-89-ai-report-loading.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ny6a3",
+              "name": "AI 리포트",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Bs525",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "AI 리포트",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "dV0lK",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-90-ai-report.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RQrpY",
+              "name": "AI 리포트 · 아래",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nV1ed",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "AI 리포트 · 아래",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "v4LSA",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-90b-ai-report-bottom.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gvPbe",
+              "name": "참여 완료",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FfTno",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "참여 완료",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "vTzGx",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-91-challenge-finish.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bC3e5",
+              "name": "챌린지 기록",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qUmgw",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "챌린지 기록",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "E56MCF",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-92-challenge-entries-data.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QFfbL",
+              "name": "참여작 보기",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "darG7",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "참여작 보기",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "fjxWN",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-93-entry.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lqti0",
+              "name": "댓글",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CmiOM",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "댓글",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "efPnq",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-94-entry-comments.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HHTQo",
+              "name": "챌린지 탭 · 알림 배지",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iMtfG",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "챌린지 탭 · 알림 배지",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "w98Pww",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-101-challenges-badge.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zAegx",
+              "name": "알림함",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "R7EWMf",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "알림함",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "fkgjV",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-103-notifications-data.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "EQmYo",
+      "x": 0,
+      "y": 11200,
+      "name": "⑫ 촬영 · 리딩 진행",
+      "fill": "#F5F6F8",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "j0poN",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "⑫ 촬영 · 리딩 진행 — 9화면",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "olFDM",
+          "name": "Screens",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Xa5lK",
+              "name": "카메라·마이크 권한",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bczPa",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "카메라·마이크 권한",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "w47hsG",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-99-camera-permission.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lW9hU",
+              "name": "촬영(코칭)",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VCvt7",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "촬영(코칭)",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "AOzN0",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-100-record-video.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zQRem",
+              "name": "촬영(챌린지)",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "b5Z0Sv",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "촬영(챌린지)",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "N1JY2",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-102-challenge-play.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mwO8u",
+              "name": "리딩 · 상대 차례(안내 1/4)",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "A2aEA",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "리딩 · 상대 차례(안내 1/4)",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "yfXHe",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-104-reading-play-partner.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "i5sJVE",
+              "name": "리딩 · 내 차례(안내 2/4)",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "m6ndq",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "리딩 · 내 차례(안내 2/4)",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "XJlJt",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-105-reading-play-mine.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YOgCg",
+              "name": "리딩 · 일시정지",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uIuae",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "리딩 · 일시정지",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "jrqcK",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-106-reading-paused.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d4lUwf",
+              "name": "리딩 · 중간에 나가기",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mOIy7",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "리딩 · 중간에 나가기",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "JHjs2",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-107-reading-exit-midway.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "C9YI3",
+              "name": "대본 상세 · 회차 있음",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BNHU3",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "대본 상세 · 회차 있음",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "z15t8",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-108-reading-detail-with-session.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CClaG",
+              "name": "회차 상세",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "s7DPz",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "회차 상세",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "GYnYD",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-109-reading-session.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "n8Q8L",
+      "x": 0,
+      "y": 12320,
+      "name": "⑬ 그 밖의 길",
+      "fill": "#F5F6F8",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "Nu6tS",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "⑬ 그 밖의 길 — 4화면",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "W1wS9t",
+          "name": "Screens",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "hi47R",
+              "name": "새 연습 2/2 · 막힌 곳·인물 이해(공통)",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CuUXL",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "새 연습 2/2 · 막힌 곳·인물 이해(공통)",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "nZQyG",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-111-upload-stuck.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BKU4e",
+              "name": "보관함에서 고르기",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bbo7J",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "보관함에서 고르기",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "M0Gan",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-112-upload-archive-pick.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "u3Tz3",
+              "name": "갤러리 고르기(시스템 창 · 개인 영상 흐림)",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mEkIx",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "갤러리 고르기(시스템 창 · 개인 영상 흐림)",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "pbMPR",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-113-gallery-picker.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "g3w19",
+              "name": "오디션 공고 → 외부 웹(otr)",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vjxvU",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "오디션 공고 → 외부 웹(otr)",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "yREvJ",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-110-audition-external.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pBpU0",
+      "x": 0,
+      "y": 13440,
+      "name": "⑭ 리딩 결과 · 기타",
+      "fill": "#F5F6F8",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "EMXFV",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "⑭ 리딩 결과 · 기타 — 5화면",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "e9ll8M",
+          "name": "Screens",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "uvTbi",
+              "name": "대본 탭 · 이어서 읽기 카드",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AphaA",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "대본 탭 · 이어서 읽기 카드",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "cYigu",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-116-reading-tab-resume.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gmGDS",
+              "name": "⚠ 리딩 결과 · 완료로 안 셈(초록 체크와 안 맞음)",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IZQsU",
+                  "name": "Label",
+                  "fill": "#E5484D",
+                  "content": "⚠ 리딩 결과 · 완료로 안 셈(초록 체크와 안 맞음)",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "A2Nng",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-117-reading-done-uncounted.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "k7Aua",
+              "name": "다르게 말한 대사 · 빈 상태",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qpXQP",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "다르게 말한 대사 · 빈 상태",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "iGZrF",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-118-reading-diff.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aINnU",
+              "name": "리딩 · 마이크 권한이 필요해요",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "t4INk",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "리딩 · 마이크 권한이 필요해요",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "anOR7",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-119b-reading-mic-denied.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "e6BSd",
+              "name": "UI 미리보기(배포 빌드에선 막힘)",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wRh9I",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "UI 미리보기(배포 빌드에선 막힘)",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 24,
+                  "id": "pGzn8",
+                  "name": "Screen",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/app-capture-2026-10-21/s-115-ui-preview.png",
+                    "mode": "cover"
+                  },
+                  "width": 360,
+                  "height": 780,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "qb5HB",
+      "x": 0,
+      "y": 14560,
+      "name": "⑮ 남은 화면",
+      "width": 1400,
+      "fill": "#FFF8E6",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "XmOwG",
+          "name": "Title",
+          "fill": "#191F28",
+          "content": "⑮ 남은 화면 (사람 목소리 필요)",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 40,
+          "fontWeight": "800"
+        },
+        {
+          "type": "text",
+          "id": "qXH40",
+          "name": "Line",
+          "fill": "#4E5968",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "· 리딩 결과 · 완료로 센 경우(별점 포함)와 다르게 말한 대사가 채워진 상태 — 내 대사가 실제 목소리로 한 줄 이상 인식돼야 생김. 폰에 대고 한 줄만 읽으면 바로 찍을 수 있음",
+          "fontFamily": "Noto Sans KR",
+          "fontSize": 20,
+          "fontWeight": "normal"
+        }
+      ]
+    }
+  ],
+  "fileToken": "b387b87f-592b-4d3a-a8d6-f3e8d86ad45f"
+}
