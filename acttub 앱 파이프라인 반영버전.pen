@@ -1028,6 +1028,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -1174,6 +1175,7 @@
                                       "content": "보낸 곳",
                                       "fontFamily": "$font",
                                       "fontSize": 16,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     },
                                     {
@@ -1206,6 +1208,7 @@
                                       "content": "처리일",
                                       "fontFamily": "$font",
                                       "fontSize": 16,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     },
                                     {
@@ -1238,6 +1241,7 @@
                                       "content": "이메일",
                                       "fontFamily": "$font",
                                       "fontSize": 16,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     },
                                     {
@@ -1270,6 +1274,7 @@
                                       "content": "앱 푸시",
                                       "fontFamily": "$font",
                                       "fontSize": 16,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     },
                                     {
@@ -1295,6 +1300,7 @@
                               "content": "설정 > 동의 내역에서 언제든 바꿀 수 있어요.",
                               "fontFamily": "$font",
                               "fontSize": 14,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -1439,6 +1445,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -3357,6 +3364,7 @@
                                       "lineHeight": 1.43,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.7
                                     }
                                   ]
@@ -3419,6 +3427,7 @@
                                       "lineHeight": 1.43,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.7
                                     }
                                   ]
@@ -3481,6 +3490,7 @@
                                       "lineHeight": 1.43,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.7
                                     }
                                   ]
@@ -3572,6 +3582,7 @@
                               "content": "에서 알림을 보내도록 허용하시겠습니까?",
                               "fontFamily": "$font",
                               "fontSize": 15,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.3
                             }
                           ]
@@ -3832,6 +3843,7 @@
                                       "lineHeight": 1.43,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.7
                                     }
                                   ]
@@ -3894,6 +3906,7 @@
                                       "lineHeight": 1.43,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.7
                                     }
                                   ]
@@ -3956,6 +3969,7 @@
                                       "lineHeight": 1.43,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.7
                                     }
                                   ]
@@ -4632,6 +4646,7 @@
                           "lineHeight": 1.29,
                           "fontFamily": "$font",
                           "fontSize": 14,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         },
                         {
@@ -7979,6 +7994,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         }
                       ]
@@ -9159,6 +9175,7 @@
                               "content": "촬영으로 저장한 영상 0개 · 좋은 컷만 골라 두세요",
                               "fontFamily": "$font",
                               "fontSize": 14,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -9325,6 +9342,7 @@
                               "content": "촬영하거나 갤러리에서 고르면 여기에 모여요.",
                               "fontFamily": "$font",
                               "fontSize": 15,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -9583,6 +9601,7 @@
                               "content": "제목 (선택) · 비워 두면 대본에서 찾아 붙여요",
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -10108,6 +10127,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         }
                       ]
@@ -10306,6 +10326,7 @@
                               "content": "대사·작품·배우 검색",
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -10325,6 +10346,7 @@
                           "content": "두 글자 이상 적어 주세요.",
                           "fontFamily": "$font",
                           "fontSize": 15,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         }
                       ]
@@ -10527,6 +10549,7 @@
                           "lineHeight": 1.33,
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -10566,6 +10589,7 @@
                               "content": "“여기에 대사를 적어주세요”",
                               "fontFamily": "$font",
                               "fontSize": 18,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -10629,6 +10653,7 @@
                               "content": "짧고 감정이 분명한 대사일수록 참여가 많아요",
                               "fontFamily": "$font",
                               "fontSize": 14,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -10842,6 +10867,7 @@
                           "content": "다른 사람 연기에서 참고할 부분을 모아뒀어요.",
                           "fontFamily": "$font",
                           "fontSize": 15,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -10862,6 +10888,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 17,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         }
                       ]
@@ -11109,6 +11136,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 17,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         }
                       ]
@@ -11470,6 +11498,7 @@
                               "content": "대학·학과·지역 검색",
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -12558,6 +12587,7 @@
                                       "lineHeight": 1.48,
                                       "fontFamily": "$font",
                                       "fontSize": 14.2,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     },
                                     {
@@ -12591,6 +12621,7 @@
                                       "lineHeight": 1.48,
                                       "fontFamily": "$font",
                                       "fontSize": 14.2,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     },
                                     {
@@ -12624,6 +12655,7 @@
                                       "lineHeight": 1.48,
                                       "fontFamily": "$font",
                                       "fontSize": 14.2,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     },
                                     {
@@ -12657,6 +12689,7 @@
                                       "lineHeight": 1.48,
                                       "fontFamily": "$font",
                                       "fontSize": 14.2,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     },
                                     {
@@ -12690,6 +12723,7 @@
                                       "lineHeight": 1.48,
                                       "fontFamily": "$font",
                                       "fontSize": 14.2,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     },
                                     {
@@ -12862,6 +12896,7 @@
                                       "lineHeight": 1.22,
                                       "fontFamily": "$font",
                                       "fontSize": 15,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     }
                                   ]
@@ -12887,6 +12922,7 @@
                                   "lineHeight": 1.22,
                                   "fontFamily": "$font",
                                   "fontSize": 14.2,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -12943,6 +12979,7 @@
                                       "lineHeight": 1.22,
                                       "fontFamily": "$font",
                                       "fontSize": 15,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     },
                                     {
@@ -12980,6 +13017,7 @@
                                   "lineHeight": 1.22,
                                   "fontFamily": "$font",
                                   "fontSize": 14.2,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -13164,6 +13202,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -13605,6 +13644,7 @@
                                       "lineHeight": 1.25,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     }
                                   ]
@@ -13789,6 +13829,7 @@
                                       "lineHeight": 1.25,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     }
                                   ]
@@ -13946,6 +13987,7 @@
                                       "lineHeight": 1.25,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     }
                                   ]
@@ -14103,6 +14145,7 @@
                                       "lineHeight": 1.25,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     }
                                   ]
@@ -14260,6 +14303,7 @@
                                       "lineHeight": 1.25,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     }
                                   ]
@@ -15586,6 +15630,7 @@
                           "lineHeight": 1.33,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.8
                         },
                         {
@@ -15653,6 +15698,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 16,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -15681,6 +15727,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 15,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 },
                                 {
@@ -15766,6 +15813,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 15,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -15792,6 +15840,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 15,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 },
                                 {
@@ -15877,6 +15926,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 15,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -15903,6 +15953,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 15,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 },
                                 {
@@ -15996,6 +16047,7 @@
                                   "lineHeight": 1.2,
                                   "fontFamily": "$font",
                                   "fontSize": 14.5,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.8
                                 },
                                 {
@@ -16688,6 +16740,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 17,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         }
                       ]
@@ -17276,6 +17329,7 @@
                               "lineHeight": 1.29,
                               "fontFamily": "$font",
                               "fontSize": 15.5,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             },
                             {
@@ -17292,6 +17346,7 @@
                                   "lineHeight": 1.29,
                                   "fontFamily": "$font",
                                   "fontSize": 15.5,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.7
                                 },
                                 {
@@ -17361,6 +17416,7 @@
                               "lineHeight": 1.29,
                               "fontFamily": "$font",
                               "fontSize": 15.5,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -17417,6 +17473,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 14,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -17437,6 +17494,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 15,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -17466,6 +17524,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 17,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.7
                                 }
                               ]
@@ -17567,6 +17626,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 14,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -17587,6 +17647,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 15,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -17616,6 +17677,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 17,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.7
                                 }
                               ]
@@ -17717,6 +17779,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 14,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -17737,6 +17800,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 15,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -17766,6 +17830,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 17,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.7
                                 }
                               ]
@@ -17947,6 +18012,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 17,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         }
                       ]
@@ -18071,6 +18137,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         },
                         {
@@ -18151,6 +18218,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 14,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         }
                       ]
@@ -18338,6 +18406,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         }
                       ]
@@ -19208,6 +19277,7 @@
                               "textAlign": "center",
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             },
                             {
@@ -19277,7 +19347,7 @@
           "id": "Go2Nw",
           "name": "Title",
           "fill": "#191F28",
-          "content": "⑦ 대본 리딩 흐름 (11)",
+          "content": "⑦ 대본 리딩 흐름 (12)",
           "fontFamily": "Noto Sans KR",
           "fontSize": 40,
           "fontWeight": "800"
@@ -19932,6 +20002,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -19973,6 +20044,7 @@
                               "lineHeight": 1.29,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -20228,6 +20300,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 15,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -20300,6 +20373,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 15,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -20365,6 +20439,7 @@
                                       "lineHeight": 1.25,
                                       "fontFamily": "$font",
                                       "fontSize": 15,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     }
                                   ]
@@ -20480,6 +20555,7 @@
                                       "lineHeight": 1.25,
                                       "fontFamily": "$font",
                                       "fontSize": 15,
+                                      "fontWeight": "normal",
                                       "letterSpacing": -0.6
                                     }
                                   ]
@@ -20717,6 +20793,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -20851,6 +20928,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -21047,6 +21125,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -21181,6 +21260,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -21531,6 +21611,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 15,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -21549,6 +21630,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6,
                           "fontStyle": "italic"
                         },
@@ -21588,6 +21670,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -21628,6 +21711,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -21668,6 +21752,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -21708,6 +21793,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -21748,6 +21834,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -21788,6 +21875,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -21828,6 +21916,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -21868,6 +21957,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -21888,6 +21978,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6,
                           "fontStyle": "italic"
                         },
@@ -21927,6 +22018,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -22131,6 +22223,7 @@
                               "height": 38,
                               "fill": "$grey100",
                               "cornerRadius": 19,
+                              "gap": 6,
                               "padding": [
                                 0,
                                 14
@@ -22148,6 +22241,16 @@
                                   "fontSize": 18,
                                   "fontWeight": "700",
                                   "letterSpacing": -0.7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "OjUY5",
+                                  "name": "Count",
+                                  "fill": "$grey500",
+                                  "content": "8",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "500"
                                 }
                               ]
                             },
@@ -22158,6 +22261,7 @@
                               "height": 38,
                               "fill": "$grey100",
                               "cornerRadius": 19,
+                              "gap": 6,
                               "padding": [
                                 0,
                                 14
@@ -22175,6 +22279,16 @@
                                   "fontSize": 18,
                                   "fontWeight": "700",
                                   "letterSpacing": -0.7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "BRZTV",
+                                  "name": "Count",
+                                  "fill": "$grey500",
+                                  "content": "7",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "500"
                                 }
                               ]
                             }
@@ -22196,6 +22310,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 15,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -22340,6 +22455,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 15,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -22383,6 +22499,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 15,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -22701,6 +22818,7 @@
                               "height": 38,
                               "fill": "$blue50",
                               "cornerRadius": 19,
+                              "gap": 6,
                               "padding": [
                                 0,
                                 14
@@ -22718,6 +22836,16 @@
                                   "fontSize": 18,
                                   "fontWeight": "700",
                                   "letterSpacing": -0.7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ArEhx",
+                                  "name": "Count",
+                                  "fill": "$grey500",
+                                  "content": "8",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "500"
                                 }
                               ]
                             },
@@ -22728,6 +22856,7 @@
                               "height": 38,
                               "fill": "$grey100",
                               "cornerRadius": 19,
+                              "gap": 6,
                               "padding": [
                                 0,
                                 14
@@ -22745,6 +22874,16 @@
                                   "fontSize": 18,
                                   "fontWeight": "700",
                                   "letterSpacing": -0.7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "oVjVI",
+                                  "name": "Count",
+                                  "fill": "$grey500",
+                                  "content": "7",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "500"
                                 }
                               ]
                             }
@@ -22766,6 +22905,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 15,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -23218,6 +23358,714 @@
             },
             {
               "type": "frame",
+              "id": "BjASs",
+              "name": "새 연습 · 배역·구간 · 대사 2줄 이하 안내",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "R1jayS",
+                  "name": "Label",
+                  "fill": "#333D4B",
+                  "content": "새 연습 · 배역·구간 · 대사 2줄 이하 안내",
+                  "fontFamily": "Noto Sans KR",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "gWTYo",
+                  "name": "Screen",
+                  "clip": true,
+                  "width": 360,
+                  "height": 780,
+                  "fill": "$bg",
+                  "cornerRadius": 24,
+                  "stroke": "#D1D6DB",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    35,
+                    0,
+                    40,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "id": "BZM7x",
+                      "type": "ref",
+                      "ref": "wrPrf",
+                      "name": "Header",
+                      "width": "fill_container",
+                      "height": 48,
+                      "descendants": {
+                        "GP16Y": {
+                          "width": 28,
+                          "height": 28
+                        },
+                        "j4BPW": {
+                          "content": "새 연습"
+                        },
+                        "Pnt5G": {
+                          "opacity": 0
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "B6Ott",
+                      "name": "Body",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "padding": [
+                        18,
+                        21,
+                        0,
+                        21
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ShKH2",
+                          "name": "Heading",
+                          "width": "fill_container",
+                          "gap": 14,
+                          "padding": [
+                            0,
+                            0,
+                            0,
+                            1
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "U08dWR",
+                              "name": "Mascot",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "images/app/mascot-reading.png",
+                                "mode": "contain"
+                              },
+                              "width": 42,
+                              "height": 46
+                            },
+                            {
+                              "type": "text",
+                              "id": "g5mMPz",
+                              "name": "Title",
+                              "fill": "$grey900",
+                              "content": "누구로, 어디를 연습할까요?",
+                              "lineHeight": 1.25,
+                              "fontFamily": "$font",
+                              "fontSize": 22,
+                              "fontWeight": "800",
+                              "letterSpacing": -0.9
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "F5YFr5",
+                          "name": "Spacer",
+                          "width": 1,
+                          "height": 7
+                        },
+                        {
+                          "type": "text",
+                          "id": "R0moo",
+                          "name": "Meta",
+                          "fill": "$grey500",
+                          "content": "옥상, 밤 · 대사 15개",
+                          "lineHeight": 1.25,
+                          "fontFamily": "$font",
+                          "fontSize": 15,
+                          "fontWeight": "700",
+                          "letterSpacing": -0.6
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QOXEr",
+                          "name": "Spacer",
+                          "width": 1,
+                          "height": 13
+                        },
+                        {
+                          "type": "text",
+                          "id": "MlK5y",
+                          "name": "Section",
+                          "fill": "$grey800",
+                          "content": "내 배역",
+                          "lineHeight": 1.25,
+                          "fontFamily": "$font",
+                          "fontSize": 17,
+                          "fontWeight": "800",
+                          "letterSpacing": -0.7
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gNpab",
+                          "name": "Spacer",
+                          "width": 1,
+                          "height": 12
+                        },
+                        {
+                          "type": "frame",
+                          "id": "f6PmX9",
+                          "name": "Roles",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "vuhFa",
+                              "name": "윤서",
+                              "height": 38,
+                              "fill": "$grey100",
+                              "cornerRadius": 19,
+                              "gap": 6,
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Naq9t",
+                                  "name": "Label",
+                                  "fill": "$grey700",
+                                  "content": "윤서",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "$font",
+                                  "fontSize": 18,
+                                  "fontWeight": "700",
+                                  "letterSpacing": -0.7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "pHDYu",
+                                  "name": "Count",
+                                  "fill": "$grey500",
+                                  "content": "8",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wiGon",
+                              "name": "태오",
+                              "height": 38,
+                              "fill": "$blue50",
+                              "cornerRadius": 19,
+                              "gap": 6,
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "l9dSl0",
+                                  "name": "Label",
+                                  "fill": "$blue-text",
+                                  "content": "태오",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "$font",
+                                  "fontSize": 18,
+                                  "fontWeight": "700",
+                                  "letterSpacing": -0.7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "f6L6rJ",
+                                  "name": "Count",
+                                  "fill": "$grey500",
+                                  "content": "7",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "p2BKyy",
+                          "name": "Spacer",
+                          "width": 1,
+                          "height": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "kFi6G",
+                          "name": "Hint",
+                          "fill": "$grey500",
+                          "content": "여러 명을 골라도 돼요. 나머지 배역은 앱이 읽어 줘요.",
+                          "lineHeight": 1.25,
+                          "fontFamily": "$font",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": -0.6
+                        },
+                        {
+                          "type": "frame",
+                          "id": "EHQHI",
+                          "name": "Spacer",
+                          "width": 1,
+                          "height": 12
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tEQmj",
+                          "name": "Few Lines Notice",
+                          "width": "fill_container",
+                          "height": 63,
+                          "fill": "#FFF6E5",
+                          "cornerRadius": 18,
+                          "gap": 9,
+                          "padding": [
+                            0,
+                            14,
+                            0,
+                            13
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "BpYgf",
+                              "name": "star",
+                              "width": 22,
+                              "height": 22,
+                              "icon": "triangle-alert",
+                              "library": "lucide",
+                              "fill": "#E08A00"
+                            },
+                            {
+                              "type": "text",
+                              "id": "VUp7j",
+                              "name": "Label",
+                              "fill": "#8A5300",
+                              "content": "고른 구간에 태오 대사가 2줄뿐이에요.\n배역을 더 고르거나 구간을 넓혀 보세요.",
+                              "lineHeight": 1.25,
+                              "fontFamily": "$font",
+                              "fontSize": 16,
+                              "fontWeight": "700",
+                              "letterSpacing": -0.8
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AHSxo",
+                          "name": "Spacer",
+                          "width": 1,
+                          "height": 15
+                        },
+                        {
+                          "type": "text",
+                          "id": "CJVeb",
+                          "name": "Section",
+                          "fill": "$grey800",
+                          "content": "구간",
+                          "lineHeight": 1.25,
+                          "fontFamily": "$font",
+                          "fontSize": 17,
+                          "fontWeight": "800",
+                          "letterSpacing": -0.7
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Bdpih",
+                          "name": "Spacer",
+                          "width": 1,
+                          "height": 11
+                        },
+                        {
+                          "type": "frame",
+                          "id": "k80UjF",
+                          "name": "Segmented",
+                          "width": "fill_container",
+                          "height": 41,
+                          "fill": "$grey100",
+                          "cornerRadius": 16,
+                          "padding": 4,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "azlSz",
+                              "name": "추천",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "fill": "#FFFFFF",
+                              "cornerRadius": 12,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ncUmw",
+                                  "name": "Label",
+                                  "fill": "$grey900",
+                                  "content": "추천",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "700",
+                                  "letterSpacing": -0.6
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "SO3CC",
+                              "name": "장면으로 찾기",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "cornerRadius": 12,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "LMwLe",
+                                  "name": "Label",
+                                  "fill": "$grey500",
+                                  "content": "장면으로 찾기",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "700",
+                                  "letterSpacing": -0.6
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "D3S1M",
+                              "name": "대사로 찾기",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "cornerRadius": 12,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "R9p8Hd",
+                                  "name": "Label",
+                                  "fill": "$grey500",
+                                  "content": "대사로 찾기",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "700",
+                                  "letterSpacing": -0.6
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "I9XwO",
+                          "name": "Spacer",
+                          "width": 1,
+                          "height": 9
+                        },
+                        {
+                          "type": "frame",
+                          "id": "j6PRzX",
+                          "name": "처음 ~ 「모레.」",
+                          "width": "fill_container",
+                          "height": 69,
+                          "fill": "$blue50",
+                          "cornerRadius": 20,
+                          "gap": 18,
+                          "padding": [
+                            0,
+                            16,
+                            0,
+                            20
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "xpuCJ",
+                              "name": "list",
+                              "width": 22,
+                              "height": 22,
+                              "icon": "list",
+                              "library": "lucide",
+                              "fill": "$blue"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "NoRor",
+                              "name": "Text",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "QuLSG",
+                                  "name": "Title",
+                                  "fill": "$grey900",
+                                  "content": "처음 ~ 「모레.」",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "$font",
+                                  "fontSize": 18,
+                                  "fontWeight": "700",
+                                  "letterSpacing": -0.7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "o4Q0UL",
+                                  "name": "Sub",
+                                  "fill": "$grey500",
+                                  "content": "대사 10줄 · 내 대사 2줄",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "$font",
+                                  "fontSize": 15,
+                                  "fontWeight": "700",
+                                  "letterSpacing": -0.6
+                                }
+                              ]
+                            },
+                            {
+                              "type": "icon",
+                              "id": "tBXZn",
+                              "name": "circle-check",
+                              "width": 26,
+                              "height": 26,
+                              "icon": "circle-check",
+                              "library": "lucide",
+                              "fill": "$blue"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "y28mw",
+                          "name": "Spacer",
+                          "width": 1,
+                          "height": 6
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cfiNw",
+                          "name": "처음부터 끝까지",
+                          "width": "fill_container",
+                          "height": 69,
+                          "gap": 17,
+                          "padding": [
+                            0,
+                            16,
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "MWEyA",
+                              "name": "list",
+                              "width": 22,
+                              "height": 22,
+                              "icon": "list",
+                              "library": "lucide",
+                              "fill": "$blue"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "q8iyS",
+                              "name": "Text",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "PmaZk",
+                                  "name": "Title",
+                                  "fill": "$grey900",
+                                  "content": "처음부터 끝까지",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "$font",
+                                  "fontSize": 18,
+                                  "fontWeight": "700",
+                                  "letterSpacing": -0.7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "LXWgL",
+                                  "name": "Sub",
+                                  "fill": "$grey500",
+                                  "content": "대사 15줄 · 두 번째 판부터 추천",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "$font",
+                                  "fontSize": 15,
+                                  "fontWeight": "700",
+                                  "letterSpacing": -0.6
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "E9Ssd",
+                      "name": "Footer",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 11,
+                      "padding": [
+                        0,
+                        21,
+                        11,
+                        21
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "LqdDR",
+                          "name": "View Mode",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "zI4dz",
+                              "name": "모든 대사 보기",
+                              "width": "fill_container",
+                              "height": 31,
+                              "fill": "$blue50",
+                              "cornerRadius": 16,
+                              "stroke": "$blue",
+                              "strokeWidth": 1.5,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "i6e85",
+                                  "name": "Label",
+                                  "fill": "$blue-text",
+                                  "content": "모든 대사 보기",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "$font",
+                                  "fontSize": 13.5,
+                                  "fontWeight": "700",
+                                  "letterSpacing": -0.5
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "YydxU",
+                              "name": "내 대사만 가리기",
+                              "width": "fill_container",
+                              "height": 31,
+                              "cornerRadius": 16,
+                              "stroke": "$grey200",
+                              "strokeWidth": 1.5,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "cRMJX",
+                                  "name": "Label",
+                                  "fill": "$grey700",
+                                  "content": "내 대사만 가리기",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "$font",
+                                  "fontSize": 13.5,
+                                  "fontWeight": "500",
+                                  "letterSpacing": -0.5
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hKHsA",
+                              "name": "모든 대사 가리기",
+                              "width": "fill_container",
+                              "height": 31,
+                              "cornerRadius": 16,
+                              "stroke": "$grey200",
+                              "strokeWidth": 1.5,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "XUbjD",
+                                  "name": "Label",
+                                  "fill": "$grey700",
+                                  "content": "모든 대사 가리기",
+                                  "lineHeight": 1.25,
+                                  "fontFamily": "$font",
+                                  "fontSize": 13.5,
+                                  "fontWeight": "500",
+                                  "letterSpacing": -0.5
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Q9H8FF",
+                          "type": "ref",
+                          "ref": "mFX4n",
+                          "name": "Button",
+                          "width": "fill_container",
+                          "descendants": {
+                            "vHcBO": {
+                              "content": "이 구간 10줄 연습하기"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "apsGL",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "원본 캡처 (비교용)",
+                      "enabled": false,
+                      "opacity": 0.5,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/app-capture-2026-10-21/s-63-reading-range.png",
+                        "mode": "cover"
+                      },
+                      "width": 360,
+                      "height": 780
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "B8ON3O",
               "name": "OS 마이크 권한 창",
               "layout": "vertical",
@@ -23386,6 +24234,7 @@
                               "height": 38,
                               "fill": "$blue50",
                               "cornerRadius": 19,
+                              "gap": 6,
                               "padding": [
                                 0,
                                 14
@@ -23403,6 +24252,16 @@
                                   "fontSize": 18,
                                   "fontWeight": "700",
                                   "letterSpacing": -0.7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Kh9U0",
+                                  "name": "Count",
+                                  "fill": "$grey500",
+                                  "content": "8",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "500"
                                 }
                               ]
                             },
@@ -23413,6 +24272,7 @@
                               "height": 38,
                               "fill": "$grey100",
                               "cornerRadius": 19,
+                              "gap": 6,
                               "padding": [
                                 0,
                                 14
@@ -23430,6 +24290,16 @@
                                   "fontSize": 18,
                                   "fontWeight": "700",
                                   "letterSpacing": -0.7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "L99Br4",
+                                  "name": "Count",
+                                  "fill": "$grey500",
+                                  "content": "7",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "500"
                                 }
                               ]
                             }
@@ -23451,6 +24321,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 15,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -23952,6 +24823,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 15,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.3
                             }
                           ]
@@ -24306,6 +25178,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 13,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.5
                             },
                             {
@@ -24317,6 +25190,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -24670,6 +25544,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 13,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.5
                             },
                             {
@@ -24681,6 +25556,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -24815,6 +25691,7 @@
                               "textAlign": "center",
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             },
                             {
@@ -28707,6 +29584,7 @@
                               "textAlign": "center",
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             },
                             {
@@ -28981,6 +29859,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 17,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         },
                         {
@@ -29085,6 +29964,7 @@
                                   "lineHeight": 1.3,
                                   "fontFamily": "$font",
                                   "fontSize": 15,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.7
                                 }
                               ]
@@ -30348,6 +31228,7 @@
                           "lineHeight": 1.3,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         },
                         {
@@ -31119,6 +32000,7 @@
                           "lineHeight": 1.3,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         },
                         {
@@ -31890,6 +32772,7 @@
                           "lineHeight": 1.3,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         },
                         {
@@ -32661,6 +33544,7 @@
                           "lineHeight": 1.3,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         },
                         {
@@ -33465,6 +34349,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -33587,6 +34472,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 16,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -33657,6 +34543,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 16,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -34125,6 +35012,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 15,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -34982,6 +35870,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 14,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -35225,6 +36114,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 14,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -35471,6 +36361,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 15,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -35508,6 +36399,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 15,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         },
                         {
@@ -35574,6 +36466,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 15,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -35654,6 +36547,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 15,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -36014,6 +36908,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 15,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -36148,6 +37043,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 14,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         }
                       ]
@@ -36289,6 +37185,7 @@
                           "lineHeight": 1.3,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         },
                         {
@@ -36643,6 +37540,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 15,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -36777,6 +37675,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 14,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         }
                       ]
@@ -36958,6 +37857,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 17,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         },
                         {
@@ -37060,6 +37960,7 @@
                                   "lineHeight": 1.3,
                                   "fontFamily": "$font",
                                   "fontSize": 15.5,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.7
                                 }
                               ]
@@ -37488,6 +38389,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             },
                             {
@@ -37525,6 +38427,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             },
                             {
@@ -37562,6 +38465,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             },
                             {
@@ -37599,6 +38503,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             },
                             {
@@ -37636,6 +38541,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -37988,6 +38894,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             },
                             {
@@ -38025,6 +38932,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             },
                             {
@@ -38062,6 +38970,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             },
                             {
@@ -38099,6 +39008,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             },
                             {
@@ -38136,6 +39046,7 @@
                               "lineHeight": 1.3,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -38339,6 +39250,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 14,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -39195,6 +40107,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -39218,6 +40131,7 @@
                           "textAlign": "right",
                           "fontFamily": "$font",
                           "fontSize": 14,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         }
                       ]
@@ -39665,6 +40579,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 16,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -39743,6 +40658,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 16,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -39821,6 +40737,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 16,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -40112,6 +41029,7 @@
                           "lineHeight": 1.42,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -40149,6 +41067,7 @@
                           "lineHeight": 1.42,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -40167,6 +41086,7 @@
                           "lineHeight": 1.42,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -40185,6 +41105,7 @@
                           "lineHeight": 1.42,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -40348,6 +41269,7 @@
                           "lineHeight": 1.42,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -40385,6 +41307,7 @@
                           "lineHeight": 1.42,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -40403,6 +41326,7 @@
                           "lineHeight": 1.42,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -40421,6 +41345,7 @@
                           "lineHeight": 1.42,
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -40543,6 +41468,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 16,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -40621,6 +41547,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 16,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -40699,6 +41626,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 16,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -41278,6 +42206,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 15,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 },
                                 {
@@ -42041,6 +42970,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 15,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -42087,6 +43017,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 16,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 },
                                 {
@@ -42820,6 +43751,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 14,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -43035,6 +43967,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         }
                       ]
@@ -43112,6 +44045,7 @@
                               "lineHeight": 1.4,
                               "fontFamily": "$font",
                               "fontSize": 15,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.3
                             }
                           ]
@@ -44394,6 +45328,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 14,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -44412,6 +45347,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -44634,6 +45570,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 13,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.5
                             },
                             {
@@ -44645,6 +45582,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -44980,6 +45918,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 14,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -44998,6 +45937,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -45138,6 +46078,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 13,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.5
                             },
                             {
@@ -45149,6 +46090,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -45172,6 +46114,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.9
                         }
                       ]
@@ -45446,6 +46389,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 14,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -45464,6 +46408,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 17,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             }
                           ]
@@ -45604,6 +46549,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 13,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.5
                             },
                             {
@@ -45615,6 +46561,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -45638,6 +46585,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 14.5,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.9
                         }
                       ]
@@ -45774,6 +46722,7 @@
                               "textAlign": "center",
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.7
                             },
                             {
@@ -45974,6 +46923,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         },
                         {
@@ -46102,6 +47052,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 15,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -46135,6 +47086,7 @@
                                   "lineHeight": 1.25,
                                   "fontFamily": "$font",
                                   "fontSize": 15,
+                                  "fontWeight": "normal",
                                   "letterSpacing": -0.6
                                 }
                               ]
@@ -46415,6 +47367,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 15,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -46600,6 +47553,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -46675,6 +47629,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -46723,6 +47678,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -46771,6 +47727,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -46819,6 +47776,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -46867,6 +47825,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 16,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -47477,6 +48436,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 14,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             }
                           ]
@@ -47720,6 +48680,7 @@
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
                               "fontSize": 14,
+                              "fontWeight": "normal",
                               "letterSpacing": -0.6
                             },
                             {
@@ -48349,7 +49310,8 @@
                               "content": "otr.co.kr/audition/?vid",
                               "lineHeight": 1.25,
                               "fontFamily": "$font",
-                              "fontSize": 17
+                              "fontSize": 17,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -49174,6 +50136,7 @@
                           "textAlign": "center",
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         },
                         {
@@ -49192,6 +50155,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 17,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         },
                         {
@@ -49412,6 +50376,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 17,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.7
                         },
                         {
@@ -49605,6 +50570,7 @@
                           "lineHeight": 1.25,
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.6
                         }
                       ]
@@ -50522,6 +51488,7 @@
                       "lineHeight": 1.22,
                       "fontFamily": "$font",
                       "fontSize": 13.5,
+                      "fontWeight": "normal",
                       "letterSpacing": -0.6
                     }
                   ]
