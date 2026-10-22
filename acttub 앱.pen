@@ -350210,7 +350210,7 @@
                       "type": "frame",
                       "id": "g0v5Lp",
                       "name": "표시",
-                      "fill": "#E9E9E9",
+                      "fill": "#E8F3FF",
                       "cornerRadius": 999,
                       "padding": [
                         6,
@@ -350221,8 +350221,8 @@
                           "type": "text",
                           "id": "RtNjZ",
                           "name": "표시 글",
-                          "fill": "$textMuted",
-                          "content": "dev 화면 · pynJK",
+                          "fill": "#1B64DA",
+                          "content": "변경안 · STEP 표시 뺌",
                           "fontFamily": "$font",
                           "fontSize": 16,
                           "fontWeight": "700"
@@ -350231,16 +350231,706 @@
                     },
                     {
                       "type": "frame",
-                      "id": "i8eixf",
-                      "name": "dev 화면 · pynJK",
+                      "id": "yjKjv",
+                      "name": "변경안 · 목소리 정하기(STEP 표시 없음)",
+                      "clip": true,
                       "width": 390,
-                      "height": 884,
-                      "fill": {
-                        "type": "image",
-                        "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/pynJK.png",
-                        "mode": "contain"
-                      }
+                      "height": 844,
+                      "fill": "$bg",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "id": "S92Zn",
+                          "type": "ref",
+                          "ref": "XfrjI",
+                          "name": "StatusBar"
+                        },
+                        {
+                          "id": "z9QT9u",
+                          "type": "ref",
+                          "ref": "M6ZbSa",
+                          "name": "NavHeader",
+                          "descendants": {
+                            "R4eY0": {
+                              "content": "목소리 정하기"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "J0bAa",
+                          "name": "Body",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "padding": [
+                            16,
+                            20,
+                            12,
+                            20
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "vwfmk",
+                              "name": "TitleWrap",
+                              "width": "fill_container",
+                              "padding": [
+                                2,
+                                0,
+                                0,
+                                0
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "O7sUv",
+                                  "name": "Title",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "배역마다 목소리를 정해 주세요",
+                                  "fontFamily": "$font",
+                                  "fontSize": 22,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "PLcDP",
+                              "name": "ScriptCard",
+                              "width": "fill_container",
+                              "fill": "$blueMist",
+                              "cornerRadius": 12,
+                              "stroke": "$blueLine",
+                              "strokeWidth": 1,
+                              "gap": 12,
+                              "padding": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "cploN",
+                                  "name": "ScriptIcon",
+                                  "width": 36,
+                                  "height": 36,
+                                  "fill": "$blueSoft",
+                                  "cornerRadius": 9,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "CLcuR",
+                                      "name": "file-text",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "file-text",
+                                      "library": "feather",
+                                      "fill": "$blue"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "MIlW1",
+                                  "name": "ScriptText",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "CqZKQ",
+                                      "name": "ScriptTitle",
+                                      "fill": "$text",
+                                      "content": "갈매기 3막",
+                                      "fontFamily": "$font",
+                                      "fontSize": 16,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "p52cN",
+                                      "name": "ScriptMeta",
+                                      "fill": "$textMuted",
+                                      "content": "배역 4명 · 대사 110줄",
+                                      "fontFamily": "$font",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "NtRXF",
+                                  "name": "FullLink",
+                                  "gap": 2,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Kau0D",
+                                      "name": "FullText",
+                                      "fill": "$blueDeep",
+                                      "content": "전체 보기",
+                                      "fontFamily": "$font",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "v263XD",
+                                      "name": "chevron-right",
+                                      "width": 13,
+                                      "height": 13,
+                                      "icon": "chevron-right",
+                                      "library": "feather",
+                                      "fill": "$blueDeep"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GlUYo",
+                              "name": "Sec 읽어 줄 배역",
+                              "width": "fill_container",
+                              "stroke": "#FFFFFF00",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "padding": [
+                                6,
+                                0,
+                                2,
+                                0
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "DLfVP",
+                                  "name": "SecTitle",
+                                  "fill": "$text",
+                                  "content": "배역 목소리",
+                                  "fontFamily": "$font",
+                                  "fontSize": 15,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "lWeSg",
+                                  "name": "SecSub",
+                                  "fill": "$textMuted",
+                                  "content": "연습할 때 내가 고른 배역 말고는 이 목소리로 읽어요.",
+                                  "fontFamily": "$font",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hw3V3",
+                              "name": "ReadList",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Q3vg4",
+                                  "name": "Read 니나",
+                                  "width": "fill_container",
+                                  "fill": "$bgSubtle",
+                                  "cornerRadius": 12,
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "gap": 8,
+                                  "padding": [
+                                    10,
+                                    12,
+                                    10,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "siv9h",
+                                      "name": "Info",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "lVIO5",
+                                          "name": "Name",
+                                          "fill": "$text",
+                                          "content": "니나",
+                                          "fontFamily": "$font",
+                                          "fontSize": 15,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "b8GyJb",
+                                          "name": "Desc",
+                                          "fill": "$textMuted",
+                                          "content": "대사 42줄",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "pGf1n",
+                                      "name": "VoiceBtn",
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 999,
+                                      "gap": 4,
+                                      "padding": [
+                                        7,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "Q3eMc1",
+                                          "name": "VoiceText",
+                                          "fill": "$blueDeep",
+                                          "content": "자동 · F1",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "cL8dN",
+                                          "name": "chevron-down",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "chevron-down",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "psTKK",
+                                      "name": "PreviewBtn",
+                                      "width": 30,
+                                      "height": 30,
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 15,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "U8bBd",
+                                          "name": "volume-2",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "volume-2",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "gz4RH",
+                                  "name": "Read 트레플레프",
+                                  "width": "fill_container",
+                                  "fill": "$bgSubtle",
+                                  "cornerRadius": 12,
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "gap": 8,
+                                  "padding": [
+                                    10,
+                                    12,
+                                    10,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "Uxf1E",
+                                      "name": "Info",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "HvcM1",
+                                          "name": "Name",
+                                          "fill": "$text",
+                                          "content": "트레플레프",
+                                          "fontFamily": "$font",
+                                          "fontSize": 15,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "iFQbD",
+                                          "name": "Desc",
+                                          "fill": "$textMuted",
+                                          "content": "대사 38줄",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "a2gKj",
+                                      "name": "VoiceBtn",
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 999,
+                                      "gap": 4,
+                                      "padding": [
+                                        7,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "R3usYP",
+                                          "name": "VoiceText",
+                                          "fill": "$blueDeep",
+                                          "content": "자동 · M1",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "mK9kv",
+                                          "name": "chevron-down",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "chevron-down",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "d0xz5Z",
+                                      "name": "PreviewBtn",
+                                      "width": 30,
+                                      "height": 30,
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 15,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "QgeWl",
+                                          "name": "volume-2",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "volume-2",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "vKu0X",
+                                  "name": "Read 아르카지나",
+                                  "width": "fill_container",
+                                  "fill": "$bgSubtle",
+                                  "cornerRadius": 12,
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "gap": 8,
+                                  "padding": [
+                                    10,
+                                    12,
+                                    10,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "Q0lZaX",
+                                      "name": "Info",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "S59EN",
+                                          "name": "Name",
+                                          "fill": "$text",
+                                          "content": "아르카지나",
+                                          "fontFamily": "$font",
+                                          "fontSize": 15,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "k7UIi",
+                                          "name": "Desc",
+                                          "fill": "$textMuted",
+                                          "content": "대사 21줄",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "pkSUU",
+                                      "name": "VoiceBtn",
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 999,
+                                      "gap": 4,
+                                      "padding": [
+                                        7,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "qn5QA",
+                                          "name": "VoiceText",
+                                          "fill": "$blueDeep",
+                                          "content": "자동 · F2",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "yc0Jg",
+                                          "name": "chevron-down",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "chevron-down",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "Z1W77",
+                                      "name": "PreviewBtn",
+                                      "width": 30,
+                                      "height": 30,
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 15,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "GhUhP",
+                                          "name": "volume-2",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "volume-2",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "SivBn",
+                                  "name": "Read 소린",
+                                  "width": "fill_container",
+                                  "fill": "$bgSubtle",
+                                  "cornerRadius": 12,
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "gap": 8,
+                                  "padding": [
+                                    10,
+                                    12,
+                                    10,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "c5Tky5",
+                                      "name": "Info",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "mIv04",
+                                          "name": "Name",
+                                          "fill": "$text",
+                                          "content": "소린",
+                                          "fontFamily": "$font",
+                                          "fontSize": 15,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "G9CHP",
+                                          "name": "Desc",
+                                          "fill": "$textMuted",
+                                          "content": "대사 9줄",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "Y4UlKa",
+                                      "name": "VoiceBtn",
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 999,
+                                      "gap": 4,
+                                      "padding": [
+                                        7,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "fAu4r",
+                                          "name": "VoiceText",
+                                          "fill": "$blueDeep",
+                                          "content": "자동 · M2",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "qhSfi",
+                                          "name": "chevron-down",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "chevron-down",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "m6hGR",
+                                      "name": "PreviewBtn",
+                                      "width": 30,
+                                      "height": 30,
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 15,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "xJnvJ",
+                                          "name": "volume-2",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "volume-2",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Shyde",
+                          "name": "Footer",
+                          "width": "fill_container",
+                          "fill": "$bg",
+                          "stroke": "$borderSoft",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "padding": [
+                            16,
+                            16,
+                            46,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "gHbyv",
+                              "name": "Primary",
+                              "width": "fill_container",
+                              "fill": "$blue",
+                              "cornerRadius": 12,
+                              "gap": 8,
+                              "padding": [
+                                15,
+                                0
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "QxjIQ",
+                                  "name": "PrimaryText",
+                                  "fill": "#FFFFFF",
+                                  "content": "저장",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "PYUBa",
+                          "type": "ref",
+                          "ref": "e84dKw",
+                          "name": "HomeIndicator",
+                          "layoutPosition": "absolute",
+                          "x": 0,
+                          "y": 810
+                        }
+                      ]
                     },
                     {
                       "type": "text",
@@ -350249,7 +350939,7 @@
                       "fill": "$textMuted",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "배역 2명 이상일 때만. 배역 하나면 바로 대본 상세, 이름 없는 독백이면 이름 정하기.",
+                      "content": "배역 2명 이상일 때만. 「STEP 2 · 목소리 정하기」 표시를 뺐다(1단계 표시가 없는 흐름이라 숫자만 남음). 배역 하나면 바로 대본 상세, 이름 없는 독백이면 이름 정하기.",
                       "lineHeight": 1.45,
                       "fontFamily": "$font",
                       "fontSize": 20,
@@ -385287,7 +385977,7 @@
               "id": "l6cEVs",
               "name": "모음 제목",
               "fill": "$text",
-              "content": "C · 목소리 정하기 (7)",
+              "content": "C · 목소리 정하기 (8)",
               "fontFamily": "$font",
               "fontSize": 64,
               "fontWeight": "800"
@@ -390126,6 +390816,790 @@
                               "content": "확인"
                             }
                           }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "W2OTH",
+                  "name": "C8 카드",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xcjiq",
+                      "name": "설명",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "KPi5q",
+                          "name": "번호",
+                          "height": 44,
+                          "fill": "$text",
+                          "cornerRadius": 999,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "OrLK5",
+                              "name": "번호 글",
+                              "fill": "#FFFFFF",
+                              "content": "C8",
+                              "fontFamily": "$font",
+                              "fontSize": 18,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "zdu6x",
+                          "name": "단계",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "목소리 정하기 · STEP 표시 없음(변경안)",
+                          "fontFamily": "$font",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VLNGs",
+                      "name": "표시",
+                      "fill": "#E8F3FF",
+                      "cornerRadius": 999,
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "w7tjHZ",
+                          "name": "표시 글",
+                          "fill": "#1B64DA",
+                          "content": "변경안 · 아직 코드 없음",
+                          "fontFamily": "$font",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mBcJS",
+                      "name": "변경안 · 목소리 정하기(STEP 표시 없음)",
+                      "clip": true,
+                      "width": 390,
+                      "height": 844,
+                      "fill": "$bg",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "id": "U1ESTG",
+                          "type": "ref",
+                          "ref": "XfrjI",
+                          "name": "StatusBar"
+                        },
+                        {
+                          "id": "mmVLL",
+                          "type": "ref",
+                          "ref": "M6ZbSa",
+                          "name": "NavHeader",
+                          "descendants": {
+                            "R4eY0": {
+                              "content": "목소리 정하기"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "y7Ts98",
+                          "name": "Body",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "padding": [
+                            16,
+                            20,
+                            12,
+                            20
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "M6HpW",
+                              "name": "TitleWrap",
+                              "width": "fill_container",
+                              "padding": [
+                                2,
+                                0,
+                                0,
+                                0
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vSFUp",
+                                  "name": "Title",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "배역마다 목소리를 정해 주세요",
+                                  "fontFamily": "$font",
+                                  "fontSize": 22,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "A3ct2H",
+                              "name": "ScriptCard",
+                              "width": "fill_container",
+                              "fill": "$blueMist",
+                              "cornerRadius": 12,
+                              "stroke": "$blueLine",
+                              "strokeWidth": 1,
+                              "gap": 12,
+                              "padding": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "i1wAJ",
+                                  "name": "ScriptIcon",
+                                  "width": 36,
+                                  "height": 36,
+                                  "fill": "$blueSoft",
+                                  "cornerRadius": 9,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "CFOn1",
+                                      "name": "file-text",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "file-text",
+                                      "library": "feather",
+                                      "fill": "$blue"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "RMihz",
+                                  "name": "ScriptText",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "i7xoDO",
+                                      "name": "ScriptTitle",
+                                      "fill": "$text",
+                                      "content": "갈매기 3막",
+                                      "fontFamily": "$font",
+                                      "fontSize": 16,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "PE8aN",
+                                      "name": "ScriptMeta",
+                                      "fill": "$textMuted",
+                                      "content": "배역 4명 · 대사 110줄",
+                                      "fontFamily": "$font",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Ds84a",
+                                  "name": "FullLink",
+                                  "gap": 2,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "wDdel",
+                                      "name": "FullText",
+                                      "fill": "$blueDeep",
+                                      "content": "전체 보기",
+                                      "fontFamily": "$font",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "CpECE",
+                                      "name": "chevron-right",
+                                      "width": 13,
+                                      "height": 13,
+                                      "icon": "chevron-right",
+                                      "library": "feather",
+                                      "fill": "$blueDeep"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "mUjHm",
+                              "name": "Sec 읽어 줄 배역",
+                              "width": "fill_container",
+                              "stroke": "#FFFFFF00",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "padding": [
+                                6,
+                                0,
+                                2,
+                                0
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "SyHse",
+                                  "name": "SecTitle",
+                                  "fill": "$text",
+                                  "content": "배역 목소리",
+                                  "fontFamily": "$font",
+                                  "fontSize": 15,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "s3Tq8",
+                                  "name": "SecSub",
+                                  "fill": "$textMuted",
+                                  "content": "연습할 때 내가 고른 배역 말고는 이 목소리로 읽어요.",
+                                  "fontFamily": "$font",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "M4v4MX",
+                              "name": "ReadList",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "OwVnl",
+                                  "name": "Read 니나",
+                                  "width": "fill_container",
+                                  "fill": "$bgSubtle",
+                                  "cornerRadius": 12,
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "gap": 8,
+                                  "padding": [
+                                    10,
+                                    12,
+                                    10,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "DIFPk",
+                                      "name": "Info",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "yZR3F",
+                                          "name": "Name",
+                                          "fill": "$text",
+                                          "content": "니나",
+                                          "fontFamily": "$font",
+                                          "fontSize": 15,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "uXyOD",
+                                          "name": "Desc",
+                                          "fill": "$textMuted",
+                                          "content": "대사 42줄",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "qgz8A",
+                                      "name": "VoiceBtn",
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 999,
+                                      "gap": 4,
+                                      "padding": [
+                                        7,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "lG7B0",
+                                          "name": "VoiceText",
+                                          "fill": "$blueDeep",
+                                          "content": "자동 · F1",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "lyoao",
+                                          "name": "chevron-down",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "chevron-down",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "Fa0rK",
+                                      "name": "PreviewBtn",
+                                      "width": 30,
+                                      "height": 30,
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 15,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "A5BxB",
+                                          "name": "volume-2",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "volume-2",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "iL2bT",
+                                  "name": "Read 트레플레프",
+                                  "width": "fill_container",
+                                  "fill": "$bgSubtle",
+                                  "cornerRadius": 12,
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "gap": 8,
+                                  "padding": [
+                                    10,
+                                    12,
+                                    10,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "B5fD4",
+                                      "name": "Info",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "zUm1O",
+                                          "name": "Name",
+                                          "fill": "$text",
+                                          "content": "트레플레프",
+                                          "fontFamily": "$font",
+                                          "fontSize": 15,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "q6Xdf6",
+                                          "name": "Desc",
+                                          "fill": "$textMuted",
+                                          "content": "대사 38줄",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "gVv4N",
+                                      "name": "VoiceBtn",
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 999,
+                                      "gap": 4,
+                                      "padding": [
+                                        7,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "KPPDt",
+                                          "name": "VoiceText",
+                                          "fill": "$blueDeep",
+                                          "content": "자동 · M1",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "R6W0Ws",
+                                          "name": "chevron-down",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "chevron-down",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "fXgLO",
+                                      "name": "PreviewBtn",
+                                      "width": 30,
+                                      "height": 30,
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 15,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "kkv3A",
+                                          "name": "volume-2",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "volume-2",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "k0tSg",
+                                  "name": "Read 아르카지나",
+                                  "width": "fill_container",
+                                  "fill": "$bgSubtle",
+                                  "cornerRadius": 12,
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "gap": 8,
+                                  "padding": [
+                                    10,
+                                    12,
+                                    10,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "bd8HZ",
+                                      "name": "Info",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "csA8q",
+                                          "name": "Name",
+                                          "fill": "$text",
+                                          "content": "아르카지나",
+                                          "fontFamily": "$font",
+                                          "fontSize": 15,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "s1uRd",
+                                          "name": "Desc",
+                                          "fill": "$textMuted",
+                                          "content": "대사 21줄",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "t6xlu",
+                                      "name": "VoiceBtn",
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 999,
+                                      "gap": 4,
+                                      "padding": [
+                                        7,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "r4CJ8",
+                                          "name": "VoiceText",
+                                          "fill": "$blueDeep",
+                                          "content": "자동 · F2",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "uddes",
+                                          "name": "chevron-down",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "chevron-down",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "emeVT",
+                                      "name": "PreviewBtn",
+                                      "width": 30,
+                                      "height": 30,
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 15,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "j812K",
+                                          "name": "volume-2",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "volume-2",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Y27qdG",
+                                  "name": "Read 소린",
+                                  "width": "fill_container",
+                                  "fill": "$bgSubtle",
+                                  "cornerRadius": 12,
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "gap": 8,
+                                  "padding": [
+                                    10,
+                                    12,
+                                    10,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "M4oo91",
+                                      "name": "Info",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 1,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "DM43X",
+                                          "name": "Name",
+                                          "fill": "$text",
+                                          "content": "소린",
+                                          "fontFamily": "$font",
+                                          "fontSize": 15,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "dtdUZ",
+                                          "name": "Desc",
+                                          "fill": "$textMuted",
+                                          "content": "대사 9줄",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "Q5Os9",
+                                      "name": "VoiceBtn",
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 999,
+                                      "gap": 4,
+                                      "padding": [
+                                        7,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "ovInA",
+                                          "name": "VoiceText",
+                                          "fill": "$blueDeep",
+                                          "content": "자동 · M2",
+                                          "fontFamily": "$font",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "lRToB",
+                                          "name": "chevron-down",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "chevron-down",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "dinqg",
+                                      "name": "PreviewBtn",
+                                      "width": 30,
+                                      "height": 30,
+                                      "fill": "$blueSoft",
+                                      "cornerRadius": 15,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "Q67xeF",
+                                          "name": "volume-2",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "volume-2",
+                                          "library": "feather",
+                                          "fill": "$blueDeep"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kvZ86",
+                          "name": "Footer",
+                          "width": "fill_container",
+                          "fill": "$bg",
+                          "stroke": "$borderSoft",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "padding": [
+                            16,
+                            16,
+                            46,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "NE0t0",
+                              "name": "Primary",
+                              "width": "fill_container",
+                              "fill": "$blue",
+                              "cornerRadius": 12,
+                              "gap": 8,
+                              "padding": [
+                                15,
+                                0
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Je1n7",
+                                  "name": "PrimaryText",
+                                  "fill": "#FFFFFF",
+                                  "content": "저장",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "I1ErF",
+                          "type": "ref",
+                          "ref": "e84dKw",
+                          "name": "HomeIndicator",
+                          "layoutPosition": "absolute",
+                          "x": 0,
+                          "y": 810
                         }
                       ]
                     }
