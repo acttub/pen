@@ -349138,7 +349138,7 @@
                               "id": "IHqWP",
                               "name": "파일칸",
                               "width": "fill_container",
-                              "height": 200,
+                              "height": 260,
                               "cornerRadius": 16,
                               "layout": "vertical",
                               "gap": 10,
@@ -349177,48 +349177,82 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "xdMMI",
-                                  "name": "예시 링크",
-                                  "gap": 2,
+                                  "id": "wESn6",
+                                  "name": "또는",
+                                  "width": 240,
+                                  "gap": 10,
                                   "padding": [
-                                    8,
+                                    6,
                                     0,
-                                    0,
+                                    2,
                                     0
                                   ],
                                   "alignItems": "center",
                                   "children": [
                                     {
-                                      "type": "text",
-                                      "id": "M1U9q",
-                                      "name": "글",
-                                      "fill": "$blue",
-                                      "content": "대본이 없으면 예시로 해 보기",
-                                      "fontFamily": "$font",
-                                      "fontSize": 14,
-                                      "fontWeight": "700"
+                                      "type": "rectangle",
+                                      "id": "x95nr",
+                                      "name": "선",
+                                      "fill": "$border",
+                                      "width": "fill_container",
+                                      "height": 1
                                     },
                                     {
+                                      "type": "text",
+                                      "id": "zmIl8",
+                                      "name": "글",
+                                      "fill": "$textFaint",
+                                      "content": "또는",
+                                      "fontFamily": "$font",
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "Tmc14",
+                                      "name": "선",
+                                      "fill": "$border",
+                                      "width": "fill_container",
+                                      "height": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "dKKAN",
+                                  "name": "예시 버튼",
+                                  "fill": "#E8F3FF",
+                                  "cornerRadius": 999,
+                                  "gap": 6,
+                                  "padding": [
+                                    11,
+                                    18
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
                                       "type": "icon",
-                                      "id": "HTLqu",
-                                      "name": "화살표",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "chevron-right",
+                                      "id": "xw7Vg",
+                                      "name": "아이콘",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "sparkles",
                                       "library": "lucide",
                                       "fill": "$blue"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "ZPYca",
+                                      "name": "글",
+                                      "fill": "$blue",
+                                      "content": "예시 대본으로 해 보기",
+                                      "fontFamily": "$font",
+                                      "fontSize": 15,
+                                      "fontWeight": "800"
                                     }
                                   ]
                                 }
                               ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "uyMkP",
-                              "fill": "#000000",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -351834,7 +351868,7 @@
                               "id": "hlMFC",
                               "name": "파일칸",
                               "width": "fill_container",
-                              "height": 200,
+                              "height": 260,
                               "cornerRadius": 16,
                               "layout": "vertical",
                               "gap": 10,
@@ -351873,36 +351907,78 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "ZEuox",
-                                  "name": "예시 링크",
-                                  "gap": 2,
+                                  "id": "ycx7L",
+                                  "name": "또는",
+                                  "width": 240,
+                                  "gap": 10,
                                   "padding": [
-                                    8,
+                                    6,
                                     0,
-                                    0,
+                                    2,
                                     0
                                   ],
                                   "alignItems": "center",
                                   "children": [
                                     {
-                                      "type": "text",
-                                      "id": "Avvi4",
-                                      "name": "글",
-                                      "fill": "$blue",
-                                      "content": "대본이 없으면 예시로 해 보기",
-                                      "fontFamily": "$font",
-                                      "fontSize": 14,
-                                      "fontWeight": "700"
+                                      "type": "rectangle",
+                                      "id": "a3xPI",
+                                      "name": "선",
+                                      "fill": "$border",
+                                      "width": "fill_container",
+                                      "height": 1
                                     },
                                     {
+                                      "type": "text",
+                                      "id": "NvWtn",
+                                      "name": "글",
+                                      "fill": "$textFaint",
+                                      "content": "또는",
+                                      "fontFamily": "$font",
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "lyGIM",
+                                      "name": "선",
+                                      "fill": "$border",
+                                      "width": "fill_container",
+                                      "height": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "lUh0J",
+                                  "name": "예시 버튼",
+                                  "fill": "#E8F3FF",
+                                  "cornerRadius": 999,
+                                  "gap": 6,
+                                  "padding": [
+                                    11,
+                                    18
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
                                       "type": "icon",
-                                      "id": "uMnnh",
-                                      "name": "화살표",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "chevron-right",
+                                      "id": "M553fX",
+                                      "name": "아이콘",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "sparkles",
                                       "library": "lucide",
                                       "fill": "$blue"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "yPObg",
+                                      "name": "글",
+                                      "fill": "$blue",
+                                      "content": "예시 대본으로 해 보기",
+                                      "fontFamily": "$font",
+                                      "fontSize": 15,
+                                      "fontWeight": "800"
                                     }
                                   ]
                                 }
@@ -383191,7 +383267,7 @@
                               "id": "eFDHI",
                               "name": "파일칸",
                               "width": "fill_container",
-                              "height": 200,
+                              "height": 260,
                               "cornerRadius": 16,
                               "layout": "vertical",
                               "gap": 10,
@@ -383230,36 +383306,78 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "CzTHO",
-                                  "name": "예시 링크",
-                                  "gap": 2,
+                                  "id": "GWiah",
+                                  "name": "또는",
+                                  "width": 240,
+                                  "gap": 10,
                                   "padding": [
-                                    8,
+                                    6,
                                     0,
-                                    0,
+                                    2,
                                     0
                                   ],
                                   "alignItems": "center",
                                   "children": [
                                     {
-                                      "type": "text",
-                                      "id": "Pd0Z9",
-                                      "name": "글",
-                                      "fill": "$blue",
-                                      "content": "대본이 없으면 예시로 해 보기",
-                                      "fontFamily": "$font",
-                                      "fontSize": 14,
-                                      "fontWeight": "700"
+                                      "type": "rectangle",
+                                      "id": "hBiy0",
+                                      "name": "선",
+                                      "fill": "$border",
+                                      "width": "fill_container",
+                                      "height": 1
                                     },
                                     {
+                                      "type": "text",
+                                      "id": "M8MjIP",
+                                      "name": "글",
+                                      "fill": "$textFaint",
+                                      "content": "또는",
+                                      "fontFamily": "$font",
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "rectangle",
+                                      "id": "sN3Je",
+                                      "name": "선",
+                                      "fill": "$border",
+                                      "width": "fill_container",
+                                      "height": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "LfKX4",
+                                  "name": "예시 버튼",
+                                  "fill": "#E8F3FF",
+                                  "cornerRadius": 999,
+                                  "gap": 6,
+                                  "padding": [
+                                    11,
+                                    18
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
                                       "type": "icon",
-                                      "id": "z6DKK",
-                                      "name": "화살표",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "chevron-right",
+                                      "id": "qoEMV",
+                                      "name": "아이콘",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "sparkles",
                                       "library": "lucide",
                                       "fill": "$blue"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "vmSUV",
+                                      "name": "글",
+                                      "fill": "$blue",
+                                      "content": "예시 대본으로 해 보기",
+                                      "fontFamily": "$font",
+                                      "fontSize": 15,
+                                      "fontWeight": "800"
                                     }
                                   ]
                                 }
@@ -429228,6 +429346,19 @@
           "fontFamily": "$font",
           "fontSize": 14,
           "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "WnaD1",
+          "name": "결정",
+          "fill": "$blueDeep",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "결정(10/22): iOS-A Live Activity, Android-A Live Update. 대사 글자는 리딩 화면의 가리기 설정을 따른다 — 가렸으면 「대사 가림」.",
+          "lineHeight": 1.5,
+          "fontFamily": "$font",
+          "fontSize": 14,
+          "fontWeight": "700"
         }
       ]
     },
@@ -431711,7 +431842,7 @@
               "fill": "$textDim",
               "textGrowth": "fixed-width",
               "width": "fill_container",
-              "content": "대사 가림 — 잠금 화면에는 대사를 보이지 않는다",
+              "content": "대사 가림 — 가리기 모드라 숨김",
               "fontFamily": "$font",
               "fontSize": 14,
               "fontWeight": "normal"
