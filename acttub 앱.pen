@@ -352587,7 +352587,7 @@
                           "fill": "$text",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "목소리 내려받는 중",
+                          "content": "상대역 목소리 받는 중(변경안 · 전체 화면)",
                           "fontFamily": "$font",
                           "fontSize": 22,
                           "fontWeight": "800"
@@ -352598,7 +352598,7 @@
                       "type": "frame",
                       "id": "nMtmA",
                       "name": "표시",
-                      "fill": "#FFF3E0",
+                      "fill": "#E8F3FF",
                       "cornerRadius": 999,
                       "padding": [
                         6,
@@ -352609,8 +352609,8 @@
                           "type": "text",
                           "id": "JQtll",
                           "name": "표시 글",
-                          "fill": "#B86E00",
-                          "content": "정본 · dev 앱과 대조 전",
+                          "fill": "#1B64DA",
+                          "content": "변경안 · 전체 화면",
                           "fontFamily": "$font",
                           "fontSize": 16,
                           "fontWeight": "700"
@@ -352619,132 +352619,177 @@
                     },
                     {
                       "type": "frame",
-                      "id": "rprl0",
-                      "name": "정본 사본 · R9.6 리딩 실행 · 목소리 내려받는 중",
+                      "id": "YdEos",
+                      "name": "변경안 · 상대역 목소리 내려받는 중(전체 화면)",
                       "clip": true,
                       "width": 390,
                       "height": 844,
                       "fill": "$bg",
                       "layout": "vertical",
+                      "gap": 10,
                       "children": [
                         {
-                          "id": "W631I",
+                          "id": "Wzu9B",
                           "type": "ref",
                           "ref": "XfrjI",
                           "name": "StatusBar"
                         },
                         {
                           "type": "frame",
-                          "id": "HwyXA",
-                          "name": "Center",
+                          "id": "xa0Cf",
+                          "name": "위",
+                          "width": "fill_container",
+                          "padding": [
+                            12,
+                            20
+                          ],
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "EV7lY",
+                              "name": "닫기",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "x",
+                              "library": "lucide",
+                              "fill": "$text"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GrUo5",
+                          "name": "본문",
                           "width": "fill_container",
                           "height": "fill_container",
                           "layout": "vertical",
                           "gap": 12,
-                          "padding": 28,
-                          "justifyContent": "center",
-                          "alignItems": "center",
+                          "padding": [
+                            28,
+                            24,
+                            0,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "wbko0",
+                              "name": "마스코트",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "images/app/mascot-reading.png",
+                                "mode": "contain"
+                              },
+                              "width": 84,
+                              "height": 92
+                            },
+                            {
+                              "type": "frame",
+                              "id": "A76d7J",
+                              "name": "간격",
+                              "width": 10,
+                              "height": 16
+                            },
+                            {
+                              "type": "text",
+                              "id": "MoUKK",
+                              "name": "제목",
+                              "fill": "$text",
+                              "content": "상대역 목소리를 받고 있어요…",
+                              "fontFamily": "$font",
+                              "fontSize": 26,
+                              "fontWeight": "800"
+                            },
+                            {
+                              "type": "text",
+                              "id": "CLuS8",
+                              "name": "진행",
+                              "fill": "$blue",
+                              "content": "42% · 160 / 380MB · 약 3분 남음",
+                              "fontFamily": "$font",
+                              "fontSize": 17,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VJbxI",
+                          "name": "아래",
+                          "width": "fill_container",
+                          "padding": [
+                            0,
+                            20,
+                            20,
+                            20
+                          ],
                           "children": [
                             {
                               "type": "frame",
-                              "id": "g3DCs",
-                              "name": "DownloadCard",
+                              "id": "HwWMB",
+                              "name": "안내 상자",
                               "width": "fill_container",
-                              "fill": "$bgSubtle",
+                              "fill": "#EEF4FF",
                               "cornerRadius": 16,
-                              "layout": "vertical",
-                              "gap": 12,
-                              "padding": [
-                                24,
-                                20
-                              ],
-                              "alignItems": "center",
+                              "gap": 10,
+                              "padding": 16,
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "tfzo2",
-                                  "name": "download-cloud",
-                                  "width": 24,
-                                  "height": 24,
-                                  "icon": "download-cloud",
-                                  "library": "feather",
-                                  "fill": "$blue"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "A7BHUj",
-                                  "name": "T",
-                                  "fill": "$text",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "상대역 목소리를 준비하고 있어요",
-                                  "textAlign": "center",
-                                  "fontFamily": "$font",
-                                  "fontSize": 16,
-                                  "fontWeight": "600"
+                                  "id": "q0TwW",
+                                  "name": "아이콘",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "info",
+                                  "library": "lucide",
+                                  "fill": "$blueDeep"
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "wkkHy",
-                                  "name": "DownloadTrack",
-                                  "clip": true,
+                                  "id": "lWoEH",
+                                  "name": "글",
                                   "width": "fill_container",
-                                  "height": 8,
-                                  "fill": "$border",
-                                  "cornerRadius": 4,
-                                  "layout": "none",
+                                  "layout": "vertical",
+                                  "gap": 2,
                                   "children": [
                                     {
-                                      "type": "rectangle",
-                                      "cornerRadius": 4,
-                                      "id": "HeNOR",
-                                      "x": 0,
-                                      "y": 0,
-                                      "name": "DownloadFill",
-                                      "fill": "$blue",
-                                      "width": 123,
-                                      "height": 8
+                                      "type": "text",
+                                      "id": "K8RFZ",
+                                      "name": "굵게",
+                                      "fill": "$blueDeep",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "처음 한 번만 받아요",
+                                      "lineHeight": 1.45,
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "800"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "f5nwh",
+                                      "name": "설명",
+                                      "fill": "$blueDeep",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "앱을 나가면 잠시 멈췄다가, 다시 열면 이어서 받아요.",
+                                      "lineHeight": 1.45,
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "500"
                                     }
                                   ]
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "RsFOa",
-                                  "name": "T",
-                                  "fill": "$textDim",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "160 / 380MB · 약 3분 남음",
-                                  "textAlign": "center",
-                                  "fontFamily": "$font",
-                                  "fontSize": 14,
-                                  "fontWeight": "600"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "F4ZQq",
-                                  "name": "T",
-                                  "fill": "$textFaint",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "처음 한 번만 받아요. 와이파이에서 받는 걸 권해요.",
-                                  "textAlign": "center",
-                                  "fontFamily": "$font",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
                                 }
                               ]
                             }
                           ]
                         },
                         {
-                          "id": "mGkHe",
+                          "id": "bxX6a",
                           "type": "ref",
                           "ref": "e84dKw",
-                          "name": "HomeIndicator",
-                          "layoutPosition": "absolute",
-                          "x": 0,
-                          "y": 810
+                          "name": "HomeIndicator"
                         }
                       ]
                     },
@@ -352755,7 +352800,7 @@
                       "fill": "$textMuted",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "「상대역 목소리를 준비하고 있어요」 · 「처음 한 번만 받아요」.",
+                      "content": "F4처럼 전체 화면. 앱 목소리(무료, 기기에 내려받음) 380MB를 받는 동안. 앱이 배경으로 가면 멈추고 돌아오면 이어받는다(lib/reading/tts/assets.ts). 받는 일은 앱이 하므로 알림은 없다.",
                       "lineHeight": 1.45,
                       "fontFamily": "$font",
                       "fontSize": 20,
@@ -402723,7 +402768,7 @@
               "id": "f3jhv0",
               "name": "모음 제목",
               "fill": "$text",
-              "content": "G · 리딩 실행 (34)",
+              "content": "G · 리딩 실행 (35)",
               "fontFamily": "$font",
               "fontSize": 64,
               "fontWeight": "800"
@@ -412946,6 +412991,263 @@
                           "fontFamily": "$font",
                           "fontSize": 20,
                           "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "v7VRB",
+                  "name": "G35 카드",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tRiZP",
+                      "name": "설명",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Zk4JL",
+                          "name": "번호",
+                          "height": 44,
+                          "fill": "$text",
+                          "cornerRadius": 999,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xReJX",
+                              "name": "번호 글",
+                              "fill": "#FFFFFF",
+                              "content": "G35",
+                              "fontFamily": "$font",
+                              "fontSize": 18,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "z5CsXJ",
+                          "name": "단계",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "상대역 목소리 받는 중 · 전체 화면(변경안)",
+                          "fontFamily": "$font",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gmXRc",
+                      "name": "표시",
+                      "fill": "#E8F3FF",
+                      "cornerRadius": 999,
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zww3F",
+                          "name": "표시 글",
+                          "fill": "#1B64DA",
+                          "content": "변경안 · 아직 코드 없음",
+                          "fontFamily": "$font",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Du84b",
+                      "name": "변경안 · 상대역 목소리 내려받는 중(전체 화면)",
+                      "clip": true,
+                      "width": 390,
+                      "height": 844,
+                      "fill": "$bg",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "GJa7X",
+                          "type": "ref",
+                          "ref": "XfrjI",
+                          "name": "StatusBar"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "oYVSo",
+                          "name": "위",
+                          "width": "fill_container",
+                          "padding": [
+                            12,
+                            20
+                          ],
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "oAbWS",
+                              "name": "닫기",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "x",
+                              "library": "lucide",
+                              "fill": "$text"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "U5LoD",
+                          "name": "본문",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": [
+                            28,
+                            24,
+                            0,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "cxa1O",
+                              "name": "마스코트",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "images/app/mascot-reading.png",
+                                "mode": "contain"
+                              },
+                              "width": 84,
+                              "height": 92
+                            },
+                            {
+                              "type": "frame",
+                              "id": "deYgP",
+                              "name": "간격",
+                              "width": 10,
+                              "height": 16
+                            },
+                            {
+                              "type": "text",
+                              "id": "JkaD3",
+                              "name": "제목",
+                              "fill": "$text",
+                              "content": "상대역 목소리를 받고 있어요…",
+                              "fontFamily": "$font",
+                              "fontSize": 26,
+                              "fontWeight": "800"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Yymsb",
+                              "name": "진행",
+                              "fill": "$blue",
+                              "content": "42% · 160 / 380MB · 약 3분 남음",
+                              "fontFamily": "$font",
+                              "fontSize": 17,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MkfB5",
+                          "name": "아래",
+                          "width": "fill_container",
+                          "padding": [
+                            0,
+                            20,
+                            20,
+                            20
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "cSGkr",
+                              "name": "안내 상자",
+                              "width": "fill_container",
+                              "fill": "#EEF4FF",
+                              "cornerRadius": 16,
+                              "gap": 10,
+                              "padding": 16,
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "T5N86I",
+                                  "name": "아이콘",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "info",
+                                  "library": "lucide",
+                                  "fill": "$blueDeep"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "G7ujii",
+                                  "name": "글",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "EeKvw",
+                                      "name": "굵게",
+                                      "fill": "$blueDeep",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "처음 한 번만 받아요",
+                                      "lineHeight": 1.45,
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "800"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "qw7gg",
+                                      "name": "설명",
+                                      "fill": "$blueDeep",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "앱을 나가면 잠시 멈췄다가, 다시 열면 이어서 받아요.",
+                                      "lineHeight": 1.45,
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "zKl8Q",
+                          "type": "ref",
+                          "ref": "e84dKw",
+                          "name": "HomeIndicator"
                         }
                       ]
                     }
