@@ -350094,7 +350094,7 @@
                                       "fill": "$blueDeep",
                                       "textGrowth": "fixed-width",
                                       "width": "fill_container",
-                                      "content": "다 나누면 대본 탭에 생겨요.",
+                                      "content": "다 나누면 알림을 보내 드릴게요.",
                                       "lineHeight": 1.45,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
@@ -350121,7 +350121,7 @@
                       "fill": "$textMuted",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "팝업 대신 전체 화면. ✕나 뒤로 가기로 나가도 서버가 끝까지 나눠 저장한다(ScriptSplitWorker). 파일을 올리는 동안만 막는다. 알림을 만들면 아래 설명을 「다 나누면 알림을 보내 드릴게요.」로.",
+                      "content": "팝업 대신 전체 화면. ✕나 뒤로 가기로 나가도 서버가 끝까지 나눠 저장한다(ScriptSplitWorker). 파일을 올리는 동안만 막는다. 다 나누면 푸시 알림을 보낸다(새로 만들 것).",
                       "lineHeight": 1.45,
                       "fontFamily": "$font",
                       "fontSize": 20,
@@ -353661,7 +353661,7 @@
                                       "fill": "$blueDeep",
                                       "textGrowth": "fixed-width",
                                       "width": "fill_container",
-                                      "content": "다 나누면 대본 탭에 생겨요.",
+                                      "content": "다 나누면 알림을 보내 드릴게요.",
                                       "lineHeight": 1.45,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
@@ -353688,7 +353688,7 @@
                       "fill": "$textMuted",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "전체 화면 · ✕로 나가도 서버가 끝까지 나눠 저장 · 아래 안내 상자. 알림을 만들면 「다 나누면 알림을 보내 드릴게요.」",
+                      "content": "전체 화면 · ✕로 나가도 서버가 끝까지 나눠 저장 · 다 나누면 푸시 알림(새로 만들 것).",
                       "lineHeight": 1.45,
                       "fontFamily": "$font",
                       "fontSize": 20,
@@ -385249,7 +385249,7 @@
                                       "fill": "$blueDeep",
                                       "textGrowth": "fixed-width",
                                       "width": "fill_container",
-                                      "content": "다 나누면 대본 탭에 생겨요.",
+                                      "content": "다 나누면 알림을 보내 드릴게요.",
                                       "lineHeight": 1.45,
                                       "fontFamily": "$font",
                                       "fontSize": 14,
@@ -431653,6 +431653,1270 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Ga9Vn",
+      "x": 52678,
+      "y": -54200,
+      "name": "R9 백그라운드 디자인 안 라벨",
+      "width": 360,
+      "layout": "vertical",
+      "gap": 10,
+      "children": [
+        {
+          "type": "text",
+          "id": "tf122",
+          "name": "T",
+          "fill": "$text",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "디자인 안 — Live Activity · Live Update",
+          "fontFamily": "$font",
+          "fontSize": 26,
+          "fontWeight": "800"
+        },
+        {
+          "type": "text",
+          "id": "Z02orY",
+          "name": "T",
+          "fill": "$textMuted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "윗줄 ①이 기본안(1안: 차례 + 대사 + 줄 칸 막대 + 버튼 둘).\n\niOS 잠금 화면\n· 2안 링 요약 — 원형 진행 + 차례만, 버튼 하나. 가장 작다.\n· 3안 대본 흐름 — 앞 줄·지금 줄·다음 차례를 대본처럼.\n· 4안 녹음 강조 — 내 차례엔 녹음 중·경과 시간·파형.\n\n다이내믹 아일랜드 접힘 — a 마이크+차례 / b 배역 이니셜+링 / c 파형+경과 시간.\n\n안드로이드 알림\n· 2안 장면 칸 + 내 대사 점 — ProgressStyle의 칸(segment)·점(point)을 장면·내 대사에 쓴다.\n· 3안 큰 아이콘 + 버튼 셋 — 배역 이니셜, 일시정지·다음 줄·끝내기.\n\n상태 막대 칩 — a 2/15 / b 내 차례 / c 녹음 점+경과 시간.",
+          "lineHeight": 1.55,
+          "fontFamily": "$font",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "OBym7",
+      "x": 53118,
+      "y": -54200,
+      "name": "안 LA-2 iOS 잠금 화면 · 링 요약",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#2B3645",
+      "layout": "vertical",
+      "gap": 6,
+      "padding": [
+        14,
+        16,
+        10,
+        16
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "RKUqm",
+          "name": "StatusBar",
+          "width": "fill_container",
+          "height": 30,
+          "gap": 6,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "end",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "Qtjt2",
+              "name": "signal",
+              "width": 16,
+              "height": 16,
+              "icon": "signal",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "icon",
+              "id": "g8KLLb",
+              "name": "wifi",
+              "width": 16,
+              "height": 16,
+              "icon": "wifi",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "icon",
+              "id": "v19FI",
+              "name": "battery-full",
+              "width": 16,
+              "height": 16,
+              "icon": "battery-full",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "qBpBw",
+          "name": "Date",
+          "fill": "#FFFFFF",
+          "content": "10월 22일 수요일",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "600"
+        },
+        {
+          "type": "text",
+          "id": "CmATz",
+          "name": "Clock",
+          "fill": "#FFFFFF",
+          "content": "9:41",
+          "fontFamily": "Inter",
+          "fontSize": 88,
+          "fontWeight": "700"
+        },
+        {
+          "type": "frame",
+          "id": "JRkKM",
+          "name": "Spacer",
+          "width": "fill_container",
+          "height": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "k91Xk",
+          "name": "Live Activity",
+          "width": "fill_container",
+          "fill": "#11151BE6",
+          "cornerRadius": 24,
+          "gap": 14,
+          "padding": 16,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JxKkh",
+              "name": "Ring",
+              "width": 58,
+              "height": 58,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "Vd7Zf",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Track",
+                  "innerRadius": 0.84,
+                  "fill": "#FFFFFF33",
+                  "width": 58,
+                  "height": 58
+                },
+                {
+                  "type": "ellipse",
+                  "id": "Gz65G",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Arc",
+                  "innerRadius": 0.84,
+                  "startAngle": 90,
+                  "sweepAngle": -48,
+                  "fill": "#3182F6",
+                  "width": 58,
+                  "height": 58
+                },
+                {
+                  "type": "frame",
+                  "id": "Lgw09",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Center",
+                  "width": 58,
+                  "height": 58,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dGWHP",
+                      "name": "L",
+                      "fill": "#FFFFFF",
+                      "content": "2/15",
+                      "fontFamily": "Inter",
+                      "fontSize": 14.5,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zxhlw",
+              "name": "Text",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 3,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "oqaa8",
+                  "name": "Turn",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "내 차례 · 태오",
+                  "fontFamily": "$font",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "FjuhT",
+                  "name": "Sub",
+                  "fill": "#8B95A1",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "옥상 장면 · 듣는 중",
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IZVNB",
+              "name": "Pause",
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF26",
+              "cornerRadius": 22,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "a4Blh",
+                  "name": "i",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "pause",
+                  "library": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PrLct",
+          "name": "Bottom",
+          "width": "fill_container",
+          "padding": [
+            18,
+            30,
+            8,
+            30
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "wbuE9",
+              "name": "flashlight",
+              "width": 50,
+              "height": 50,
+              "fill": "#FFFFFF33",
+              "cornerRadius": 25,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "DzW4A",
+                  "name": "i",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "flashlight",
+                  "library": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZurQY",
+              "name": "camera",
+              "width": 50,
+              "height": 50,
+              "fill": "#FFFFFF33",
+              "cornerRadius": 25,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "q9WZan",
+                  "name": "i",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "camera",
+                  "library": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "cornerRadius": 3,
+          "id": "HqmWg",
+          "name": "Home Bar",
+          "fill": "#FFFFFF",
+          "width": 134,
+          "height": 5
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "QZsvz",
+      "x": 53588,
+      "y": -54200,
+      "name": "안 LA-3 iOS 잠금 화면 · 대본 흐름",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#2B3645",
+      "layout": "vertical",
+      "gap": 6,
+      "padding": [
+        14,
+        16,
+        10,
+        16
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Z88605",
+          "name": "StatusBar",
+          "width": "fill_container",
+          "height": 30,
+          "gap": 6,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "end",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "X1ssJ7",
+              "name": "signal",
+              "width": 16,
+              "height": 16,
+              "icon": "signal",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "icon",
+              "id": "krLWD",
+              "name": "wifi",
+              "width": 16,
+              "height": 16,
+              "icon": "wifi",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "icon",
+              "id": "X9FCWi",
+              "name": "battery-full",
+              "width": 16,
+              "height": 16,
+              "icon": "battery-full",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "L0yCJ",
+          "name": "Date",
+          "fill": "#FFFFFF",
+          "content": "10월 22일 수요일",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "600"
+        },
+        {
+          "type": "text",
+          "id": "R2pm5c",
+          "name": "Clock",
+          "fill": "#FFFFFF",
+          "content": "9:41",
+          "fontFamily": "Inter",
+          "fontSize": 88,
+          "fontWeight": "700"
+        },
+        {
+          "type": "frame",
+          "id": "OhRjL",
+          "name": "Spacer",
+          "width": "fill_container",
+          "height": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "t4YxC",
+          "name": "Live Activity",
+          "width": "fill_container",
+          "fill": "#11151BE6",
+          "cornerRadius": 24,
+          "layout": "vertical",
+          "gap": 8,
+          "padding": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "iXwKO",
+              "name": "Header",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "W2j2Z",
+                  "name": "S",
+                  "fill": "#8B95A1",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "옥상 장면",
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "aGUmM",
+                  "name": "C",
+                  "fill": "#8B95A1",
+                  "content": "2 / 15",
+                  "fontFamily": "$font",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "j10w8g",
+              "name": "Row",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 2,
+              "padding": [
+                0,
+                12
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MphDd",
+                  "name": "Who",
+                  "fill": "#8B95A1",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "윤서",
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "OzVYM",
+                  "name": "Line",
+                  "fill": "#8B95A1",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "여기 있을 줄 알았어.",
+                  "fontFamily": "$font",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tadDC",
+              "name": "Current",
+              "width": "fill_container",
+              "fill": "#3182F633",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 2,
+              "padding": [
+                10,
+                12
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BkFTE",
+                  "name": "Who",
+                  "fill": "#6AA8FF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "태오 · 내 차례 · 듣는 중",
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "wl7jR",
+                  "name": "Line",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "어떻게 알았어.",
+                  "fontFamily": "$font",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BwoyL",
+              "name": "Row",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 2,
+              "padding": [
+                0,
+                12
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l9Gdh",
+                  "name": "Who",
+                  "fill": "#8B95A1",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "다음 · 윤서",
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "p7vxU",
+              "name": "Track",
+              "width": "fill_container",
+              "height": 4,
+              "fill": "#FFFFFF33",
+              "cornerRadius": 2,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "ny6so",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Fill",
+                  "fill": "#3182F6",
+                  "width": 46,
+                  "height": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gtbZw",
+          "name": "Bottom",
+          "width": "fill_container",
+          "padding": [
+            18,
+            30,
+            8,
+            30
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "vHJEb",
+              "name": "flashlight",
+              "width": 50,
+              "height": 50,
+              "fill": "#FFFFFF33",
+              "cornerRadius": 25,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "BKWyZ",
+                  "name": "i",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "flashlight",
+                  "library": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "P8UYya",
+              "name": "camera",
+              "width": 50,
+              "height": 50,
+              "fill": "#FFFFFF33",
+              "cornerRadius": 25,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "XhtB9",
+                  "name": "i",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "camera",
+                  "library": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "cornerRadius": 3,
+          "id": "wt0je",
+          "name": "Home Bar",
+          "fill": "#FFFFFF",
+          "width": 134,
+          "height": 5
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "PHMHS",
+      "x": 54058,
+      "y": -54200,
+      "name": "안 LA-4 iOS 잠금 화면 · 녹음 강조(내 차례)",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#2B3645",
+      "layout": "vertical",
+      "gap": 6,
+      "padding": [
+        14,
+        16,
+        10,
+        16
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "G9ujjN",
+          "name": "StatusBar",
+          "width": "fill_container",
+          "height": 30,
+          "gap": 6,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "end",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "X3O0b",
+              "name": "signal",
+              "width": 16,
+              "height": 16,
+              "icon": "signal",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "icon",
+              "id": "BO6Kd",
+              "name": "wifi",
+              "width": 16,
+              "height": 16,
+              "icon": "wifi",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "icon",
+              "id": "LxlGB",
+              "name": "battery-full",
+              "width": 16,
+              "height": 16,
+              "icon": "battery-full",
+              "library": "lucide",
+              "fill": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "OR7Jx",
+          "name": "Date",
+          "fill": "#FFFFFF",
+          "content": "10월 22일 수요일",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "600"
+        },
+        {
+          "type": "text",
+          "id": "j4tbWl",
+          "name": "Clock",
+          "fill": "#FFFFFF",
+          "content": "9:41",
+          "fontFamily": "Inter",
+          "fontSize": 88,
+          "fontWeight": "700"
+        },
+        {
+          "type": "frame",
+          "id": "d0s5Y",
+          "name": "Spacer",
+          "width": "fill_container",
+          "height": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "n3UC2",
+          "name": "Live Activity",
+          "width": "fill_container",
+          "fill": "#11151BE6",
+          "cornerRadius": 24,
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "ShYGz",
+              "name": "Header",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AEJ0Q",
+                  "name": "Rec",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "#FF3B30",
+                  "cornerRadius": 22,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "v7eZ1",
+                      "name": "i",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "mic",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JBet6",
+                  "name": "Text",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "v3Qyz",
+                      "name": "Turn",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "녹음 중 · 태오",
+                      "fontFamily": "$font",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cholg",
+                      "name": "Sub",
+                      "fill": "#8B95A1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "말이 끝나면 다음 줄로 넘어가요",
+                      "fontFamily": "$font",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "cmDCT",
+                  "name": "Timer",
+                  "fill": "#FF6B60",
+                  "content": "00:07",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lQY9M",
+              "name": "Wave",
+              "width": "fill_container",
+              "height": 32,
+              "gap": 3,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "Dk7Y6",
+                  "name": "b0",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 6
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "mtXfS",
+                  "name": "b1",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 10
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "WQAvL",
+                  "name": "b2",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 18
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "dKRrK",
+                  "name": "b3",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 26
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "Ks9LY",
+                  "name": "b4",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 14
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "i3A9AP",
+                  "name": "b5",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 8
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "xSxLJ",
+                  "name": "b6",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 20
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "ZN4WR",
+                  "name": "b7",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 30
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "THVuG",
+                  "name": "b8",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 22
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "MSwlz",
+                  "name": "b9",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 12
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "rQPXM",
+                  "name": "b10",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 6
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "ViKhO",
+                  "name": "b11",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 16
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "l3pb1u",
+                  "name": "b12",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 24
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "m2Dtq",
+                  "name": "b13",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 10
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "B6h4G",
+                  "name": "b14",
+                  "fill": "#FF6B60",
+                  "width": "fill_container",
+                  "height": 6
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "iKard",
+                  "name": "b15",
+                  "fill": "#FFFFFF33",
+                  "width": "fill_container",
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "FF6x2",
+                  "name": "b16",
+                  "fill": "#FFFFFF33",
+                  "width": "fill_container",
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "G5LmIp",
+                  "name": "b17",
+                  "fill": "#FFFFFF33",
+                  "width": "fill_container",
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "i9SqM4",
+                  "name": "b18",
+                  "fill": "#FFFFFF33",
+                  "width": "fill_container",
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "SfTej",
+                  "name": "b19",
+                  "fill": "#FFFFFF33",
+                  "width": "fill_container",
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "wVEzO",
+                  "name": "b20",
+                  "fill": "#FFFFFF33",
+                  "width": "fill_container",
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "qLqqg",
+                  "name": "b21",
+                  "fill": "#FFFFFF33",
+                  "width": "fill_container",
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "kXRR3",
+                  "name": "b22",
+                  "fill": "#FFFFFF33",
+                  "width": "fill_container",
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "SLgGM",
+                  "name": "b23",
+                  "fill": "#FFFFFF33",
+                  "width": "fill_container",
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "xTnKm",
+                  "name": "b24",
+                  "fill": "#FFFFFF33",
+                  "width": "fill_container",
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "eEKMQ",
+                  "name": "b25",
+                  "fill": "#FFFFFF33",
+                  "width": "fill_container",
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "bUMJ3",
+                  "name": "b26",
+                  "fill": "#FFFFFF33",
+                  "width": "fill_container",
+                  "height": 4
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "EZ3KL",
+                  "name": "b27",
+                  "fill": "#FFFFFF33",
+                  "width": "fill_container",
+                  "height": 4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "f1UupO",
+              "name": "Actions",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AoTNm",
+                  "name": "일시정지",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#FFFFFF26",
+                  "cornerRadius": 20,
+                  "gap": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "pGeo1",
+                      "name": "i",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "pause",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i29Ndc",
+                      "name": "L",
+                      "fill": "#FFFFFF",
+                      "content": "일시정지",
+                      "fontFamily": "$font",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sx1FY",
+                  "name": "다음 줄",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#FFFFFF26",
+                  "cornerRadius": 20,
+                  "gap": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "HNXBx",
+                      "name": "i",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "skip-forward",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pvY21",
+                      "name": "L",
+                      "fill": "#FFFFFF",
+                      "content": "다음 줄",
+                      "fontFamily": "$font",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "g8QYb",
+          "name": "Bottom",
+          "width": "fill_container",
+          "padding": [
+            18,
+            30,
+            8,
+            30
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "YBg80",
+              "name": "flashlight",
+              "width": 50,
+              "height": 50,
+              "fill": "#FFFFFF33",
+              "cornerRadius": 25,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "Lj7gP",
+                  "name": "i",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "flashlight",
+                  "library": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "o0TXJG",
+              "name": "camera",
+              "width": 50,
+              "height": 50,
+              "fill": "#FFFFFF33",
+              "cornerRadius": 25,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "HKU15",
+                  "name": "i",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "camera",
+                  "library": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "cornerRadius": 3,
+          "id": "N36puR",
+          "name": "Home Bar",
+          "fill": "#FFFFFF",
+          "width": 134,
+          "height": 5
         }
       ]
     }
