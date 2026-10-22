@@ -349178,81 +349178,110 @@
                               ]
                             },
                             {
-                              "type": "text",
-                              "id": "G2GP3",
-                              "name": "글",
-                              "fill": "$blueDeep",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "대본 파일을 넣고 「다음」을 누르세요.",
-                              "lineHeight": 1.5,
-                              "textAlign": "center",
-                              "fontFamily": "$font",
-                              "fontSize": 13,
-                              "fontWeight": "700"
-                            },
-                            {
                               "type": "frame",
-                              "id": "s4Lcw",
+                              "id": "B5Ux1",
                               "name": "예시 대본 카드",
                               "width": "fill_container",
-                              "fill": "$bgSoft",
-                              "cornerRadius": 14,
+                              "fill": "#E8F3FF",
+                              "cornerRadius": 16,
+                              "stroke": "#3182F6",
+                              "strokeWidth": 1.5,
+                              "layout": "vertical",
                               "gap": 12,
                               "padding": 16,
-                              "alignItems": "center",
                               "children": [
                                 {
-                                  "type": "icon",
-                                  "id": "veTGQ",
-                                  "name": "아이콘",
-                                  "width": 22,
-                                  "height": 22,
-                                  "icon": "file-text",
-                                  "library": "lucide",
-                                  "fill": "$blueDeep"
+                                  "type": "frame",
+                                  "id": "PtmVL",
+                                  "name": "위",
+                                  "width": "fill_container",
+                                  "gap": 12,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "vEl5r",
+                                      "name": "마스코트",
+                                      "fill": {
+                                        "type": "image",
+                                        "enabled": true,
+                                        "url": "images/app/mascot-reading.png",
+                                        "mode": "contain"
+                                      },
+                                      "width": 40,
+                                      "height": 44
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "X8NHf",
+                                      "name": "글 묶음",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 2,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "E9Qvpg",
+                                          "name": "제목",
+                                          "fill": "$text",
+                                          "content": "대본이 아직 없나요?",
+                                          "fontFamily": "$font",
+                                          "fontSize": 16,
+                                          "fontWeight": "800"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "C1CKc4",
+                                          "name": "설명",
+                                          "fill": "$textMuted",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "예시 대본 「옥상, 밤」으로 바로 해 볼 수 있어요.",
+                                          "lineHeight": 1.45,
+                                          "fontFamily": "$font",
+                                          "fontSize": 13,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    }
+                                  ]
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "hj3UZ",
-                                  "name": "글 묶음",
+                                  "id": "u2jc0X",
+                                  "name": "예시로 시작 버튼",
                                   "width": "fill_container",
-                                  "layout": "vertical",
-                                  "gap": 2,
+                                  "fill": "#3182F6",
+                                  "cornerRadius": 12,
+                                  "gap": 6,
+                                  "padding": [
+                                    12,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "a0F9x",
-                                      "name": "제목",
-                                      "fill": "$text",
-                                      "content": "대본이 아직 없나요?",
+                                      "id": "QwvhF",
+                                      "name": "글",
+                                      "fill": "#FFFFFF",
+                                      "content": "예시 대본으로 시작하기",
                                       "fontFamily": "$font",
                                       "fontSize": 15,
                                       "fontWeight": "800"
                                     },
                                     {
-                                      "type": "text",
-                                      "id": "XGM9F",
-                                      "name": "설명",
-                                      "fill": "$textMuted",
-                                      "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "예시 대본으로 먼저 해 볼 수 있어요",
-                                      "fontFamily": "$font",
-                                      "fontSize": 13,
-                                      "fontWeight": "500"
+                                      "type": "icon",
+                                      "id": "oPV97",
+                                      "name": "화살표",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "arrow-right",
+                                      "library": "lucide",
+                                      "fill": "#FFFFFF"
                                     }
                                   ]
-                                },
-                                {
-                                  "type": "icon",
-                                  "id": "XIEAW",
-                                  "name": "화살표",
-                                  "width": 18,
-                                  "height": 18,
-                                  "icon": "chevron-right",
-                                  "library": "lucide",
-                                  "fill": "$textFaint"
                                 }
                               ]
                             }
@@ -349278,9 +349307,11 @@
                               "ref": "rwjIw",
                               "name": "Button/Primary",
                               "width": "fill_container",
+                              "fill": "$border",
                               "descendants": {
                                 "j4DLv": {
-                                  "content": "다음"
+                                  "content": "다음",
+                                  "fill": "$textFaint"
                                 }
                               }
                             }
@@ -349617,20 +349648,6 @@
                                   "fontWeight": "500"
                                 }
                               ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "i5EmMi",
-                              "name": "글",
-                              "fill": "$blueDeep",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "대본을 붙여 넣거나 직접 써 주세요.",
-                              "lineHeight": 1.5,
-                              "textAlign": "center",
-                              "fontFamily": "$font",
-                              "fontSize": 13,
-                              "fontWeight": "700"
                             }
                           ]
                         },
@@ -352672,81 +352689,110 @@
                               ]
                             },
                             {
-                              "type": "text",
-                              "id": "gQrFy",
-                              "name": "글",
-                              "fill": "$blueDeep",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "대본 파일을 넣고 「다음」을 누르세요.",
-                              "lineHeight": 1.5,
-                              "textAlign": "center",
-                              "fontFamily": "$font",
-                              "fontSize": 13,
-                              "fontWeight": "700"
-                            },
-                            {
                               "type": "frame",
-                              "id": "W6WtT",
+                              "id": "mYxHB",
                               "name": "예시 대본 카드",
                               "width": "fill_container",
-                              "fill": "$bgSoft",
-                              "cornerRadius": 14,
+                              "fill": "#E8F3FF",
+                              "cornerRadius": 16,
+                              "stroke": "#3182F6",
+                              "strokeWidth": 1.5,
+                              "layout": "vertical",
                               "gap": 12,
                               "padding": 16,
-                              "alignItems": "center",
                               "children": [
                                 {
-                                  "type": "icon",
-                                  "id": "uElAC",
-                                  "name": "아이콘",
-                                  "width": 22,
-                                  "height": 22,
-                                  "icon": "file-text",
-                                  "library": "lucide",
-                                  "fill": "$blueDeep"
+                                  "type": "frame",
+                                  "id": "o4d7U",
+                                  "name": "위",
+                                  "width": "fill_container",
+                                  "gap": 12,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "SoBOP",
+                                      "name": "마스코트",
+                                      "fill": {
+                                        "type": "image",
+                                        "enabled": true,
+                                        "url": "images/app/mascot-reading.png",
+                                        "mode": "contain"
+                                      },
+                                      "width": 40,
+                                      "height": 44
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "PnGcq",
+                                      "name": "글 묶음",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 2,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "czuY8",
+                                          "name": "제목",
+                                          "fill": "$text",
+                                          "content": "대본이 아직 없나요?",
+                                          "fontFamily": "$font",
+                                          "fontSize": 16,
+                                          "fontWeight": "800"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "L8tIU",
+                                          "name": "설명",
+                                          "fill": "$textMuted",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "예시 대본 「옥상, 밤」으로 바로 해 볼 수 있어요.",
+                                          "lineHeight": 1.45,
+                                          "fontFamily": "$font",
+                                          "fontSize": 13,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    }
+                                  ]
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "t4nyX",
-                                  "name": "글 묶음",
+                                  "id": "bkayZ",
+                                  "name": "예시로 시작 버튼",
                                   "width": "fill_container",
-                                  "layout": "vertical",
-                                  "gap": 2,
+                                  "fill": "#3182F6",
+                                  "cornerRadius": 12,
+                                  "gap": 6,
+                                  "padding": [
+                                    12,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "g9sPSN",
-                                      "name": "제목",
-                                      "fill": "$text",
-                                      "content": "대본이 아직 없나요?",
+                                      "id": "Y6hlf",
+                                      "name": "글",
+                                      "fill": "#FFFFFF",
+                                      "content": "예시 대본으로 시작하기",
                                       "fontFamily": "$font",
                                       "fontSize": 15,
                                       "fontWeight": "800"
                                     },
                                     {
-                                      "type": "text",
-                                      "id": "d2IdnS",
-                                      "name": "설명",
-                                      "fill": "$textMuted",
-                                      "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "예시 대본으로 먼저 해 볼 수 있어요",
-                                      "fontFamily": "$font",
-                                      "fontSize": 13,
-                                      "fontWeight": "500"
+                                      "type": "icon",
+                                      "id": "sEjqB",
+                                      "name": "화살표",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "arrow-right",
+                                      "library": "lucide",
+                                      "fill": "#FFFFFF"
                                     }
                                   ]
-                                },
-                                {
-                                  "type": "icon",
-                                  "id": "pgD9C",
-                                  "name": "화살표",
-                                  "width": 18,
-                                  "height": 18,
-                                  "icon": "chevron-right",
-                                  "library": "lucide",
-                                  "fill": "$textFaint"
                                 }
                               ]
                             }
@@ -352772,9 +352818,11 @@
                               "ref": "rwjIw",
                               "name": "Button/Primary",
                               "width": "fill_container",
+                              "fill": "$border",
                               "descendants": {
                                 "j4DLv": {
-                                  "content": "다음"
+                                  "content": "다음",
+                                  "fill": "$textFaint"
                                 }
                               }
                             }
@@ -353111,20 +353159,6 @@
                                   "fontWeight": "500"
                                 }
                               ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "mnmiL",
-                              "name": "글",
-                              "fill": "$blueDeep",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "대본을 붙여 넣거나 직접 써 주세요.",
-                              "lineHeight": 1.5,
-                              "textAlign": "center",
-                              "fontFamily": "$font",
-                              "fontSize": 13,
-                              "fontWeight": "700"
                             }
                           ]
                         },
@@ -353673,20 +353707,6 @@
                                   "fontWeight": "600"
                                 }
                               ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "IqlU4",
-                              "name": "글",
-                              "fill": "$blueDeep",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "대본 파일을 넣고 「다음」을 누르세요.",
-                              "lineHeight": 1.5,
-                              "textAlign": "center",
-                              "fontFamily": "$font",
-                              "fontSize": 13,
-                              "fontWeight": "700"
                             }
                           ]
                         },
@@ -382548,81 +382568,110 @@
                               ]
                             },
                             {
-                              "type": "text",
-                              "id": "U6jKKo",
-                              "name": "글",
-                              "fill": "$blueDeep",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "대본 파일을 넣고 「다음」을 누르세요.",
-                              "lineHeight": 1.5,
-                              "textAlign": "center",
-                              "fontFamily": "$font",
-                              "fontSize": 13,
-                              "fontWeight": "700"
-                            },
-                            {
                               "type": "frame",
-                              "id": "Vmxpw",
+                              "id": "NmhoZ",
                               "name": "예시 대본 카드",
                               "width": "fill_container",
-                              "fill": "$bgSoft",
-                              "cornerRadius": 14,
+                              "fill": "#E8F3FF",
+                              "cornerRadius": 16,
+                              "stroke": "#3182F6",
+                              "strokeWidth": 1.5,
+                              "layout": "vertical",
                               "gap": 12,
                               "padding": 16,
-                              "alignItems": "center",
                               "children": [
                                 {
-                                  "type": "icon",
-                                  "id": "LPRwc",
-                                  "name": "아이콘",
-                                  "width": 22,
-                                  "height": 22,
-                                  "icon": "file-text",
-                                  "library": "lucide",
-                                  "fill": "$blueDeep"
+                                  "type": "frame",
+                                  "id": "zt4lT",
+                                  "name": "위",
+                                  "width": "fill_container",
+                                  "gap": 12,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "id": "vvjPF",
+                                      "name": "마스코트",
+                                      "fill": {
+                                        "type": "image",
+                                        "enabled": true,
+                                        "url": "images/app/mascot-reading.png",
+                                        "mode": "contain"
+                                      },
+                                      "width": 40,
+                                      "height": 44
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "noNH2",
+                                      "name": "글 묶음",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 2,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "iuO3M",
+                                          "name": "제목",
+                                          "fill": "$text",
+                                          "content": "대본이 아직 없나요?",
+                                          "fontFamily": "$font",
+                                          "fontSize": 16,
+                                          "fontWeight": "800"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "LY5vC",
+                                          "name": "설명",
+                                          "fill": "$textMuted",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "예시 대본 「옥상, 밤」으로 바로 해 볼 수 있어요.",
+                                          "lineHeight": 1.45,
+                                          "fontFamily": "$font",
+                                          "fontSize": 13,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    }
+                                  ]
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "bPZPo",
-                                  "name": "글 묶음",
+                                  "id": "SBjjF",
+                                  "name": "예시로 시작 버튼",
                                   "width": "fill_container",
-                                  "layout": "vertical",
-                                  "gap": 2,
+                                  "fill": "#3182F6",
+                                  "cornerRadius": 12,
+                                  "gap": 6,
+                                  "padding": [
+                                    12,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "Ce7Ik",
-                                      "name": "제목",
-                                      "fill": "$text",
-                                      "content": "대본이 아직 없나요?",
+                                      "id": "fsBvR",
+                                      "name": "글",
+                                      "fill": "#FFFFFF",
+                                      "content": "예시 대본으로 시작하기",
                                       "fontFamily": "$font",
                                       "fontSize": 15,
                                       "fontWeight": "800"
                                     },
                                     {
-                                      "type": "text",
-                                      "id": "UXm8z",
-                                      "name": "설명",
-                                      "fill": "$textMuted",
-                                      "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "예시 대본으로 먼저 해 볼 수 있어요",
-                                      "fontFamily": "$font",
-                                      "fontSize": 13,
-                                      "fontWeight": "500"
+                                      "type": "icon",
+                                      "id": "v3dM3i",
+                                      "name": "화살표",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "arrow-right",
+                                      "library": "lucide",
+                                      "fill": "#FFFFFF"
                                     }
                                   ]
-                                },
-                                {
-                                  "type": "icon",
-                                  "id": "wb8mH",
-                                  "name": "화살표",
-                                  "width": 18,
-                                  "height": 18,
-                                  "icon": "chevron-right",
-                                  "library": "lucide",
-                                  "fill": "$textFaint"
                                 }
                               ]
                             }
@@ -382648,9 +382697,11 @@
                               "ref": "rwjIw",
                               "name": "Button/Primary",
                               "width": "fill_container",
+                              "fill": "$border",
                               "descendants": {
                                 "j4DLv": {
-                                  "content": "다음"
+                                  "content": "다음",
+                                  "fill": "$textFaint"
                                 }
                               }
                             }
@@ -382953,20 +383004,6 @@
                                   "fontWeight": "500"
                                 }
                               ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "kCUvc",
-                              "name": "글",
-                              "fill": "$blueDeep",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "대본을 붙여 넣거나 직접 써 주세요.",
-                              "lineHeight": 1.5,
-                              "textAlign": "center",
-                              "fontFamily": "$font",
-                              "fontSize": 13,
-                              "fontWeight": "700"
                             }
                           ]
                         },
@@ -383481,20 +383518,6 @@
                                   "fontWeight": "600"
                                 }
                               ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "V2Eml",
-                              "name": "글",
-                              "fill": "$blueDeep",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "대본 파일을 넣고 「다음」을 누르세요.",
-                              "lineHeight": 1.5,
-                              "textAlign": "center",
-                              "fontFamily": "$font",
-                              "fontSize": 13,
-                              "fontWeight": "700"
                             }
                           ]
                         },
