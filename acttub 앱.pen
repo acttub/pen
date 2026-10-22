@@ -351402,7 +351402,7 @@
                       "type": "frame",
                       "id": "J4RmKP",
                       "name": "표시",
-                      "fill": "#E9E9E9",
+                      "fill": "#E8F3FF",
                       "cornerRadius": 999,
                       "padding": [
                         6,
@@ -351413,8 +351413,8 @@
                           "type": "text",
                           "id": "oVwgp",
                           "name": "표시 글",
-                          "fill": "$textMuted",
-                          "content": "dev 화면 · OcelD",
+                          "fill": "#1B64DA",
+                          "content": "변경안 · 중복 선택 가능 표시",
                           "fontFamily": "$font",
                           "fontSize": 16,
                           "fontWeight": "700"
@@ -351423,16 +351423,509 @@
                     },
                     {
                       "type": "frame",
-                      "id": "QQvyE",
-                      "name": "dev 화면 · OcelD",
+                      "id": "HqlIg",
+                      "name": "변경안 · 새 연습 · 내 배역 중복 선택 가능",
+                      "clip": true,
                       "width": 390,
-                      "height": 884,
-                      "fill": {
-                        "type": "image",
-                        "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/OcelD.png",
-                        "mode": "contain"
-                      }
+                      "height": 844,
+                      "fill": "$bg",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "K0BwHz",
+                          "type": "ref",
+                          "ref": "XfrjI",
+                          "name": "StatusBar"
+                        },
+                        {
+                          "id": "C7kiXE",
+                          "type": "ref",
+                          "ref": "M6ZbSa",
+                          "name": "NavHeader",
+                          "descendants": {
+                            "R4eY0": {
+                              "content": "새 연습"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ipuHH",
+                          "name": "본문",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": [
+                            16,
+                            24,
+                            24,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "gdj2Q",
+                              "name": "마스코트 줄",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "B49fU",
+                                  "name": "마스코트",
+                                  "fill": {
+                                    "type": "image",
+                                    "enabled": true,
+                                    "url": "images/app/mascot-reading.png",
+                                    "mode": "contain"
+                                  },
+                                  "width": 52,
+                                  "height": 58
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "imrqE",
+                                  "name": "글",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "누구로, 어디를 연습할까요?",
+                                  "lineHeight": 1.42,
+                                  "fontFamily": "$font",
+                                  "fontSize": 21,
+                                  "fontWeight": "900"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "dSAZP",
+                              "name": "글",
+                              "fill": "$textFaint",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "옥상, 밤 · 대사 15",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "bSaac",
+                              "name": "내 배역 줄",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "RNbG6",
+                                  "name": "글",
+                                  "fill": "$textDim",
+                                  "content": "내 배역",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font",
+                                  "fontSize": 14,
+                                  "fontWeight": "800"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "K0e4x",
+                                  "name": "중복 선택 표시",
+                                  "fill": "$bgSoft",
+                                  "cornerRadius": 6,
+                                  "padding": [
+                                    3,
+                                    8
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "dyAHg",
+                                      "name": "글",
+                                      "fill": "$textMuted",
+                                      "content": "중복 선택 가능",
+                                      "fontFamily": "$font",
+                                      "fontSize": 12,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "OvA0v",
+                              "name": "칩 줄",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "cB43N",
+                                  "name": "칩",
+                                  "fill": "$blueSoft",
+                                  "cornerRadius": 9999,
+                                  "gap": 6,
+                                  "padding": [
+                                    10,
+                                    16
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "Q36AjJ",
+                                      "name": "체크",
+                                      "width": 14,
+                                      "height": 14,
+                                      "icon": "check",
+                                      "library": "lucide",
+                                      "fill": "$blueDeep"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "vCU33",
+                                      "name": "글",
+                                      "fill": "$blueDeep",
+                                      "content": "윤서",
+                                      "fontFamily": "$font",
+                                      "fontSize": 15,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "Muv8u",
+                                      "name": "대사 수",
+                                      "fill": "$blueDeep",
+                                      "content": "8",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "N73gy",
+                                  "name": "칩",
+                                  "fill": "$bgSoft",
+                                  "cornerRadius": 9999,
+                                  "gap": 6,
+                                  "padding": [
+                                    10,
+                                    16
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "ob7cB",
+                                      "name": "글",
+                                      "fill": "$textDim",
+                                      "content": "태오",
+                                      "fontFamily": "$font",
+                                      "fontSize": 15,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "viZB0",
+                                      "name": "대사 수",
+                                      "fill": "$textFaint",
+                                      "content": "7",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Fb8tQ",
+                              "name": "안내",
+                              "width": "fill_container",
+                              "fill": "$blueMist",
+                              "cornerRadius": 14,
+                              "gap": 8,
+                              "padding": [
+                                14,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "D6GnW4",
+                                  "name": "아이콘",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "sparkles",
+                                  "library": "lucide",
+                                  "fill": "$blue"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Y3w8ax",
+                                  "name": "글",
+                                  "fill": "$blueDeep",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "처음이라 짧은 구간으로 골라 뒀어요. 「이 구간 10줄 연습하기」를 누르세요.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font",
+                                  "fontSize": 14,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "R02xcn",
+                              "name": "글",
+                              "fill": "$textDim",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "구간",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font",
+                              "fontSize": 14,
+                              "fontWeight": "800"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "pADP0",
+                              "name": "줄 카드",
+                              "width": "fill_container",
+                              "fill": "$blueSoft",
+                              "cornerRadius": 16,
+                              "gap": 12,
+                              "padding": [
+                                15,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "ip8Fs",
+                                  "name": "아이콘",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#FFFFFF00",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "OCe0j",
+                                      "name": "아이콘",
+                                      "width": 20,
+                                      "height": 20,
+                                      "icon": "list",
+                                      "library": "lucide",
+                                      "fill": "$blue"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "urcpq",
+                                  "name": "글",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "JFpWp",
+                                      "name": "글",
+                                      "fill": "$text",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "처음 ~ 「다음 거 언제야」",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "$font",
+                                      "fontSize": 16,
+                                      "fontWeight": "800"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "hhJyi",
+                                      "name": "글",
+                                      "fill": "$textFaint",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "대사 10줄 · 내 대사 5줄",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "$font",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "QYovh",
+                                  "name": "아이콘",
+                                  "width": 22,
+                                  "height": 22,
+                                  "icon": "circle-check",
+                                  "library": "lucide",
+                                  "fill": "$blue"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ageRO",
+                              "name": "줄 카드",
+                              "width": "fill_container",
+                              "cornerRadius": 16,
+                              "gap": 12,
+                              "padding": [
+                                15,
+                                4
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "d3AIl",
+                                  "name": "아이콘",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#FFFFFF00",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "nWAWN",
+                                      "name": "아이콘",
+                                      "width": 20,
+                                      "height": 20,
+                                      "icon": "list",
+                                      "library": "lucide",
+                                      "fill": "$blue"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "CnjGt",
+                                  "name": "글",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "ht9lo",
+                                      "name": "글",
+                                      "fill": "$text",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "처음부터 끝까지",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "$font",
+                                      "fontSize": 16,
+                                      "fontWeight": "800"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "KPzLq",
+                                      "name": "글",
+                                      "fill": "$textFaint",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "대사 15줄 · 두 번째 판부터 추천",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "$font",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "F43Ro",
+                              "name": "음성",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "SpIvE",
+                                  "name": "아이콘",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "cloud",
+                                  "library": "lucide",
+                                  "fill": "$textMuted"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ktHqE",
+                                  "name": "글",
+                                  "fill": "$textMuted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "상대 대사는 클라우드 음성으로 바로 읽어 줘요 · 내려받기 없음",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "L2BOni",
+                          "name": "아래",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            24,
+                            10,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "id": "kbGHs",
+                              "type": "ref",
+                              "ref": "rwjIw",
+                              "name": "Button/Primary",
+                              "width": "fill_container",
+                              "descendants": {
+                                "j4DLv": {
+                                  "content": "이 구간 10줄 연습하기"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "U32MZ1",
+                          "type": "ref",
+                          "ref": "e84dKw",
+                          "name": "HomeIndicator"
+                        }
+                      ]
                     },
                     {
                       "type": "text",
@@ -351441,7 +351934,7 @@
                       "fill": "$textMuted",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "미리 골라진 배역 없음(배역 하나면 자동). 첫 10줄에 내 배역이 있으면 짧은 구간을 골라 두고 「처음이라 짧은 구간으로 골라 뒀어요」.",
+                      "content": "「내 배역」 옆에 「중복 선택 가능」, 고른 칩엔 체크 ✓와 대사 수. 처음엔 배역이 하나일 때만 자동 선택. 첫 10줄에 내 배역이 있으면 짧은 구간을 골라 두고 「처음이라 짧은 구간으로 골라 뒀어요」.",
                       "lineHeight": 1.45,
                       "fontFamily": "$font",
                       "fontSize": 20,
@@ -396821,7 +397314,7 @@
               "id": "AdYyk",
               "name": "모음 제목",
               "fill": "$text",
-              "content": "F · 새 연습 (15)",
+              "content": "F · 새 연습 (16)",
               "fontFamily": "$font",
               "fontSize": 64,
               "fontWeight": "800"
@@ -405982,6 +406475,593 @@
                               "content": "확인"
                             }
                           }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ySRYd",
+                  "name": "F16 카드",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GRD1s",
+                      "name": "설명",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "u0seq8",
+                          "name": "번호",
+                          "height": 44,
+                          "fill": "$text",
+                          "cornerRadius": 999,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Q7WY4",
+                              "name": "번호 글",
+                              "fill": "#FFFFFF",
+                              "content": "F16",
+                              "fontFamily": "$font",
+                              "fontSize": 18,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Mnvh8",
+                          "name": "단계",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "내 배역 중복 선택 가능 표시(변경안)",
+                          "fontFamily": "$font",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YBacb",
+                      "name": "표시",
+                      "fill": "#E8F3FF",
+                      "cornerRadius": 999,
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qXCh9",
+                          "name": "표시 글",
+                          "fill": "#1B64DA",
+                          "content": "변경안 · 아직 코드 없음",
+                          "fontFamily": "$font",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nxOHY",
+                      "name": "변경안 · 새 연습 · 내 배역 중복 선택 가능",
+                      "clip": true,
+                      "width": 390,
+                      "height": 844,
+                      "fill": "$bg",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "Nu0Wp",
+                          "type": "ref",
+                          "ref": "XfrjI",
+                          "name": "StatusBar"
+                        },
+                        {
+                          "id": "AVRnz",
+                          "type": "ref",
+                          "ref": "M6ZbSa",
+                          "name": "NavHeader",
+                          "descendants": {
+                            "R4eY0": {
+                              "content": "새 연습"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MO0w5",
+                          "name": "본문",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": [
+                            16,
+                            24,
+                            24,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "nK6rG",
+                              "name": "마스코트 줄",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "mcrYl",
+                                  "name": "마스코트",
+                                  "fill": {
+                                    "type": "image",
+                                    "enabled": true,
+                                    "url": "images/app/mascot-reading.png",
+                                    "mode": "contain"
+                                  },
+                                  "width": 52,
+                                  "height": 58
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "dpEJZ",
+                                  "name": "글",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "누구로, 어디를 연습할까요?",
+                                  "lineHeight": 1.42,
+                                  "fontFamily": "$font",
+                                  "fontSize": 21,
+                                  "fontWeight": "900"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "cGlFa",
+                              "name": "글",
+                              "fill": "$textFaint",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "옥상, 밤 · 대사 15",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "dGQRq",
+                              "name": "내 배역 줄",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "AEK0s",
+                                  "name": "글",
+                                  "fill": "$textDim",
+                                  "content": "내 배역",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font",
+                                  "fontSize": 14,
+                                  "fontWeight": "800"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "htmoz",
+                                  "name": "중복 선택 표시",
+                                  "fill": "$bgSoft",
+                                  "cornerRadius": 6,
+                                  "padding": [
+                                    3,
+                                    8
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "v9xWaD",
+                                      "name": "글",
+                                      "fill": "$textMuted",
+                                      "content": "중복 선택 가능",
+                                      "fontFamily": "$font",
+                                      "fontSize": 12,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ccB1b",
+                              "name": "칩 줄",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "hEGzG",
+                                  "name": "칩",
+                                  "fill": "$blueSoft",
+                                  "cornerRadius": 9999,
+                                  "gap": 6,
+                                  "padding": [
+                                    10,
+                                    16
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "OPQ3H",
+                                      "name": "체크",
+                                      "width": 14,
+                                      "height": 14,
+                                      "icon": "check",
+                                      "library": "lucide",
+                                      "fill": "$blueDeep"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "wwDnv",
+                                      "name": "글",
+                                      "fill": "$blueDeep",
+                                      "content": "윤서",
+                                      "fontFamily": "$font",
+                                      "fontSize": 15,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "UabNQ",
+                                      "name": "대사 수",
+                                      "fill": "$blueDeep",
+                                      "content": "8",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ldLtN",
+                                  "name": "칩",
+                                  "fill": "$bgSoft",
+                                  "cornerRadius": 9999,
+                                  "gap": 6,
+                                  "padding": [
+                                    10,
+                                    16
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "UjWmW",
+                                      "name": "글",
+                                      "fill": "$textDim",
+                                      "content": "태오",
+                                      "fontFamily": "$font",
+                                      "fontSize": 15,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "z2f32",
+                                      "name": "대사 수",
+                                      "fill": "$textFaint",
+                                      "content": "7",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "y1BjXr",
+                              "name": "안내",
+                              "width": "fill_container",
+                              "fill": "$blueMist",
+                              "cornerRadius": 14,
+                              "gap": 8,
+                              "padding": [
+                                14,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "Xvh2O",
+                                  "name": "아이콘",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "sparkles",
+                                  "library": "lucide",
+                                  "fill": "$blue"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "N2xNh",
+                                  "name": "글",
+                                  "fill": "$blueDeep",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "처음이라 짧은 구간으로 골라 뒀어요. 「이 구간 10줄 연습하기」를 누르세요.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font",
+                                  "fontSize": 14,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "VnT24",
+                              "name": "글",
+                              "fill": "$textDim",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "구간",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font",
+                              "fontSize": 14,
+                              "fontWeight": "800"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rx23b",
+                              "name": "줄 카드",
+                              "width": "fill_container",
+                              "fill": "$blueSoft",
+                              "cornerRadius": 16,
+                              "gap": 12,
+                              "padding": [
+                                15,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "fRahJ",
+                                  "name": "아이콘",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#FFFFFF00",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "f92vJq",
+                                      "name": "아이콘",
+                                      "width": 20,
+                                      "height": 20,
+                                      "icon": "list",
+                                      "library": "lucide",
+                                      "fill": "$blue"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "sHOod",
+                                  "name": "글",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "V8u2l",
+                                      "name": "글",
+                                      "fill": "$text",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "처음 ~ 「다음 거 언제야」",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "$font",
+                                      "fontSize": 16,
+                                      "fontWeight": "800"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "x5Mai0",
+                                      "name": "글",
+                                      "fill": "$textFaint",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "대사 10줄 · 내 대사 5줄",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "$font",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "IeStr",
+                                  "name": "아이콘",
+                                  "width": 22,
+                                  "height": 22,
+                                  "icon": "circle-check",
+                                  "library": "lucide",
+                                  "fill": "$blue"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XJYaX",
+                              "name": "줄 카드",
+                              "width": "fill_container",
+                              "cornerRadius": 16,
+                              "gap": 12,
+                              "padding": [
+                                15,
+                                4
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "UYgf3",
+                                  "name": "아이콘",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#FFFFFF00",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "v6AOS1",
+                                      "name": "아이콘",
+                                      "width": 20,
+                                      "height": 20,
+                                      "icon": "list",
+                                      "library": "lucide",
+                                      "fill": "$blue"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "vwfXT",
+                                  "name": "글",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "xnqNJ",
+                                      "name": "글",
+                                      "fill": "$text",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "처음부터 끝까지",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "$font",
+                                      "fontSize": 16,
+                                      "fontWeight": "800"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "LP2hD",
+                                      "name": "글",
+                                      "fill": "$textFaint",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "대사 15줄 · 두 번째 판부터 추천",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "$font",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "KAmGJ",
+                              "name": "음성",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "zCo3y",
+                                  "name": "아이콘",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "cloud",
+                                  "library": "lucide",
+                                  "fill": "$textMuted"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "M5cT7p",
+                                  "name": "글",
+                                  "fill": "$textMuted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "상대 대사는 클라우드 음성으로 바로 읽어 줘요 · 내려받기 없음",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "L2dIAA",
+                          "name": "아래",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            24,
+                            10,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "id": "UNMIQ",
+                              "type": "ref",
+                              "ref": "rwjIw",
+                              "name": "Button/Primary",
+                              "width": "fill_container",
+                              "descendants": {
+                                "j4DLv": {
+                                  "content": "이 구간 10줄 연습하기"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "XrQd5",
+                          "type": "ref",
+                          "ref": "e84dKw",
+                          "name": "HomeIndicator"
                         }
                       ]
                     }
