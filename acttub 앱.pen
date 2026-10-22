@@ -349124,7 +349124,7 @@
                                       "id": "I4Tpr",
                                       "name": "글",
                                       "fill": "$textFaint",
-                                      "content": "글 붙여넣기",
+                                      "content": "직접 입력",
                                       "fontFamily": "$font",
                                       "fontSize": 14,
                                       "fontWeight": "700"
@@ -349412,7 +349412,7 @@
                     {
                       "type": "frame",
                       "id": "EOocy",
-                      "name": "제목 팝업 · 글 붙여넣기(빈 칸)",
+                      "name": "제목 팝업 · 직접 입력(빈 칸)",
                       "clip": true,
                       "width": 390,
                       "height": 844,
@@ -349582,7 +349582,7 @@
                                       "id": "VyGdQ",
                                       "name": "글",
                                       "fill": "$text",
-                                      "content": "글 붙여넣기",
+                                      "content": "직접 입력",
                                       "fontFamily": "$font",
                                       "fontSize": 14,
                                       "fontWeight": "700"
@@ -349625,7 +349625,7 @@
                               "fill": "$blueDeep",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "글을 붙여 넣고 「다음」을 누르세요.",
+                              "content": "대본을 붙여 넣거나 직접 써 주세요.",
                               "lineHeight": 1.5,
                               "textAlign": "center",
                               "fontFamily": "$font",
@@ -349844,7 +349844,7 @@
                       "fill": "$textMuted",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "[다음]을 누르면 뜬다. 글 붙여넣기는 빈 칸(비우고 [확인]면 대본에서 찾아 붙임), 파일은 파일 이름(확장자 뺌)을 채워 둔다. [확인]를 누르면 나누기 동의·나누는 중으로.",
+                      "content": "[다음]을 누르면 뜬다. 직접 입력은 빈 칸(비우고 [확인]면 대본에서 찾아 붙임), 파일은 파일 이름(확장자 뺌)을 채워 둔다. [확인]를 누르면 나누기 동의·나누는 중으로.",
                       "lineHeight": 1.45,
                       "fontFamily": "$font",
                       "fontSize": 20,
@@ -352618,7 +352618,7 @@
                                       "id": "nDOxG",
                                       "name": "글",
                                       "fill": "$textFaint",
-                                      "content": "글 붙여넣기",
+                                      "content": "직접 입력",
                                       "fontFamily": "$font",
                                       "fontSize": 14,
                                       "fontWeight": "700"
@@ -352873,7 +352873,7 @@
                           "fill": "$text",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "제목 팝업 · 글 붙여넣기",
+                          "content": "제목 팝업 · 직접 입력",
                           "fontFamily": "$font",
                           "fontSize": 22,
                           "fontWeight": "800"
@@ -352906,7 +352906,7 @@
                     {
                       "type": "frame",
                       "id": "yTE4i",
-                      "name": "제목 팝업 · 글 붙여넣기(빈 칸)",
+                      "name": "제목 팝업 · 직접 입력(빈 칸)",
                       "clip": true,
                       "width": 390,
                       "height": 844,
@@ -353076,7 +353076,7 @@
                                       "id": "CSuIU",
                                       "name": "글",
                                       "fill": "$text",
-                                      "content": "글 붙여넣기",
+                                      "content": "직접 입력",
                                       "fontFamily": "$font",
                                       "fontSize": 14,
                                       "fontWeight": "700"
@@ -353119,7 +353119,7 @@
                               "fill": "$blueDeep",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "글을 붙여 넣고 「다음」을 누르세요.",
+                              "content": "대본을 붙여 넣거나 직접 써 주세요.",
                               "lineHeight": 1.5,
                               "textAlign": "center",
                               "fontFamily": "$font",
@@ -353619,7 +353619,7 @@
                                       "id": "S25Ob6",
                                       "name": "글",
                                       "fill": "$textFaint",
-                                      "content": "글 붙여넣기",
+                                      "content": "직접 입력",
                                       "fontFamily": "$font",
                                       "fontSize": 14,
                                       "fontWeight": "700"
@@ -382494,7 +382494,7 @@
                                       "id": "KNdMn",
                                       "name": "글",
                                       "fill": "$textFaint",
-                                      "content": "글 붙여넣기",
+                                      "content": "직접 입력",
                                       "fontFamily": "$font",
                                       "fontSize": 14,
                                       "fontWeight": "700"
@@ -382715,7 +382715,7 @@
                           "fill": "$text",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "제목 팝업 · 글 붙여넣기",
+                          "content": "제목 팝업 · 직접 입력",
                           "fontFamily": "$font",
                           "fontSize": 22,
                           "fontWeight": "800"
@@ -382748,7 +382748,7 @@
                     {
                       "type": "frame",
                       "id": "z10wpU",
-                      "name": "제목 팝업 · 글 붙여넣기(빈 칸)",
+                      "name": "제목 팝업 · 직접 입력(빈 칸)",
                       "clip": true,
                       "width": 390,
                       "height": 844,
@@ -382918,7 +382918,7 @@
                                       "id": "v0xnd",
                                       "name": "글",
                                       "fill": "$text",
-                                      "content": "글 붙여넣기",
+                                      "content": "직접 입력",
                                       "fontFamily": "$font",
                                       "fontSize": 14,
                                       "fontWeight": "700"
@@ -382961,7 +382961,7 @@
                               "fill": "$blueDeep",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "글을 붙여 넣고 「다음」을 누르세요.",
+                              "content": "대본을 붙여 넣거나 직접 써 주세요.",
                               "lineHeight": 1.5,
                               "textAlign": "center",
                               "fontFamily": "$font",
@@ -383427,7 +383427,7 @@
                                       "id": "ZvwgX",
                                       "name": "글",
                                       "fill": "$textFaint",
-                                      "content": "글 붙여넣기",
+                                      "content": "직접 입력",
                                       "fontFamily": "$font",
                                       "fontSize": 14,
                                       "fontWeight": "700"
