@@ -349284,6 +349284,14 @@
                                   ]
                                 }
                               ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "uyMkP",
+                              "fill": "#000000",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -353918,6 +353926,1553 @@
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "파일 이름에서 확장자를 뺀 이름을 채워 둔다. 고쳐도 되고 그대로 [확인].",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Y6W6qz",
+          "name": "갈래 · 예시 대본 자리 후보",
+          "layout": "vertical",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "KlUMP",
+              "name": "갈래 머리",
+              "width": 3400,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "z3xzP",
+                  "name": "갈래 제목",
+                  "fill": "$text",
+                  "content": "예시 대본 자리 후보 (고르기 전)",
+                  "fontFamily": "$font",
+                  "fontSize": 64,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "MCXri",
+                  "name": "갈래 설명",
+                  "fill": "$textMuted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "파란 카드가 화면과 따로 놀아서, 이 화면에 이미 있는 모양(탭 칸 · 업로드 칸 · 회색 보조 버튼 · 설명 글)에 얹는 네 가지.",
+                  "fontFamily": "$font",
+                  "fontSize": 30,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "i7Lpc",
+              "name": "단계들",
+              "gap": 48,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VXAyo",
+                  "name": "A 카드",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kn4Ys",
+                      "name": "설명",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "YbazW",
+                          "name": "번호",
+                          "height": 44,
+                          "fill": "$text",
+                          "cornerRadius": 999,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "yaTQS",
+                              "name": "번호 글",
+                              "fill": "#FFFFFF",
+                              "content": "A",
+                              "fontFamily": "$font",
+                              "fontSize": 18,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "EEdNF",
+                          "name": "단계",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "탭에 「예시」 칸",
+                          "fontFamily": "$font",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u9CCv",
+                      "name": "후보 A · 탭에 「예시」 칸",
+                      "clip": true,
+                      "width": 390,
+                      "height": 844,
+                      "fill": "$bg",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "mGpP7",
+                          "type": "ref",
+                          "ref": "XfrjI",
+                          "name": "StatusBar"
+                        },
+                        {
+                          "id": "o2dB2",
+                          "type": "ref",
+                          "ref": "M6ZbSa",
+                          "name": "NavHeader",
+                          "descendants": {
+                            "R4eY0": {
+                              "content": "대본 리딩"
+                            },
+                            "WHWnW": {
+                              "enabled": true
+                            },
+                            "JMglv": {
+                              "enabled": false
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b4akj",
+                          "name": "본문",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": [
+                            16,
+                            24,
+                            24,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "o9DpDY",
+                              "name": "마스코트 줄",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "P2jt8J",
+                                  "name": "마스코트",
+                                  "fill": {
+                                    "type": "image",
+                                    "enabled": true,
+                                    "url": "images/app/mascot-reading.png",
+                                    "mode": "contain"
+                                  },
+                                  "width": 52,
+                                  "height": 58
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "f5ekC",
+                                  "name": "글",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "연습할 대본을 넣어 주세요",
+                                  "lineHeight": 1.42,
+                                  "fontFamily": "$font",
+                                  "fontSize": 21,
+                                  "fontWeight": "900"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "E7kFX",
+                              "name": "설명 · 이어서",
+                              "fill": "$textMuted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "대본을 넣으면 상대역 대사는 제가 읽어 드려요. 내 대사만 소리 내 읽으면 돼요.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Sjml0",
+                              "name": "탭",
+                              "width": "fill_container",
+                              "fill": "$bgSoft",
+                              "cornerRadius": 12,
+                              "padding": 4,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "aTOaI",
+                                  "name": "탭칸",
+                                  "width": "fill_container",
+                                  "fill": "$bg",
+                                  "cornerRadius": 10,
+                                  "gap": 6,
+                                  "padding": [
+                                    10,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "UHrwq",
+                                      "name": "아이콘",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "paperclip",
+                                      "library": "lucide",
+                                      "fill": "$text"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "W1FbFq",
+                                      "name": "글",
+                                      "fill": "$text",
+                                      "content": "파일",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "800"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "s0dAL6",
+                                  "name": "탭칸",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "padding": [
+                                    10,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "Dgulk",
+                                      "name": "아이콘",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "pencil",
+                                      "library": "lucide",
+                                      "fill": "$textFaint"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "y0BynG",
+                                      "name": "글",
+                                      "fill": "$textFaint",
+                                      "content": "직접 입력",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "zWphY",
+                                  "name": "탭칸",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "padding": [
+                                    10,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "AhSs3",
+                                      "name": "아이콘",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "sparkles",
+                                      "library": "lucide",
+                                      "fill": "$textFaint"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "TufN5",
+                                      "name": "글",
+                                      "fill": "$textFaint",
+                                      "content": "예시",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "OPX8I",
+                              "name": "파일칸",
+                              "width": "fill_container",
+                              "height": 200,
+                              "cornerRadius": 16,
+                              "layout": "vertical",
+                              "gap": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "jBOvI",
+                                  "name": "아이콘",
+                                  "width": 30,
+                                  "height": 30,
+                                  "icon": "upload",
+                                  "library": "lucide",
+                                  "fill": "$blue"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "L8IVA",
+                                  "name": "글",
+                                  "fill": "$text",
+                                  "content": "대본 파일 첨부",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "800"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "f4fStZ",
+                                  "name": "글",
+                                  "fill": "$textFaint",
+                                  "content": "TXT · DOCX · PDF · HWP · 50MB까지",
+                                  "fontFamily": "$font",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "bAVPr",
+                              "fill": "#000000",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KOsPG",
+                          "name": "아래",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            24,
+                            10,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "id": "r0ZiS",
+                              "type": "ref",
+                              "ref": "rwjIw",
+                              "name": "Button/Primary",
+                              "width": "fill_container",
+                              "fill": "$border",
+                              "descendants": {
+                                "j4DLv": {
+                                  "content": "다음",
+                                  "fill": "$textFaint"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "VhYzS",
+                          "type": "ref",
+                          "ref": "e84dKw",
+                          "name": "HomeIndicator"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "S0uW3",
+                      "name": "확인할 것",
+                      "fill": "$textMuted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "파일 · 직접 입력 · 예시 세 칸. 예시를 누르면 직접 입력 칸에 「옥상, 밤」이 채워진 상태로 보인다. 원래 사진 칸이 있던 자리라 모양이 그대로 맞는다.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "h0j5K",
+                  "name": "B 카드",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "chOod",
+                      "name": "설명",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "jaGWn",
+                          "name": "번호",
+                          "height": 44,
+                          "fill": "$text",
+                          "cornerRadius": 999,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "f9JKJ",
+                              "name": "번호 글",
+                              "fill": "#FFFFFF",
+                              "content": "B",
+                              "fontFamily": "$font",
+                              "fontSize": 18,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "HgoSC",
+                          "name": "단계",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "업로드 칸 안 링크",
+                          "fontFamily": "$font",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZvDk3",
+                      "name": "후보 B · 업로드 칸 안 링크",
+                      "clip": true,
+                      "width": 390,
+                      "height": 844,
+                      "fill": "$bg",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "J5cEUG",
+                          "type": "ref",
+                          "ref": "XfrjI",
+                          "name": "StatusBar"
+                        },
+                        {
+                          "id": "gkTDM",
+                          "type": "ref",
+                          "ref": "M6ZbSa",
+                          "name": "NavHeader",
+                          "descendants": {
+                            "R4eY0": {
+                              "content": "대본 리딩"
+                            },
+                            "WHWnW": {
+                              "enabled": true
+                            },
+                            "JMglv": {
+                              "enabled": false
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RaRKm",
+                          "name": "본문",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": [
+                            16,
+                            24,
+                            24,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "LXHxS",
+                              "name": "마스코트 줄",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "IpLvw",
+                                  "name": "마스코트",
+                                  "fill": {
+                                    "type": "image",
+                                    "enabled": true,
+                                    "url": "images/app/mascot-reading.png",
+                                    "mode": "contain"
+                                  },
+                                  "width": 52,
+                                  "height": 58
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "O47ZN",
+                                  "name": "글",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "연습할 대본을 넣어 주세요",
+                                  "lineHeight": 1.42,
+                                  "fontFamily": "$font",
+                                  "fontSize": 21,
+                                  "fontWeight": "900"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "nvjTe",
+                              "name": "설명 · 이어서",
+                              "fill": "$textMuted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "대본을 넣으면 상대역 대사는 제가 읽어 드려요. 내 대사만 소리 내 읽으면 돼요.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "c6Byt",
+                              "name": "탭",
+                              "width": "fill_container",
+                              "fill": "$bgSoft",
+                              "cornerRadius": 12,
+                              "padding": 4,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "LiJWI",
+                                  "name": "탭칸",
+                                  "width": "fill_container",
+                                  "fill": "$bg",
+                                  "cornerRadius": 10,
+                                  "gap": 6,
+                                  "padding": [
+                                    10,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "WzQsE",
+                                      "name": "아이콘",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "paperclip",
+                                      "library": "lucide",
+                                      "fill": "$text"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "F5muma",
+                                      "name": "글",
+                                      "fill": "$text",
+                                      "content": "파일",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "800"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ZniVF",
+                                  "name": "탭칸",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "padding": [
+                                    10,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "Q6fn6l",
+                                      "name": "아이콘",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "pencil",
+                                      "library": "lucide",
+                                      "fill": "$textFaint"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "TQWBv",
+                                      "name": "글",
+                                      "fill": "$textFaint",
+                                      "content": "직접 입력",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DXOjr",
+                              "name": "파일칸",
+                              "width": "fill_container",
+                              "height": 200,
+                              "cornerRadius": 16,
+                              "layout": "vertical",
+                              "gap": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "hDkCz",
+                                  "name": "아이콘",
+                                  "width": 30,
+                                  "height": 30,
+                                  "icon": "upload",
+                                  "library": "lucide",
+                                  "fill": "$blue"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "d1GgFk",
+                                  "name": "글",
+                                  "fill": "$text",
+                                  "content": "대본 파일 첨부",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "800"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Z7bAX",
+                                  "name": "글",
+                                  "fill": "$textFaint",
+                                  "content": "TXT · DOCX · PDF · HWP · 50MB까지",
+                                  "fontFamily": "$font",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "cTqaH",
+                                  "name": "예시 링크",
+                                  "gap": 2,
+                                  "padding": [
+                                    8,
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "UeBjF",
+                                      "name": "글",
+                                      "fill": "$blue",
+                                      "content": "대본이 없으면 예시로 해 보기",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "UIzZn",
+                                      "name": "화살표",
+                                      "width": 14,
+                                      "height": 14,
+                                      "icon": "chevron-right",
+                                      "library": "lucide",
+                                      "fill": "$blue"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "sSJ2m",
+                              "fill": "#000000",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bQnfm",
+                          "name": "아래",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            24,
+                            10,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "id": "kwqPE",
+                              "type": "ref",
+                              "ref": "rwjIw",
+                              "name": "Button/Primary",
+                              "width": "fill_container",
+                              "fill": "$border",
+                              "descendants": {
+                                "j4DLv": {
+                                  "content": "다음",
+                                  "fill": "$textFaint"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "TDySY",
+                          "type": "ref",
+                          "ref": "e84dKw",
+                          "name": "HomeIndicator"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "d0gIFf",
+                      "name": "확인할 것",
+                      "fill": "$textMuted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "업로드 칸 맨 아래에 파란 글 「대본이 없으면 예시로 해 보기 ›」. 칸 하나 안에서 「파일을 넣거나, 없으면 예시」로 읽힌다.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E5T9yE",
+                  "name": "C 카드",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "MVsgp",
+                      "name": "설명",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "VBXdM",
+                          "name": "번호",
+                          "height": 44,
+                          "fill": "$text",
+                          "cornerRadius": 999,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "tX8LX",
+                              "name": "번호 글",
+                              "fill": "#FFFFFF",
+                              "content": "C",
+                              "fontFamily": "$font",
+                              "fontSize": 18,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "a76TZ",
+                          "name": "단계",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "[다음] 위 회색 버튼",
+                          "fontFamily": "$font",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kkwvj",
+                      "name": "후보 C · [다음] 위 회색 버튼",
+                      "clip": true,
+                      "width": 390,
+                      "height": 844,
+                      "fill": "$bg",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "bEH1d",
+                          "type": "ref",
+                          "ref": "XfrjI",
+                          "name": "StatusBar"
+                        },
+                        {
+                          "id": "VQxM0",
+                          "type": "ref",
+                          "ref": "M6ZbSa",
+                          "name": "NavHeader",
+                          "descendants": {
+                            "R4eY0": {
+                              "content": "대본 리딩"
+                            },
+                            "WHWnW": {
+                              "enabled": true
+                            },
+                            "JMglv": {
+                              "enabled": false
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Fxilp",
+                          "name": "본문",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": [
+                            16,
+                            24,
+                            24,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "N2Pxo",
+                              "name": "마스코트 줄",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "CzpoC",
+                                  "name": "마스코트",
+                                  "fill": {
+                                    "type": "image",
+                                    "enabled": true,
+                                    "url": "images/app/mascot-reading.png",
+                                    "mode": "contain"
+                                  },
+                                  "width": 52,
+                                  "height": 58
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "B8hRZZ",
+                                  "name": "글",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "연습할 대본을 넣어 주세요",
+                                  "lineHeight": 1.42,
+                                  "fontFamily": "$font",
+                                  "fontSize": 21,
+                                  "fontWeight": "900"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "zvDGg",
+                              "name": "설명 · 이어서",
+                              "fill": "$textMuted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "대본을 넣으면 상대역 대사는 제가 읽어 드려요. 내 대사만 소리 내 읽으면 돼요.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DPWf4",
+                              "name": "탭",
+                              "width": "fill_container",
+                              "fill": "$bgSoft",
+                              "cornerRadius": 12,
+                              "padding": 4,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "i9dtW",
+                                  "name": "탭칸",
+                                  "width": "fill_container",
+                                  "fill": "$bg",
+                                  "cornerRadius": 10,
+                                  "gap": 6,
+                                  "padding": [
+                                    10,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "unp5P",
+                                      "name": "아이콘",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "paperclip",
+                                      "library": "lucide",
+                                      "fill": "$text"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "n32KMq",
+                                      "name": "글",
+                                      "fill": "$text",
+                                      "content": "파일",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "800"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "gFTqi",
+                                  "name": "탭칸",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "padding": [
+                                    10,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "uZ2R7",
+                                      "name": "아이콘",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "pencil",
+                                      "library": "lucide",
+                                      "fill": "$textFaint"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "uXKNW",
+                                      "name": "글",
+                                      "fill": "$textFaint",
+                                      "content": "직접 입력",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "lhFu2",
+                              "name": "파일칸",
+                              "width": "fill_container",
+                              "height": 200,
+                              "cornerRadius": 16,
+                              "layout": "vertical",
+                              "gap": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "u3kbxW",
+                                  "name": "아이콘",
+                                  "width": 30,
+                                  "height": 30,
+                                  "icon": "upload",
+                                  "library": "lucide",
+                                  "fill": "$blue"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "XrLIx",
+                                  "name": "글",
+                                  "fill": "$text",
+                                  "content": "대본 파일 첨부",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "800"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "g8vW8",
+                                  "name": "글",
+                                  "fill": "$textFaint",
+                                  "content": "TXT · DOCX · PDF · HWP · 50MB까지",
+                                  "fontFamily": "$font",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "q15c4X",
+                              "fill": "#000000",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lJtEY",
+                          "name": "아래",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "padding": [
+                            12,
+                            24,
+                            10,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "uFdyJ",
+                              "name": "예시 버튼",
+                              "width": "fill_container",
+                              "height": 52,
+                              "fill": "$bgSoft",
+                              "cornerRadius": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "bgjmu",
+                                  "name": "글",
+                                  "fill": "$textDim",
+                                  "content": "예시 대본으로 해 보기",
+                                  "fontFamily": "$font",
+                                  "fontSize": 15,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "id": "smM0r",
+                              "type": "ref",
+                              "ref": "rwjIw",
+                              "name": "Button/Primary",
+                              "width": "fill_container",
+                              "fill": "$border",
+                              "descendants": {
+                                "j4DLv": {
+                                  "content": "다음",
+                                  "fill": "$textFaint"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "imuOt",
+                          "type": "ref",
+                          "ref": "e84dKw",
+                          "name": "HomeIndicator"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "w37ClQ",
+                      "name": "확인할 것",
+                      "fill": "$textMuted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "지금 dev의 「예시 대본으로 시작해보기」 글자 자리를 이 화면의 회색 보조 버튼 모양으로. [다음]과 나란히 쌓여 둘 중 하나를 고르는 모양.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "n6Xr0X",
+                  "name": "D 카드",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TIQzG",
+                      "name": "설명",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PJ5Xr",
+                          "name": "번호",
+                          "height": 44,
+                          "fill": "$text",
+                          "cornerRadius": 999,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "L7SBQ",
+                              "name": "번호 글",
+                              "fill": "#FFFFFF",
+                              "content": "D",
+                              "fontFamily": "$font",
+                              "fontSize": 18,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Rxzqq",
+                          "name": "단계",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "설명 글에 이어 붙이기",
+                          "fontFamily": "$font",
+                          "fontSize": 22,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pmuOT",
+                      "name": "후보 D · 설명 글에 이어 붙이기",
+                      "clip": true,
+                      "width": 390,
+                      "height": 844,
+                      "fill": "$bg",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "id": "XQvho",
+                          "type": "ref",
+                          "ref": "XfrjI",
+                          "name": "StatusBar"
+                        },
+                        {
+                          "id": "C7h5nH",
+                          "type": "ref",
+                          "ref": "M6ZbSa",
+                          "name": "NavHeader",
+                          "descendants": {
+                            "R4eY0": {
+                              "content": "대본 리딩"
+                            },
+                            "WHWnW": {
+                              "enabled": true
+                            },
+                            "JMglv": {
+                              "enabled": false
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fr36x",
+                          "name": "본문",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": [
+                            16,
+                            24,
+                            24,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "m4Ykzo",
+                              "name": "마스코트 줄",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "P5QAtz",
+                                  "name": "마스코트",
+                                  "fill": {
+                                    "type": "image",
+                                    "enabled": true,
+                                    "url": "images/app/mascot-reading.png",
+                                    "mode": "contain"
+                                  },
+                                  "width": 52,
+                                  "height": 58
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "rB164",
+                                  "name": "글",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "연습할 대본을 넣어 주세요",
+                                  "lineHeight": 1.42,
+                                  "fontFamily": "$font",
+                                  "fontSize": 21,
+                                  "fontWeight": "900"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "IzYu5",
+                              "name": "설명 · 이어서",
+                              "fill": "$textMuted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "대본을 넣으면 상대역 대사는 제가 읽어 드려요. 내 대사만 소리 내 읽으면 돼요.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "iSbpS",
+                              "name": "예시 링크",
+                              "gap": 2,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ccijb",
+                                  "name": "글",
+                                  "fill": "$blue",
+                                  "content": "대본이 없으면 예시 대본으로 해 봐요",
+                                  "fontFamily": "$font",
+                                  "fontSize": 14,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "EKUxX",
+                                  "name": "화살표",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "chevron-right",
+                                  "library": "lucide",
+                                  "fill": "$blue"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "f2PEC0",
+                              "name": "탭",
+                              "width": "fill_container",
+                              "fill": "$bgSoft",
+                              "cornerRadius": 12,
+                              "padding": 4,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "xZ7GF",
+                                  "name": "탭칸",
+                                  "width": "fill_container",
+                                  "fill": "$bg",
+                                  "cornerRadius": 10,
+                                  "gap": 6,
+                                  "padding": [
+                                    10,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "UjYb6",
+                                      "name": "아이콘",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "paperclip",
+                                      "library": "lucide",
+                                      "fill": "$text"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "kG4Bf",
+                                      "name": "글",
+                                      "fill": "$text",
+                                      "content": "파일",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "800"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Um4Z7",
+                                  "name": "탭칸",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "padding": [
+                                    10,
+                                    0
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "Vts9U",
+                                      "name": "아이콘",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "pencil",
+                                      "library": "lucide",
+                                      "fill": "$textFaint"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "pELCa",
+                                      "name": "글",
+                                      "fill": "$textFaint",
+                                      "content": "직접 입력",
+                                      "fontFamily": "$font",
+                                      "fontSize": 14,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "jP9Ux",
+                              "name": "파일칸",
+                              "width": "fill_container",
+                              "height": 200,
+                              "cornerRadius": 16,
+                              "layout": "vertical",
+                              "gap": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "Y8QfA7",
+                                  "name": "아이콘",
+                                  "width": 30,
+                                  "height": 30,
+                                  "icon": "upload",
+                                  "library": "lucide",
+                                  "fill": "$blue"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ecjnM",
+                                  "name": "글",
+                                  "fill": "$text",
+                                  "content": "대본 파일 첨부",
+                                  "fontFamily": "$font",
+                                  "fontSize": 16,
+                                  "fontWeight": "800"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "UnVIM",
+                                  "name": "글",
+                                  "fill": "$textFaint",
+                                  "content": "TXT · DOCX · PDF · HWP · 50MB까지",
+                                  "fontFamily": "$font",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "F4w5Py",
+                              "fill": "#000000",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BkxQT",
+                          "name": "아래",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            24,
+                            10,
+                            24
+                          ],
+                          "children": [
+                            {
+                              "id": "GnvEv",
+                              "type": "ref",
+                              "ref": "rwjIw",
+                              "name": "Button/Primary",
+                              "width": "fill_container",
+                              "fill": "$border",
+                              "descendants": {
+                                "j4DLv": {
+                                  "content": "다음",
+                                  "fill": "$textFaint"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "iVfmz",
+                          "type": "ref",
+                          "ref": "e84dKw",
+                          "name": "HomeIndicator"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "d7CkF",
+                      "name": "확인할 것",
+                      "fill": "$textMuted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "마스코트 아래 설명 끝에 「대본이 없으면 예시 대본으로 해 봐요 ›」 한 줄. 마스코트가 말하는 흐름 안에 들어가 가장 덜 튄다. 대신 가장 작게 보인다.",
                       "lineHeight": 1.45,
                       "fontFamily": "$font",
                       "fontSize": 20,
