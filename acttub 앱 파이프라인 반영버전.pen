@@ -71693,7 +71693,8 @@
                           "fill": "#111111",
                           "content": "ㅂ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -71724,7 +71725,8 @@
                           "fill": "#111111",
                           "content": "ㅈ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -71755,7 +71757,8 @@
                           "fill": "#111111",
                           "content": "ㄷ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -71786,7 +71789,8 @@
                           "fill": "#111111",
                           "content": "ㄱ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -71817,7 +71821,8 @@
                           "fill": "#111111",
                           "content": "ㅅ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -71848,7 +71853,8 @@
                           "fill": "#111111",
                           "content": "ㅛ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -71879,7 +71885,8 @@
                           "fill": "#111111",
                           "content": "ㅕ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -71910,7 +71917,8 @@
                           "fill": "#111111",
                           "content": "ㅑ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -71941,7 +71949,8 @@
                           "fill": "#111111",
                           "content": "ㅐ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -71972,7 +71981,8 @@
                           "fill": "#111111",
                           "content": "ㅔ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -72017,7 +72027,8 @@
                           "fill": "#111111",
                           "content": "ㅁ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72048,7 +72059,8 @@
                           "fill": "#111111",
                           "content": "ㄴ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72079,7 +72091,8 @@
                           "fill": "#111111",
                           "content": "ㅇ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72110,7 +72123,8 @@
                           "fill": "#111111",
                           "content": "ㄹ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72141,7 +72155,8 @@
                           "fill": "#111111",
                           "content": "ㅎ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72172,7 +72187,8 @@
                           "fill": "#111111",
                           "content": "ㅗ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72203,7 +72219,8 @@
                           "fill": "#111111",
                           "content": "ㅓ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72234,7 +72251,8 @@
                           "fill": "#111111",
                           "content": "ㅏ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72265,7 +72283,8 @@
                           "fill": "#111111",
                           "content": "ㅣ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -72342,7 +72361,8 @@
                           "fill": "#111111",
                           "content": "ㅋ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72373,7 +72393,8 @@
                           "fill": "#111111",
                           "content": "ㅌ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72404,7 +72425,8 @@
                           "fill": "#111111",
                           "content": "ㅊ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72435,7 +72457,8 @@
                           "fill": "#111111",
                           "content": "ㅍ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72466,7 +72489,8 @@
                           "fill": "#111111",
                           "content": "ㅠ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72497,7 +72521,8 @@
                           "fill": "#111111",
                           "content": "ㅜ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72528,7 +72553,8 @@
                           "fill": "#111111",
                           "content": "ㅡ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72605,7 +72631,8 @@
                           "fill": "#111111",
                           "content": "123",
                           "fontFamily": "$font",
-                          "fontSize": 16
+                          "fontSize": 16,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72636,7 +72663,8 @@
                           "fill": "#111111",
                           "content": "스페이스",
                           "fontFamily": "$font",
-                          "fontSize": 15
+                          "fontSize": 15,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -72667,7 +72695,8 @@
                           "fill": "#111111",
                           "content": "검색",
                           "fontFamily": "$font",
-                          "fontSize": 15
+                          "fontSize": 15,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -73280,7 +73309,8 @@
                           "fill": "#111111",
                           "content": "ㅂ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73311,7 +73341,8 @@
                           "fill": "#111111",
                           "content": "ㅈ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73342,7 +73373,8 @@
                           "fill": "#111111",
                           "content": "ㄷ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73373,7 +73405,8 @@
                           "fill": "#111111",
                           "content": "ㄱ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73404,7 +73437,8 @@
                           "fill": "#111111",
                           "content": "ㅅ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73435,7 +73469,8 @@
                           "fill": "#111111",
                           "content": "ㅛ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73466,7 +73501,8 @@
                           "fill": "#111111",
                           "content": "ㅕ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73497,7 +73533,8 @@
                           "fill": "#111111",
                           "content": "ㅑ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73528,7 +73565,8 @@
                           "fill": "#111111",
                           "content": "ㅐ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73559,7 +73597,8 @@
                           "fill": "#111111",
                           "content": "ㅔ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -73604,7 +73643,8 @@
                           "fill": "#111111",
                           "content": "ㅁ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73635,7 +73675,8 @@
                           "fill": "#111111",
                           "content": "ㄴ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73666,7 +73707,8 @@
                           "fill": "#111111",
                           "content": "ㅇ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73697,7 +73739,8 @@
                           "fill": "#111111",
                           "content": "ㄹ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73728,7 +73771,8 @@
                           "fill": "#111111",
                           "content": "ㅎ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73759,7 +73803,8 @@
                           "fill": "#111111",
                           "content": "ㅗ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73790,7 +73835,8 @@
                           "fill": "#111111",
                           "content": "ㅓ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73821,7 +73867,8 @@
                           "fill": "#111111",
                           "content": "ㅏ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73852,7 +73899,8 @@
                           "fill": "#111111",
                           "content": "ㅣ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -73929,7 +73977,8 @@
                           "fill": "#111111",
                           "content": "ㅋ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73960,7 +74009,8 @@
                           "fill": "#111111",
                           "content": "ㅌ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -73991,7 +74041,8 @@
                           "fill": "#111111",
                           "content": "ㅊ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -74022,7 +74073,8 @@
                           "fill": "#111111",
                           "content": "ㅍ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -74053,7 +74105,8 @@
                           "fill": "#111111",
                           "content": "ㅠ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -74084,7 +74137,8 @@
                           "fill": "#111111",
                           "content": "ㅜ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -74115,7 +74169,8 @@
                           "fill": "#111111",
                           "content": "ㅡ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -74192,7 +74247,8 @@
                           "fill": "#111111",
                           "content": "123",
                           "fontFamily": "$font",
-                          "fontSize": 16
+                          "fontSize": 16,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -74223,7 +74279,8 @@
                           "fill": "#111111",
                           "content": "스페이스",
                           "fontFamily": "$font",
-                          "fontSize": 15
+                          "fontSize": 15,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -74254,7 +74311,8 @@
                           "fill": "#111111",
                           "content": "완료",
                           "fontFamily": "$font",
-                          "fontSize": 15
+                          "fontSize": 15,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -143620,7 +143678,8 @@
                           "fill": "#111111",
                           "content": "ㅂ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -143651,7 +143710,8 @@
                           "fill": "#111111",
                           "content": "ㅈ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -143682,7 +143742,8 @@
                           "fill": "#111111",
                           "content": "ㄷ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -143713,7 +143774,8 @@
                           "fill": "#111111",
                           "content": "ㄱ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -143744,7 +143806,8 @@
                           "fill": "#111111",
                           "content": "ㅅ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -143775,7 +143838,8 @@
                           "fill": "#111111",
                           "content": "ㅛ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -143806,7 +143870,8 @@
                           "fill": "#111111",
                           "content": "ㅕ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -143837,7 +143902,8 @@
                           "fill": "#111111",
                           "content": "ㅑ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -143868,7 +143934,8 @@
                           "fill": "#111111",
                           "content": "ㅐ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -143899,7 +143966,8 @@
                           "fill": "#111111",
                           "content": "ㅔ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -143944,7 +144012,8 @@
                           "fill": "#111111",
                           "content": "ㅁ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -143975,7 +144044,8 @@
                           "fill": "#111111",
                           "content": "ㄴ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144006,7 +144076,8 @@
                           "fill": "#111111",
                           "content": "ㅇ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144037,7 +144108,8 @@
                           "fill": "#111111",
                           "content": "ㄹ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144068,7 +144140,8 @@
                           "fill": "#111111",
                           "content": "ㅎ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144099,7 +144172,8 @@
                           "fill": "#111111",
                           "content": "ㅗ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144130,7 +144204,8 @@
                           "fill": "#111111",
                           "content": "ㅓ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144161,7 +144236,8 @@
                           "fill": "#111111",
                           "content": "ㅏ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144192,7 +144268,8 @@
                           "fill": "#111111",
                           "content": "ㅣ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -144269,7 +144346,8 @@
                           "fill": "#111111",
                           "content": "ㅋ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144300,7 +144378,8 @@
                           "fill": "#111111",
                           "content": "ㅌ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144331,7 +144410,8 @@
                           "fill": "#111111",
                           "content": "ㅊ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144362,7 +144442,8 @@
                           "fill": "#111111",
                           "content": "ㅍ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144393,7 +144474,8 @@
                           "fill": "#111111",
                           "content": "ㅠ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144424,7 +144506,8 @@
                           "fill": "#111111",
                           "content": "ㅜ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144455,7 +144538,8 @@
                           "fill": "#111111",
                           "content": "ㅡ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144532,7 +144616,8 @@
                           "fill": "#111111",
                           "content": "123",
                           "fontFamily": "$font",
-                          "fontSize": 16
+                          "fontSize": 16,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144563,7 +144648,8 @@
                           "fill": "#111111",
                           "content": "스페이스",
                           "fontFamily": "$font",
-                          "fontSize": 15
+                          "fontSize": 15,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -144594,7 +144680,8 @@
                           "fill": "#111111",
                           "content": "다음",
                           "fontFamily": "$font",
-                          "fontSize": 15
+                          "fontSize": 15,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -145320,7 +145407,8 @@
                           "fill": "#111111",
                           "content": "ㅂ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145351,7 +145439,8 @@
                           "fill": "#111111",
                           "content": "ㅈ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145382,7 +145471,8 @@
                           "fill": "#111111",
                           "content": "ㄷ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145413,7 +145503,8 @@
                           "fill": "#111111",
                           "content": "ㄱ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145444,7 +145535,8 @@
                           "fill": "#111111",
                           "content": "ㅅ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145475,7 +145567,8 @@
                           "fill": "#111111",
                           "content": "ㅛ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145506,7 +145599,8 @@
                           "fill": "#111111",
                           "content": "ㅕ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145537,7 +145631,8 @@
                           "fill": "#111111",
                           "content": "ㅑ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145568,7 +145663,8 @@
                           "fill": "#111111",
                           "content": "ㅐ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145599,7 +145695,8 @@
                           "fill": "#111111",
                           "content": "ㅔ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -145644,7 +145741,8 @@
                           "fill": "#111111",
                           "content": "ㅁ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145675,7 +145773,8 @@
                           "fill": "#111111",
                           "content": "ㄴ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145706,7 +145805,8 @@
                           "fill": "#111111",
                           "content": "ㅇ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145737,7 +145837,8 @@
                           "fill": "#111111",
                           "content": "ㄹ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145768,7 +145869,8 @@
                           "fill": "#111111",
                           "content": "ㅎ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145799,7 +145901,8 @@
                           "fill": "#111111",
                           "content": "ㅗ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145830,7 +145933,8 @@
                           "fill": "#111111",
                           "content": "ㅓ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145861,7 +145965,8 @@
                           "fill": "#111111",
                           "content": "ㅏ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -145892,7 +145997,8 @@
                           "fill": "#111111",
                           "content": "ㅣ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -145969,7 +146075,8 @@
                           "fill": "#111111",
                           "content": "ㅋ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -146000,7 +146107,8 @@
                           "fill": "#111111",
                           "content": "ㅌ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -146031,7 +146139,8 @@
                           "fill": "#111111",
                           "content": "ㅊ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -146062,7 +146171,8 @@
                           "fill": "#111111",
                           "content": "ㅍ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -146093,7 +146203,8 @@
                           "fill": "#111111",
                           "content": "ㅠ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -146124,7 +146235,8 @@
                           "fill": "#111111",
                           "content": "ㅜ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -146155,7 +146267,8 @@
                           "fill": "#111111",
                           "content": "ㅡ",
                           "fontFamily": "$font",
-                          "fontSize": 21
+                          "fontSize": 21,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -146232,7 +146345,8 @@
                           "fill": "#111111",
                           "content": "123",
                           "fontFamily": "$font",
-                          "fontSize": 16
+                          "fontSize": 16,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -146263,7 +146377,8 @@
                           "fill": "#111111",
                           "content": "스페이스",
                           "fontFamily": "$font",
-                          "fontSize": 15
+                          "fontSize": 15,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -146294,7 +146409,8 @@
                           "fill": "#111111",
                           "content": "다음",
                           "fontFamily": "$font",
-                          "fontSize": 15
+                          "fontSize": 15,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -155952,7 +156068,7 @@
           "height": 780,
           "fill": "$bg",
           "cornerRadius": 24,
-          "stroke": "#D1D6DB",
+          "stroke": "#1c0000ff",
           "strokeWidth": 1,
           "layout": "vertical",
           "padding": [
@@ -257306,7 +257422,7 @@
           "height": 780,
           "fill": "$bg",
           "cornerRadius": 24,
-          "stroke": "#D1D6DB",
+          "stroke": "#1c0000ff",
           "strokeWidth": 1,
           "layout": "vertical",
           "padding": [
@@ -297292,6 +297408,7 @@
                           "lineHeight": 1.4,
                           "fontFamily": "$font",
                           "fontSize": 16,
+                          "fontWeight": "normal",
                           "letterSpacing": -0.5
                         }
                       ]
