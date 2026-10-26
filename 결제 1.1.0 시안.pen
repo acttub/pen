@@ -1229,6 +1229,1639 @@
           "width": 390
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "bqZW9a",
+      "x": 0,
+      "y": 5846,
+      "name": "README 인앱 광고",
+      "width": 1400,
+      "layout": "vertical",
+      "gap": 10,
+      "children": [
+        {
+          "type": "text",
+          "id": "Y2TJjL",
+          "fill": "$text",
+          "content": "인앱 광고 시안 (AdMob 배너 + 학원 게시판)",
+          "fontFamily": "$font",
+          "fontSize": 36,
+          "fontWeight": "800"
+        },
+        {
+          "type": "text",
+          "id": "FZub9y",
+          "fill": "$text",
+          "content": "· 다른 작업(인앱광고 도입 검토)에서 만든 화면을 2026-10-26 13:22 기준으로 모았어요. 그 뒤 바뀐 건 반영 안 됐을 수 있어요.\n· Pro 사용자는 광고가 안 보여요. 광고는 AdMob 표준 배너 규격(07 참고).\n· 줄 순서: 광고 위치 시안 → 기다리는 동안 광고 → 학원 게시판 → 게시판 입구 후보(A·B·C, 아직 미정)",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "400",
+          "textGrowth": "fixed-width",
+          "width": 1400
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "KE2n30",
+      "x": 0,
+      "y": 6106,
+      "name": "광고 위치 시안 (화면별 배너 자리) 라벨",
+      "width": 2000,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "bxir2q",
+          "fill": "$text",
+          "content": "광고 위치 시안 (화면별 배너 자리)",
+          "fontFamily": "$font",
+          "fontSize": 28,
+          "fontWeight": "800"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ZZ91cM",
+      "x": 0,
+      "y": 6176,
+      "name": "01-홈-광고있음",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/01-홈-광고있음.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "FoaaL5",
+      "x": 0,
+      "y": 7036,
+      "name": "01-홈-광고있음 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "BvTvPU",
+          "fill": "$text",
+          "content": "01-홈-광고있음",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "XaeYwx",
+      "x": 450,
+      "y": 6176,
+      "name": "02-오디션공고-상단광고",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/02-오디션공고-상단광고.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "Mcapss",
+      "x": 450,
+      "y": 7036,
+      "name": "02-오디션공고-상단광고 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "XXsfzD",
+          "fill": "$text",
+          "content": "02-오디션공고-상단광고",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "LZWMW3",
+      "x": 900,
+      "y": 6176,
+      "name": "03-연기입시목록-상단광고",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/03-연기입시목록-상단광고.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "tQ3s1w",
+      "x": 900,
+      "y": 7036,
+      "name": "03-연기입시목록-상단광고 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "WiVPhh",
+          "fill": "$text",
+          "content": "03-연기입시목록-상단광고",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "1nWrvl",
+      "x": 1350,
+      "y": 6176,
+      "name": "04-대학입시상세-상단광고",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/04-대학입시상세-상단광고.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "nQJGRR",
+      "x": 1350,
+      "y": 7036,
+      "name": "04-대학입시상세-상단광고 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "ALlrpI",
+          "fill": "$text",
+          "content": "04-대학입시상세-상단광고",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "hbip2h",
+      "x": 1800,
+      "y": 6176,
+      "name": "05-광고상세-새화면",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/05-광고상세-새화면.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "WIHVAG",
+      "x": 1800,
+      "y": 7036,
+      "name": "05-광고상세-새화면 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "sG9yhj",
+          "fill": "$text",
+          "content": "05-광고상세-새화면",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "IFDGgf",
+      "x": 2250,
+      "y": 6176,
+      "name": "06a-리딩탭-히어로아래",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/06a-리딩탭-히어로아래.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "6nmFnU",
+      "x": 2250,
+      "y": 7036,
+      "name": "06a-리딩탭-히어로아래 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "PIHaw0",
+          "fill": "$text",
+          "content": "06a-리딩탭-히어로아래",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "uvJjF9",
+      "x": 2700,
+      "y": 6176,
+      "name": "06b-챌린지탭-대표카드아래",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/06b-챌린지탭-대표카드아래.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "MK7ojL",
+      "x": 2700,
+      "y": 7036,
+      "name": "06b-챌린지탭-대표카드아래 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "zt3r3E",
+          "fill": "$text",
+          "content": "06b-챌린지탭-대표카드아래",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "bEURYH",
+      "x": 3150,
+      "y": 6176,
+      "name": "06c-프로필탭-프로필카드아래",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/06c-프로필탭-프로필카드아래.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "jLatNl",
+      "x": 3150,
+      "y": 7036,
+      "name": "06c-프로필탭-프로필카드아래 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "YTl12q",
+          "fill": "$text",
+          "content": "06c-프로필탭-프로필카드아래",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "snZpX5",
+      "x": 0,
+      "y": 7140,
+      "name": "07-배너규격-3종",
+      "width": 390,
+      "height": 152,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/07-배너규격-3종.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "vNTMxD",
+      "x": 0,
+      "y": 7308,
+      "name": "07-배너규격-3종 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "xDvKac",
+          "fill": "$text",
+          "content": "07-배너규격-3종",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "vzrHmH",
+      "x": 450,
+      "y": 7140,
+      "name": "08-챌린지상세",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/08-챌린지상세.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "xXPw4I",
+      "x": 450,
+      "y": 8000,
+      "name": "08-챌린지상세 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "Lqz4WX",
+          "fill": "$text",
+          "content": "08-챌린지상세",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "4p1ai3",
+      "x": 900,
+      "y": 7140,
+      "name": "09-연습기록목록",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/09-연습기록목록.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "VW4sYn",
+      "x": 900,
+      "y": 8000,
+      "name": "09-연습기록목록 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "wEpopw",
+          "fill": "$text",
+          "content": "09-연습기록목록",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "0M7gOr",
+      "x": 1350,
+      "y": 7140,
+      "name": "10-설정",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/10-설정.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "jMPX4y",
+      "x": 1350,
+      "y": 8000,
+      "name": "10-설정 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "y3Cyxw",
+          "fill": "$text",
+          "content": "10-설정",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "9hbsAw",
+      "x": 1800,
+      "y": 7140,
+      "name": "11-분석중",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/11-분석중.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "6xiKKc",
+      "x": 1800,
+      "y": 8000,
+      "name": "11-분석중 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "le1hKF",
+          "fill": "$text",
+          "content": "11-분석중",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pl1vf9",
+      "x": 2250,
+      "y": 7140,
+      "name": "12-코칭리포트",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/12-코칭리포트.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "b0vAKm",
+      "x": 2250,
+      "y": 8000,
+      "name": "12-코칭리포트 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "bBZv8J",
+          "fill": "$text",
+          "content": "12-코칭리포트",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Am5nVz",
+      "x": 2700,
+      "y": 7140,
+      "name": "14-저장한영상",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/14-저장한영상.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "9RG7Oy",
+      "x": 2700,
+      "y": 8000,
+      "name": "14-저장한영상 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "alPDOP",
+          "fill": "$text",
+          "content": "14-저장한영상",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "d4IHKX",
+      "x": 3150,
+      "y": 7140,
+      "name": "15-알림목록",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/15-알림목록.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "aQj1Vk",
+      "x": 3150,
+      "y": 8000,
+      "name": "15-알림목록 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "r4I334",
+          "fill": "$text",
+          "content": "15-알림목록",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "dJ2Myy",
+      "x": 0,
+      "y": 8104,
+      "name": "16-대본검색",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/mockups/16-대본검색.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "X02Cw5",
+      "x": 0,
+      "y": 8964,
+      "name": "16-대본검색 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "1ljC6C",
+          "fill": "$text",
+          "content": "16-대본검색",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ZEIKk9",
+      "x": 0,
+      "y": 9108,
+      "name": "기다리는 동안 광고 (분석·목소리 준비·업로드 중) 라벨",
+      "width": 2000,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "kDeOL0",
+          "fill": "$text",
+          "content": "기다리는 동안 광고 (분석·목소리 준비·업로드 중)",
+          "fontFamily": "$font",
+          "fontSize": 28,
+          "fontWeight": "800"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "NwsQVH",
+      "x": 0,
+      "y": 9178,
+      "name": "W1-Pro-분석중",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/in-use/W1-Pro-분석중.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "p6d9u2",
+      "x": 0,
+      "y": 10038,
+      "name": "W1-Pro-분석중 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "aDLmON",
+          "fill": "$text",
+          "content": "W1-Pro-분석중",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "bIDHVj",
+      "x": 450,
+      "y": 9178,
+      "name": "W1-분석중",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/in-use/W1-분석중.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "el0KOF",
+      "x": 450,
+      "y": 10038,
+      "name": "W1-분석중 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "u2WpNV",
+          "fill": "$text",
+          "content": "W1-분석중",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YMy3xj",
+      "x": 900,
+      "y": 9178,
+      "name": "W2-목소리준비중",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/in-use/W2-목소리준비중.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "LrFMa5",
+      "x": 900,
+      "y": 10038,
+      "name": "W2-목소리준비중 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "QgkzaR",
+          "fill": "$text",
+          "content": "W2-목소리준비중",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Ok1chv",
+      "x": 1350,
+      "y": 9178,
+      "name": "W3-코칭끝-노트보기전",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/in-use/W3-코칭끝-노트보기전.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "VrCtsw",
+      "x": 1350,
+      "y": 10038,
+      "name": "W3-코칭끝-노트보기전 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "iDg7uA",
+          "fill": "$text",
+          "content": "W3-코칭끝-노트보기전",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "m2oH4E",
+      "x": 1800,
+      "y": 9178,
+      "name": "W4-영상올리는중",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/in-use/W4-영상올리는중.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "K4Og9G",
+      "x": 1800,
+      "y": 10038,
+      "name": "W4-영상올리는중 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "aT4C5I",
+          "fill": "$text",
+          "content": "W4-영상올리는중",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "2gXOk6",
+      "x": 2250,
+      "y": 9178,
+      "name": "W5-대본읽는중",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/in-use/W5-대본읽는중.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "1y0Kt0",
+      "x": 2250,
+      "y": 10038,
+      "name": "W5-대본읽는중 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "vDTPej",
+          "fill": "$text",
+          "content": "W5-대본읽는중",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "E2soyP",
+      "x": 2700,
+      "y": 9178,
+      "name": "W6-챌린지올리기완료",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/in-use/W6-챌린지올리기완료.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "Zq5gL7",
+      "x": 2700,
+      "y": 10038,
+      "name": "W6-챌린지올리기완료 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "Bnsmxs",
+          "fill": "$text",
+          "content": "W6-챌린지올리기완료",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "tMkI4P",
+      "x": 0,
+      "y": 10182,
+      "name": "학원 게시판 화면 라벨",
+      "width": 2000,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "TfsGg2",
+          "fill": "$text",
+          "content": "학원 게시판 화면",
+          "fontFamily": "$font",
+          "fontSize": 28,
+          "fontWeight": "800"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "oWxNib",
+      "x": 0,
+      "y": 10252,
+      "name": "1-게시판목록",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board/1-게시판목록.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "EOcUDF",
+      "x": 0,
+      "y": 11112,
+      "name": "1-게시판목록 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "CHxWan",
+          "fill": "$text",
+          "content": "1-게시판목록",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "82UJ36",
+      "x": 450,
+      "y": 10252,
+      "name": "1b-게시판목록-전체스크롤",
+      "width": 390,
+      "height": 1880,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board/1b-게시판목록-전체스크롤.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "JguqNs",
+      "x": 450,
+      "y": 12148,
+      "name": "1b-게시판목록-전체스크롤 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "W1K9TX",
+          "fill": "$text",
+          "content": "1b-게시판목록-전체스크롤",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Ik0Fns",
+      "x": 900,
+      "y": 10252,
+      "name": "2-글상세",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board/2-글상세.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "H45my7",
+      "x": 900,
+      "y": 11112,
+      "name": "2-글상세 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "XdbaPp",
+          "fill": "$text",
+          "content": "2-글상세",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "nzl3KE",
+      "x": 1350,
+      "y": 10252,
+      "name": "2b-글상세-더보기메뉴펼침",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board/2b-글상세-더보기메뉴펼침.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "k9wudm",
+      "x": 1350,
+      "y": 11112,
+      "name": "2b-글상세-더보기메뉴펼침 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "57jebs",
+          "fill": "$text",
+          "content": "2b-글상세-더보기메뉴펼침",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "wWhZm2",
+      "x": 1800,
+      "y": 10252,
+      "name": "3-글쓰기",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board/3-글쓰기.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "8xTda3",
+      "x": 1800,
+      "y": 11112,
+      "name": "3-글쓰기 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "qv6CQV",
+          "fill": "$text",
+          "content": "3-글쓰기",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "m5cZ61",
+      "x": 2250,
+      "y": 10252,
+      "name": "4-글쓰기-상대역구함",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board/4-글쓰기-상대역구함.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "ui8j7n",
+      "x": 2250,
+      "y": 11112,
+      "name": "4-글쓰기-상대역구함 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "hbz2G3",
+          "fill": "$text",
+          "content": "4-글쓰기-상대역구함",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "vxTv7X",
+      "x": 2700,
+      "y": 10252,
+      "name": "5-신고",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board/5-신고.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "8kWhBL",
+      "x": 2700,
+      "y": 11112,
+      "name": "5-신고 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "6uyRfs",
+          "fill": "$text",
+          "content": "5-신고",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "rwJcZO",
+      "x": 3150,
+      "y": 10252,
+      "name": "6-내글",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board/6-내글.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "TBo3Lk",
+      "x": 3150,
+      "y": 11112,
+      "name": "6-내글 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "CTHts7",
+          "fill": "$text",
+          "content": "6-내글",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "LB2TMl",
+      "x": 0,
+      "y": 12252,
+      "name": "7-게시판비어있음",
+      "width": 390,
+      "height": 844,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board/7-게시판비어있음.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "6wkkVm",
+      "x": 0,
+      "y": 13112,
+      "name": "7-게시판비어있음 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "bjowCd",
+          "fill": "$text",
+          "content": "7-게시판비어있음",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "HbTeF8",
+      "x": 0,
+      "y": 13256,
+      "name": "게시판 입구 후보 A·B·C (미정) 라벨",
+      "width": 2000,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "qQqPOj",
+          "fill": "$text",
+          "content": "게시판 입구 후보 A·B·C (미정)",
+          "fontFamily": "$font",
+          "fontSize": 28,
+          "fontWeight": "800"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "5gDEfR",
+      "x": 0,
+      "y": 13326,
+      "name": "A-최근글-전체",
+      "width": 390,
+      "height": 1760,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board-entry/A-최근글-전체.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "TY9ewV",
+      "x": 0,
+      "y": 15102,
+      "name": "A-최근글-전체 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "jobjEX",
+          "fill": "$text",
+          "content": "A-최근글-전체",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "9oHny2",
+      "x": 450,
+      "y": 13326,
+      "name": "A-최근글-확대",
+      "width": 390,
+      "height": 470,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board-entry/A-최근글-확대.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "3Z3IIR",
+      "x": 450,
+      "y": 13812,
+      "name": "A-최근글-확대 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "GxNban",
+          "fill": "$text",
+          "content": "A-최근글-확대",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "8Xm2Jd",
+      "x": 900,
+      "y": 13326,
+      "name": "B-한줄입구-전체",
+      "width": 390,
+      "height": 1600,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board-entry/B-한줄입구-전체.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "kdnFHw",
+      "x": 900,
+      "y": 14942,
+      "name": "B-한줄입구-전체 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "mbTeWs",
+          "fill": "$text",
+          "content": "B-한줄입구-전체",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Ff0eUt",
+      "x": 1350,
+      "y": 13326,
+      "name": "B-한줄입구-확대",
+      "width": 390,
+      "height": 280,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board-entry/B-한줄입구-확대.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "RlxzSs",
+      "x": 1350,
+      "y": 13622,
+      "name": "B-한줄입구-확대 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "OoDmL4",
+          "fill": "$text",
+          "content": "B-한줄입구-확대",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "LocVXD",
+      "x": 1800,
+      "y": 13326,
+      "name": "C-상대역구함-전체",
+      "width": 390,
+      "height": 1700,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board-entry/C-상대역구함-전체.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "5REIQ8",
+      "x": 1800,
+      "y": 15042,
+      "name": "C-상대역구함-전체 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "t0TNZx",
+          "fill": "$text",
+          "content": "C-상대역구함-전체",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "jNGSRK",
+      "x": 2250,
+      "y": 13326,
+      "name": "C-상대역구함-확대",
+      "width": 390,
+      "height": 440,
+      "cornerRadius": 24,
+      "clip": true,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/in-app-ads/board-entry/C-상대역구함-확대.png",
+        "mode": "contain"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "Tjaot8",
+      "x": 2250,
+      "y": 13782,
+      "name": "C-상대역구함-확대 이름",
+      "width": 390,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "text",
+          "id": "Lm0kmh",
+          "fill": "$text",
+          "content": "C-상대역구함-확대",
+          "fontFamily": "$font",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "textGrowth": "fixed-width",
+          "width": 390
+        }
+      ]
     }
   ],
   "variables": {
