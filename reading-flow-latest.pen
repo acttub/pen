@@ -1017,7 +1017,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/xnEdI.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/xnEdI.png",
                         "mode": "contain"
                       }
                     },
@@ -1200,7 +1200,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "images/app/mascot-reading.png",
+                                    "url": "reading-design/images/app/mascot-reading.png",
                                     "mode": "contain"
                                   },
                                   "width": 52,
@@ -1657,7 +1657,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "images/app/mascot-reading.png",
+                                    "url": "reading-design/images/app/mascot-reading.png",
                                     "mode": "contain"
                                   },
                                   "width": 52,
@@ -2183,7 +2183,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "images/app/mascot-reading.png",
+                                "url": "reading-design/images/app/mascot-reading.png",
                                 "mode": "contain"
                               },
                               "width": 84,
@@ -3663,7 +3663,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "images/app/mascot-reading.png",
+                                    "url": "reading-design/images/app/mascot-reading.png",
                                     "mode": "contain"
                                   },
                                   "width": 52,
@@ -4235,7 +4235,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/B8ON3O.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/B8ON3O.png",
                         "mode": "contain"
                       }
                     },
@@ -4559,7 +4559,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "images/current/C2_R_range.png",
+                            "url": "reading-design/images/current/C2_R_range.png",
                             "mode": "cover"
                           },
                           "width": 390,
@@ -4862,7 +4862,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "images/app/mascot-reading.png",
+                                "url": "reading-design/images/app/mascot-reading.png",
                                 "mode": "contain"
                               },
                               "width": 84,
@@ -5101,7 +5101,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/UHAG1.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/UHAG1.png",
                         "mode": "contain"
                       }
                     },
@@ -5229,7 +5229,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/mwO8u.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/mwO8u.png",
                         "mode": "contain"
                       }
                     },
@@ -5357,7 +5357,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/i5sJVE.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/i5sJVE.png",
                         "mode": "contain"
                       }
                     },
@@ -6389,7 +6389,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/uvTbi.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/uvTbi.png",
                         "mode": "contain"
                       }
                     },
@@ -6517,7 +6517,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/jP2iK.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/jP2iK.png",
                         "mode": "contain"
                       }
                     },
@@ -10303,7 +10303,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/jP2iK.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/jP2iK.png",
                         "mode": "contain"
                       }
                     },
@@ -10431,7 +10431,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/vVNUg.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/vVNUg.png",
                         "mode": "contain"
                       }
                     },
@@ -10559,7 +10559,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/HduFp.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/HduFp.png",
                         "mode": "contain"
                       }
                     },
@@ -10687,7 +10687,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/pynJK.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/pynJK.png",
                         "mode": "contain"
                       }
                     },
@@ -10815,7 +10815,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/tPQtZ.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/tPQtZ.png",
                         "mode": "contain"
                       }
                     },
@@ -10943,7 +10943,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/ieL2e.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/ieL2e.png",
                         "mode": "contain"
                       }
                     },
@@ -11097,7 +11097,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/vVNUg.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/vVNUg.png",
                         "mode": "contain"
                       }
                     },
@@ -11754,7 +11754,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/vVNUg.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/vVNUg.png",
                         "mode": "contain"
                       }
                     },
@@ -11882,7 +11882,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/QDEP8.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/QDEP8.png",
                         "mode": "contain"
                       }
                     },
@@ -12010,7 +12010,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/UQWzz.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/UQWzz.png",
                         "mode": "contain"
                       }
                     },
@@ -12138,7 +12138,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/zEs0B.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/zEs0B.png",
                         "mode": "contain"
                       }
                     },
@@ -12266,7 +12266,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/c1MiZ.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/c1MiZ.png",
                         "mode": "contain"
                       }
                     },
@@ -12394,7 +12394,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/T79rDt.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/T79rDt.png",
                         "mode": "contain"
                       }
                     },
@@ -12548,7 +12548,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/tPQtZ.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/tPQtZ.png",
                         "mode": "contain"
                       }
                     },
@@ -12676,7 +12676,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/OcelD.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/OcelD.png",
                         "mode": "contain"
                       }
                     },
@@ -12804,7 +12804,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/zCvpZ.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/zCvpZ.png",
                         "mode": "contain"
                       }
                     },
@@ -12932,7 +12932,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/BjASs.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/BjASs.png",
                         "mode": "contain"
                       }
                     },
@@ -13060,7 +13060,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/B8ON3O.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/B8ON3O.png",
                         "mode": "contain"
                       }
                     },
@@ -13188,7 +13188,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/UHAG1.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/UHAG1.png",
                         "mode": "contain"
                       }
                     },
@@ -13342,7 +13342,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/mwO8u.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/mwO8u.png",
                         "mode": "contain"
                       }
                     },
@@ -13470,7 +13470,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/i5sJVE.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/i5sJVE.png",
                         "mode": "contain"
                       }
                     },
@@ -13598,7 +13598,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/F1WC2y.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/F1WC2y.png",
                         "mode": "contain"
                       }
                     },
@@ -13726,7 +13726,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/LqSwB.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/LqSwB.png",
                         "mode": "contain"
                       }
                     },
@@ -14583,7 +14583,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/C9YI3.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/C9YI3.png",
                         "mode": "contain"
                       }
                     },
@@ -14711,7 +14711,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/CClaG.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/CClaG.png",
                         "mode": "contain"
                       }
                     },
@@ -14865,7 +14865,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/YOgCg.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/YOgCg.png",
                         "mode": "contain"
                       }
                     },
@@ -14993,7 +14993,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/d4lUwf.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/d4lUwf.png",
                         "mode": "contain"
                       }
                     },
@@ -15121,7 +15121,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/vwu2k.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/vwu2k.png",
                         "mode": "contain"
                       }
                     },
@@ -15249,7 +15249,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/uvTbi.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/uvTbi.png",
                         "mode": "contain"
                       }
                     },
@@ -15403,7 +15403,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/tPQtZ.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/tPQtZ.png",
                         "mode": "contain"
                       }
                     },
@@ -15531,7 +15531,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/Z8cpC.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/Z8cpC.png",
                         "mode": "contain"
                       }
                     },
@@ -15659,7 +15659,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/ieL2e.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/ieL2e.png",
                         "mode": "contain"
                       }
                     },
@@ -15787,7 +15787,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/bfvCY.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/bfvCY.png",
                         "mode": "contain"
                       }
                     },
@@ -15915,7 +15915,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/uvTbi.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/uvTbi.png",
                         "mode": "contain"
                       }
                     },
@@ -16069,7 +16069,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/B8ON3O.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/B8ON3O.png",
                         "mode": "contain"
                       }
                     },
@@ -16197,7 +16197,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/aINnU.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/aINnU.png",
                         "mode": "contain"
                       }
                     },
@@ -16909,7 +16909,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/TCGKs.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/TCGKs.png",
                         "mode": "contain"
                       }
                     }
@@ -17003,7 +17003,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/GQroK.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/GQroK.png",
                         "mode": "contain"
                       }
                     }
@@ -17097,7 +17097,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/jP2iK.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/jP2iK.png",
                         "mode": "contain"
                       }
                     }
@@ -17191,7 +17191,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/uvTbi.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/uvTbi.png",
                         "mode": "contain"
                       }
                     }
@@ -25350,7 +25350,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "images/app/mascot-reading.png",
+                                    "url": "reading-design/images/app/mascot-reading.png",
                                     "mode": "contain"
                                   },
                                   "width": 52,
@@ -27216,7 +27216,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/vVNUg.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/vVNUg.png",
                         "mode": "contain"
                       }
                     }
@@ -32631,7 +32631,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/QDEP8.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/QDEP8.png",
                         "mode": "contain"
                       }
                     }
@@ -32780,7 +32780,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "images/app/mascot-reading.png",
+                                    "url": "reading-design/images/app/mascot-reading.png",
                                     "mode": "contain"
                                   },
                                   "width": 52,
@@ -33203,7 +33203,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "images/app/mascot-reading.png",
+                                    "url": "reading-design/images/app/mascot-reading.png",
                                     "mode": "contain"
                                   },
                                   "width": 52,
@@ -33698,7 +33698,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "images/app/mascot-reading.png",
+                                    "url": "reading-design/images/app/mascot-reading.png",
                                     "mode": "contain"
                                   },
                                   "width": 52,
@@ -34206,7 +34206,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "images/app/mascot-reading.png",
+                                "url": "reading-design/images/app/mascot-reading.png",
                                 "mode": "contain"
                               },
                               "width": 84,
@@ -34604,7 +34604,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/pynJK.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/pynJK.png",
                         "mode": "contain"
                       }
                     }
@@ -42182,7 +42182,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/tPQtZ.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/tPQtZ.png",
                         "mode": "contain"
                       }
                     }
@@ -42276,7 +42276,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/Z8cpC.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/Z8cpC.png",
                         "mode": "contain"
                       }
                     }
@@ -44438,7 +44438,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/ieL2e.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/ieL2e.png",
                         "mode": "contain"
                       }
                     }
@@ -44532,7 +44532,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/UQWzz.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/UQWzz.png",
                         "mode": "contain"
                       }
                     }
@@ -44626,7 +44626,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/bfvCY.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/bfvCY.png",
                         "mode": "contain"
                       }
                     }
@@ -45448,7 +45448,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/OcelD.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/OcelD.png",
                         "mode": "contain"
                       }
                     }
@@ -45542,7 +45542,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/zCvpZ.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/zCvpZ.png",
                         "mode": "contain"
                       }
                     }
@@ -45636,7 +45636,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/BjASs.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/BjASs.png",
                         "mode": "contain"
                       }
                     }
@@ -45730,7 +45730,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/zEs0B.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/zEs0B.png",
                         "mode": "contain"
                       }
                     }
@@ -45873,7 +45873,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "images/app/mascot-reading.png",
+                                    "url": "reading-design/images/app/mascot-reading.png",
                                     "mode": "contain"
                                   },
                                   "width": 52,
@@ -51258,7 +51258,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/B8ON3O.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/B8ON3O.png",
                         "mode": "contain"
                       }
                     }
@@ -54486,7 +54486,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "images/app/mascot-reading.png",
+                                    "url": "reading-design/images/app/mascot-reading.png",
                                     "mode": "contain"
                                   },
                                   "width": 52,
@@ -55210,7 +55210,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/aINnU.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/aINnU.png",
                         "mode": "contain"
                       }
                     }
@@ -55314,7 +55314,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "images/current/C2_R_range.png",
+                            "url": "reading-design/images/current/C2_R_range.png",
                             "mode": "cover"
                           },
                           "width": 390,
@@ -57094,7 +57094,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/UHAG1.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/UHAG1.png",
                         "mode": "contain"
                       }
                     }
@@ -57676,7 +57676,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/mwO8u.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/mwO8u.png",
                         "mode": "contain"
                       }
                     }
@@ -59590,7 +59590,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/i5sJVE.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/i5sJVE.png",
                         "mode": "contain"
                       }
                     }
@@ -60741,7 +60741,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/F1WC2y.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/F1WC2y.png",
                         "mode": "contain"
                       }
                     }
@@ -60835,7 +60835,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/LqSwB.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/LqSwB.png",
                         "mode": "contain"
                       }
                     }
@@ -64760,7 +64760,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/YOgCg.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/YOgCg.png",
                         "mode": "contain"
                       }
                     }
@@ -64854,7 +64854,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/d4lUwf.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/d4lUwf.png",
                         "mode": "contain"
                       }
                     }
@@ -64948,7 +64948,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/vwu2k.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/vwu2k.png",
                         "mode": "contain"
                       }
                     }
@@ -65050,7 +65050,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/c1MiZ.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/c1MiZ.png",
                         "mode": "contain"
                       }
                     }
@@ -65320,7 +65320,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "images/app/mascot-reading.png",
+                                "url": "reading-design/images/app/mascot-reading.png",
                                 "mode": "contain"
                               },
                               "width": 84,
@@ -66691,7 +66691,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/gmGDS.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/gmGDS.png",
                         "mode": "contain"
                       }
                     }
@@ -66785,7 +66785,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/T79rDt.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/T79rDt.png",
                         "mode": "contain"
                       }
                     }
@@ -67635,7 +67635,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/k7Aua.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/k7Aua.png",
                         "mode": "contain"
                       }
                     }
@@ -69806,7 +69806,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/app/reading-flow-dev-2026-10-22/CClaG.png",
+                        "url": "reading-design/images/app/reading-flow-dev-2026-10-22/CClaG.png",
                         "mode": "contain"
                       }
                     }
