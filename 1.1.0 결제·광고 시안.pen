@@ -15,7 +15,7 @@
           "type": "text",
           "id": "AEPEHL",
           "fill": "$text",
-          "content": "결제 화면 1.1.0 참고 시안",
+          "content": "결제 화면 1.1.0",
           "fontFamily": "$font",
           "fontSize": 36,
           "fontWeight": "800"
@@ -26,1207 +26,10 @@
           "fill": "$text",
           "textGrowth": "fixed-width",
           "width": 1400,
-          "content": "ACTTUB 1.1.0 결제 화면 참고 시안 (SOMA-818, 2026-10-26)\n· 이 파일은 팀이 다시 디자인할 때 쓰는 참고용 시안이에요. 화면은 그림(PNG)으로 들어가 있어요.\n· 출시: 11월 1일 1.1.0. 앱 결제 = App Store·Google Play 구독(RevenueCat), 웹 = 토스.\n· 가격(부가세 포함): 월 3,900원 / 연 32,500원(월 2,708원꼴, 30% 할인). 무료: 코칭 하루 1번, 리딩 대본 1개 보관.\n· Pro: 코칭·대본 제한 없음, 발음 보고서, 고품질 목소리(11/1부터 Pro), PRO 배지.\n· 10/26까지 가입자는 11/1~11/30 Pro 무료(카드 없음, 끝나면 자동 결제 없이 무료로).\n· 규칙: 바텀시트 금지, 가운데 팝업은 중요한 것만, 로딩은 스켈레톤, 진행 중은 짧은 상태 문구.\n· 애플 필수: 가격·기간·자동 갱신 안내, 구매 복원, 이용약관·개인정보 처리방침 링크.\n· 레퍼런스: Headspace(그림+제목+토글+3단계+버튼), Calm, Duolingo, BetterSpeak — 비교표 없이 혜택 2~3줄.\n· 정할 것: 2-2 주 버튼(Pro 보기 vs 지금 대본과 바꾸기), Android 필수 문구 길이.",
+          "content": "ACTTUB 1.1.0 결제 화면 참고 시안 (SOMA-818, 2026-10-26)\n· 화면은 앱 디자인 시스템 기준으로 그렸어요. 바꾼 점은 오른쪽 「README 디자인 시스템 반영」에 있어요.\n· 출시: 11월 1일 1.1.0. 앱 결제 = App Store·Google Play 구독(RevenueCat), 웹 = 토스.\n· 가격(부가세 포함): 월 3,900원 / 연 32,500원(월 2,708원꼴, 30% 할인). 무료: 코칭 하루 3회, 리딩 대본 3개 보관.\n· Pro: 코칭·대본 제한 없음, 상위 AI 모델·버릇 기억·자세한 코칭 노트, 발음 보고서, 고품질 목소리(11/1부터 Pro), 광고 없음, PRO 배지.\n· 10/26까지 가입자는 11/1~11/30 Pro 무료(카드 없음, 끝나면 자동 결제 없이 무료로).\n· 규칙: 바텀시트 금지, 가운데 팝업은 중요한 것만, 로딩은 스켈레톤, 진행 중은 짧은 상태 문구.\n· 애플 필수: 가격·기간·자동 갱신 안내, 구매 복원, 이용약관·개인정보 처리방침 링크.\n· 레퍼런스: Headspace(그림+제목+토글+3단계+버튼), Calm, Duolingo, BetterSpeak — 비교표 없이 혜택 2~3줄.\n· 정할 것: 2-2 주 버튼(Pro 보기 vs 지금 대본과 바꾸기), Android 필수 문구 길이.",
           "fontFamily": "$font",
           "fontSize": 18,
           "fontWeight": "normal"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "S2rfbU",
-      "x": 0,
-      "y": 420,
-      "name": "T1 라벨",
-      "width": 1600,
-      "layout": "vertical",
-      "gap": 8,
-      "children": [
-        {
-          "type": "text",
-          "id": "nKtoxL",
-          "fill": "$text",
-          "content": "T1 · Pro 안내 (전체 화면) — 틀 하나에 위쪽 장면·제목·혜택만 바뀜",
-          "fontFamily": "$font",
-          "fontSize": 28,
-          "fontWeight": "800"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "MZrAqF",
-      "x": 0,
-      "y": 490,
-      "name": "1-1 기본 (설정에서)",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T1_1-1.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "FASTSK",
-      "x": 0,
-      "y": 1350,
-      "name": "1-1 기본 (설정에서) 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "EQb1tc",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "1-1 기본 (설정에서)",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "vgbB4P",
-      "x": 450,
-      "y": 490,
-      "name": "1-2 코칭 한도에서 옴",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T1_1-2.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "jER0qU",
-      "x": 450,
-      "y": 1350,
-      "name": "1-2 코칭 한도에서 옴 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "IeSjxS",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "1-2 코칭 한도에서 옴",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "pbbGHg",
-      "x": 900,
-      "y": 490,
-      "name": "1-3 대본 한도에서 옴",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T1_1-3.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "kEWR7Q",
-      "x": 900,
-      "y": 1350,
-      "name": "1-3 대본 한도에서 옴 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "9z9g6p",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "1-3 대본 한도에서 옴",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "gzQcdy",
-      "x": 1350,
-      "y": 490,
-      "name": "1-4 발음 보고서에서 옴",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T1_1-4.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "pmEHAM",
-      "x": 1350,
-      "y": 1350,
-      "name": "1-4 발음 보고서에서 옴 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "CZJ31K",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "1-4 발음 보고서에서 옴",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "tgAAPz",
-      "x": 1800,
-      "y": 490,
-      "name": "1-5 무료 Pro 끝나감 (11/1→11/30→12/1)",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T1_1-5.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "XB1pBO",
-      "x": 1800,
-      "y": 1350,
-      "name": "1-5 무료 Pro 끝나감 (11/1→11/30→12/1) 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "Ql9AoS",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "1-5 무료 Pro 끝나감 (11/1→11/30→12/1)",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "zumabd",
-      "x": 2250,
-      "y": 490,
-      "name": "상태: 가격 불러오는 중 (스켈레톤)",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T1_1-L.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "t1q4w4",
-      "x": 2250,
-      "y": 1350,
-      "name": "상태: 가격 불러오는 중 (스켈레톤) 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "KhDjef",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "상태: 가격 불러오는 중 (스켈레톤)",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "tJLGUO",
-      "x": 2700,
-      "y": 490,
-      "name": "상태: 결제창 여는 중",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T1_1-O.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "UA3KVm",
-      "x": 2700,
-      "y": 1350,
-      "name": "상태: 결제창 여는 중 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "ts7Vgt",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "상태: 결제창 여는 중",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "ehHIAs",
-      "x": 3150,
-      "y": 490,
-      "name": "1-1 Android",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T1_1-1A.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "ZnUGsU",
-      "x": 3150,
-      "y": 1350,
-      "name": "1-1 Android 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "DnBr8E",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "1-1 Android",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "Rj1TUB",
-      "x": 0,
-      "y": 1454,
-      "name": "T2 라벨",
-      "width": 1600,
-      "layout": "vertical",
-      "gap": 8,
-      "children": [
-        {
-          "type": "text",
-          "id": "ZguOqN",
-          "fill": "$text",
-          "content": "T2 · 가운데 팝업 — 중요한 것만",
-          "fontFamily": "$font",
-          "fontSize": 28,
-          "fontWeight": "800"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "NMOQbu",
-      "x": 0,
-      "y": 1524,
-      "name": "2-2 대본 2개째 추가",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T2_2-2.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "6t5S6L",
-      "x": 0,
-      "y": 2384,
-      "name": "2-2 대본 2개째 추가 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "MNTzgB",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "2-2 대본 2개째 추가",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "jX2haZ",
-      "x": 450,
-      "y": 1524,
-      "name": "2-3 대본 바꾸기 확인 (기록 삭제 경고)",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T2_2-3.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "gjXe8o",
-      "x": 450,
-      "y": 2384,
-      "name": "2-3 대본 바꾸기 확인 (기록 삭제 경고) 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "I4X1dB",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "2-3 대본 바꾸기 확인 (기록 삭제 경고)",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "PuNO0D",
-      "x": 900,
-      "y": 1524,
-      "name": "7-1 한 달 무료 시작 안내 (앱 열면 한 번)",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T2_7-1.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "JmKotz",
-      "x": 900,
-      "y": 2384,
-      "name": "7-1 한 달 무료 시작 안내 (앱 열면 한 번) 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "7ZKJuE",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "7-1 한 달 무료 시작 안내 (앱 열면 한 번)",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "Ch64yf",
-      "x": 0,
-      "y": 2488,
-      "name": "T3 라벨",
-      "width": 1600,
-      "layout": "vertical",
-      "gap": 8,
-      "children": [
-        {
-          "type": "text",
-          "id": "MYMXfM",
-          "fill": "$text",
-          "content": "T3 · 결과 화면",
-          "fontFamily": "$font",
-          "fontSize": 28,
-          "fontWeight": "800"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "0ioeu7",
-      "x": 0,
-      "y": 2558,
-      "name": "4-1 월 구독 완료",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T3_4-1.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "dpPzOg",
-      "x": 0,
-      "y": 3418,
-      "name": "4-1 월 구독 완료 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "qKxElt",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "4-1 월 구독 완료",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "3rk1m8",
-      "x": 450,
-      "y": 2558,
-      "name": "4-2 연 구독 완료",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T3_4-2.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "dZuNYZ",
-      "x": 450,
-      "y": 3418,
-      "name": "4-2 연 구독 완료 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "0B46Oe",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "4-2 연 구독 완료",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "RU679u",
-      "x": 900,
-      "y": 2558,
-      "name": "4-3 구독 복원 완료",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T3_4-3.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "wYk93L",
-      "x": 900,
-      "y": 3418,
-      "name": "4-3 구독 복원 완료 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "rmWRAh",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "4-3 구독 복원 완료",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "EWuDra",
-      "x": 1350,
-      "y": 2558,
-      "name": "5-3 결제됐는데 확인 지연",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T3_5-3.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "T1HilO",
-      "x": 1350,
-      "y": 3418,
-      "name": "5-3 결제됐는데 확인 지연 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "CUb0ls",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "5-3 결제됐는데 확인 지연",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "5pNMOO",
-      "x": 1800,
-      "y": 2558,
-      "name": "5-4 결제 보류",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T3_5-4.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "r9M5CX",
-      "x": 1800,
-      "y": 3418,
-      "name": "5-4 결제 보류 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "fttpqz",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "5-4 결제 보류",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "AsQe9A",
-      "x": 0,
-      "y": 3522,
-      "name": "T4 라벨",
-      "width": 1600,
-      "layout": "vertical",
-      "gap": 8,
-      "children": [
-        {
-          "type": "text",
-          "id": "U4CHu6",
-          "fill": "$text",
-          "content": "T4 · 구독 관리 (설정 안)",
-          "fontFamily": "$font",
-          "fontSize": 28,
-          "fontWeight": "800"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "nsANYE",
-      "x": 0,
-      "y": 3592,
-      "name": "6-1 무료 이용 중",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T4_6-1.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "IHWVHa",
-      "x": 0,
-      "y": 4452,
-      "name": "6-1 무료 이용 중 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "BwY4ex",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "6-1 무료 이용 중",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "hltFY5",
-      "x": 450,
-      "y": 3592,
-      "name": "6-2 Pro 월",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T4_6-2.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "Vn91V2",
-      "x": 450,
-      "y": 4452,
-      "name": "6-2 Pro 월 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "Q5G4qV",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "6-2 Pro 월",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "BZCpmh",
-      "x": 900,
-      "y": 3592,
-      "name": "6-3 Pro 연",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T4_6-3.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "Zio7UH",
-      "x": 900,
-      "y": 4452,
-      "name": "6-3 Pro 연 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "Od2gAw",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "6-3 Pro 연",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "Jy3p5m",
-      "x": 1350,
-      "y": 3592,
-      "name": "6-4 해지 예약됨",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T4_6-4.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "5ulW18",
-      "x": 1350,
-      "y": 4452,
-      "name": "6-4 해지 예약됨 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "CVU6m4",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "6-4 해지 예약됨",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "RLXixb",
-      "x": 1800,
-      "y": 3592,
-      "name": "6-5 결제 문제",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T4_6-5.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "1Q9X7c",
-      "x": 1800,
-      "y": 4452,
-      "name": "6-5 결제 문제 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "Yp98VX",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "6-5 결제 문제",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "rycFsO",
-      "x": 2250,
-      "y": 3592,
-      "name": "6-6 웹(토스)에서 산 구독",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T4_6-6.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "KsAeMH",
-      "x": 2250,
-      "y": 4452,
-      "name": "6-6 웹(토스)에서 산 구독 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "og2hLM",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "6-6 웹(토스)에서 산 구독",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "cRGnod",
-      "x": 2700,
-      "y": 3592,
-      "name": "6-7 다른 폰에서 산 구독",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T4_6-7.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "jo69ED",
-      "x": 2700,
-      "y": 4452,
-      "name": "6-7 다른 폰에서 산 구독 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "qHbpzT",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "6-7 다른 폰에서 산 구독",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "n9cxn8",
-      "x": 3150,
-      "y": 3592,
-      "name": "7-2 무료 Pro 기간 중",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T4_7-2.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "uqDO4W",
-      "x": 3150,
-      "y": 4452,
-      "name": "7-2 무료 Pro 기간 중 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "9gev9p",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "7-2 무료 Pro 기간 중",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "UkzHYV",
-      "x": 3600,
-      "y": 3592,
-      "name": "6-2 Android",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/T4_6-2A.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "mnRh9G",
-      "x": 3600,
-      "y": 4452,
-      "name": "6-2 Android 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "1HzHHW",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "6-2 Android",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "uICPSQ",
-      "x": 0,
-      "y": 4556,
-      "name": "카드 라벨",
-      "width": 1600,
-      "layout": "vertical",
-      "gap": 8,
-      "children": [
-        {
-          "type": "text",
-          "id": "fAnPhF",
-          "fill": "$text",
-          "content": "카드 · 배너",
-          "fontFamily": "$font",
-          "fontSize": 28,
-          "fontWeight": "800"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "Q9qQLY",
-      "x": 0,
-      "y": 4626,
-      "name": "C 코칭 한도 카드 (코칭 시작 버튼 자리, 인라인)",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/C_C-1.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "pIKlnK",
-      "x": 0,
-      "y": 5486,
-      "name": "C 코칭 한도 카드 (코칭 시작 버튼 자리, 인라인) 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "ENI0wS",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "C 코칭 한도 카드 (코칭 시작 버튼 자리, 인라인)",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "JlAJPT",
-      "x": 450,
-      "y": 4626,
-      "name": "B-1 홈 배너: 결제 실패",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/B_B-1.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "YpFSHt",
-      "x": 450,
-      "y": 5486,
-      "name": "B-1 홈 배너: 결제 실패 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "laxfpV",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "B-1 홈 배너: 결제 실패",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "bJvonA",
-      "x": 900,
-      "y": 4626,
-      "name": "B-2 홈 배너: 무료 Pro 끝나기 7일 전",
-      "clip": true,
-      "width": 390,
-      "height": 844,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "images/paywall-1.1.0/B_B-2.png",
-        "mode": "contain"
-      },
-      "cornerRadius": 24
-    },
-    {
-      "type": "frame",
-      "id": "DsHqeW",
-      "x": 900,
-      "y": 5486,
-      "name": "B-2 홈 배너: 무료 Pro 끝나기 7일 전 이름",
-      "width": 390,
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "text",
-          "id": "Hv6YPG",
-          "fill": "$text",
-          "textGrowth": "fixed-width",
-          "width": 390,
-          "content": "B-2 홈 배너: 무료 Pro 끝나기 7일 전",
-          "fontFamily": "$font",
-          "fontSize": 18,
-          "fontWeight": "700"
         }
       ]
     },
@@ -2866,9 +1669,9 @@
     {
       "type": "frame",
       "id": "fOYN2",
-      "x": 4600,
+      "x": 0,
       "y": 490,
-      "name": "변경안 1-1 기본 (설정에서)",
+      "name": "1-1 기본 (설정에서)",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -3505,9 +2308,9 @@
     {
       "type": "frame",
       "id": "KVYTA",
-      "x": 5060,
+      "x": 460,
       "y": 490,
-      "name": "변경안 1-2 코칭 한도에서 옴",
+      "name": "1-2 코칭 한도에서 옴",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -4193,9 +2996,9 @@
     {
       "type": "frame",
       "id": "cfKmS",
-      "x": 5520,
+      "x": 920,
       "y": 490,
-      "name": "변경안 1-3 대본 한도에서 옴",
+      "name": "1-3 대본 한도에서 옴",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -4881,9 +3684,9 @@
     {
       "type": "frame",
       "id": "I8spT",
-      "x": 5980,
+      "x": 1380,
       "y": 490,
-      "name": "변경안 1-4 발음 보고서에서 옴",
+      "name": "1-4 발음 보고서에서 옴",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -5621,9 +4424,9 @@
     {
       "type": "frame",
       "id": "k8DPv",
-      "x": 6440,
+      "x": 1840,
       "y": 490,
-      "name": "변경안 1-5 무료 Pro 끝나감",
+      "name": "1-5 무료 Pro 끝나감",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -6313,9 +5116,9 @@
     {
       "type": "frame",
       "id": "P0C9m",
-      "x": 6900,
+      "x": 2300,
       "y": 490,
-      "name": "변경안 상태: 가격 불러오는 중",
+      "name": "상태: 가격 불러오는 중",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -6924,9 +5727,9 @@
     {
       "type": "frame",
       "id": "fclDX",
-      "x": 7360,
+      "x": 2760,
       "y": 490,
-      "name": "변경안 상태: 결제창 여는 중",
+      "name": "상태: 결제창 여는 중",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -7572,9 +6375,9 @@
     {
       "type": "frame",
       "id": "G6Cc4",
-      "x": 7820,
+      "x": 3220,
       "y": 490,
-      "name": "변경안 상태: 가격 불러오기 실패 (새로)",
+      "name": "상태: 가격 불러오기 실패",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -8037,9 +6840,9 @@
     {
       "type": "frame",
       "id": "JOUI9",
-      "x": 8280,
+      "x": 3680,
       "y": 490,
-      "name": "변경안 상태: 결제 실패 (새로)",
+      "name": "상태: 결제 실패",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -8706,9 +7509,9 @@
     {
       "type": "frame",
       "id": "C133li",
-      "x": 8740,
+      "x": 4140,
       "y": 490,
-      "name": "변경안 상태: 이미 Pro (새로)",
+      "name": "상태: 이미 Pro",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -8992,9 +7795,9 @@
     {
       "type": "frame",
       "id": "hqE7Z",
-      "x": 9200,
+      "x": 4600,
       "y": 490,
-      "name": "변경안 1-1 Android",
+      "name": "1-1 Android",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -9629,9 +8432,9 @@
     {
       "type": "frame",
       "id": "UF85m",
-      "x": 4600,
+      "x": 0,
       "y": 1524,
-      "name": "변경안 2-2 대본 4개째 추가",
+      "name": "2-2 대본 4개째 추가",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -10113,9 +8916,9 @@
     {
       "type": "frame",
       "id": "zxvED",
-      "x": 5060,
+      "x": 460,
       "y": 1524,
-      "name": "변경안 2-2b 지울 대본 고르기 (새로)",
+      "name": "2-2b 지울 대본 고르기",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -10499,9 +9302,9 @@
     {
       "type": "frame",
       "id": "eSZCx",
-      "x": 5520,
+      "x": 920,
       "y": 1524,
-      "name": "변경안 2-3 지우기 확인",
+      "name": "2-3 지우기 확인",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -10983,9 +9786,9 @@
     {
       "type": "frame",
       "id": "IN27O",
-      "x": 5980,
+      "x": 1380,
       "y": 1524,
-      "name": "변경안 7-1 한 달 무료 안내 (앱 열면 한 번)",
+      "name": "7-1 한 달 무료 안내 (앱 열면 한 번)",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -11378,9 +10181,9 @@
     {
       "type": "frame",
       "id": "V4qil",
-      "x": 4600,
+      "x": 0,
       "y": 2558,
-      "name": "변경안 4-1 월 구독 완료",
+      "name": "4-1 월 구독 완료",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -11617,9 +10420,9 @@
     {
       "type": "frame",
       "id": "n5XuBU",
-      "x": 5060,
+      "x": 460,
       "y": 2558,
-      "name": "변경안 4-2 연 구독 완료",
+      "name": "4-2 연 구독 완료",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -11856,9 +10659,9 @@
     {
       "type": "frame",
       "id": "gggdw",
-      "x": 5520,
+      "x": 920,
       "y": 2558,
-      "name": "변경안 4-3 구독 복원 완료",
+      "name": "4-3 구독 복원 완료",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -12095,9 +10898,9 @@
     {
       "type": "frame",
       "id": "l5dzT",
-      "x": 5980,
+      "x": 1380,
       "y": 2558,
-      "name": "변경안 4-4 복원할 구독 없음 (새로)",
+      "name": "4-4 복원할 구독 없음",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -12255,9 +11058,9 @@
     {
       "type": "frame",
       "id": "LSMQQ",
-      "x": 6440,
+      "x": 1840,
       "y": 2558,
-      "name": "변경안 5-3 결제됐는데 확인 지연",
+      "name": "5-3 결제됐는데 확인 지연",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -12415,9 +11218,9 @@
     {
       "type": "frame",
       "id": "xBRxG",
-      "x": 6900,
+      "x": 2300,
       "y": 2558,
-      "name": "변경안 5-4 결제 보류",
+      "name": "5-4 결제 보류",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -12575,9 +11378,9 @@
     {
       "type": "frame",
       "id": "F6pi2v",
-      "x": 4600,
+      "x": 0,
       "y": 3592,
-      "name": "변경안 6-1 무료 이용 중",
+      "name": "6-1 무료 이용 중",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -12910,9 +11713,9 @@
     {
       "type": "frame",
       "id": "u3Qgt",
-      "x": 5060,
+      "x": 460,
       "y": 3592,
-      "name": "변경안 6-2 Pro 월",
+      "name": "6-2 Pro 월",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -13334,9 +12137,9 @@
     {
       "type": "frame",
       "id": "q9IYh",
-      "x": 5520,
+      "x": 920,
       "y": 3592,
-      "name": "변경안 6-3 Pro 연",
+      "name": "6-3 Pro 연",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -13758,9 +12561,9 @@
     {
       "type": "frame",
       "id": "wJKnD",
-      "x": 5980,
+      "x": 1380,
       "y": 3592,
-      "name": "변경안 6-4 해지 예약됨",
+      "name": "6-4 해지 예약됨",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -14166,9 +12969,9 @@
     {
       "type": "frame",
       "id": "nYV0z",
-      "x": 6440,
+      "x": 1840,
       "y": 3592,
-      "name": "변경안 6-5 결제 문제",
+      "name": "6-5 결제 문제",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -14559,9 +13362,9 @@
     {
       "type": "frame",
       "id": "u5b9g",
-      "x": 6900,
+      "x": 2300,
       "y": 3592,
-      "name": "변경안 6-6 웹(토스)에서 산 구독",
+      "name": "6-6 웹(토스)에서 산 구독",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -14809,9 +13612,9 @@
     {
       "type": "frame",
       "id": "H5V4Ol",
-      "x": 7360,
+      "x": 2760,
       "y": 3592,
-      "name": "변경안 6-7 다른 폰에서 산 구독",
+      "name": "6-7 다른 폰에서 산 구독",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -15175,9 +13978,9 @@
     {
       "type": "frame",
       "id": "SjKy5",
-      "x": 7820,
+      "x": 3220,
       "y": 3592,
-      "name": "변경안 7-2 무료 Pro 기간 중",
+      "name": "7-2 무료 Pro 기간 중",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -15510,9 +14313,9 @@
     {
       "type": "frame",
       "id": "zFL4M",
-      "x": 8280,
+      "x": 3680,
       "y": 3592,
-      "name": "변경안 6-2 Android",
+      "name": "6-2 Android",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -15934,9 +14737,9 @@
     {
       "type": "frame",
       "id": "K0z9N7",
-      "x": 4600,
+      "x": 0,
       "y": 4626,
-      "name": "변경안 C 코칭 한도 (코칭 시작 버튼 자리)",
+      "name": "C 코칭 한도 (코칭 시작 버튼 자리)",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -16233,9 +15036,9 @@
     {
       "type": "frame",
       "id": "V8VlK",
-      "x": 5060,
+      "x": 460,
       "y": 4626,
-      "name": "변경안 B-1 홈 배너: 결제 실패",
+      "name": "B-1 홈 배너: 결제 실패",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -16576,9 +15379,9 @@
     {
       "type": "frame",
       "id": "UvaYk",
-      "x": 5520,
+      "x": 920,
       "y": 4626,
-      "name": "변경안 B-2 홈 배너: 무료 Pro 끝나기 7일 전",
+      "name": "B-2 홈 배너: 무료 Pro 끝나기 7일 전",
       "clip": true,
       "width": 402,
       "height": 874,
@@ -16920,9 +15723,9 @@
     {
       "type": "frame",
       "id": "gNuE4",
-      "x": 4600,
+      "x": 0,
       "y": 420,
-      "name": "변경안 T1 · Pro 안내 화면 라벨",
+      "name": "T1 · Pro 안내 화면 라벨",
       "layout": "vertical",
       "children": [
         {
@@ -16930,7 +15733,7 @@
           "id": "I7aXh8",
           "name": "title1",
           "fill": "$text",
-          "content": "변경안 T1 · Pro 안내 화면",
+          "content": "T1 · Pro 안내 화면",
           "lineHeight": 1.3333,
           "fontFamily": "$font",
           "fontSize": 24,
@@ -16941,9 +15744,9 @@
     {
       "type": "frame",
       "id": "dR3sM",
-      "x": 4600,
+      "x": 0,
       "y": 1454,
-      "name": "변경안 T2 · 한도·안내 팝업 라벨",
+      "name": "T2 · 한도·안내 팝업 라벨",
       "layout": "vertical",
       "children": [
         {
@@ -16951,7 +15754,7 @@
           "id": "z0xOAb",
           "name": "title1",
           "fill": "$text",
-          "content": "변경안 T2 · 한도·안내 팝업",
+          "content": "T2 · 한도·안내 팝업",
           "lineHeight": 1.3333,
           "fontFamily": "$font",
           "fontSize": 24,
@@ -16962,9 +15765,9 @@
     {
       "type": "frame",
       "id": "D2a2s",
-      "x": 4600,
+      "x": 0,
       "y": 2488,
-      "name": "변경안 T3 · 결제 결과 라벨",
+      "name": "T3 · 결제 결과 라벨",
       "layout": "vertical",
       "children": [
         {
@@ -16972,7 +15775,7 @@
           "id": "HsSwR",
           "name": "title1",
           "fill": "$text",
-          "content": "변경안 T3 · 결제 결과",
+          "content": "T3 · 결제 결과",
           "lineHeight": 1.3333,
           "fontFamily": "$font",
           "fontSize": 24,
@@ -16983,9 +15786,9 @@
     {
       "type": "frame",
       "id": "qKgvN",
-      "x": 4600,
+      "x": 0,
       "y": 3522,
-      "name": "변경안 T4 · 구독 관리 라벨",
+      "name": "T4 · 구독 관리 라벨",
       "layout": "vertical",
       "children": [
         {
@@ -16993,7 +15796,7 @@
           "id": "udMlM",
           "name": "title1",
           "fill": "$text",
-          "content": "변경안 T4 · 구독 관리",
+          "content": "T4 · 구독 관리",
           "lineHeight": 1.3333,
           "fontFamily": "$font",
           "fontSize": 24,
@@ -17004,9 +15807,9 @@
     {
       "type": "frame",
       "id": "OK3kP",
-      "x": 4600,
+      "x": 0,
       "y": 4556,
-      "name": "변경안 · 카드·배너 라벨",
+      "name": "카드·배너 라벨",
       "layout": "vertical",
       "children": [
         {
@@ -17014,7 +15817,7 @@
           "id": "TwSPS",
           "name": "title1",
           "fill": "$text",
-          "content": "변경안 · 카드·배너",
+          "content": "카드·배너",
           "lineHeight": 1.3333,
           "fontFamily": "$font",
           "fontSize": 24,
@@ -17025,9 +15828,9 @@
     {
       "type": "frame",
       "id": "M8A3Q",
-      "x": 4600,
+      "x": 1500,
       "y": -100,
-      "name": "README 변경안 (디자인 시스템 반영)",
+      "name": "README 디자인 시스템 반영",
       "width": 1600,
       "fill": "$bg-subtle",
       "cornerRadius": "$r-lg",
@@ -17042,7 +15845,7 @@
           "id": "fAPY3",
           "name": "title1",
           "fill": "$text",
-          "content": "변경안 · 앱 디자인 시스템 반영 (2026-10-27)",
+          "content": "결제 화면 · 앱 디자인 시스템 반영 (2026-10-27)",
           "lineHeight": 1.3333,
           "fontFamily": "$font",
           "fontSize": 24,
@@ -17055,7 +15858,7 @@
           "fill": "$text",
           "textGrowth": "fixed-width",
           "width": "fill_container",
-          "content": "기준: 앱 디자인 시스템 pen과 apps/mobile/docs/DESIGN-SYSTEM.md, 결제 스펙 docs/specs/billing/subscription.md·notice-2026-11.md. 왼쪽 그림 시안은 그대로 두고 오른쪽에 새로 그렸어요.",
+          "content": "기준: 앱 디자인 시스템 pen과 apps/mobile/docs/DESIGN-SYSTEM.md, 결제 스펙 docs/specs/billing/subscription.md·notice-2026-11.md. 처음 그림 시안(SOMA-818, 10-26)을 이 기준으로 다시 그렸고, 그림 시안은 지웠어요(git 이력 design/SOMA-818-paywall-1.1.0에 있어요).",
           "lineHeight": 1.5,
           "fontFamily": "$font",
           "fontSize": 16,
