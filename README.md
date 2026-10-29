@@ -18,18 +18,16 @@ acttub 디자인 .pen 원본(Pencil, https://pen.dev).
 
 .pen 은 이미지를 파일로 품지 않고 `.pen` 위치 기준 상대경로(`fill.url`)로 읽는다.
 이미지를 옮기거나 이름을 바꾸면 그 이미지를 쓰는 화면이 깨지므로, 옮길 때는
-캔버스의 경로도 같이 고친다. 하위 폴더 경로도 정상으로 읽힌다. pen 파일은 모두 저장소 최상위에 둔다.
+캔버스의 경로도 같이 고친다. 하위 폴더 경로도 정상으로 읽힌다. pen 파일은 저장소 최상위에, 이미지는 모두 `images/` 아래에 둔다.
 
 | 위치 | 무엇 |
 |---|---|
-| 루트 `*.png` · `*.jpg` | `acttub 웹.pen` 이 쓰는 이미지 (워드마크 · 스토어 배지 · 마스코트 등) |
-| `images/site/` | `acttub 웹.pen` 이 쓰는 웹사이트 사진 |
-| `images/app/` | `acttub 앱 (갈아엎기 복사본).pen` 이 쓰는 앱 이미지 |
-| `images/app/acty/` | 앱 코드와 같은 액티 포즈 중 `acttub 앱 (갈아엎기 복사본).pen` 이 쓰는 것(`apps/mobile/assets/images/acty`에서 복사) |
-| `app-design/ds-images/` · `app-design/images/` | `acttub-design-system.pen` · `acttub-app-screens.pen` 이 쓰는 이미지(마스코트·OS 화면 캡처·썸네일) |
-| `reading-design/images/` | `reading-flow-latest.pen` · `reading-background-ui.pen` 이 쓰는 이미지(10-22 dev 리딩 화면 캡처 등) |
+| `images/app-design/` | `acttub-design-system.pen` · `acttub-app-screens.pen` 이 쓰는 이미지(마스코트·OS 화면 캡처). `thumbs/` 는 썸네일 |
+| `images/reading/` | `reading-flow-latest.pen` · `reading-background-ui.pen` 이 쓰는 이미지(10-22 dev 리딩 화면 캡처 등) |
+| `images/web/` | `acttub 웹.pen` 이 쓰는 이미지(워드마크 · 스토어 배지 · 마스코트 등). `site/` 는 웹사이트 사진 |
+| `images/references/` | 디자인 참고용 생성 이미지 · 화면 캡처. 일부는 `acttub 웹.pen` 캔버스에도 깔려 있다 |
+| `images/app/` · `images/app/acty/` · `images/current/` | `acttub 앱 (갈아엎기 복사본).pen` 이 쓰는 앱 이미지·액티 포즈(`apps/mobile/assets/images/acty`에서 복사) |
 | `images/app-capture-2026-10-21/` | `acttub 앱 (갈아엎기 복사본).pen` 이 쓰는 2026-10-21 폰 화면 캡처(개인 이메일은 흐림) |
-| `references/` | 디자인 참고용 생성 이미지 · 화면 캡처. 일부는 `acttub 웹.pen` 캔버스에도 깔려 있다 |
 
 `목업v2.pen`(웹앱 프론트 정본, 프레임 53개)은 이 저장소에서 빠졌다. 커밋
 `62eaa01`에 남아 있어 필요하면 거기서 꺼낸다.

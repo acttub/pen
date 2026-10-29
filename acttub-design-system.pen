@@ -3850,7 +3850,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "app-design/ds-images/mascot-coach.png",
+                            "url": "images/app-design/mascot-coach.png",
                             "mode": "contain"
                           }
                         },
@@ -4563,7 +4563,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "app-design/ds-images/03-dizzy.png",
+                        "url": "images/app-design/03-dizzy.png",
                         "mode": "contain"
                       }
                     },
@@ -4719,7 +4719,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "app-design/ds-images/mascot-reading.png",
+                        "url": "images/app-design/mascot-reading.png",
                         "mode": "contain"
                       }
                     },
@@ -4961,7 +4961,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "app-design/ds-images/01-jump.png",
+                        "url": "images/app-design/01-jump.png",
                         "mode": "contain"
                       }
                     },
@@ -5210,7 +5210,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "app-design/images/settings.default.png",
+                            "url": "images/app-design/settings.default.png",
                             "mode": "cover"
                           }
                         },
@@ -5280,7 +5280,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "app-design/images/history.list.png",
+                            "url": "images/app-design/history.list.png",
                             "mode": "cover"
                           }
                         },
@@ -5350,7 +5350,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "app-design/images/reading-session.in-progress.png",
+                            "url": "images/app-design/reading-session.in-progress.png",
                             "mode": "cover"
                           }
                         },
@@ -6124,7 +6124,7 @@
                                       "fill": {
                                         "type": "image",
                                         "enabled": true,
-                                        "url": "app-design/images/reading-play.done-first.png",
+                                        "url": "images/app-design/reading-play.done-first.png",
                                         "mode": "cover"
                                       }
                                     }
@@ -6314,7 +6314,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "app-design/images/reading-play.done-completed-nostt.png",
+                                "url": "images/app-design/reading-play.done-completed-nostt.png",
                                 "mode": "cover"
                               }
                             },
@@ -6496,7 +6496,7 @@
                                       "fill": {
                                         "type": "image",
                                         "enabled": true,
-                                        "url": "app-design/images/challenge-upload.done-public.png",
+                                        "url": "images/app-design/challenge-upload.done-public.png",
                                         "mode": "cover"
                                       }
                                     }
@@ -6812,7 +6812,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "app-design/images/challenge-upload.done-public.png",
+                                "url": "images/app-design/challenge-upload.done-public.png",
                                 "mode": "cover"
                               }
                             }
