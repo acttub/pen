@@ -1727,18 +1727,28 @@
                   "reusable": true,
                   "width": 22,
                   "height": 22,
+                  "fill": "$blue",
+                  "cornerRadius": 11,
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
                     {
-                      "type": "icon",
-                      "id": "lPf87",
-                      "name": "i",
-                      "width": 22,
-                      "height": 22,
-                      "icon": "circle-check-big",
-                      "library": "lucide",
-                      "fill": "$blue"
+                      "type": "path",
+                      "id": "qpExz",
+                      "name": "check",
+                      "geometry": "M20 6l-11 11-5-5",
+                      "viewBox": [
+                        4,
+                        6,
+                        16,
+                        11
+                      ],
+                      "width": 11,
+                      "height": 8,
+                      "stroke": "#FFFFFF",
+                      "strokeWidth": 2.2,
+                      "strokeLinejoin": "round",
+                      "strokeLinecap": "round"
                     }
                   ]
                 },
@@ -1749,20 +1759,12 @@
                   "reusable": true,
                   "width": 22,
                   "height": 22,
+                  "cornerRadius": 11,
+                  "stroke": "$text-disabled",
+                  "strokeWidth": 1.5,
+                  "strokeAlignment": "inner",
                   "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "s96UHk",
-                      "name": "i",
-                      "width": 22,
-                      "height": 22,
-                      "icon": "circle",
-                      "library": "lucide",
-                      "fill": "$text-disabled"
-                    }
-                  ]
+                  "alignItems": "center"
                 },
                 {
                   "type": "frame",
@@ -1771,18 +1773,28 @@
                   "reusable": true,
                   "width": 22,
                   "height": 22,
+                  "fill": "$danger",
+                  "cornerRadius": 11,
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
                     {
-                      "type": "icon",
-                      "id": "g4wxI",
-                      "name": "i",
-                      "width": 22,
-                      "height": 22,
-                      "icon": "circle-check-big",
-                      "library": "lucide",
-                      "fill": "$danger"
+                      "type": "path",
+                      "id": "yXon8",
+                      "name": "check",
+                      "geometry": "M20 6l-11 11-5-5",
+                      "viewBox": [
+                        4,
+                        6,
+                        16,
+                        11
+                      ],
+                      "width": 11,
+                      "height": 8,
+                      "stroke": "#FFFFFF",
+                      "strokeWidth": 2.2,
+                      "strokeLinejoin": "round",
+                      "strokeLinecap": "round"
                     }
                   ]
                 },
@@ -3190,7 +3202,7 @@
                           "icon": "house",
                           "library": "lucide",
                           "weight": 300,
-                          "fill": "$text-sub"
+                          "fill": "$icon-faint"
                         }
                       ]
                     },
@@ -3212,7 +3224,7 @@
                           "icon": "message-circle",
                           "library": "lucide",
                           "weight": 300,
-                          "fill": "$text-sub"
+                          "fill": "$icon-faint"
                         }
                       ]
                     },
@@ -3234,7 +3246,7 @@
                           "icon": "book-open",
                           "library": "lucide",
                           "weight": 300,
-                          "fill": "$text-sub"
+                          "fill": "$icon-faint"
                         }
                       ]
                     },
@@ -3279,7 +3291,7 @@
                           "icon": "user",
                           "library": "lucide",
                           "weight": 300,
-                          "fill": "$text-sub"
+                          "fill": "$icon-faint"
                         },
                         {
                           "id": "KcaP4",
