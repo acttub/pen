@@ -4,10 +4,10 @@ acttub 디자인 .pen 원본(Pencil, https://pen.dev).
 
 | 파일 | 무엇 |
 |---|---|
-| `app-design/acttub-design-system.pen` | **앱 디자인 시스템 정본.** 색·글자·모서리·간격 토큰(변수)과 재사용 부품 견본(`4 부품`, `5 화면 틀`). 글로 옮긴 규칙은 acttub-platform `apps/mobile/docs/DESIGN-SYSTEM.md` |
-| `app-design/acttub-app-screens.pen` | **앱 화면 개편 정본.** 앱 라우트 61개의 상태 카드 876장을 1 가입 중 · 2 첫 사용자 · 3 한 번 써 본 사용자 · 4 누구나 같은 화면 묶음으로 담는다. 카드 이름 `<화면>.<상태>`가 앱 라우트와 맞는다(`reading-new.file-ready` → `app/reading/new.tsx`). 디자인 시스템 부품으로 다시 그린 2026-10-27 개편안 |
-| `reading-design/reading-flow-latest.pen` · `reading-design/reading-background-ui.pen` | 2026-10-26 리딩 흐름과 백그라운드 리딩 화면 시안. 앱 화면 개편 전 작업으로, 화면 정본은 `app-design/acttub-app-screens.pen` |
-| `acttub 앱 (갈아엎기 복사본).pen` | **개편 전 앱 화면.** 새 화면 정본은 `app-design/acttub-app-screens.pen`. 2026-10-23 dev `8fcc6062` 코드 기준으로 맞췄다. 코드에서 갈 수 있는 라우트 59개(더미 탭·리다이렉트·개발 전용 미리보기 3개 제외)의 상태 화면을 그룹(`S`·`R`·`P`·`C` + 번호) 66개로 담는다. 구버전 화면은 지웠다. 작업 기록은 `~/.acttub-work/pen-sync-2026-10-23/` |
+| `acttub-design-system.pen` | **앱 디자인 시스템 정본.** 색·글자·모서리·간격 토큰(변수)과 재사용 부품 견본(`4 부품`, `5 화면 틀`). 글로 옮긴 규칙은 acttub-platform `apps/mobile/docs/DESIGN-SYSTEM.md` |
+| `acttub-app-screens.pen` | **앱 화면 개편 정본.** 앱 라우트 61개의 상태 카드 876장을 1 가입 중 · 2 첫 사용자 · 3 한 번 써 본 사용자 · 4 누구나 같은 화면 묶음으로 담는다. 카드 이름 `<화면>.<상태>`가 앱 라우트와 맞는다(`reading-new.file-ready` → `app/reading/new.tsx`). 디자인 시스템 부품으로 다시 그린 2026-10-27 개편안 |
+| `reading-flow-latest.pen` · `reading-background-ui.pen` | 2026-10-26 리딩 흐름과 백그라운드 리딩 화면 시안. 앱 화면 개편 전 작업으로, 화면 정본은 `acttub-app-screens.pen` |
+| `acttub 앱 (갈아엎기 복사본).pen` | **개편 전 앱 화면.** 새 화면 정본은 `acttub-app-screens.pen`. 2026-10-23 dev `8fcc6062` 코드 기준으로 맞췄다. 코드에서 갈 수 있는 라우트 59개(더미 탭·리다이렉트·개발 전용 미리보기 3개 제외)의 상태 화면을 그룹(`S`·`R`·`P`·`C` + 번호) 66개로 담는다. 구버전 화면은 지웠다. 작업 기록은 `~/.acttub-work/pen-sync-2026-10-23/` |
 | `acttub 웹.pen` | **웹 화면 정본** (모바일 웹 · 데스크톱 웹) |
 
 옛 이름: `acttub 앱 (갈아엎기 복사본).pen` ← `acttub 앱.pen` ← `Acttub 모든 경우 화면.pen`, `acttub 웹.pen` ← `acttub 디자인.pen` (← `RN앱 반영.pen`).
@@ -18,7 +18,7 @@ acttub 디자인 .pen 원본(Pencil, https://pen.dev).
 
 .pen 은 이미지를 파일로 품지 않고 `.pen` 위치 기준 상대경로(`fill.url`)로 읽는다.
 이미지를 옮기거나 이름을 바꾸면 그 이미지를 쓰는 화면이 깨지므로, 옮길 때는
-캔버스의 경로도 같이 고친다. 하위 폴더 경로도 정상으로 읽힌다.
+캔버스의 경로도 같이 고친다. 하위 폴더 경로도 정상으로 읽힌다. pen 파일은 모두 저장소 최상위에 둔다.
 
 | 위치 | 무엇 |
 |---|---|
@@ -26,8 +26,8 @@ acttub 디자인 .pen 원본(Pencil, https://pen.dev).
 | `images/site/` | `acttub 웹.pen` 이 쓰는 웹사이트 사진 |
 | `images/app/` | `acttub 앱 (갈아엎기 복사본).pen` 이 쓰는 앱 이미지 |
 | `images/app/acty/` | 앱 코드와 같은 액티 포즈 중 `acttub 앱 (갈아엎기 복사본).pen` 이 쓰는 것(`apps/mobile/assets/images/acty`에서 복사) |
-| `app-design/ds-images/` · `app-design/images/` | `app-design/` 의 두 pen 이 쓰는 이미지(마스코트·OS 화면 캡처·썸네일). 두 pen 과 같은 폴더에 둬야 경로가 맞는다 |
-| `reading-design/images/` | `reading-design/` 의 두 pen 이 쓰는 이미지(10-22 dev 리딩 화면 캡처 등). 두 pen 과 같은 폴더에 둬야 경로가 맞는다 |
+| `app-design/ds-images/` · `app-design/images/` | `acttub-design-system.pen` · `acttub-app-screens.pen` 이 쓰는 이미지(마스코트·OS 화면 캡처·썸네일) |
+| `reading-design/images/` | `reading-flow-latest.pen` · `reading-background-ui.pen` 이 쓰는 이미지(10-22 dev 리딩 화면 캡처 등) |
 | `images/app-capture-2026-10-21/` | `acttub 앱 (갈아엎기 복사본).pen` 이 쓰는 2026-10-21 폰 화면 캡처(개인 이메일은 흐림) |
 | `references/` | 디자인 참고용 생성 이미지 · 화면 캡처. 일부는 `acttub 웹.pen` 캔버스에도 깔려 있다 |
 
