@@ -1300,7 +1300,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "image-11.png",
+                  "url": "images/web/image-11.png",
                   "mode": "cover",
                   "transform": [
                     1.11128165771297,
@@ -1332,7 +1332,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-14.png",
+                    "url": "images/web/image-14.png",
                     "mode": "cover"
                   },
                   "width": 270,
@@ -1348,7 +1348,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-13.png",
+                    "url": "images/web/image-13.png",
                     "mode": "cover"
                   },
                   "width": 140,
@@ -4221,7 +4221,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -4270,7 +4270,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -4361,7 +4361,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-10.png",
+                    "url": "images/web/image-10.png",
                     "mode": "stretch",
                     "transform": [
                       2.5,
@@ -4485,7 +4485,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "image-9.png",
+                        "url": "images/web/image-9.png",
                         "mode": "contain"
                       },
                       "width": 66,
@@ -4687,7 +4687,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "image-7.png",
+                            "url": "images/web/image-7.png",
                             "mode": "contain"
                           },
                           "width": 68,
@@ -4808,7 +4808,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "image-8.png",
+                            "url": "images/web/image-8.png",
                             "mode": "contain"
                           },
                           "width": 68,
@@ -5333,7 +5333,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -5630,7 +5630,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-16.png",
+                    "url": "images/web/image-16.png",
                     "mode": "stretch",
                     "transform": [
                       1.3888888888888888,
@@ -5745,7 +5745,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-19.png",
+                    "url": "images/web/image-19.png",
                     "mode": "cover"
                   },
                   "width": 75,
@@ -7345,7 +7345,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -7795,7 +7795,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -8245,7 +8245,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -53565,7 +53565,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -53614,7 +53614,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -53695,7 +53695,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -55019,7 +55019,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -55068,7 +55068,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -55149,7 +55149,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -66392,7 +66392,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -66441,7 +66441,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -66522,7 +66522,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -67362,7 +67362,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -67411,7 +67411,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -67492,7 +67492,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -139812,7 +139812,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "image-11.png",
+                  "url": "images/web/image-11.png",
                   "mode": "cover",
                   "transform": [
                     1.11128165771297,
@@ -139844,7 +139844,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-14.png",
+                    "url": "images/web/image-14.png",
                     "mode": "cover"
                   },
                   "width": 270,
@@ -139860,7 +139860,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-13.png",
+                    "url": "images/web/image-13.png",
                     "mode": "cover"
                   },
                   "width": 140,
@@ -140575,7 +140575,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "image-11.png",
+                  "url": "images/web/image-11.png",
                   "mode": "cover",
                   "transform": [
                     1.11128165771297,
@@ -140607,7 +140607,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-14.png",
+                    "url": "images/web/image-14.png",
                     "mode": "cover"
                   },
                   "width": 270,
@@ -140623,7 +140623,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-13.png",
+                    "url": "images/web/image-13.png",
                     "mode": "cover"
                   },
                   "width": 140,
@@ -141206,7 +141206,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "image-11.png",
+                  "url": "images/web/image-11.png",
                   "mode": "cover",
                   "transform": [
                     1.11128165771297,
@@ -141238,7 +141238,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-14.png",
+                    "url": "images/web/image-14.png",
                     "mode": "cover"
                   },
                   "width": 270,
@@ -141254,7 +141254,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-13.png",
+                    "url": "images/web/image-13.png",
                     "mode": "cover"
                   },
                   "width": 140,
@@ -168914,7 +168914,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -168963,7 +168963,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -169044,7 +169044,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -204726,7 +204726,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -205272,7 +205272,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -205689,7 +205689,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -206018,7 +206018,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-19.png",
+                    "url": "images/web/image-19.png",
                     "mode": "cover"
                   },
                   "width": 75,
@@ -206190,7 +206190,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -206506,7 +206506,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -206863,7 +206863,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -207266,7 +207266,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -222037,7 +222037,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -222487,7 +222487,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -252923,7 +252923,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                                "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                                 "mode": "contain"
                               },
                               "layout": "none"
@@ -256578,7 +256578,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                                    "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                                     "mode": "contain"
                                   },
                                   "layout": "none"
@@ -257407,7 +257407,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                                "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                                 "mode": "contain"
                               },
                               "layout": "none"
@@ -258881,7 +258881,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                                "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                                 "mode": "contain"
                               },
                               "layout": "none"
@@ -259617,7 +259617,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                                "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                                 "mode": "contain"
                               },
                               "layout": "none"
@@ -260326,7 +260326,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                                "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                                 "mode": "contain"
                               },
                               "layout": "none"
@@ -333686,7 +333686,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -333735,7 +333735,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -333816,7 +333816,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -335307,7 +335307,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -335356,7 +335356,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -335437,7 +335437,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -336927,7 +336927,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -336976,7 +336976,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -337057,7 +337057,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -338547,7 +338547,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -338596,7 +338596,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -338677,7 +338677,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -344088,7 +344088,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-15.png",
+                    "url": "images/web/image-15.png",
                     "mode": "stretch",
                     "transform": [
                       1.1494252873563218,
@@ -354652,7 +354652,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -354701,7 +354701,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -354797,7 +354797,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -354846,7 +354846,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -354927,7 +354927,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -356777,7 +356777,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -356826,7 +356826,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -356907,7 +356907,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -404362,7 +404362,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -404411,7 +404411,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -404511,7 +404511,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-10.png",
+                    "url": "images/web/image-10.png",
                     "mode": "stretch",
                     "transform": [
                       2.5,
@@ -404700,7 +404700,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "image-7.png",
+                            "url": "images/web/image-7.png",
                             "mode": "contain"
                           },
                           "width": 68,
@@ -404848,7 +404848,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "image-8.png",
+                            "url": "images/web/image-8.png",
                             "mode": "contain"
                           },
                           "width": 68,
@@ -405244,7 +405244,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "../pen-final-merge/images/app/mascot-cheer.png",
+                "url": "images/app/mascot-cheer.png",
                 "mode": "contain"
               },
               "width": 80,
@@ -406482,7 +406482,7 @@
           "fill": {
             "type": "image",
             "enabled": true,
-            "url": "../pen-final-merge/images/app-capture-2026-10-21/s-81-coaching-next.png",
+            "url": "images/app-capture-2026-10-21/s-81-coaching-next.png",
             "mode": "cover"
           },
           "width": 360,
@@ -406632,7 +406632,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "../pen-final-merge/images/app/mascot-coach.png",
+                "url": "images/app/mascot-coach.png",
                 "mode": "contain"
               },
               "width": 64,
@@ -407409,7 +407409,7 @@
           "fill": {
             "type": "image",
             "enabled": true,
-            "url": "../pen-final-merge/images/app-capture-2026-10-21/s-21c-reading-with-script.png",
+            "url": "images/app-capture-2026-10-21/s-21c-reading-with-script.png",
             "mode": "cover"
           },
           "width": 360,
@@ -407559,7 +407559,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "../pen-final-merge/images/app/mascot-reading.png",
+                "url": "images/app/mascot-reading.png",
                 "mode": "contain"
               },
               "width": 64,
@@ -408336,7 +408336,7 @@
           "fill": {
             "type": "image",
             "enabled": true,
-            "url": "../pen-final-merge/images/app-capture-2026-10-21/s-21c-reading-with-script.png",
+            "url": "images/app-capture-2026-10-21/s-21c-reading-with-script.png",
             "mode": "cover"
           },
           "width": 360,
@@ -408489,7 +408489,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "../pen-final-merge/images/app/mascot-reading.png",
+                "url": "images/app/mascot-reading.png",
                 "mode": "contain"
               },
               "width": 64,
@@ -409738,7 +409738,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "../pen-final-merge/images/app/mascot-cheer.png",
+                "url": "images/app/mascot-cheer.png",
                 "mode": "contain"
               },
               "width": 110,
@@ -410002,7 +410002,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "../pen-final-merge/images/app/mascot-coach.png",
+                "url": "images/app/mascot-coach.png",
                 "mode": "contain"
               },
               "width": 84,
@@ -410782,7 +410782,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "../pen-final-merge/images/app/mascot-cheer.png",
+                "url": "images/app/mascot-cheer.png",
                 "mode": "contain"
               },
               "width": 80,
@@ -411982,7 +411982,7 @@
           "fill": {
             "type": "image",
             "enabled": true,
-            "url": "../pen-final-merge/images/app-capture-2026-10-21/s-81-coaching-next.png",
+            "url": "images/app-capture-2026-10-21/s-81-coaching-next.png",
             "mode": "cover"
           },
           "width": 360,
@@ -412132,7 +412132,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "../pen-final-merge/images/app/mascot-coach.png",
+                "url": "images/app/mascot-coach.png",
                 "mode": "contain"
               },
               "width": 64,
@@ -412871,7 +412871,7 @@
           "fill": {
             "type": "image",
             "enabled": true,
-            "url": "../pen-final-merge/images/app-capture-2026-10-21/s-21c-reading-with-script.png",
+            "url": "images/app-capture-2026-10-21/s-21c-reading-with-script.png",
             "mode": "cover"
           },
           "width": 360,
@@ -413021,7 +413021,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "../pen-final-merge/images/app/mascot-reading.png",
+                "url": "images/app/mascot-reading.png",
                 "mode": "contain"
               },
               "width": 64,
@@ -413760,7 +413760,7 @@
           "fill": {
             "type": "image",
             "enabled": true,
-            "url": "../pen-final-merge/images/app-capture-2026-10-21/s-21c-reading-with-script.png",
+            "url": "images/app-capture-2026-10-21/s-21c-reading-with-script.png",
             "mode": "cover"
           },
           "width": 360,
@@ -413913,7 +413913,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "../pen-final-merge/images/app/mascot-reading.png",
+                "url": "images/app/mascot-reading.png",
                 "mode": "contain"
               },
               "width": 64,
@@ -414091,7 +414091,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "../pen-final-merge/images/app/mascot-cheer.png",
+                "url": "images/app/mascot-cheer.png",
                 "mode": "contain"
               },
               "width": 80,
@@ -415951,7 +415951,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "../pen-final-merge/images/app/mascot-cheer.png",
+                "url": "images/app/mascot-cheer.png",
                 "mode": "contain"
               },
               "width": 110,
@@ -416212,7 +416212,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "../pen-final-merge/images/app/mascot-coach.png",
+                "url": "images/app/mascot-coach.png",
                 "mode": "contain"
               },
               "width": 84,
@@ -478732,7 +478732,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -478781,7 +478781,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -478862,7 +478862,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -480470,7 +480470,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -480519,7 +480519,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -480600,7 +480600,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -481924,7 +481924,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -481973,7 +481973,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -482054,7 +482054,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -483378,7 +483378,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -483427,7 +483427,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -483508,7 +483508,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -484806,7 +484806,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -484855,7 +484855,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -484936,7 +484936,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -486483,7 +486483,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -486532,7 +486532,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -486613,7 +486613,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "image-10.png",
+                "url": "images/web/image-10.png",
                 "mode": "stretch",
                 "transform": [
                   2.5,
@@ -495408,7 +495408,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "stretch",
               "transform": [
                 2.5,
@@ -495457,7 +495457,7 @@
             {
               "type": "image",
               "enabled": false,
-              "url": "image-10.png",
+              "url": "images/web/image-10.png",
               "mode": "cover",
               "transform": [
                 2.489744,
@@ -495557,7 +495557,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "image-10.png",
+                    "url": "images/web/image-10.png",
                     "mode": "stretch",
                     "transform": [
                       2.5,
@@ -495746,7 +495746,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "image-7.png",
+                            "url": "images/web/image-7.png",
                             "mode": "contain"
                           },
                           "width": 68,
@@ -495894,7 +495894,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "image-8.png",
+                            "url": "images/web/image-8.png",
                             "mode": "contain"
                           },
                           "width": 68,
@@ -496227,7 +496227,7 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "image-25.png",
+        "url": "images/web/image-25.png",
         "mode": "cover"
       },
       "width": 324,
@@ -496241,7 +496241,7 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "image-26.png",
+        "url": "images/web/image-26.png",
         "mode": "cover"
       },
       "width": 321,

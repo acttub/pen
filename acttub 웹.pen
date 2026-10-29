@@ -1691,7 +1691,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "acttub-wordmark.png",
+                    "url": "images/web/acttub-wordmark.png",
                     "mode": "contain"
                   }
                 },
@@ -3261,7 +3261,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "acttub-wordmark.png",
+                    "url": "images/web/acttub-wordmark.png",
                     "mode": "contain"
                   }
                 },
@@ -4482,7 +4482,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "acttub-wordmark.png",
+                    "url": "images/web/acttub-wordmark.png",
                     "mode": "contain"
                   }
                 },
@@ -5648,7 +5648,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "acttub-wordmark.png",
+                    "url": "images/web/acttub-wordmark.png",
                     "mode": "contain"
                   }
                 },
@@ -18687,7 +18687,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "ChatGPT_Image_2026%EB%85%84_7%EC%9B%94_1%EC%9D%BC_%EC%98%A4%ED%9B%84_08_07_04-removebg-preview%201.png",
+                "url": "images/web/ChatGPT_Image_2026년_7월_1일_오후_08_07_04-removebg-preview 1.png",
                 "mode": "cover"
               },
               "width": 206,
@@ -49243,7 +49243,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "acttub-wordmark.png",
+                        "url": "images/web/acttub-wordmark.png",
                         "mode": "stretch"
                       },
                       "width": 98.72,
@@ -49484,7 +49484,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "google-play-ko.png",
+                            "url": "images/web/google-play-ko.png",
                             "mode": "stretch"
                           },
                           "width": 181.98,
@@ -51136,7 +51136,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "google-play-ko.png",
+                            "url": "images/web/google-play-ko.png",
                             "mode": "stretch"
                           },
                           "width": 181.98,
@@ -52262,7 +52262,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "google-play-ko.png",
+                                "url": "images/web/google-play-ko.png",
                                 "mode": "stretch"
                               },
                               "width": 147.99,
@@ -52331,7 +52331,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "embedded-image.png",
+                                "url": "images/web/embedded-image.png",
                                 "mode": "stretch"
                               },
                               "width": 98.72,
@@ -52488,7 +52488,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "acttub-wordmark.png",
+                    "url": "images/web/acttub-wordmark.png",
                     "mode": "stretch"
                   },
                   "width": 98.72,
@@ -66834,7 +66834,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "google-play-ko.png",
+                            "url": "images/web/google-play-ko.png",
                             "mode": "stretch"
                           },
                           "width": 181.98,
@@ -67796,7 +67796,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "acttub-wordmark.png",
+                    "url": "images/web/acttub-wordmark.png",
                     "mode": "stretch"
                   },
                   "width": 86.36,
@@ -68042,7 +68042,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "google-play-ko.png",
+                                "url": "images/web/google-play-ko.png",
                                 "mode": "stretch"
                               },
                               "width": 147.99,
@@ -68111,7 +68111,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "embedded-image.png",
+                                "url": "images/web/embedded-image.png",
                                 "mode": "stretch"
                               },
                               "width": 86.36,
@@ -81681,7 +81681,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "acttub-wordmark.png",
+                    "url": "images/web/acttub-wordmark.png",
                     "mode": "contain"
                   }
                 },
@@ -84873,7 +84873,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "url": "images/web/site/fd6d0bf7fe52999c.jpg",
                         "mode": "cover"
                       },
                       "width": 390,
@@ -85608,7 +85608,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "url": "images/web/site/fd6d0bf7fe52999c.jpg",
                         "mode": "cover"
                       },
                       "width": 390,
@@ -86343,7 +86343,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "url": "images/web/site/fd6d0bf7fe52999c.jpg",
                         "mode": "cover"
                       },
                       "width": 390,
@@ -87210,7 +87210,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "url": "images/web/site/fd6d0bf7fe52999c.jpg",
                         "mode": "cover"
                       },
                       "cornerRadius": 16,
@@ -88780,7 +88780,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "url": "images/web/site/fd6d0bf7fe52999c.jpg",
                         "mode": "cover"
                       },
                       "width": 55.99,
@@ -88933,7 +88933,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/025dd175ce174bf2.jpg",
+                        "url": "images/web/site/025dd175ce174bf2.jpg",
                         "mode": "cover"
                       },
                       "width": 55.99,
@@ -89086,7 +89086,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/116b3d6e9b15c37f.jpg",
+                        "url": "images/web/site/116b3d6e9b15c37f.jpg",
                         "mode": "cover"
                       },
                       "width": 55.99,
@@ -89239,7 +89239,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/b4f053fecd34aa50.jpg",
+                        "url": "images/web/site/b4f053fecd34aa50.jpg",
                         "mode": "cover"
                       },
                       "width": 55.99,
@@ -89392,7 +89392,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/b6d0e394bf8651dd.jpg",
+                        "url": "images/web/site/b6d0e394bf8651dd.jpg",
                         "mode": "cover"
                       },
                       "width": 55.99,
@@ -89616,7 +89616,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "url": "images/web/site/fd6d0bf7fe52999c.jpg",
                         "mode": "cover"
                       },
                       "width": 390,
@@ -90513,7 +90513,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "embedded-image.jpg",
+                "url": "images/web/embedded-image.jpg",
                 "mode": "cover"
               },
               "width": 390,
@@ -90635,7 +90635,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "embedded-image-1.jpg",
+                  "url": "images/web/embedded-image-1.jpg",
                   "mode": "cover"
                 }
               ],
@@ -91142,7 +91142,7 @@
                 {
                   "type": "image",
                   "enabled": true,
-                  "url": "embedded-image-1.jpg",
+                  "url": "images/web/embedded-image-1.jpg",
                   "mode": "cover"
                 }
               ],
@@ -92573,7 +92573,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/b4f053fecd34aa50.jpg",
+                        "url": "images/web/site/b4f053fecd34aa50.jpg",
                         "mode": "cover"
                       },
                       "width": 55.99,
@@ -92726,7 +92726,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/b6d0e394bf8651dd.jpg",
+                        "url": "images/web/site/b6d0e394bf8651dd.jpg",
                         "mode": "cover"
                       },
                       "width": 55.99,
@@ -92879,7 +92879,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/116b3d6e9b15c37f.jpg",
+                        "url": "images/web/site/116b3d6e9b15c37f.jpg",
                         "mode": "cover"
                       },
                       "width": 55.99,
@@ -93032,7 +93032,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/025dd175ce174bf2.jpg",
+                        "url": "images/web/site/025dd175ce174bf2.jpg",
                         "mode": "cover"
                       },
                       "width": 55.99,
@@ -93185,7 +93185,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "url": "images/web/site/fd6d0bf7fe52999c.jpg",
                         "mode": "cover"
                       },
                       "width": 55.99,
@@ -93340,7 +93340,7 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "image.png",
+        "url": "images/web/image.png",
         "mode": "cover"
       },
       "width": 630,
@@ -96574,7 +96574,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "acttub-wordmark.png",
+                        "url": "images/web/acttub-wordmark.png",
                         "mode": "contain"
                       }
                     },
@@ -105626,7 +105626,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "acttub-wordmark.png",
+                    "url": "images/web/acttub-wordmark.png",
                     "mode": "contain"
                   }
                 },
@@ -110240,7 +110240,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "acttub-wordmark.png",
+                    "url": "images/web/acttub-wordmark.png",
                     "mode": "contain"
                   }
                 },
@@ -117962,7 +117962,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "acttub-wordmark.png",
+                "url": "images/web/acttub-wordmark.png",
                 "mode": "contain"
               },
               "width": 99,
@@ -119252,7 +119252,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "appstore-badge-ko.png",
+                    "url": "images/web/appstore-badge-ko.png",
                     "mode": "contain"
                   },
                   "width": 143,
@@ -119266,7 +119266,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "google-play-ko.png",
+                    "url": "images/web/google-play-ko.png",
                     "mode": "contain"
                   },
                   "width": 148,
@@ -119847,7 +119847,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "appstore-badge-ko.png",
+                    "url": "images/web/appstore-badge-ko.png",
                     "mode": "contain"
                   },
                   "width": 130,
@@ -119861,7 +119861,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "google-play-ko.png",
+                    "url": "images/web/google-play-ko.png",
                     "mode": "contain"
                   },
                   "width": 135,
@@ -119912,7 +119912,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "acttub-wordmark.png",
+                "url": "images/web/acttub-wordmark.png",
                 "mode": "contain"
               },
               "width": 99,
@@ -120060,7 +120060,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "acttub-wordmark.png",
+                    "url": "images/web/acttub-wordmark.png",
                     "mode": "contain"
                   },
                   "width": 99,
@@ -121824,7 +121824,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "appstore-badge-ko.png",
+                            "url": "images/web/appstore-badge-ko.png",
                             "mode": "contain"
                           },
                           "width": 175,
@@ -121838,7 +121838,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "google-play-ko.png",
+                            "url": "images/web/google-play-ko.png",
                             "mode": "contain"
                           },
                           "width": 182,
@@ -122114,7 +122114,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "acttub-wordmark.png",
+                        "url": "images/web/acttub-wordmark.png",
                         "mode": "contain"
                       },
                       "width": 99,
@@ -122162,7 +122162,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "appstore-badge-ko.png",
+                            "url": "images/web/appstore-badge-ko.png",
                             "mode": "contain"
                           },
                           "width": 143,
@@ -122176,7 +122176,7 @@
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "google-play-ko.png",
+                            "url": "images/web/google-play-ko.png",
                             "mode": "contain"
                           },
                           "width": 148,
@@ -125212,7 +125212,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "url": "images/web/site/fd6d0bf7fe52999c.jpg",
                         "mode": "cover"
                       },
                       "width": 390,
@@ -126970,7 +126970,7 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_10%20(6).png",
+        "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_10 (6).png",
         "mode": "cover"
       },
       "width": 1254,
@@ -126984,7 +126984,7 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(9).png",
+        "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (9).png",
         "mode": "cover"
       },
       "width": 1317,
@@ -126998,7 +126998,7 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_12%20(10).png",
+        "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_12 (10).png",
         "mode": "cover"
       },
       "width": 1222,
@@ -127012,7 +127012,7 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_17_52.png",
+        "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_17_52.png",
         "mode": "cover"
       },
       "width": 1201,
@@ -127026,7 +127026,7 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_07%20(1).png",
+        "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_07 (1).png",
         "mode": "cover"
       },
       "width": 1159,
@@ -133683,7 +133683,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                        "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                         "mode": "contain"
                       },
                       "layout": "none"
@@ -134582,7 +134582,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                        "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                         "mode": "contain"
                       },
                       "layout": "none"
@@ -137187,7 +137187,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "images/site/fd6d0bf7fe52999c.jpg",
+                        "url": "images/web/site/fd6d0bf7fe52999c.jpg",
                         "mode": "cover"
                       },
                       "width": 390,
@@ -146120,7 +146120,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                        "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                         "mode": "contain"
                       },
                       "layout": "none"
@@ -146828,7 +146828,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                        "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                         "mode": "contain"
                       },
                       "layout": "none"
@@ -149523,7 +149523,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                    "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                     "mode": "contain"
                   },
                   "layout": "none"
@@ -151822,7 +151822,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                    "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                     "mode": "contain"
                   },
                   "layout": "none"
@@ -152801,7 +152801,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                    "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                     "mode": "contain"
                   },
                   "layout": "none"
@@ -153541,7 +153541,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                    "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                     "mode": "contain"
                   },
                   "layout": "none"
@@ -161325,7 +161325,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "embedded-image.jpg",
+                "url": "images/web/embedded-image.jpg",
                 "mode": "cover"
               },
               "width": 390,
@@ -161688,7 +161688,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "embedded-image.jpg",
+                "url": "images/web/embedded-image.jpg",
                 "mode": "cover"
               },
               "width": 390,
@@ -165412,7 +165412,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                        "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                         "mode": "contain"
                       },
                       "layout": "none"
@@ -175727,7 +175727,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "references/ChatGPT%20Image%202026%EB%85%84%209%EC%9B%94%208%EC%9D%BC%20%EC%98%A4%ED%9B%84%2005_18_11%20(7).png",
+                        "url": "images/references/ChatGPT Image 2026년 9월 8일 오후 05_18_11 (7).png",
                         "mode": "contain"
                       },
                       "layout": "none"
