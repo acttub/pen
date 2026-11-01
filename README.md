@@ -5,7 +5,7 @@ acttub 디자인 .pen 원본(Pencil, https://pen.dev).
 | 파일 | 무엇 |
 |---|---|
 | `acttub-design-system.pen` | **앱 디자인 시스템 정본.** 색·글자·모서리·간격 토큰(변수)과 재사용 부품 견본(`4 부품`, `5 화면 틀`). 글로 옮긴 규칙은 acttub-platform `apps/mobile/docs/DESIGN-SYSTEM.md` |
-| `acttub-app-screens.pen` | **앱 화면 개편 정본.** 앱 라우트 61개의 상태 카드 876장을 1 가입 중 · 2 첫 사용자 · 3 한 번 써 본 사용자 · 4 누구나 같은 화면 묶음으로 담는다. 카드 이름 `<화면>.<상태>`가 앱 라우트와 맞는다(`reading-new.file-ready` → `app/reading/new.tsx`). 디자인 시스템 부품으로 다시 그린 2026-10-27 개편안 |
+| `acttub-app-screens.pen` | **앱 화면 개편 정본.** 앱 라우트 61개의 상태 카드 879장을 1 가입 중 · 2 첫 사용자 · 3 한 번 써 본 사용자 · 4 누구나 같은 화면 묶음으로 담는다. 카드 이름 `<화면>.<상태>`가 앱 라우트와 맞는다(`reading-new.file-ready` → `app/reading/new.tsx`). 디자인 시스템 부품으로 다시 그린 2026-10-27 개편안 |
 | `reading-flow-latest.pen` · `reading-background-ui.pen` | 2026-10-26 리딩 흐름과 백그라운드 리딩 화면 시안. 앱 화면 개편 전 작업으로, 화면 정본은 `acttub-app-screens.pen` |
 | `acttub 앱 (갈아엎기 복사본).pen` | **개편 전 앱 화면.** 새 화면 정본은 `acttub-app-screens.pen`. 2026-10-23 dev `8fcc6062` 코드 기준으로 맞췄다. 코드에서 갈 수 있는 라우트 59개(더미 탭·리다이렉트·개발 전용 미리보기 3개 제외)의 상태 화면을 그룹(`S`·`R`·`P`·`C` + 번호) 66개로 담는다. 구버전 화면은 지웠다. 작업 기록은 `~/.acttub-work/pen-sync-2026-10-23/` |
 | `acttub 웹.pen` | **웹 화면 정본** (모바일 웹 · 데스크톱 웹) |
